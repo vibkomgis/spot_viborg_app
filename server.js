@@ -27,7 +27,7 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === './images/viborgdomkirke.png') {
+  } else if (req.url === '/viborgdomkirke.png') {
     fs.readFile('viborgdomkirke.png', (err, data) => {
       if (err) {
         res.statusCode = 500;

@@ -1,15 +1,5 @@
 
 
-
-
-var mymap = L.map('map').setView([56.4534, 9.4029], 13);
-
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19,
-  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
-}).addTo(mymap);
-
-
   
   const dbName = "myDatabase";
   const dbVersion = 1;
@@ -44,7 +34,18 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       AudioURL: 'audio/viborgdomkirke_dk.mp3',
       LAT: 56.45053,
       LON: 9.4125
-    });
+    })
+
+    objectStore.add({
+    ID: 2,
+    Titel: 'Viborg Stadion',
+    Type: 'Stadion',
+    Description: 'Fodbold stadion', 
+    ImageURL: 'viborgstadion.png',
+    AudioURL: 'audio/viborgstadion.mp3',
+    LAT: 56.45589,
+    LON: 9.40207
+  });
   };
   
   openRequest.onsuccess = function(event) {
@@ -56,29 +57,43 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     const transaction = db.transaction(storeName, "readonly");
     const store = transaction.objectStore(storeName);
   
-    const request = store.get(1);
+    const request = store.getAll();
   
     request.onsuccess = function(event) {
-      const row = event.target.result;
-      console.log(row);
-      L.marker([row.LAT, row.LON]).addTo(mymap)
-        .bindPopup("<b>" + row.Titel + "</b><br />" + row.Description + "<br/><img src='" + row.ImageURL + "' width='200' />");
-    
-     // Retrieve the list element
-    const list = document.getElementById('myList');
+        const rows = event.target.result;
+        console.log(rows);
+      
+        // Retrieve the list element
+        const list = document.getElementById('myList');
+      
+        // Loop through each row and create a list item with the title and image
+        for (let i = 0; i < rows.length; i++) {
+          const row = rows[i];
+      
+          // Create a list item
+          const listItem = document.createElement('li');
+          listItem.style.display = 'flex';
+          listItem.style.alignItems = 'center';
+          listItem.style.marginBottom = '10px';
+      
+          // Create an image element
+          const img = document.createElement('img');
+          img.src = row.ImageURL;
+          img.style.width = '40px';
+          img.style.height = '40px';
+          img.style.marginRight = '10px';
+          img.style.borderRadius = '50%';
+          listItem.appendChild(img);
+      
+          // Create a text element for the title
+          const title = document.createElement('span');
+          title.innerText = row.Titel;
+          listItem.appendChild(title);
+      
+          // Add the list item to the list
+          list.appendChild(listItem);
+        }
+      };
+    }
 
-    // Add the item to the list
-    const listItem = document.createElement('li');
 
-    const img = document.createElement('img');
-    img.src = row.ImageURL;
-    img.style.width = '20px';
-    img.style.height = '20px';
-    img.style.borderRadius = '50%';
-    listItem.appendChild(img);
-
-    listItem.innerHTML += row.Titel;
-
-    list.appendChild(listItem);
-    };
-  };

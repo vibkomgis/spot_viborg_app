@@ -5,8 +5,8 @@ const hostname = '127.0.0.1';
 const port = 3000;
 
 const server = http.createServer((req, res) => {
-  if (req.url === '/main.js') {
-    fs.readFile('main.js', (err, data) => {
+  if (req.url === '/map.js') {
+    fs.readFile('map.js', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -29,6 +29,17 @@ const server = http.createServer((req, res) => {
     });
   } else if (req.url === '/viborgdomkirke.png') {
     fs.readFile('viborgdomkirke.png', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'image/png');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/viborgstadion.png') {
+    fs.readFile('viborgstadion.png', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);

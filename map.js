@@ -1,7 +1,4 @@
 
-
-
-
 var mymap = L.map('map').setView([56.4534, 9.4029], 13);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
@@ -12,7 +9,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
   
   const dbName = "myDatabase";
-  const dbVersion = 1;
+  const dbVersion = 1; // Opdatér dbVersion for at tilføje ny data. Således skal brugeren ikke slette deres browser cache. 
   const openRequest = indexedDB.open(dbName, dbVersion);
   
   openRequest.onerror = function(event) {
@@ -22,6 +19,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   openRequest.onupgradeneeded = function(event) {
     const db = event.target.result;
   
+   
     // Create an object store within the database to store your data
     const objectStore = db.createObjectStore('Sevaerdigheder', { keyPath: 'ID' });
   
@@ -78,25 +76,57 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
         L.marker([row.LAT, row.LON]).addTo(mymap)
           .bindPopup("<b>" + row.Titel + "</b><br />" + row.Description + "<br/><img src='" + row.ImageURL + "' width='200' />");
     
-        // Retrieve the list element
-        const list = document.getElementById('myList');
-    
-        // Add the item to the list
-        const listItem = document.createElement('li');
-    
-        const img = document.createElement('img');
-        img.src = row.ImageURL;
-        img.style.width = '20px';
-        img.style.height = '20px';
-        img.style.borderRadius = '50%';
-        listItem.appendChild(img);
-    
-        listItem.innerHTML += row.Titel;
-    
-        list.appendChild(listItem);
+          const list = document.getElementById('myList');
+          list.classList.add('my-list-class'); // add a class to the list
+          
+          // Add the item to the list
+          const listItem = document.createElement('li');
+
+          // Add a click event listener to the list item that redirects the user to a new page
+          listItem.addEventListener('click', function() {
+            window.location.href = 'places.html#' + row.TITEL;
+          });
+          
+          const img = document.createElement('img');
+          img.src = row.ImageURL;
+          img.classList.add('my-img-class'); // add a class to the img element
+          listItem.appendChild(img);
+          
+          const title = document.createElement('span');
+          title.innerText = row.Titel;
+          title.classList.add('my-title-class'); // add a class to the title element
+          listItem.appendChild(title);
+          
+          list.appendChild(listItem);
+          
       });
     };
   }
 
 L.control.locate().addTo(mymap);
+
+
+const mapButton = document.getElementById('mapButton');
+const listButton = document.getElementById('listButton');
+mapButton.addEventListener('click', showMap);
+listButton.addEventListener('click', showList);
+
+function showMap() {
+  const list = document.getElementById('myList');
+  list.style.display = 'none';
+  const mapShow = document.getElementById('map');
+  mapShow.style.display = 'block';
+}
+
+function showList() {
+  const map = document.getElementById('map');
+  map.style.display = 'none';
+  const list = document.getElementById('myList');
+  list.style.display = 'block';
+}
+
+// Call the showMap() function by default when the page loads
+window.addEventListener('DOMContentLoaded', showMap);
+
+
 

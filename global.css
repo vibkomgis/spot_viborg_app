@@ -26,18 +26,29 @@
   
 }
 
-
-ul {
+.my-list-class {
   list-style: none;
-  padding: 8px;
-  margin: 10px;
+  
 }
 
-ul li {
+.my-list-class li {
+  display: flex;
+  align-items: left;
+  margin: 20px;
   background-color: rgb(65, 177, 141);
-  height: 20px;
-  margin-bottom: 10px;
+  height: 30px;
   width: 100%;
   position: relative;
+  text-align: left;
 }
 
+.my-img-class {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  margin-right: 10px; /* Add some margin to separate the image and text */
+}
+
+.my-title-class {
+  /* Add your CSS styles here */
+}

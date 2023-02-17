@@ -16,6 +16,17 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
+  } else if (req.url === '/places.html') {
+    fs.readFile('places.html', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/html');
+        res.end(data);
+      }
+    });
   } else if (req.url === '/global.css') {
     fs.readFile('global.css', (err, data) => {
       if (err) {

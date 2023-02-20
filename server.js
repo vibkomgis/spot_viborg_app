@@ -16,8 +16,8 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/places.html') {
-    fs.readFile('places.html', (err, data) => {
+  } else if (req.url === '/viborg-domkirke.html') {
+    fs.readFile('viborg-domkirke.html', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -27,14 +27,14 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/global.css') {
-    fs.readFile('global.css', (err, data) => {
+  } else if (req.url === '/viborg-stadion.html') {
+    fs.readFile('viborg-stadion.html', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
       } else {
         res.statusCode = 200;
-        res.setHeader('Content-Type', 'text/css');
+        res.setHeader('Content-Type', 'text/html');
         res.end(data);
       }
     });
@@ -60,7 +60,41 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else {
+  } else if (req.url === '/global.css') {
+    fs.readFile('global.css', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/css');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/places.css') {
+    fs.readFile('places.css', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/css');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/sang.mp3') {
+    fs.readFile('sang.mp3', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'audio/mpeg');
+        res.end(data);
+      }
+    });
+  }
+  else {
     fs.readFile('index.html', (err, data) => {
       if (err) {
         res.statusCode = 500;

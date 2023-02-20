@@ -1,5 +1,21 @@
-
+// Start map
 var mymap = L.map('map').setView([56.4534, 9.4029], 13);
+
+// Set the bounds of Viborg, Denmark
+const southWest = L.latLng(56.4394, 9.3444);
+const northEast = L.latLng(56.4714, 9.4502);
+const bounds = L.latLngBounds(southWest, northEast);
+
+// Set the map extent to show only Viborg, Denmark
+//mymap.fitBounds(bounds);
+
+// Set the maximum bounds and make the map bounce back
+//mymap.setMaxBounds(bounds);
+
+
+// Start GPS
+var lc = L.control.locate().addTo(mymap);
+lc.start();
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
@@ -45,14 +61,14 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     })
 
     objectStore.add({
-    ID: 2,
-    Titel: 'Viborg Stadion',
-    Type: 'Stadion',
-    Description: 'Fodbold stadion', 
-    ImageURL: 'viborgstadion.png',
-    AudioURL: 'audio/viborgstadion.mp3',
-    LAT: 56.45589,
-    LON: 9.40207
+      ID: 2,
+      Titel: 'Viborg Stadion',
+      Type: 'Stadion',
+      Description: 'Fodbold stadion', 
+      ImageURL: 'viborgstadion.png',
+      AudioURL: 'audio/viborgstadion.mp3',
+      LAT: 56.45589,
+      LON: 9.40207
   });
   };
   
@@ -84,7 +100,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
           // Add a click event listener to the list item that redirects the user to a new page
           listItem.addEventListener('click', function() {
-            window.location.href = 'places.html#' + row.TITEL;
+            window.location.href = row.Titel.toLowerCase().replace(/\s+/g, '-') + '.html';
           });
           
           const img = document.createElement('img');
@@ -98,12 +114,22 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           listItem.appendChild(title);
           
           list.appendChild(listItem);
+
+
+          
+
+
           
       });
+
+      
+
     };
+
+
   }
 
-L.control.locate().addTo(mymap);
+
 
 
 const mapButton = document.getElementById('mapButton');
@@ -123,10 +149,9 @@ function showList() {
   map.style.display = 'none';
   const list = document.getElementById('myList');
   list.style.display = 'block';
+  
 }
 
 // Call the showMap() function by default when the page loads
 window.addEventListener('DOMContentLoaded', showMap);
-
-
 

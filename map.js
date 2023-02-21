@@ -1,3 +1,4 @@
+
 // Start map
 var mymap = L.map('map').setView([56.4534, 9.4029], 13);
 
@@ -16,6 +17,7 @@ const bounds = L.latLngBounds(southWest, northEast);
 // Start GPS
 var lc = L.control.locate().addTo(mymap);
 lc.start();
+
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
@@ -154,4 +156,32 @@ function showList() {
 
 // Call the showMap() function by default when the page loads
 window.addEventListener('DOMContentLoaded', showMap);
+
+
+/*
+
+function getDistance(origin, destination) {
+  // return distance in meters
+  var lon1 = toRadian(origin[1]),
+      lat1 = toRadian(origin[0]),
+      lon2 = toRadian(destination[1]),
+      lat2 = toRadian(destination[0]);
+
+  var deltaLat = lat2 - lat1;
+  var deltaLon = lon2 - lon1;
+
+  var a = Math.pow(Math.sin(deltaLat/2), 2) + Math.cos(lat1) * Math.cos(lat2) * Math.pow(Math.sin(deltaLon/2), 2);
+  var c = 2 * Math.asin(Math.sqrt(a));
+  var EARTH_RADIUS = 6371;
+  return c * EARTH_RADIUS * 1000;
+}
+function toRadian(degree) {
+  return degree*Math.PI/180;
+}
+var distance = getDistance([56.4534, 9.4029], [56.4394, 9.3444])
+console.log(distance)
+console.log(lc)
+console.log(lc.i)
+*/
+
 

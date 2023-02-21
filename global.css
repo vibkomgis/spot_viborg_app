@@ -5,8 +5,17 @@
   position: relative;
 }
 
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: hidden;
+}
+
 #map {
   position: relative;
+  height: 95vh;
+  margin-top: 0;
 }
 
 #map footer {
@@ -21,30 +30,117 @@
   overflow: hidden;
   background-color: rgb(65, 177, 141);
   text-align: center;
-  top: 0; /* Position the navbar at the top of the page */
-  width: 100%; /* Full width */
+  top: 0; 
+  width: 100%; 
+  height: 5%;
+  display:inline-block;
   
 }
 
+
+#mapButton {
+  
+  position: absolute;
+  top: 10px;
+  right: 0%;
+  transform: translateX(-50%);
+  z-index: 1001;
+  display: inline-block;
+}
+
+
+#listButton {
+  position: absolute;
+  top: 10px;
+  right: 25%;
+  transform: translateX(-50%);
+  z-index: 1001;
+  display: inline-block;
+  width: 1px;
+  height: 1px;
+}
+
+#mapButton img,
+#listButton img {
+  max-width: 30px;
+  max-height: 30px;
+}
+
+
 .my-list-class {
   list-style: none;
+  padding-left: 0;
   
 }
 
 .my-list-class li {
+  font-size: 26px;
   display: flex;
   align-items: left;
-  margin: 20px;
+  margin: 30px;
   background-color: rgb(65, 177, 141);
-  height: 30px;
-  width: 100%;
+  height: 40px;
+  width: 90%;
   position: relative;
   text-align: left;
 }
 
 .my-img-class {
-  width: 20px;
-  height: 20px;
+  width: 35px;
+  height: 35px;
   border-radius: 50%;
-  margin-right: 10px; /* Add some margin to separate the image and text */
+  margin-right: 45px; /* Add some margin to separate the image and text */
 }
+
+/* Style the button */
+.openbtn {
+  right: 0;
+  left: auto;
+  font-size: 20px;
+  cursor: pointer;
+  background-color: #333;
+  color: white;
+  padding: 10px 15px;
+  border: none;
+  
+}
+
+/* Style the navigation bar */
+.sidebar {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1002; /* set the z-index to 1000 */
+  top: 0;
+  right: 0;
+  background-color: #f1f1f1;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+/* Style the links inside the navigation bar */
+.sidebar a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 18px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+/* Change the color of links on hover */
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+/* Style the close button */
+.closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+

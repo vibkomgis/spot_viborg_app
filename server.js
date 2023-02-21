@@ -16,6 +16,17 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
+  } else if (req.url === '/navigation.js') {
+    fs.readFile('navigation.js', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/javascript');
+        res.end(data);
+      }
+    });
   } else if (req.url === '/viborg-domkirke.html') {
     fs.readFile('viborg-domkirke.html', (err, data) => {
       if (err) {
@@ -27,7 +38,7 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/viborg-stadion.html') {
+  }  else if (req.url === '/viborg-stadion.html') {
     fs.readFile('viborg-stadion.html', (err, data) => {
       if (err) {
         res.statusCode = 500;
@@ -51,6 +62,28 @@ const server = http.createServer((req, res) => {
     });
   } else if (req.url === '/viborgstadion.png') {
     fs.readFile('viborgstadion.png', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'image/png');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/icons/listIcon.png') {
+    fs.readFile('icons/listIcon.png', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'image/png');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/icons/mapIcon.png') {
+    fs.readFile('icons/mapIcon.png', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);

@@ -7,15 +7,9 @@ const southWest = L.latLng(56.4394, 9.3444);
 const northEast = L.latLng(56.4714, 9.4502);
 const bounds = L.latLngBounds(southWest, northEast);
 
-// Set the map extent to show only Viborg, Denmark
-//mymap.fitBounds(bounds);
-
-// Set the maximum bounds and make the map bounce back
-//mymap.setMaxBounds(bounds);
-
 
 // Start GPS
-var lc = L.control.locate().addTo(mymap);
+var lc = L.control.locate({locateOptions: {enableHighAccuracy: true}}).addTo(mymap);
 lc.start();
 
 
@@ -91,9 +85,6 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     
       // Loop through each row and create a marker on the map
       rows.forEach(function(row) {
-        L.marker([row.LAT, row.LON]).addTo(mymap)
-          .bindPopup("<b>" + row.Titel + "</b><br />" + row.Description + "<br/><img src='" + row.ImageURL + "' width='200' />");
-    
           const list = document.getElementById('myList');
           list.classList.add('my-list-class'); // add a class to the list
           
@@ -104,7 +95,13 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
           listItem.addEventListener('click', function() {
             window.location.href = row.Titel.toLowerCase().replace(/\s+/g, '-') + '.html';
           });
-          
+          // Add a link to separate 'sevaerdigheder' pages
+          const linkToPage = row.Titel.toLowerCase().replace(/\s+/g, '-') + '.html';
+          // Add markers 
+          L.marker([row.LAT, row.LON]).addTo(mymap)
+        .bindPopup("<b>" + row.Titel + "</b><br />" + row.Description + "<br/><img src='" + row.ImageURL + "' width='200' /><br /><a href='" + linkToPage +"'>Hør mere her</a>");
+
+
           const img = document.createElement('img');
           img.src = row.ImageURL;
           img.classList.add('my-img-class'); // add a class to the img element
@@ -184,4 +181,16 @@ console.log(lc)
 console.log(lc.i)
 */
 
-
+/*
+L.Routing.control({
+  waypoints: [
+    L.latLng(56.45053, 9.4125),
+    L.latLng(56.45589, 9.40207)
+  ],
+  routeWhileDragging: true,
+  geocoder: false,
+  showAlternatives: false,
+  show: false,
+  draggableWaypoints: false,
+}).addTo(mymap);
+*/

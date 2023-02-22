@@ -1,11 +1,25 @@
+const sidebar = document.getElementById("mySidebar");
+const button = document.getElementById("openbtn");
 
-/* When the button is clicked, open the navigation bar */
+// When the button is clicked, open the navigation bar
+button.addEventListener("click", openNav);
+
+// Close the navigation bar when clicking outside
+document.addEventListener("click", closeNavOnClickOutside);
+
+// Function to open the navigation bar
 function openNav() {
-    document.getElementById("mySidebar").style.width = "250px";
+  sidebar.style.width = "250px";
+}
+
+// Function to close the navigation bar
+function closeNav() {
+  sidebar.style.width = "0";
+}
+
+// Function to handle clicks outside the navigation bar
+function closeNavOnClickOutside(event) {
+  if (!sidebar.contains(event.target) && event.target !== button) {
+    closeNav();
   }
-  
-  /* When the close button is clicked, close the navigation bar */
-  function closeNav() {
-    document.getElementById("mySidebar").style.width = "0";
-  }
-  
+}

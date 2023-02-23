@@ -5,8 +5,8 @@ const hostname = '127.0.0.1';
 const port = 3000;
 
 const server = http.createServer((req, res) => {
-  if (req.url === '/map.js') {
-    fs.readFile('map.js', (err, data) => {
+  if (req.url === '/src/map.js') {
+    fs.readFile('src/map.js', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -16,8 +16,8 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/navigation.js') {
-    fs.readFile('navigation.js', (err, data) => {
+  } else if (req.url === '/src/navigation.js') {
+    fs.readFile('src/navigation.js', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -27,8 +27,8 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/viborg-domkirke.html') {
-    fs.readFile('viborg-domkirke.html', (err, data) => {
+  } else if (req.url === '/public/viborg-domkirke.html') {
+    fs.readFile('public/viborg-domkirke.html', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -38,8 +38,8 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  }  else if (req.url === '/viborg-stadion.html') {
-    fs.readFile('viborg-stadion.html', (err, data) => {
+  }  else if (req.url === '/public/viborg-stadion.html') {
+    fs.readFile('public/viborg-stadion.html', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -49,8 +49,8 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/about.html') {
-    fs.readFile('about.html', (err, data) => {
+  } else if (req.url === '/public/about.html') {
+    fs.readFile('public/about.html', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -60,8 +60,8 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/routes.html') {
-    fs.readFile('routes.html', (err, data) => {
+  } else if (req.url === '/public/ruter.html') {
+    fs.readFile('public/ruter.html', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -71,8 +71,8 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  }else if (req.url === '/sevaerdigheder.html') {
-    fs.readFile('sevaerdigheder.html', (err, data) => {
+  }else if (req.url === '/public/sevaerdigheder.html') {
+    fs.readFile('public/sevaerdigheder.html', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -82,8 +82,19 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/viborgdomkirke.png') {
-    fs.readFile('viborgdomkirke.png', (err, data) => {
+  } else if (req.url === '/public/ruteKirker.html') {
+    fs.readFile('public/ruteKirker.html', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/html');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/images/viborgdomkirke.png') {
+    fs.readFile('images/viborgdomkirke.png', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -93,8 +104,8 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/viborgHomepage.png') {
-    fs.readFile('viborgHomepage.png', (err, data) => {
+  } else if (req.url === '/images/viborgHomepage.png') {
+    fs.readFile('images/viborgHomepage.png', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -104,8 +115,8 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  }else if (req.url === '/viborgstadion.png') {
-    fs.readFile('viborgstadion.png', (err, data) => {
+  }else if (req.url === '/images/viborgstadion.png') {
+    fs.readFile('images/viborgstadion.png', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -126,6 +137,39 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
+  } else if (req.url === '/images/kirkebanner.png') {
+    fs.readFile('images/kirkebanner.png', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'image/png');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/images/monumentbanner.png') {
+    fs.readFile('images/monumentbanner.png', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'image/png');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/images/hemmeligebanner.png') {
+    fs.readFile('images/hemmeligebanner.png', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'image/png');
+        res.end(data);
+      }
+    });
   } else if (req.url === '/icons/mapIcon.png') {
     fs.readFile('icons/mapIcon.png', (err, data) => {
       if (err) {
@@ -137,8 +181,8 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/global.css') {
-    fs.readFile('global.css', (err, data) => {
+  } else if (req.url === '/styles/global.css') {
+    fs.readFile('styles/global.css', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -148,8 +192,8 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/places.css') {
-    fs.readFile('places.css', (err, data) => {
+  } else if (req.url === '/styles/places.css') {
+    fs.readFile('styles/places.css', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -159,7 +203,40 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/sang.mp3') {
+  } else if (req.url === '/styles/routes.css') {
+    fs.readFile('styles/routes.css', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/css');
+        res.end(data);
+      }
+    });
+  }else if (req.url === '/styles/sevaerdigheder.css') {
+    fs.readFile('styles/sevaerdigheder.css', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/css');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/styles/about.css') {
+    fs.readFile('styles/about.css', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/css');
+        res.end(data);
+      }
+    });
+  }else if (req.url === '/sang.mp3') {
     fs.readFile('sang.mp3', (err, data) => {
       if (err) {
         res.statusCode = 500;

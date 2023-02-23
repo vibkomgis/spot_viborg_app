@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/sevaerdigheder.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href=".">
+    <title>SPOT Viborg</title>
+  </head>
+
+  <body>
+    <nav>
+      <button id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/public/ruter.html">Ruter</a>
+        <a href="/public/sevaerdigheder.html">Seværdigheder</a>
+        <a href="/public/about.html">Om appen</a>
+      </div>
+      <span id="steder">Steder og faciliteter</span>
+    </nav>
+    
+    <button id="mapButton"><img src="/icons/mapIcon.png"></button>
+    <button id="listButton"><img src="/icons/listIcon.png"></button>
+    <div class="container">
+      <div class="container">
+        <div id="map">
+          <footer>
+            <p>&copy; <a target="_blank" href="https://dataforsyningen.dk/Vilkaar">Styrelsen for Dataforsyning og Infrastruktur</a></p>
+          </footer>
+        </div>
+        <ul id="myList"></ul>
+      </div>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js"></script>
+    <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <script src="/src/navigation.js"></script>
+    <script type="module" src="/src/map.js"></script>
+    
+  </body>
+</html>

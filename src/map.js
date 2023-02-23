@@ -50,7 +50,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       Titel: 'Viborg Domkirke',
       Type: 'Kirke',
       Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      ImageURL: 'viborgdomkirke.png',
+      ImageURL: 'images/viborgdomkirke.png',
       AudioURL: 'audio/viborgdomkirke_dk.mp3',
       LAT: 56.45053,
       LON: 9.4125
@@ -61,7 +61,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       Titel: 'Viborg Stadion',
       Type: 'Stadion',
       Description: 'Fodbold stadion', 
-      ImageURL: 'viborgstadion.png',
+      ImageURL: '/images/viborgstadion.png',
       AudioURL: 'audio/viborgstadion.mp3',
       LAT: 56.45589,
       LON: 9.40207

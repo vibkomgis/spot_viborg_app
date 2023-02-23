@@ -5,12 +5,8 @@
   position: relative;
 }
 
-body {
-  margin: 0;
-  padding: 0;
-  height: 100vh;
-  overflow: hidden;
-}
+
+
 
 #map {
   position: relative;
@@ -162,4 +158,35 @@ body {
 #homepageImg {
   max-width: 100%;
   height: auto;
+}
+
+
+/* routes.html */
+#ruteOversigt {
+  list-style: none;
+  padding-left: 0;
+}
+
+#ruteOversigt li {
+  font-size: 26px;
+  align-items: center;
+  margin: 50px;
+  background-color: rgb(65, 177, 141);
+  border-radius: 10px;
+  position: relative;
+  top: 100px;
+  justify-content: center;
+} 
+
+#ruteOversigt li img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#ruteOversigt li .description {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 10px;
+  color: white;
 }

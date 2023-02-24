@@ -27,8 +27,30 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
+  } else if (req.url === '/src/ruteKirker.js') {
+    fs.readFile('src/ruteKirker.js', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/javascript');
+        res.end(data);
+      }
+    });
   } else if (req.url === '/public/viborg-domkirke.html') {
     fs.readFile('public/viborg-domkirke.html', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/html');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/public/ruteKirkerMap.html') {
+    fs.readFile('public/ruteKirkerMap.html', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -60,8 +82,8 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/public/ruter.html') {
-    fs.readFile('public/ruter.html', (err, data) => {
+  } else if (req.url === '/public/ruteOversigt.html') {
+    fs.readFile('public/ruteOversigt.html', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);

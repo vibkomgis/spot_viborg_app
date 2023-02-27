@@ -5,7 +5,7 @@
       <head>
         <meta charset="UTF-8">
         <link rel="stylesheet" href="/styles/global.css">
-        <link rel="stylesheet" href="/styles/routes.css">
+        <link rel="stylesheet" href="/styles/rute.css">
       
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <base href=".">
@@ -25,34 +25,101 @@
       </nav>
     <ul id="ruteOversigt">
         <li>
-            <a href="/public/ruteKirker.html">
                 <img src="/images/kirkebanner.png" alt="Kirke oversigt">
                 <div class="image-text">Kirker</div>
                 <div class="description">Rute der tager dig forbi kirker i Viborg</div>
-            </a>
-        </li>
+            
+            <div class="dropdown-content">
+              
+                <h2>Seværdigheder på ruten</h2>
+                <ul id="ruteListe">
+                  <li>Item 1</li>
+                  <li>Item 2</li>
+                  <li>Item 3</li>
+                  <li>Item 4</li>
+                  <li>Item 5</li>
+                  <li>Item 6</li>
+                  <li>Item 7</li>
+                  <li>Item 8</li>
+                  <li>Item 9</li>
+                  <li>Item 10</li>
+                </ul>
+                <button onclick="window.location.href='/public/ruteKirker.html'">Start Rute</button>
+        
+            </div>
+          </li>
+       
         <li>
-            <a href="#">
+           
                 <img src="/images/monumentbanner.png" alt="Monumenter oversigt">
                 <div class="image-text">Monumenter</div>
                 <div class="description">Rute der tager dig forbi monumenter i Viborg</div>
-            </a>
+                <div class="dropdown-content">
+              
+                  <h2>Seværdigheder på ruten</h2>
+                  <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                    <li>Item 6</li>
+                    <li>Item 7</li>
+                    <li>Item 8</li>
+                    <li>Item 9</li>
+                    <li>Item 10</li>
+                  </ul>
+                  <button onclick="window.location.href='/public/ruteKirkerMap.html'">Start Rute</button>
+          
+              </div>
+            
         </li>
         <li>
-            <a href="#">
+           
                 <img src="/images/hemmeligebanner.png" alt="Hemmelige steder oversigt">
                 <div class="image-text">Hemmelige steder</div>
                 <div class="description">Rute der tager dig til hemmelige steder i Viborg</div>
-            </a>
+                <div class="dropdown-content">
+              
+                  <h2>Seværdigheder på ruten</h2>
+                  <ul>
+                    <li>Item 1</li>
+                    <li>Item 2</li>
+                    <li>Item 3</li>
+                    <li>Item 4</li>
+                    <li>Item 5</li>
+                    <li>Item 6</li>
+                    <li>Item 7</li>
+                    <li>Item 8</li>
+                    <li>Item 9</li>
+                    <li>Item 10</li>
+                  </ul>
+                  <button onclick="window.location.href='/public/ruteKirkerMap.html'">Start Rute</button>
+          
+              </div>
+            
         </li>
     </ul>
 
     <script src="/src/navigation.js"></script>
-   
+    <script src="/src/calculateDistance.js"></script>
     <script>
         function goBack() {
           window.history.back();
         }
       </script>
+    <script>
+      // Get all the list items in the ruteOversigt list
+      var routeItems = document.querySelectorAll('#ruteOversigt li');
+
+      // Add an event listener to each list item
+      routeItems.forEach(function(item) {
+        var dropdownContent = item.querySelector('.dropdown-content');
+
+        item.addEventListener('click', function() {
+          dropdownContent.classList.toggle('show');
+        });
+      });
+    </script>
 </body>
 </html>

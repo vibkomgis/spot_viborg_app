@@ -50,7 +50,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       Titel: 'Viborg Domkirke',
       Type: 'Kirke',
       Description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
-      ImageURL: 'images/viborgdomkirke.png',
+      ImageURL: '/images/viborgdomkirke.png',
       AudioURL: 'audio/viborgdomkirke_dk.mp3',
       LAT: 56.45053,
       LON: 9.4125
@@ -61,7 +61,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
       Titel: 'Viborg Stadion',
       Type: 'Stadion',
       Description: 'Fodbold stadion', 
-      ImageURL: '/images/viborgstadion.png',
+      ImageURL: 'images/viborgstadion.png',
       AudioURL: 'audio/viborgstadion.mp3',
       LAT: 56.45589,
       LON: 9.40207
@@ -156,17 +156,14 @@ window.addEventListener('DOMContentLoaded', showMap);
 
 
 /*
-
 function getDistance(origin, destination) {
   // return distance in meters
   var lon1 = toRadian(origin[1]),
       lat1 = toRadian(origin[0]),
       lon2 = toRadian(destination[1]),
       lat2 = toRadian(destination[0]);
-
   var deltaLat = lat2 - lat1;
   var deltaLon = lon2 - lon1;
-
   var a = Math.pow(Math.sin(deltaLat/2), 2) + Math.cos(lat1) * Math.cos(lat2) * Math.pow(Math.sin(deltaLon/2), 2);
   var c = 2 * Math.asin(Math.sqrt(a));
   var EARTH_RADIUS = 6371;

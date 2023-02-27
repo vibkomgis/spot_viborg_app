@@ -1,90 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
-    <!DOCTYPE html>
-    <html lang="en">
-      <head>
-        <meta charset="UTF-8">
-        <link rel="stylesheet" href="/styles/global.css">
-        <link rel="stylesheet" href="/styles/routes.css">
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
-        <link href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.css" rel="stylesheet">
-        <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <base href=".">
-        <title>Ruter</title>
-      </head>
-<body>
+  <head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/styles/global.css">
+    <link rel="stylesheet" href="/styles/sevaerdigheder.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <base href=".">
+    <title>SPOT Viborg</title>
+  </head>
+
+  <body>
     <nav>
-        <button id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
-        <div id="mySidebar" class="sidebar">
-          <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="/public/index.html">Start</a>
-          <a href="/public/ruteOversigt.html">Ruter</a>
-          <a href="/public/sevaerdigheder.html">Seværdigheder</a>
-          <a href="/public/about.html">Om appen</a>
-        </div>
-        <span id="steder">Rute der tager dig forbi alle Viborgs kirker</span>
-      </nav>
-      <div class="slideshow-container">
-        <div class="slide">
-          <img src="/images/kirkebanner.png">
-        </div>
-        <div class="slide">
-          <img src="/images/kirkebanner.png">
-        </div>
-        <div class="slide">
-          <img src="/images/kirkebanner.png">
+      <button id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/public/index.html">Start</a>
+        <a href="/public/ruteOversigt.html">Ruter</a>
+        <a href="/public/sevaerdigheder.html">Seværdigheder</a>
+        <a href="/public/about.html">Om appen</a>
+      </div>
+      <span id="steder">Kirkerute</span>
+    </nav>
+    <div class="container">
+      <div class="container">
+        <div id="map">
+          <footer>
+            <p>&copy; <a target="_blank" href="https://dataforsyningen.dk/Vilkaar">Styrelsen for Dataforsyning og Infrastruktur</a></p>
+          </footer>
         </div>
       </div>
-
-      <div class="ruteKirkerList">
-        <h2>Seværdigheder på ruten</h2>
-        <ul>
-          <li>Item 1</li>
-          <li>Item 2</li>
-          <li>Item 3</li>
-          <li>Item 4</li>
-          <li>Item 5</li>
-          <li>Item 6</li>
-          <li>Item 7</li>
-          <li>Item 8</li>
-          <li>Item 9</li>
-          <li>Item 10</li>
-        </ul>
-        <button onclick="window.location.href='/public/ruteKirkerMap.html'">Start Rute</button>
-
-      </div>
-
-
-    <script src="/src/navigation.js"></script>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js"></script>
     <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+    <script src="/src/navigation.js"></script>
     <script type="module" src="/src/ruteKirker.js"></script>
-    <script>
-            var slideIndex = 0;
-      showSlides();
-
-      function showSlides() {
-        var i;
-        var slides = document.getElementsByClassName("slide");
-        for (i = 0; i < slides.length; i++) {
-          slides[i].style.display = "none";
-        }
-        slideIndex++;
-        if (slideIndex > slides.length) {
-          slideIndex = 1;
-        }
-        slides[slideIndex - 1].style.display = "block";
-        setTimeout(showSlides, 3000); // Change image every 3 seconds
-      }
-    </script>
-    <script>
-        document.getElementById("startRuteKirker").addEventListener("click", function() {
-    var script = document.createElement("script");
-    script.src = "/src/ruteKirker.js";
-    document.head.appendChild(script);
-  });
-    </script>
-</body>
+    <script src="/src/calculateDistance.js"></script>
+  </body>
 </html>

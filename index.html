@@ -5,13 +5,14 @@
       <link rel="stylesheet" href="/styles/global.css">
       <meta name="viewport" content="width=device-width, initial-scale=1">
       <base href=".">
+
       <title>SPOT Viborg</title>
     </head>
 
     <body>
       <img id="homepageImg" src="/images/viborgHomepage.png" alt="Viborg Homepage">
       <button onclick="window.location.href='/public/ruteOversigt.html'">Ruter</button>
-      <button onclick="window.location.href='/public/sevaerdigheder.html'">Seværdigheder</button>
+      <button id="sevaerdighederButton" onclick="window.location.href='/public/sevaerdigheder.html'">Seværdigheder</button>
       <nav>
         <button id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
         <div id="mySidebar" class="sidebar">
@@ -24,5 +25,6 @@
         <span id="steder">SPOT Viborg</span>
       </nav>
       <script src="/src/navigation.js"></script>
+      <script src="/src/map.js"></script>
     </body>
   </html>

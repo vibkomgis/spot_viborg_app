@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  overflow: auto;
+}
+
+#ruteOversigt {
+  list-style: none;
+  padding-left: 0;
+  width: 100%;
+}
+
+#ruteOversigt ul {
+  list-style: none;
+  
+}
+
+
+#ruteOversigt li img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+#ruteOversigt li .description {
+  text-align: center;
+  font-size: 14px;
+  padding-top: 10px;
+  color: white;
+}
+
+
+
+#ruteOversigt li {
+  font-size: 26px;
+  align-items: center;
+  margin: 50px;
+  background-color: rgb(65, 177, 141);
+  border-radius: 10px;
+  position: relative;
+  top: 40px;
+  justify-content: center;
+ 
+} 
+
+#ruteOversigt li h2 {
+  font-size: 16px;
+}
+
+#ruteOversigt li ul {
+  background-color: aliceblue;
+  padding-left: 0;
+}
+
+#ruteOversigt li li {
+  font-size: 16px;
+  align-items: center;
+  text-align: left;
+  margin: 10px;
+  border-radius: 10px;
+  position: relative;
+  top: 10px;
+  justify-content: center;
+  background-color: transparent;
+} 
+
+
+.dropdown {
+  position: relative;
+  height: 10px;
+}
+
+.dropdown-content {
+  display: none;
+  position: relative;
+  z-index: 9999;
+  animation: fadeIn 0.3s ease-in-out;
+  width: 100%;
+  background-color: aliceblue;
+}
+
+
+.show {
+  display: block;
+}
+
+
+
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}

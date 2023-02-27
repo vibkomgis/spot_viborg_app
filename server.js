@@ -27,6 +27,17 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
+  } else if (req.url === '/src/calculateDistance.js') {
+    fs.readFile('src/calculateDistance.js', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/javascript');
+        res.end(data);
+      }
+    });
   } else if (req.url === '/src/ruteKirker.js') {
     fs.readFile('src/ruteKirker.js', (err, data) => {
       if (err) {
@@ -49,8 +60,8 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/public/ruteKirkerMap.html') {
-    fs.readFile('public/ruteKirkerMap.html', (err, data) => {
+  } else if (req.url === '/public/ruteKirker.html') {
+    fs.readFile('public/ruteKirker.html', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -104,18 +115,7 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/public/ruteKirker.html') {
-    fs.readFile('public/ruteKirker.html', (err, data) => {
-      if (err) {
-        res.statusCode = 500;
-        res.end(`Error getting the file: ${err}.`);
-      } else {
-        res.statusCode = 200;
-        res.setHeader('Content-Type', 'text/html');
-        res.end(data);
-      }
-    });
-  } else if (req.url === '/images/viborgdomkirke.png') {
+  }  else if (req.url === '/images/viborgdomkirke.png') {
     fs.readFile('images/viborgdomkirke.png', (err, data) => {
       if (err) {
         res.statusCode = 500;
@@ -225,8 +225,8 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/styles/routes.css') {
-    fs.readFile('styles/routes.css', (err, data) => {
+  } else if (req.url === '/styles/rute.css') {
+    fs.readFile('styles/rute.css', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);

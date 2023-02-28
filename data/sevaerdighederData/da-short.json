@@ -1,0 +1,914 @@
+[
+
+  {
+    
+    "id": 1,
+    "location": {
+      "lat": 56.450554,
+      "lng": 9.412078
+    },
+    "proximity": 25,
+    "title": "POI_VIBORG_DOMKIRKE_TITEL",
+    "shortdescription": "POI_VIBORG_DOMKIRKE_SHORT_DESCRIPTION",
+    "text": "POI_VIBORG_DOMKIRKE_LONG_DESCRIPTION",
+    "next": "POI_VIBORG_DOMKIRKE_NEXT_DESCRIPTION",
+    "thumb": "thumbs/01_domkirken_1_thumb.jpg",
+    "pictures": ["pois/01_domkirken_1.jpg", "pois/01_domkirken_2.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0201domkirken.mp3",
+        "en-GB": "kirker_1.mp3",
+        "de-DE": "kirchen_1.mp3"
+      },
+      "next": {
+        "da-DK": "0201domkirken_1.mp3",
+        "en-GB": "kirker_1_1.mp3",
+        "de-DE": "kirchen_1_1.mp3"
+      }
+    }
+  },
+  {
+    
+    "id": 2,
+    "location": {
+      "lat": 56.450078,
+      "lng": 9.413457
+    },
+    "proximity": 25,
+    "title": "POI_BISPEGARDEN_TITEL",
+    "shortdescription": "POI_BISPEGARDEN_SHORT_DESCRIPTION",
+    "text": "POI_BISPEGARDEN_LONG_DESCRIPTION",
+    "next": "POI_BISPEGARDEN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/02_bispegarden_1_thumb.jpg",
+    "pictures": ["pois/02_bispegaarden_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0202bispegaarden.mp3",
+        "en-GB": "kirker_2.mp3",
+        "de-DE": "kirchen_2.mp3"
+      },
+      "next": {
+        "da-DK": "0202bispegaarden_1.mp3",
+        "en-GB": "kirker_2_1.mp3",
+        "de-DE": "kirchen_2_1.mp3"
+      }
+    }
+  },
+
+  {
+    
+    "id": 3,
+    "location": {
+      "lat": 56.449094,
+      "lng": 9.412451
+    },
+    "proximity": 25, 
+    "title": "POI_SCT_KJELDS_KIRKE_TITEL",
+    "shortdescription": "POI_SCT_KJELDS_KIRKE_SHORT_DESCRIPTION",
+    "text": "POI_SCT_KJELDS_KIRKE_LONG_DESCRIPTION",
+    "next": "POI_SCT_KJELDS_KIRKE_NEXT_DESCRIPTION",
+    "thumb": "thumbs/03_sct_kjelds_kirke_1_thumb.jpg",
+    "pictures": ["pois/03_sct_kjelds_kirke_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0203sct_kjelds_kirke.mp3",
+        "en-GB": "kirker_3.mp3",
+        "de-DE": "kirchen_3.mp3"
+      },
+      "next": {
+        "da-DK": "0203sct_kjelds_kirke_1.mp3",
+        "en-GB": "kirker_3_1.mp3",
+        "de-DE": "kirchen_3_1.mp3"
+      }
+    }
+  },
+  {
+    
+    "id": 4,
+    "location": {
+      "lat": 56.449102,
+      "lng": 9.412376
+    },
+    "proximity": 25, 
+    "title": "POI_APPOLONIA_TITEL",
+    "shortdescription": "POI_APPOLONIA_SHORT_DESCRIPTION",
+    "text": "POI_APPOLONIA_LONG_DESCRIPTION",
+    "next": "POI_APPOLONIA_NEXT_DESCRIPTION",
+    "thumb": "thumbs/04_appolonia_1_thumb.jpg",
+    "pictures": ["pois/04_appolonia_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0204statue_af_den_hellige_apollonia.mp3",
+        "en-GB": "kirker_4.mp3",
+        "de-DE": "kirchen_4.mp3"
+      },
+      "next": {
+        "da-DK": "0204statue_af_den_hellige_apollonia_1.mp3",
+        "en-GB": "kirker_4_1.mp3",
+        "de-DE": "kirchen_4_1.mp3"
+      }
+    }
+  },
+  {
+   
+    "id": 5,
+    "location": {
+      "lat": 56.449134,
+      "lng": 9.412419
+    },
+    "proximity": 25, 
+    "title": "POI_DOMPROVSTEGARDEN_TITEL",
+    "shortdescription": "POI_DOMPROVSTEGARDEN_SHORT_DESCRIPTION",
+    "text": "POI_DOMPROVSTEGARDEN_LONG_DESCRIPTION",
+    "next": "POI_DOMPROVSTEGARDEN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/05_domprovstegaarden_1_thumb.jpg",
+    "pictures": ["pois/05_domprovstegaarden_1.jpg", "pois/05_domprovstegaarden_2.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0205domprovstegaarden.mp3",
+        "en-GB": "kirker_5.mp3",
+        "de-DE": "kirchen_5.mp3"
+      },
+      "next": {
+        "da-DK": "0205domprovstegaarden_1.mp3",
+        "en-GB": "kirker_5_1.mp3",
+        "de-DE": "kirchen_5_1.mp3"
+      }
+    }
+  },
+  {
+    
+    "id": 6,
+    "location": {
+      "lat": 56.449312,
+      "lng": 9.409910
+    },
+    "proximity": 25, 
+    "title": "POI_SORTEBRODRE_KIRKE_TITEL",
+    "shortdescription": "POI_SORTEBRODRE_KIRKE_SHORT_DESCRIPTION",
+    "text": "POI_SORTEBRODRE_KIRKE_LONG_DESCRIPTION",
+    "next": "POI_SORTEBRODRE_KIRKE_NEXT_DESCRIPTION",
+    "thumb": "thumbs/06_sortebrodre_kirke_1_thumb.jpg",
+    "pictures": ["pois/06_sortebrodre_kirke_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0206sortebroedre_kirke.mp3",
+        "en-GB": "kirker_6.mp3",
+        "de-DE": "kirchen_6.mp3"
+      },
+      "next": {
+        "da-DK": "0206sortebroedre_kirke_1.mp3",
+        "en-GB": "kirker_6_1.mp3",
+        "de-DE": "kirchen_6_1.mp3"
+      }
+    }
+  },
+  {
+   
+    "id": 7,
+    "location": {
+      "lat": 56.449664,
+      "lng": 9.408269
+    },
+    "proximity": 25, 
+    "title": "POI_SCT_MATHIAS_KIRKE_TITEL",
+    "shortdescription": "POI_SCT_MATHIAS_KIRKE_SHORT_DESCRIPTION",
+    "text": "POI_SCT_MATHIAS_KIRKE_LONG_DESCRIPTION",
+    "next": "POI_SCT_MATHIAS_KIRKE_NEXT_DESCRIPTION",
+    "thumb": "thumbs/07_sct_mathias_kirke_1_thumb.jpg",
+    "pictures": ["pois/07_sct_mathias_kirke_1.jpg", "pois/07_sct_mathias_kirke_2.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0207sct_mathias_kirke.mp3",
+        "en-GB": "kirker_7.mp3",
+        "de-DE": "kirchen_7.mp3"
+      },
+      "next": {
+        "da-DK": "0207sct_mathias_kirke_1.mp3",
+        "en-GB": "kirker_7_1.mp3",
+        "de-DE": "kirchen_7_1.mp3"
+      }
+    }
+  },
+  {
+    
+    "id": 8,
+    "location": {
+      "lat": 56.450939,
+      "lng": 9.409632
+    },
+    "proximity": 25, 
+    "title": "POI_SCT_HANS_KIRKE_TITEL",
+    "shortdescription": "POI_SCT_HANS_KIRKE_SHORT_DESCRIPTION",
+    "text": "POI_SCT_HANS_KIRKE_LONG_DESCRIPTION",
+    "next": "POI_SCT_HANS_KIRKE_NEXT_DESCRIPTION",
+    "thumb": "thumbs/08_sct_hans_kirke_1_thumb.jpg",
+    "pictures": ["pois/08_sct_hans_kirke_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0208sct_hans_kirke.mp3",
+        "en-GB": "kirker_8.mp3",
+        "de-DE": "kirchen_8.mp3"
+      },
+      "next": {
+        "da-DK": "0208sct_hans_kirke_1.mp3",
+        "en-GB": "kirker_8_1.mp3",
+        "de-DE": "kirchen_8_1.mp3"
+      }
+    }
+  },
+  {
+   
+    "id": 9,
+    "location": {
+      "lat": 56.452688,
+      "lng": 9.411911
+    },
+    "proximity": 25, 
+    "title": "POI_SCT_MOGENS_KIRKE_TITEL",
+    "shortdescription": "POI_SCT_MOGENS_KIRKE_SHORT_DESCRIPTION",
+    "text": "POI_SCT_MOGENS_KIRKE_LONG_DESCRIPTION",
+    "next": "POI_SCT_MOGENS_KIRKE_NEXT_DESCRIPTION",
+    "thumb": "thumbs/09_sct_mogens_kirke_1_thumb.jpg",
+    "pictures": ["pois/09_sct_mogens_kirke_1.jpg", "pois/09_sct_mogens_kirke_2.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0209sct_mogens_kirke.mp3",
+        "en-GB": "kirker_9.mp3",
+        "de-DE": "kirchen_9.mp3"
+      },
+      "next": {
+        "da-DK": "0209sct_mogens_kirke_1.mp3",
+        "en-GB": "kirker_9_1.mp3",
+        "de-DE": "kirchen_9_1.mp3"
+      }
+    }
+  },
+  {
+    
+    "id": 10,
+    "location": {
+      "lat": 56.451767,
+      "lng": 9.412397
+    },
+    "proximity": 50,
+    "title": "POI_GRABRODRE_KLOSTERKIRKE_TITEL",
+    "shortdescription": "POI_GRABRODRE_KLOSTERKIRKE_SHORT_DESCRIPTION",
+    "text": "POI_GRABRODRE_KLOSTERKIRKE_LONG_DESCRIPTION",
+    "next": "POI_GRABRODRE_KLOSTERKIRKE_NEXT_DESCRIPTION",
+    "thumb": "thumbs/10_grabrodre_klosterkirke_1_thumb.jpg",
+    "pictures": ["pois/10_grabrodre_klosterkirke_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0210graabroedre_klosterkirke.mp3",
+        "en-GB": "kirker_10.mp3",
+        "de-DE": "kirchen_10.mp3"
+      },
+      "next": {
+        "da-DK": "0210graabroedre_klosterkirke_1.mp3",
+        "en-GB": "kirker_10_1.mp3",
+        "de-DE": "kirchen_10_1.mp3"
+      }
+    }
+  },
+
+
+
+
+ 
+  {
+    
+    "id": 11,
+    "location": {
+      "lat": 56.450554,
+      "lng": 9.412078
+    },
+    "proximity": 25, 
+    "title": "POI_DOMKIRKEPORTEN_TITEL",
+    "shortdescription": "POI_DOMKIRKEPORTEN_SHORT_DESCRIPTION",
+    "text": "POI_DOMKIRKEPORTEN_LONG_DESCRIPTION",
+    "next": "POI_DOMKIRKEPORTEN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/11_domkirkeporten_1_thumb.jpg",
+    "pictures": ["pois/11_domkirkeporten_1.jpg", "pois/11_domkirkeporten_2.jpg", "pois/11_domkirkeporten_3.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0301domkirkeporten.mp3",
+        "en-GB": "monuments_1.mp3",
+        "de-DE": "denkmaler_1.mp3"
+      },
+      "next": {
+        "da-DK": "0301domkirkeporten_1.mp3",
+        "en-GB": "monuments_1_1.mp3",
+        "de-DE": "denkmaler_1_1.mp3"
+      }
+    }
+  },
+  {
+    
+    "id": 12,
+    "location": {
+      "lat": 56.450297,
+      "lng": 9.411547
+    },
+    "proximity": 25, 
+    "title": "POI_FINNERUP_LADE_TITEL",
+    "shortdescription": "POI_FINNERUP_LADE_SHORT_DESCRIPTION",
+    "text": "POI_FINNERUP_LADE_LONG_DESCRIPTION",
+    "next": "POI_FINNERUP_LADE_NEXT_DESCRIPTION",
+    "thumb": "thumbs/12_finnerup_lade_1_thumb.jpg",
+    "pictures": ["pois/12_finnerup_lade_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0302relief_af_mordet_i_finderup_lade.mp3",
+        "en-GB": "monuments_2.mp3",
+        "de-DE": "denkmaler_2.mp3"
+      },
+      "next": {
+        "da-DK": "0302relief_af_mordet_i_finderup_lade_1.mp3",
+        "en-GB": "monuments_2_1.mp3",
+        "de-DE": "denkmaler_2_1.mp3"
+      }
+    }
+  },
+
+  {
+    
+    "id": 13,
+    "location": {
+      "lat": 56.450579,
+      "lng": 9.410951
+    },
+    "proximity": 25, 
+    "title": "POI_FUGLE_MORTENSEN_TITEL",
+    "shortdescription": "POI_FUGLE_MORTENSEN_SHORT_DESCRIPTION",
+    "text": "POI_FUGLE_MORTENSEN_LONG_DESCRIPTION",
+    "next": "POI_FUGLE_MORTENSEN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/13_fugle_mortensen_1_thumb.jpg",
+    "pictures": ["pois/13_fugle_mortensen_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0303mindetavle_for_fugle-mortensen.mp3",
+        "en-GB": "monuments_3.mp3",
+        "de-DE": "denkmaler_3.mp3"
+      },
+      "next": {
+        "da-DK": "0303mindetavle_for_fugle-mortensen_1.mp3",
+        "en-GB": "monuments_3_1.mp3",
+        "de-DE": "denkmaler_3_1.mp3"
+      }
+    }
+  },
+
+  {
+    
+    "id": 14,
+    "location": {
+      "lat": 56.450486,
+      "lng": 9.410738
+    },
+    "proximity": 25, 
+    "title": "POI_STEEN_STEENSEN_TITEL",
+    "shortdescription": "POI_STEEN_STEENSEN_SHORT_DESCRIPTION",
+    "text": "POI_STEEN_STEENSEN_LONG_DESCRIPTION",
+    "next": "POI_STEEN_STEENSEN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/14_steen_steensen_1_thumb.jpg",
+    "pictures": ["pois/14_steen_steensen_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0304mindestoette_af_st_st_blicher.mp3",
+        "en-GB": "monuments_4.mp3",
+        "de-DE": "denkmaler_4.mp3"
+      },
+      "next": {
+        "da-DK": "0304mindestoette_af_st_st_blicher_1.mp3",
+        "en-GB": "monuments_4_1.mp3",
+        "de-DE": "denkmaler_4_1.mp3"
+      }
+    }
+  },
+  {
+  
+    "id": 16,
+    "location": {
+      "lat": 56.451545,
+      "lng": 9.412309
+    },
+    "proximity": 25, 
+    "title": "POI_HANS_TAUSEN_2005_TITEL",
+    "shortdescription": "POI_HANS_TAUSEN_2005_SHORT_DESCRIPTION",
+    "text": "POI_HANS_TAUSEN_2005_LONG_DESCRIPTION",
+    "next": "POI_HANS_TAUSEN_2005_NEXT_DESCRIPTION",
+    "thumb": "thumbs/16_hans_tausen_2005_1_thumb.jpg",
+    "pictures": ["pois/16_hans_tausen_2005_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0306hans_tausen_monument_2005.mp3",
+        "en-GB": "monuments_6.mp3",
+        "de-DE": "denkmaler_6.mp3"
+      },
+      "next": {
+        "da-DK": "0306hans_tausen_monument_2005_1.mp3",
+        "en-GB": "monuments_6_1.mp3",
+        "de-DE": "denkmaler_6_1.mp3"
+      }
+    }
+  },
+  {
+    
+    "id": 17,
+    "location": {
+      "lat": 56.451434,
+      "lng": 9.412443
+    },
+    "proximity": 25, 
+    "title": "POI_HANS_TAUSEN_1836_TITEL",
+    "shortdescription": "POI_HANS_TAUSEN_1836_SHORT_DESCRIPTION",
+    "text": "POI_HANS_TAUSEN_1836_LONG_DESCRIPTION",
+    "next": "POI_HANS_TAUSEN_1836_NEXT_DESCRIPTION",
+    "thumb": "thumbs/17_hans_tausen_1836_1_thumb.jpg",
+    "pictures": ["pois/17_hans_tausen_1836_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0305mindestoette_for_hans_tausen_1836.mp3",
+        "en-GB": "monuments_5.mp3",
+        "de-DE": "denkmaler_5.mp3"
+      },
+      "next": {
+        "da-DK": "0305mindestoette_for_hans_tausen_1836_1.mp3",
+        "en-GB": "monuments_5_1.mp3",
+        "de-DE": "denkmaler_5_1.mp3"
+      }
+    }
+  },
+  {
+  
+    "id": 18,
+    "location": {
+      "lat": 56.451218,
+      "lng": 9.412015
+    },
+    "proximity": 25, 
+    "title": "POI_KONGEHYLDNINGSMONUMENTET_TITEL",
+    "shortdescription": "POI_KONGEHYLDNINGSMONUMENTET_SHORT_DESCRIPTION",
+    "text": "POI_KONGEHYLDNINGSMONUMENTET_LONG_DESCRIPTION",
+    "next": "POI_KONGEHYLDNINGSMONUMENTET_NEXT_DESCRIPTION",
+    "thumb": "thumbs/18_kongehyldingsmonumentet_1_thumb.jpg",
+    "pictures": ["pois/18_kongehyldingsmonumentet_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0307kongehyldningsmonumentet.mp3",
+        "en-GB": "monuments_7.mp3",
+        "de-DE": "denkmaler_7.mp3"
+      },
+      "next": {
+        "da-DK": "0307kongehyldningsmonumentet_1.mp3",
+        "en-GB": "monuments_7_1.mp3",
+        "de-DE": "denkmaler_7_1.mp3"
+      }
+    }
+  },
+  {
+    
+    "id": 19,
+    "location": {
+      "lat": 56.450857,
+      "lng": 9.411698
+    },
+    "proximity": 25, 
+    "title": "POI_DANMARKS_BEFRIELSE_TITEL",
+    "shortdescription": "POI_DANMARKS_BEFRIELSE_SHORT_DESCRIPTION",
+    "text": "POI_DANMARKS_BEFRIELSE_LONG_DESCRIPTION",
+    "next": "POI_DANMARKS_BEFRIELSE_NEXT_DESCRIPTION",
+    "thumb": "thumbs/19_danmarks_befrielse_1_thumb.jpg",
+    "pictures": ["pois/19_danmarks_befrielse_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0308mindesten_for_danmarks_befrielse.mp3",
+        "en-GB": "monuments_8.mp3",
+        "de-DE": "denkmaler_8.mp3"
+      },
+      "next": {
+        "da-DK": "0308mindesten_for_danmarks_befrielse_1.mp3",
+        "en-GB": "monuments_8_1.mp3",
+        "de-DE": "denkmaler_8_1.mp3"
+      }
+    }
+  },
+  {
+    
+    "id": 20,
+    "location": {
+      "lat": 56.450906,
+      "lng": 9.412360
+    },
+    "proximity": 25, 
+    "title": "POI_STAENDERPLADSEN_TITEL",
+    "shortdescription": "POI_STAENDERPLADSEN_SHORT_DESCRIPTION",
+    "text": "POI_STAENDERPLADSEN_LONG_DESCRIPTION",
+    "next": "POI_STAENDERPLADSEN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/20_staenderpladsen_1_thumb.jpg",
+    "pictures": ["pois/20_staenderpladsen_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0309staenderpladsen.mp3",
+        "en-GB": "monuments_9.mp3",
+        "de-DE": "denkmaler_9.mp3"
+      },
+      "next": {
+        "da-DK": "0309staenderpladsen_1.mp3",
+        "en-GB": "monuments_9_1.mp3",
+        "de-DE": "denkmaler_9_1.mp3"
+      }
+    }
+  },
+
+
+
+ 
+  {
+    
+    "id": 21,
+    "location": {
+      "lat": 56.450554,
+      "lng": 9.412078
+    },
+    "proximity": 25, 
+    "title": "POI_STORMKLOKKEN_TITEL",
+    "shortdescription": "POI_STORMKLOKKEN_SHORT_DESCRIPTION",
+    "text": "POI_STORMKLOKKEN_LONG_DESCRIPTION",
+    "next": "POI_STORMKLOKKEN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/21_stormklokken_1_thumb.jpg",
+    "pictures": ["pois/21_stormklokken_1.jpg", "pois/21_stormklokken_2.jpg", "pois/21_stormklokken_3.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0101stormklokken_paa_domkirkens_taarn.mp3",
+        "en-GB": "secret_spots_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_1.mp3"
+      },
+      "next": {
+        "da-DK": "0101stormklokken_paa_domkirkens_taarn_1.mp3",
+        "en-GB": "secret_spots_1_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_1_1.mp3"
+      }
+    }
+  },
+  {
+    
+    "id": 22,
+    "location": {
+      "lat": 56.450297,
+      "lng": 9.411547
+    },
+    "proximity": 25, 
+    "title": "POI_SKOVGARDMUSEETS_HAVE_TITEL",
+    "shortdescription": "POI_SKOVGARDMUSEETS_HAVE_SHORT_DESCRIPTION",
+    "text": "POI_SKOVGARDMUSEETS_HAVE_LONG_DESCRIPTION",
+    "next": "POI_SKOVGARDMUSEETS_HAVE_NEXT_DESCRIPTION",
+    "thumb": "thumbs/22_skovgardmuseets_have_1_thumb.jpg",
+    "pictures": ["pois/22_skovgardmuseets_have_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0102haven_bag_skovgaard_museet.mp3",
+        "en-GB": "secret_spots_2.mp3",
+        "de-DE": "sturmglocke_im_domturm_2.mp3"
+      },
+      "next": {
+        "da-DK": "0102haven_bag_skovgaard_museet_1.mp3",
+        "en-GB": "secret_spots_2_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_2_1.mp3"
+      }
+    }
+  },
+  {
+    
+    "id": 23,
+    "location": {
+      "lat": 56.450020,
+      "lng": 9.410426
+    },
+    "proximity": 25, 
+    "title": "POI_LATINERHAVEN_TITEL",
+    "shortdescription": "POI_LATINERHAVEN_SHORT_DESCRIPTION",
+    "text": "POI_LATINERHAVEN_LONG_DESCRIPTION",
+    "next": "POI_LATINERHAVEN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/23_latinerhaven_1_thumb.jpg",
+    "pictures": ["pois/23_latinerhaven_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0103latinerhaven.mp3",
+        "en-GB": "secret_spots_3.mp3",
+        "de-DE": "sturmglocke_im_domturm_3.mp3"
+      },
+      "next": {
+        "da-DK": "0103latinerhaven_1.mp3",
+        "en-GB": "secret_spots_3_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_3_1.mp3"
+      }
+    }
+  },
+  {
+    
+    "id": 24,
+    "location": {
+      "lat": 56.451082,
+      "lng": 9.409177
+    },
+    "proximity": 25, 
+    "title": "POI_MARGRETHEKAELDEREN_TITEL",
+    "shortdescription": "POI_MARGRETHEKAELDEREN_SHORT_DESCRIPTION",
+    "text": "POI_MARGRETHEKAELDEREN_LONG_DESCRIPTION",
+    "next": "POI_MARGRETHEKAELDEREN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/24_margrethekaelderen_1_thumb.jpg",
+    "pictures": ["pois/24_margrethekaelderen_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0104margrethekaelderen.mp3",
+        "en-GB": "secret_spots_4.mp3",
+        "de-DE": "sturmglocke_im_domturm_4.mp3"
+      },
+      "next": {
+        "da-DK": "0104margrethekaelderen_1.mp3",
+        "en-GB": "secret_spots_4_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_4_1.mp3"
+      }
+    }
+  },
+  {
+   
+    "id": 25,
+    "location": {
+      "lat": 56.451093,
+      "lng": 9.409374
+    },
+    "proximity": 25, 
+    "title": "POI_AMTMANDS_GARDEN_TITEL",
+    "shortdescription": "POI_AMTMANDS_GARDEN_SHORT_DESCRIPTION",
+    "text": "POI_AMTMANDS_GARDEN_LONG_DESCRIPTION",
+    "next": "POI_AMTMANDS_GARDEN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/25_amtmands_garden_1_thumb.jpg",
+    "pictures": ["pois/25_amtmands_garden_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0105stiftamtmandsgaarden.mp3",
+        "en-GB": "secret_spots_5.mp3",
+        "de-DE": "sturmglocke_im_domturm_5.mp3"
+      },
+      "next": {
+        "da-DK": "0105stiftamtmandsgaarden_1.mp3",
+        "en-GB": "secret_spots_5_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_5_1.mp3"
+      }
+    }
+  },
+  {
+    
+    "id": 26,
+    "location": {
+      "lat": 56.451040,
+      "lng": 9.409846
+    },
+    "proximity": 25, 
+    "title": "POI_DE_GAMLE_KOBMANDSGARDE_TITEL",
+    "shortdescription": "POI_DE_GAMLE_KOBMANDSGARDE_SHORT_DESCRIPTION",
+    "text": "POI_DE_GAMLE_KOBMANDSGARDE_LONG_DESCRIPTION",
+    "next": "POI_DE_GAMLE_KOBMANDSGARDE_NEXT_DESCRIPTION",
+    "thumb": "thumbs/26_de_gamle_kobmandsgarde_1_thumb.jpg",
+    "pictures": ["pois/26_de_gamle_kobmandsgarde_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0106de_gamle_koebmandsgaarde.mp3",
+        "en-GB": "secret_spots_6.mp3",
+        "de-DE": "sturmglocke_im_domturm_6.mp3"
+      },
+      "next": {
+        "da-DK": "0106de_gamle_koebmandsgaarde_1.mp3",
+        "en-GB": "secret_spots_6_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_6_1.mp3"
+      }
+    }
+  },
+  {
+    
+    "id": 27,
+    "location": {
+      "lat": 56.450917,
+      "lng": 9.411255
+    },
+    "proximity": 25, 
+    "title": "POI_VAERTSHUSET_PARADISET_TITEL",
+    "shortdescription": "POI_VAERTSHUSET_PARADISET_SHORT_DESCRIPTION",
+    "text": "POI_VAERTSHUSET_PARADISET_LONG_DESCRIPTION",
+    "next": "POI_VAERTSHUSET_PARADISET_NEXT_DESCRIPTION",
+    "thumb": "thumbs/27_vaertshuset_paradiset_1_thumb.jpg",
+    "pictures": ["pois/27_vaertshuset_paradiset_1.jpg", "pois/27_vaertshuset_paradiset_2.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0107vaertshuset_paradiset.mp3",
+        "en-GB": "secret_spots_7.mp3",
+        "de-DE": "sturmglocke_im_domturm_7.mp3"
+      },
+      "next": {
+        "da-DK": "0107vaertshuset_paradiset_1.mp3",
+        "en-GB": "secret_spots_7_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_7_1.mp3"
+      }
+    }
+  },
+  {
+    
+    "id": 28,
+    "location": {
+      "lat": 56.453058,
+      "lng": 9.411919
+    },
+    "proximity": 25, 
+    "title": "POI_KARNAPGARDEN_TITEL",
+    "shortdescription": "POI_KARNAPGARDEN_SHORT_DESCRIPTION",
+    "text": "POI_KARNAPGARDEN_LONG_DESCRIPTION",
+    "next": "POI_KARNAPGARDEN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/28_karnapgarden_1_thumb.jpg",
+    "pictures": ["pois/28_karnapgarden_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0108karnapgaarden.mp3",
+        "en-GB": "secret_spots_8.mp3",
+        "de-DE": "sturmglocke_im_domturm_8.mp3"
+      },
+      "next": {
+        "da-DK": "0108karnapgaarden_1.mp3",
+        "en-GB": "secret_spots_8_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_8_1.mp3"
+      }
+    }
+  },
+  {
+   
+    "id": 29,
+    "location": {
+      "lat": 56.451454,
+      "lng": 9.411374
+    },
+    "proximity": 25, 
+    "title": "POI_BILLEN_ER_DUM_TITEL",
+    "shortdescription": "POI_BILLEN_ER_DUM_SHORT_DESCRIPTION",
+    "text": "POI_BILLEN_ER_DUM_LONG_DESCRIPTION",
+    "next": "POI_BILLEN_ER_DUM_NEXT_DESCRIPTION",
+    "thumb": "thumbs/29_billen_er_dum_1_thumb.jpg",
+    "pictures": ["pois/29_billen_er_dum_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0109billen_er_dum.mp3",
+        "en-GB": "secret_spots_9.mp3",
+        "de-DE": "sturmglocke_im_domturm_9.mp3"
+      },
+      "next": {
+        "da-DK": "0109billen_er_dum_1.mp3",
+        "en-GB": "secret_spots_9_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_9_1.mp3"
+      }
+    }
+  },
+  {
+    
+    "id": 30,
+    "location": {
+      "lat": 56.451238,
+      "lng": 9.412415
+    },
+    "proximity": 25, 
+    "title": "POI_VESTRE_LANDSRET_OG_SUKKENES_BRO_TITEL",
+    "shortdescription": "POI_VESTRE_LANDSRET_OG_SUKKENES_BRO_SHORT_DESCRIPTION",
+    "text": "POI_VESTRE_LANDSRET_OG_SUKKENES_BRO_LONG_DESCRIPTION",
+    "next": "POI_VESTRE_LANDSRET_OG_SUKKENES_BRO_NEXT_DESCRIPTION",
+    "thumb": "thumbs/30_vestre_landsret_og_sukkenes_bro_1_thumb.jpg",
+    "pictures": ["pois/30_vestre_landsret_og_sukkenes_bro_1.jpg"],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0110vestre_landsret_og_sukkenes_bro.mp3",
+        "en-GB": "secret_spots_10.mp3",
+        "de-DE": "sturmglocke_im_domturm_10.mp3"
+      },
+      "next": {
+        "da-DK": "0110vestre_landsret_og_sukkenes_bro_1.mp3",
+        "en-GB": "secret_spots_10_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_10_1.mp3"
+      }
+    }
+  }
+]

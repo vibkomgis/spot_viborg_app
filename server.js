@@ -49,8 +49,43 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/public/viborg-domkirke.html') {
-    fs.readFile('public/viborg-domkirke.html', (err, data) => {
+  } else if (req.url === '/data/sevaerdighederData/da-short.json') {
+    fs.readFile('data/sevaerdighederData/da-short.json', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'application/json');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/data/sevaerdighederData/da-long.json') {
+    fs.readFile('data/sevaerdighederData/da-long.json', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'application/json');
+        res.end(data);
+      }
+    });
+  } else if (req.url.startsWith('/public/poiPage.html')) {
+    const id = req.url.split('?id=')[1];
+    fs.readFile('public/poiPage.html', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/html');
+        const modifiedData = data.toString().replace(/id="[^"]*"/g, `id="${id}"`);
+        res.end(modifiedData);
+      }
+    });
+  } else if (req.url === '/public/viborgdomkirke.html') {
+    fs.readFile('public/viborgdomkirke.html', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -71,18 +106,7 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  }  else if (req.url === '/public/viborg-stadion.html') {
-    fs.readFile('public/viborg-stadion.html', (err, data) => {
-      if (err) {
-        res.statusCode = 500;
-        res.end(`Error getting the file: ${err}.`);
-      } else {
-        res.statusCode = 200;
-        res.setHeader('Content-Type', 'text/html');
-        res.end(data);
-      }
-    });
-  } else if (req.url === '/public/about.html') {
+  }  else if (req.url === '/public/about.html') {
     fs.readFile('public/about.html', (err, data) => {
       if (err) {
         res.statusCode = 500;
@@ -115,7 +139,7 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  }  else if (req.url === '/images/viborgdomkirke.png') {
+  }   else if (req.url === '/images/viborgdomkirke.png') {
     fs.readFile('images/viborgdomkirke.png', (err, data) => {
       if (err) {
         res.statusCode = 500;

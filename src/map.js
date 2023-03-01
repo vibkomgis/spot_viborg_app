@@ -94,7 +94,7 @@ fetch('/data/sevaerdighederData/da-short.json')
               console.log(linkToPage)
               // Create a marker on the map for each POI
               L.marker([poi.location.lat, poi.location.lng]).addTo(mymap)
-              .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='poiPage.html?id=" + encodeURIComponent(linkToPage) +"'>Hør mere her</a>");
+              .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='/public/poiPage.html?id=" + encodeURIComponent(linkToPage) +"'>Hør mere her</a>");
 
                
               

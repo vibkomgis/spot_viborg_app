@@ -72,7 +72,6 @@ const server = http.createServer((req, res) => {
       }
     });
   } else if (req.url.startsWith('/public/poiPage.html')) {
-    const id = req.url.split('?id=')[1];
     fs.readFile('public/poiPage.html', (err, data) => {
       if (err) {
         res.statusCode = 500;
@@ -80,8 +79,7 @@ const server = http.createServer((req, res) => {
       } else {
         res.statusCode = 200;
         res.setHeader('Content-Type', 'text/html');
-        const modifiedData = data.toString().replace(/id="[^"]*"/g, `id="${id}"`);
-        res.end(modifiedData);
+        res.end(data);
       }
     });
   } else if (req.url === '/public/viborgdomkirke.html') {

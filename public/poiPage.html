@@ -18,19 +18,20 @@
       <h2>sctkjeldskirke</h2>
       <p>Description of sctkjeldskirke...</p>
     </div>
-
-    <script>
-      // Get the ID parameter from the URL
-      const urlParams = new URLSearchParams(window.location.search);
-      const id = urlParams.get('id');
+  
     
-      // Show the corresponding HTML element based on the ID parameter
-      const poiElement = document.getElementById(id);
-      if (poiElement) {
-        poiElement.style.display = 'block';
-      }
-    </script>
-    <script type="module" src="/src/map.js"></script>
+  <script>
+    // Get the ID parameter from the URL
+    const urlParams = new URLSearchParams(window.location.search);
+    const id = urlParams.get('id');
+  
+    // Show the corresponding HTML element based on the ID parameter
+    const poiElement = document.getElementById(id);
+    if (poiElement) {
+      poiElement.style.display = 'block';
+    }
+  </script>
+  <script type="module" src="/src/map.js"></script>
 
   </body>
 </html>

@@ -9,16 +9,14 @@
   </head>
   <body>
 
-    <div id="bispegaarden" class="poi">
-      <h2>Bispegården</h2>
-      <p>Description of Bispegården...</p>
-    </div>
+    <div class="box">
+      <img class=”header” src=”${value[21].image}”>
+      <h1 class="title">${value[21].title}</h1>
+      <p class="description">${value[21].description}</p>
+      <audio controls><source src="${value[21].audio}" type="audio/mpeg"></audio>
+</div>
 
-    <div id="sctkjeldskirke" class="poi">
-      <h2>sctkjeldskirke</h2>
-      <p>Description of sctkjeldskirke...</p>
-    </div>
-  
+
     
   <script>
     // Get the ID parameter from the URL
@@ -31,7 +29,10 @@
       poiElement.style.display = 'block';
     }
   </script>
+
+
   <script type="module" src="/src/map.js"></script>
+  <script src="/src/fetchSevaerdigheder.js"></script>
 
   </body>
 </html>

@@ -27,6 +27,17 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
+  } else if (req.url === '/src/fetchSevaerdigheder.js') {
+    fs.readFile('src/fetchSevaerdigheder.js', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/javascript');
+        res.end(data);
+      }
+    });
   } else if (req.url === '/src/calculateDistance.js') {
     fs.readFile('src/calculateDistance.js', (err, data) => {
       if (err) {

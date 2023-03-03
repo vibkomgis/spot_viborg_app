@@ -35,6 +35,7 @@ fetch('/data/sevaerdighederData/da-short.json')
         // Replace references with the actual translations
         pois.forEach(poi => {
           Object.keys(poi).forEach(key => {
+            const longDescription = pois.find(item => item.text === poi.text);
             const value = poi[key];
             if (typeof value === 'string' && value.startsWith('POI_')) {
               poi[key] = translations[value];
@@ -49,6 +50,7 @@ fetch('/data/sevaerdighederData/da-short.json')
           });
         });
         console.log(pois);
+        
         // Now the pois array contains the actual translations
 
         // Open a connection to your IndexedDB database
@@ -66,6 +68,7 @@ fetch('/data/sevaerdighederData/da-short.json')
           objectStore.createIndex('lng', 'lng', { unique: false });
           objectStore.createIndex('title', 'title', { unique: false });
           objectStore.createIndex('shortdescription', 'shortdescription', { unique: false });
+          objectStore.createIndex('text', 'text', { unique: false });
           // Add data to the object store
           pois.forEach(obj => objectStore.add(obj));
         };
@@ -92,6 +95,8 @@ fetch('/data/sevaerdighederData/da-short.json')
               .replace(/ø/g, 'oe')
               ;
               console.log(linkToPage)
+              console.log(poi.text)
+             
               // Create a marker on the map for each POI
               L.marker([poi.location.lat, poi.location.lng]).addTo(mymap)
               .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='/public/poiPage.html?id=" + encodeURIComponent(linkToPage) +"'>Hør mere her</a>");

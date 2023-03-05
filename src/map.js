@@ -63,7 +63,7 @@ fetch('/data/sevaerdighederData/da-short.json')
           const objectStore = db.createObjectStore('Sevaerdigheder', { keyPath: 'id' });
 
           // Define the structure of the data to be stored
-
+          objectStore.createIndex('id', 'id', { unique: false });
           objectStore.createIndex('lat', 'lat', { unique: false });
           objectStore.createIndex('lng', 'lng', { unique: false });
           objectStore.createIndex('title', 'title', { unique: false });
@@ -96,10 +96,11 @@ fetch('/data/sevaerdighederData/da-short.json')
               ;
               console.log(linkToPage)
               console.log(poi.text)
-             
+              console.log(poi.id)
               // Create a marker on the map for each POI
               L.marker([poi.location.lat, poi.location.lng]).addTo(mymap)
-              .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='/public/poiPage.html?id=" + encodeURIComponent(linkToPage) +"'>Hør mere her</a>");
+              .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='/public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>");
+
 
                
               

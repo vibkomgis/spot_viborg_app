@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <meta charset="utf-8">
     <title>Seværdigheder</title>
-    <link rel="stylesheet" href="/styles/global.css">
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="/styles/places.css">
   </head>
   <body>
-
-    <div class="box">
-      <img class=”header” src=”${value[21].image}”>
-      <h1 class="title">${value[21].title}</h1>
-      <p class="description">${value[21].description}</p>
-      <audio controls><source src="${value[21].audio}" type="audio/mpeg"></audio>
-</div>
-
-
+  <div id="id"></div>
+  <div class="box">
     
-  <script>
-    // Get the ID parameter from the URL
-    const urlParams = new URLSearchParams(window.location.search);
-    const id = urlParams.get('id');
-  
-    // Show the corresponding HTML element based on the ID parameter
-    const poiElement = document.getElementById(id);
-    if (poiElement) {
-      poiElement.style.display = 'block';
-    }
-  </script>
+   
 
+      <!--<img class="header" src="/images/pois/27.jpg">-->
+      <h1 class="title">${title}</h1>
+      <p class="description">${text}</p>
+      <audio controls><source src="${value[21].audio}" type="audio/mpeg"></audio>
+    </div>
 
-  <script type="module" src="/src/map.js"></script>
-  <script src="/src/fetchSevaerdigheder.js"></script>
+    <script>
+      const params = new URLSearchParams(window.location.search);
+      const id = params.get('id');
+      const title = params.get('title');
+      const text = params.get('text');
+      console.log(id);
+      console.log(title);
+      console.log(text)
+      // Update the title element with the title parameter value
+      const titleElement = document.querySelector('.title');
+      titleElement.textContent = title;
+      const textElement = document.querySelector('.description');
+      textElement.textContent = text;
+      document.getElementById('id').innerHTML = '<img src="/images/pois/' + id + '.jpg" id="id"/>';
 
+    </script>
+    <script type="module" src="/src/map.js"></script>
   </body>
 </html>

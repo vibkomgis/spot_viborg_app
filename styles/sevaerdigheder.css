@@ -1,6 +1,22 @@
 body {
     margin: 0;
-    padding: 0;
+    
     height: 100vh;
-    overflow: hidden;
+    overflow: auto;
+  }
+
+  #sevaerdighederImg {
+    max-width: 100%;
+    margin-top: 20px;
+    height: auto;
+  }
+
+
+  .sevaerdighederTitle {
+    padding: 10px;
+  }
+
+  .sevaerdighederDescription {
+    font-size: 18px;
+    padding: 10px;
   }

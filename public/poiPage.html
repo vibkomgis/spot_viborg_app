@@ -1,37 +1,58 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="/styles/sevaerdigheder.css">
+    <link rel="stylesheet" href="/styles/global.css">
     <title>Seværdigheder</title>
   </head>
   <body>
-  <div id="id"></div>
-  <div class="box">
-    
-   
-
-      <!--<img class="header" src="/images/pois/27.jpg">-->
-      <h1 class="title">${title}</h1>
-      <p class="description">${text}</p>
-      <audio controls><source src="${value[21].audio}" type="audio/mpeg"></audio>
+    <nav>
+      <button id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
+      <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="/public/index.html">Start</a>
+        <a href="/public/ruteOversigt.html">Ruter</a>
+        <a href="/public/sevaerdigheder.html">Seværdigheder</a>
+        <a href="/public/about.html">Om appen</a>
+      </div>
+      <span id="steder">Steder og faciliteter</span>
+    </nav>
+    <button onclick="goBack()">Go Back</button>
+    <div id="sevaerdighederImg"></div>
+    <div id="sevaerdighederAudio"></div>
+    <div class="box">
+      <h1 class="sevaerdighederTitle">${title}</h1>
+      <p class="sevaerdighederDescription">${text}</p>
     </div>
-
+    
     <script>
       const params = new URLSearchParams(window.location.search);
       const id = params.get('id');
       const title = params.get('title');
-      const text = params.get('text');
+      let text = params.get('text');
+      if (text && typeof text === 'string') {
+        text = text.replace(/<\/?p>/gi, ' ');
+      }
+
       console.log(id);
       console.log(title);
       console.log(text)
-      // Update the title element with the title parameter value
-      const titleElement = document.querySelector('.title');
-      titleElement.textContent = title;
-      const textElement = document.querySelector('.description');
-      textElement.textContent = text;
-      document.getElementById('id').innerHTML = '<img src="/images/pois/' + id + '.jpg" id="id"/>';
 
+
+      // Update the title element with the title parameter value
+      const titleElement = document.querySelector('.sevaerdighederTitle');
+      titleElement.textContent = title;
+      const textElement = document.querySelector('.sevaerdighederDescription');
+      textElement.textContent = text;
+      document.getElementById('sevaerdighederImg').innerHTML = '<img src="/images/pois/' + id + '.jpg" id="sevaerdighederImg"/>';
+      document.getElementById('sevaerdighederAudio').innerHTML = '<audio controls><source src="/data/sevaerdighederData/audio/da-DK/' + id + '.mp3" id="sevaerdighederAudio"/></audio>';
+
+      
     </script>
     <script type="module" src="/src/map.js"></script>
+    <script src="/src/goBack.js"></script>
+    <script src="/src/navigation.js"></script>
   </body>
 </html>

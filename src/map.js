@@ -49,7 +49,9 @@ fetch('/data/sevaerdighederData/da-short.json')
             }
           });
         });
-        console.log(pois);
+        
+       
+      
         
         // Now the pois array contains the actual translations
 
@@ -86,6 +88,7 @@ fetch('/data/sevaerdighederData/da-short.json')
           
 
             pois.forEach(poi => {
+              poi.text = poi.text.replace(/'/g, '');
               const linkToPage = poi.title.toLowerCase()
               .replace(/\.+/g, '')
               .replace(/\s+/g, '')
@@ -94,14 +97,12 @@ fetch('/data/sevaerdighederData/da-short.json')
               .replace(/æ/g, 'ae')
               .replace(/ø/g, 'oe')
               ;
-              console.log(linkToPage)
-              console.log(poi.text)
-              console.log(poi.id)
+
               // Create a marker on the map for each POI
               L.marker([poi.location.lat, poi.location.lng]).addTo(mymap)
               .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='/public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>");
 
-
+              console.log(poi.text)
                
               
 

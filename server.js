@@ -27,6 +27,17 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
+  } else if (req.url === '/src/goBack.js') {
+    fs.readFile('src/goBack.js', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'text/javascript');
+        res.end(data);
+      }
+    });
   } else if (req.url === '/src/fetchSevaerdigheder.js') {
     fs.readFile('src/fetchSevaerdigheder.js', (err, data) => {
       if (err) {
@@ -236,18 +247,7 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/images/pois/9.jpg') {
-    fs.readFile('images/pois/9.jpg', (err, data) => {
-      if (err) {
-        res.statusCode = 500;
-        res.end(`Error getting the file: ${err}.`);
-      } else {
-        res.statusCode = 200;
-        res.setHeader('Content-Type', 'image/jpg');
-        res.end(data);
-      }
-    });
-  } else if (req.url.startsWith('/images/pois/')) {
+  }  else if (req.url.startsWith('/images/pois/')) {
     const fileName = req.url.split('/').pop(); // extract the file name from the URL
     if (fileName.match(/^\d+\.jpg$/)) { // make sure the file name matches the pattern
       fs.readFile(`images/pois/${fileName}`, (err, data) => {
@@ -264,7 +264,24 @@ const server = http.createServer((req, res) => {
       res.statusCode = 400; // bad request
       res.end('Invalid file name.');
     }
-  } else if (req.url === '/styles/global.css') {
+  } else if (req.url.startsWith('/data/sevaerdighederData/audio/da-DK/')) {
+    const fileName = req.url.split('/').pop(); // extract the file name from the URL
+    if (fileName.match(/^\d+\.mp3$/)) { // make sure the file name matches the pattern
+      fs.readFile(`data/sevaerdighederData/audio/da-DK/${fileName}`, (err, data) => {
+        if (err) {
+          res.statusCode = 500;
+          res.end(`Error getting the file: ${err}.`);
+        } else {
+          res.statusCode = 200;
+          res.setHeader('Content-Type', 'audio/mpeg');
+          res.end(data);
+        }
+      });
+    } else {
+      res.statusCode = 400; // bad request
+      res.end('Invalid file name.');
+    }
+  }else if (req.url === '/styles/global.css') {
     fs.readFile('styles/global.css', (err, data) => {
       if (err) {
         res.statusCode = 500;

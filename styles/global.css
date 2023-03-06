@@ -28,7 +28,7 @@
 #steder {
   position: fixed;
   overflow: hidden;
-  background-color: rgb(65, 177, 141);
+  background-color: rgb(108, 190, 157);
   text-align: left;
   top: 0; 
   width: 100%; 
@@ -159,7 +159,7 @@
   margin-top: 50px;
   max-width: 100%;
   height: auto;
-  
+ 
 }
 
 
@@ -218,3 +218,4 @@
 .poi {
   display: none;
 }
+

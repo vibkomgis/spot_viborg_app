@@ -6,7 +6,6 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="/styles/global.css">
         <link rel="stylesheet" href="/styles/rute.css">
-      
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <base href=".">
         <title>Ruter</title>
@@ -22,12 +21,13 @@
           <a href="/public/about.html">Om appen</a>
         </div>
         <span id="steder">Ruter</span>
+        <button id="goBack" onclick="goBack()">Go Back</button>
       </nav>
     <ul id="ruteOversigt">
         <li>
                 <img src="/images/kirkebanner.png" alt="Kirke oversigt">
                 <div class="image-text">Kirker</div>
-                <div class="description">Rute der tager dig forbi kirker i Viborg</div>
+                <div class="description">Viborg Domkirke er kun én blandt mange kirker og kirkelige seværdigheder i Viborg. På Kirkeruten bliver du guidet til 10 seværdige steder. Bl.a. Sortebrødre Kirke, Domprovstegården og Sct. Mogens Kirke. Gåruten tager ca. 45 min.</div>
             
             <div class="dropdown-content">
               
@@ -53,7 +53,7 @@
            
                 <img src="/images/monumentbanner.png" alt="Monumenter oversigt">
                 <div class="image-text">Monumenter</div>
-                <div class="description">Rute der tager dig forbi monumenter i Viborg</div>
+                <div class="description">Viborg har mange oplevelser for kunst- og kulturinteresserede. På kunstruten bliver du guidet til 10 seværdigheder, der bl.a. spænder fra Mindetavlen for Fugle-Mortensen, Bjørn Nørgaards monument for Hans Tausen og Domkirkeporten. Gåruten tager ca. 35 min.</div>
                 <div class="dropdown-content">
               
                   <h2>Seværdigheder på ruten</h2>
@@ -78,7 +78,7 @@
            
                 <img src="/images/hemmeligebanner.png" alt="Hemmelige steder oversigt">
                 <div class="image-text">Hemmelige steder</div>
-                <div class="description">Rute der tager dig til hemmelige steder i Viborg</div>
+                <div class="description">Har du lyst til at dykke ned i de mange hemmelige fortællinger fra Viborg, er denne rute noget for dig. Vi guider dig til 10 af de bedste hemmelige historier. Du kan bl.a. høre om Sukkenes Bro, Værtshuset Paradiset og historien om ‘Billen er dum’. Gåruten tager ca. 40 min.</div>
                 <div class="dropdown-content">
               
                   <h2>Seværdigheder på ruten</h2>
@@ -103,11 +103,7 @@
 
     <script src="/src/navigation.js"></script>
     <script src="/src/calculateDistance.js"></script>
-    <script>
-        function goBack() {
-          window.history.back();
-        }
-      </script>
+    <script src="/src/goBack.js"></script>
     <script>
       // Get all the list items in the ruteOversigt list
       var routeItems = document.querySelectorAll('#ruteOversigt li');

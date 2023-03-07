@@ -23,6 +23,7 @@
         <a href="/public/about.html">Om appen</a>
       </div>
       <span id="steder">Kirkerute</span>
+      <button id="goBack" onclick="goBack()">Go Back</button>
     </nav>
     <div class="container">
       <div class="container">
@@ -33,10 +34,12 @@
         </div>
       </div>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet-gpx/1.7.0/gpx.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js"></script>
     <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
     <script src="/src/navigation.js"></script>
     <script type="module" src="/src/ruteKirker.js"></script>
     <script src="/src/calculateDistance.js"></script>
+    <script src="/src/goBack.js"></script>
   </body>
 </html>

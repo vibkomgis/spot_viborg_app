@@ -93,7 +93,18 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url.startsWith('/public/poiPage.html')) {
+  } else if (req.url === '/data/ruteData/da-kirke-rute.json') {
+    fs.readFile('data/ruteData/da-kirke-rute.json', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'application/json');
+        res.end(data);
+      }
+    });
+  }else if (req.url.startsWith('/public/poiPage.html')) {
     fs.readFile('public/poiPage.html', (err, data) => {
       if (err) {
         res.statusCode = 500;
@@ -247,7 +258,29 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  }  else if (req.url.startsWith('/images/pois/')) {
+  } else if (req.url === '/icons/steder.svg') {
+    fs.readFile('icons/steder.svg', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'image/svg+xml');
+        res.end(data);
+      }
+    });
+  }else if (req.url === '/icons/rute.svg') {
+    fs.readFile('icons/rute.svg', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'image/svg+xml');
+        res.end(data);
+      }
+    });
+  } else if (req.url.startsWith('/images/pois/')) {
     const fileName = req.url.split('/').pop(); // extract the file name from the URL
     if (fileName.match(/^\d+\.jpg$/)) { // make sure the file name matches the pattern
       fs.readFile(`images/pois/${fileName}`, (err, data) => {
@@ -336,7 +369,18 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  }else if (req.url === '/sang.mp3') {
+  } else if (req.url === '/data/ruteData/gpx/domkirkens_bagside.gpx') {
+    fs.readFile('data/ruteData/gpx/domkirkens_bagside.gpx', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'application/gpx+xml');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/sang.mp3') {
     fs.readFile('sang.mp3', (err, data) => {
       if (err) {
         res.statusCode = 500;

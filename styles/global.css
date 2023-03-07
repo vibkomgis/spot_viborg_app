@@ -1,5 +1,19 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
 
+
+#buttonToSevaerdigheder {
+  width: 150px;
+  margin: 0 10px;
+  margin-right: 10px;
+
+}
+#buttonToRute {
+  width: 150px;
+  margin: 0 10px;
+  
+}
+
+
 /* Laver scrolling på container (kort) */
 .container {
   position: relative;
@@ -39,7 +53,17 @@
   z-index: 1800;
   display: flex;
   align-items: center;
+  justify-content: center; /* add this line to center the text */
   font-weight: bold;
+}
+
+#goBack {
+  position: fixed;
+  overflow: hidden;
+  text-align: left;
+  justify-content: left; 
+  top: 2%;
+  z-index: 1800;
 }
 
 
@@ -52,6 +76,7 @@
   z-index: 1900;
   display: inline-block;
 }
+
 
 
 #listButton {

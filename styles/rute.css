@@ -24,7 +24,7 @@ body {
 }
 
 #ruteOversigt li .description {
-  text-align: center;
+  text-align: left;
   font-size: 14px;
   padding-top: 10px;
   color: white;
@@ -74,7 +74,7 @@ body {
 .dropdown-content {
   display: none;
   position: relative;
-  z-index: 9999;
+  
   animation: fadeIn 0.3s ease-in-out;
   width: 100%;
   background-color: aliceblue;

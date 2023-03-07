@@ -13,15 +13,22 @@ var lc = L.control.locate({locateOptions: {enableHighAccuracy: true}}).addTo(mym
 lc.start();
 
 
+mymap.on('locationfound',(e)=>{
+	console.log(e.latlng);
+})
+
+
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
 }).addTo(mymap);
 
+let currentLocation = lc._event;
+console.log(currentLocation)
 
-  
-  const dbName = "myDatabase";
-  const dbVersion = 1; // Opdatér dbVersion for at tilføje ny data. Således skal brugeren ikke slette deres browser cache. 
+
+const dbName = "myDatabase";
+const dbVersion = 1; // Opdatér dbVersion for at tilføje ny data. Således skal brugeren ikke slette deres browser cache. 
 
 
 // Fetch the JSON data
@@ -102,7 +109,7 @@ fetch('/data/sevaerdighederData/da-short.json')
               L.marker([poi.location.lat, poi.location.lng]).addTo(mymap)
               .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='/public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>");
 
-              console.log(poi.text)
+              
                
               
 

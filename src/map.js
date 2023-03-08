@@ -13,18 +13,39 @@ var lc = L.control.locate({locateOptions: {enableHighAccuracy: true}}).addTo(mym
 lc.start();
 
 
-mymap.on('locationfound',(e)=>{
-	console.log(e.latlng);
-})
-
+mymap.on('locationfound', (e) => {
+  console.log(e.latlng);
+  let posLat = e.latlng.lat;
+  let posLng = e.latlng.lng;
+  console.log(posLat)
+  console.log(posLng)
+  L.Routing.control({
+    waypoints: [
+      L.latLng(posLat, posLng),
+      L.latLng(56.45055, 9.41213),
+    ],
+    createMarker: function(i, waypoint, n) {
+      return null;
+    },
+    routeWhileDragging: true,
+    geocoder: false,
+    showAlternatives: false,
+    show: true,
+    draggableWaypoints: false
+  })
+  .on('routesfound', function(e) {
+    var routes = e.routes;
+    var summary = routes[0].summary;
+    console.log("Distance: " + summary.totalDistance + " meters");
+  })
+  .addTo(mymap); 
+});
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
 }).addTo(mymap);
 
-let currentLocation = lc._event;
-console.log(currentLocation)
 
 
 const dbName = "myDatabase";
@@ -63,7 +84,7 @@ fetch('/data/sevaerdighederData/da-short.json')
         // Now the pois array contains the actual translations
 
         // Open a connection to your IndexedDB database
-        const openRequest = indexedDB.open('myDatabase', 1);
+        const openRequest = indexedDB.open(dbName, dbVersion);
 
         openRequest.onupgradeneeded = function(event) {
           const db = event.target.result;
@@ -108,6 +129,8 @@ fetch('/data/sevaerdighederData/da-short.json')
               // Create a marker on the map for each POI
               L.marker([poi.location.lat, poi.location.lng]).addTo(mymap)
               .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='/public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>");
+
+              
 
               
                

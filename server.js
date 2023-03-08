@@ -280,7 +280,40 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url.startsWith('/images/pois/')) {
+  } else if (req.url === '/icons/icon_poi_art.svg') {
+    fs.readFile('icons/icon_poi_art.svg', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'image/svg+xml');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/icons/icon_poi_church.svg') {
+    fs.readFile('icons/icon_poi_church.svg', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'image/svg+xml');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/icons/icon_poi_hidden_places.svg') {
+    fs.readFile('icons/icon_poi_hidden_places.svg', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'image/svg+xml');
+        res.end(data);
+      }
+    });
+  }else if (req.url.startsWith('/images/pois/')) {
     const fileName = req.url.split('/').pop(); // extract the file name from the URL
     if (fileName.match(/^\d+\.jpg$/)) { // make sure the file name matches the pattern
       fs.readFile(`images/pois/${fileName}`, (err, data) => {

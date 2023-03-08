@@ -12,7 +12,7 @@ const bounds = L.latLngBounds(southWest, northEast);
 var lc = L.control.locate({locateOptions: {enableHighAccuracy: true}}).addTo(mymap);
 lc.start();
 
-
+/*
 mymap.on('locationfound', (e) => {
   console.log(e.latlng);
   let posLat = e.latlng.lat;
@@ -40,6 +40,7 @@ mymap.on('locationfound', (e) => {
   })
   .addTo(mymap); 
 });
+*/
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
@@ -52,6 +53,10 @@ const dbName = "myDatabase";
 const dbVersion = 1; // Opdatér dbVersion for at tilføje ny data. Således skal brugeren ikke slette deres browser cache. 
 
 
+
+// Declare posLat and posLng variables in a higher scope
+let posLat, posLng;
+let routingControl;
 // Fetch the JSON data
 fetch('/data/sevaerdighederData/da-short.json')
   .then(response => response.json())
@@ -78,12 +83,12 @@ fetch('/data/sevaerdighederData/da-short.json')
           });
         });
         
-       
-      
-        
-        // Now the pois array contains the actual translations
+        mymap.on('locationfound', (e) => {
+          console.log(e.latlng);
+          posLat = e.latlng.lat;
+          posLng = e.latlng.lng;
+        })
 
-        // Open a connection to your IndexedDB database
         const openRequest = indexedDB.open(dbName, dbVersion);
 
         openRequest.onupgradeneeded = function(event) {
@@ -99,6 +104,7 @@ fetch('/data/sevaerdighederData/da-short.json')
           objectStore.createIndex('title', 'title', { unique: false });
           objectStore.createIndex('shortdescription', 'shortdescription', { unique: false });
           objectStore.createIndex('text', 'text', { unique: false });
+          objectStore.createIndex('icon','icon', { unique: false });
           // Add data to the object store
           pois.forEach(obj => objectStore.add(obj));
         };
@@ -112,9 +118,6 @@ fetch('/data/sevaerdighederData/da-short.json')
           const request = objectStore.getAll();
           request.onsuccess = function(event) {
             const pois = event.target.result;
-
-          
-
             pois.forEach(poi => {
               poi.text = poi.text.replace(/'/g, '');
               const linkToPage = poi.title.toLowerCase()
@@ -126,23 +129,58 @@ fetch('/data/sevaerdighederData/da-short.json')
               .replace(/ø/g, 'oe')
               ;
 
-              // Create a marker on the map for each POI
-              L.marker([poi.location.lat, poi.location.lng]).addTo(mymap)
-              .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='/public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>");
+              // Create a new icon
+              let myIcon = L.icon({
+                iconUrl: '/icons/icon_poi_art.svg',
+                iconSize: [38, 38],
+                popupAnchor: [0, -15]
+              });
+              console.log(poi.icon.normal)
+              // Create the marker with the new icon
+              let marker = L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mymap)
+                          .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='/public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>");
 
-              
+              // Add click event listener to the marker
+              marker.on('click', function(e) {
+                // Remove the routing control if it already exists
+                if (routingControl) {
+                  mymap.removeControl(routingControl);
+                }
 
-              
-               
-              
 
+                // Create a routing control with the GPS user's location and the clicked marker as waypoints
+                routingControl = L.Routing.control({
+                  waypoints: [
+                    L.latLng(posLat, posLng),
+                    L.latLng(poi.location.lat, poi.location.lng),
+                  ],
+                  createMarker: function(i, waypoint, n) {
+                    return null;
+                  },
+                  routeWhileDragging: true,
+                  geocoder: false,
+                  showAlternatives: false,
+                  show: true,
+                  draggableWaypoints: false,
+                })
+                .on('routesfound', function(e) {
+                  let routes = e.routes;
+                  let summary = routes[0].summary;
+                  console.log("Distance: " + summary.totalDistance + " meters");
+                })
+                .addTo(mymap);
+              });
             });
-          };
-        };
+
+            // Add a click event listener to the map to remove the routing control when a new waypoint is clicked
+            mymap.on('click', (e) => {
+              if (routingControl) {
+                mymap.removeControl(routingControl);
+        }
       });
-  });
-
-
+    };
+  }});
+})
 
 
 const mapButton = document.getElementById('mapButton');

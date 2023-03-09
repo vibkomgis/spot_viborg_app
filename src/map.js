@@ -12,36 +12,6 @@ const bounds = L.latLngBounds(southWest, northEast);
 var lc = L.control.locate({locateOptions: {enableHighAccuracy: true}}).addTo(mymap);
 lc.start();
 
-/*
-mymap.on('locationfound', (e) => {
-  console.log(e.latlng);
-  let posLat = e.latlng.lat;
-  let posLng = e.latlng.lng;
-  console.log(posLat)
-  console.log(posLng)
-  L.Routing.control({
-    waypoints: [
-      L.latLng(posLat, posLng),
-      L.latLng(56.45055, 9.41213),
-    ],
-    createMarker: function(i, waypoint, n) {
-      return null;
-    },
-    routeWhileDragging: true,
-    geocoder: false,
-    showAlternatives: false,
-    show: true,
-    draggableWaypoints: false
-  })
-  .on('routesfound', function(e) {
-    var routes = e.routes;
-    var summary = routes[0].summary;
-    console.log("Distance: " + summary.totalDistance + " meters");
-  })
-  .addTo(mymap); 
-});
-*/
-
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
@@ -51,7 +21,6 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 const dbName = "myDatabase";
 const dbVersion = 1; // Opdatér dbVersion for at tilføje ny data. Således skal brugeren ikke slette deres browser cache. 
-
 
 
 // Declare posLat and posLng variables in a higher scope
@@ -131,14 +100,16 @@ fetch('/data/sevaerdighederData/da-short.json')
 
               // Create a new icon
               let myIcon = L.icon({
-                iconUrl: '/icons/icon_poi_art.svg',
+                iconUrl: '/' + poi.icon.normal,
                 iconSize: [38, 38],
                 popupAnchor: [0, -15]
               });
               console.log(poi.icon.normal)
               // Create the marker with the new icon
               let marker = L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mymap)
-                          .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='/public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>");
+                          .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='/public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>" + "<br/>");
+
+                          
 
               // Add click event listener to the marker
               marker.on('click', function(e) {
@@ -147,7 +118,7 @@ fetch('/data/sevaerdighederData/da-short.json')
                   mymap.removeControl(routingControl);
                 }
 
-
+                
                 // Create a routing control with the GPS user's location and the clicked marker as waypoints
                 routingControl = L.Routing.control({
                   waypoints: [
@@ -167,8 +138,19 @@ fetch('/data/sevaerdighederData/da-short.json')
                   let routes = e.routes;
                   let summary = routes[0].summary;
                   console.log("Distance: " + summary.totalDistance + " meters");
+                  marker.bindPopup("<b>" + poi.title + "</b><br />" +
+                  poi.shortdescription + "<br/>" +
+                  "<a href='/public/poiPage.html?id=" + encodeURIComponent(poi.id) +
+                  "&title=" + encodeURIComponent(poi.title) +
+                  "&text=" + encodeURIComponent(poi.text) +
+                  "'>Hør mere her</a><br/><br/>" +
+                  "<b>Afstand væk: " + (summary.totalDistance / 1000).toFixed(2) + " km</b>"
+                );
+            
+            
                 })
                 .addTo(mymap);
+                
               });
             });
 
@@ -178,6 +160,7 @@ fetch('/data/sevaerdighederData/da-short.json')
                 mymap.removeControl(routingControl);
         }
       });
+
     };
   }});
 })

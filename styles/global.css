@@ -57,14 +57,6 @@
   font-weight: bold;
 }
 
-#goBack {
-  position: fixed;
-  overflow: hidden;
-  text-align: left;
-  justify-content: left; 
-  top: 2%;
-  z-index: 1800;
-}
 
 
 #mapButton {
@@ -251,3 +243,26 @@
 .leaflet-routing-container .leaflet-routing-alternatives-container {
   display: none !important;
 }
+
+#goBack {
+  position: fixed;
+  overflow: hidden;
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  cursor: pointer;
+  position: relative;
+}
+
+#goBack::before {
+  position: fixed;
+  overflow: hidden;
+  content: '\2190';
+  left: 0;
+  z-index: 2000;
+  color: white; /* Change arrow color to white */
+  font-size: 40px; /* Increase arrow font size */
+  font-weight: bold; /* Make the arrow thicker */
+  top: 1%;
+}
+

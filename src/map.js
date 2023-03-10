@@ -1,21 +1,37 @@
-
-// Start map
-var mymap = L.map('map').setView([56.4534, 9.4029], 13);
-
-// Set the bounds of Viborg, Denmark
 const southWest = L.latLng(56.4394, 9.3444);
 const northEast = L.latLng(56.4714, 9.4502);
 const bounds = L.latLngBounds(southWest, northEast);
 
+var mymap = L.map('map', {
+  // maxBounds: bounds,
+  // maxBoundsViscosity: 1.0,
+  // minZoom: 13, // set minZoom to the same value as the initial zoom
+  // maxZoom: 60 // set maxZoom to the same value as the initial zoom
+}).setView([56.4534, 9.4029], 13);
 
-// Start GPS
-var lc = L.control.locate({locateOptions: {enableHighAccuracy: true}}).addTo(mymap);
-lc.start();
+
+
+//const dftoken = '3ebc3a63849a43b46feb8203ab25f83c';
+// const myAttributionText = '&copy; <a target="_blank" href="https://dataforsyningen.dk/Vilkaar">Styrelsen for Dataforsyning og Infrastruktur</a>';
+// const toposkaermkortwmts = L.tileLayer('https://api.dataforsyningen.dk/topo_skaermkort_wmts_DAF?service=WMTS&request=GetTile&version=1.3.0&Layer=topo_skaermkort&style=default&format=image/png&TileMatrixSet=View1&TileMatrix={zoom}&TileRow={y}&TileCol={x}&token=' + dftoken, {
+//   minZoom: 0,
+//   maxZoom: 13,
+//   attribution: myAttributionText,
+//   crossOrigin: true,
+//   zoom: function (data) {
+//     return data.z;
+//   }
+// }).addTo(mymap);
 
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
 }).addTo(mymap);
+
+// Start GPS
+var lc = L.control.locate({locateOptions: {enableHighAccuracy: true}}).addTo(mymap);
+lc.start();
+
 
 
 
@@ -82,6 +98,9 @@ fetch('/data/sevaerdighederData/da-short.json')
           const db = event.target.result;
           const transaction = db.transaction('Sevaerdigheder', 'readonly');
           const objectStore = transaction.objectStore('Sevaerdigheder');
+
+
+          
 
           // Retrieve data from the object store
           const request = objectStore.getAll();
@@ -164,6 +183,7 @@ fetch('/data/sevaerdighederData/da-short.json')
     };
   }});
 })
+
 
 
 const mapButton = document.getElementById('mapButton');

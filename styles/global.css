@@ -1,17 +1,29 @@
 @import url("https://fonts.googleapis.com/css?family=Nunito:400,700&display=swap");
 
-
 #buttonToSevaerdigheder {
-  width: 150px;
-  margin: 0 10px;
-  margin-right: 10px;
+  width: 120px;
+  margin: 20px 35px 0 40px; /* added margin-top value of 20px */
+  border: none;
+  background-color: white;
+}
 
-}
 #buttonToRute {
-  width: 150px;
-  margin: 0 10px;
-  
+  width: 120px;
+  margin: 20px 20px 0 20px; /* added margin-top value of 20px */
+  border: none;
+  background-color: white;
 }
+
+#buttonToRute img {
+  width: 85px;
+  height: 85px;
+}
+
+#buttonToSevaerdigheder img {
+  width: 85px;
+  height: 85px;
+}
+
 
 
 /* Laver scrolling på container (kort) */
@@ -24,8 +36,8 @@
 
 #map {
   position: relative;
-  height: 95vh;
-  margin-top: 15%;
+  height: 620px;
+  margin-top: 32px;
 }
 
 #map footer {
@@ -46,7 +58,7 @@
   text-align: left;
   top: 0; 
   width: 100%; 
-  height: 7.5%;
+  height: 50px;
   position: fixed;
   left: 0;
   right: 0;
@@ -128,7 +140,7 @@
   border: none;
   position: fixed;
   z-index: 2000;
-  height: 7.5%;
+  height: 50px;
   top: 0;
 }
 
@@ -170,15 +182,23 @@
   margin-left: 50px;
 }
 
-
-
-#homepageImg {
-  margin-top: 50px;
-  max-width: 100%;
-  height: auto;
- 
+body {
+  margin: 0;
+  padding: 0;
 }
 
+#homepageImg {
+  box-sizing: border-box;
+  margin-top: 32px;
+  width: 100%;
+  height: auto;
+}
+
+.container {
+  position: relative;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 /* ruteKirker-html */
 
@@ -243,26 +263,30 @@
 .leaflet-routing-container .leaflet-routing-alternatives-container {
   display: none !important;
 }
-
 #goBack {
   position: fixed;
-  overflow: hidden;
+
   background-color: transparent;
   border: none;
   font-size: 20px;
   cursor: pointer;
   position: relative;
+  text-align: left; /* center the text */
 }
 
 #goBack::before {
   position: fixed;
-  overflow: hidden;
-  content: '\2190';
-  left: 0;
+
+  content: '\279D';
+  left: 10px;
   z-index: 2000;
   color: white; /* Change arrow color to white */
   font-size: 40px; /* Increase arrow font size */
   font-weight: bold; /* Make the arrow thicker */
-  top: 1%;
+  
+  transform: rotate(180deg); /* Rotate arrow 180 degrees */
+  display: inline-block; /* add this line to center the arrow */
+  text-align: left; /* add this line to center the arrow */
 }
+
 

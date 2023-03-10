@@ -181,6 +181,17 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
+  } else if (req.url === '/images/intro.jpg') {
+    fs.readFile('images/intro.jpg', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'image/jpg');
+        res.end(data);
+      }
+    });
   } else if (req.url === '/images/viborgHomepage.png') {
     fs.readFile('images/viborgHomepage.png', (err, data) => {
       if (err) {
@@ -410,17 +421,6 @@ const server = http.createServer((req, res) => {
       } else {
         res.statusCode = 200;
         res.setHeader('Content-Type', 'application/gpx+xml');
-        res.end(data);
-      }
-    });
-  } else if (req.url === '/sang.mp3') {
-    fs.readFile('sang.mp3', (err, data) => {
-      if (err) {
-        res.statusCode = 500;
-        res.end(`Error getting the file: ${err}.`);
-      } else {
-        res.statusCode = 200;
-        res.setHeader('Content-Type', 'audio/mpeg');
         res.end(data);
       }
     });

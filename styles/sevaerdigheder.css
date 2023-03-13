@@ -20,5 +20,6 @@ body {
     padding: 10px;
   }
 
-
-  
+audio {
+    width: 100%;
+}

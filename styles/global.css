@@ -323,13 +323,11 @@ div#navigationbuttons {
   display: none !important;
 }
 #goBack {
-  position: fixed;
-
   background-color: transparent;
   border: none;
   font-size: 20px;
   cursor: pointer;
-  position: relative;
+  position: absolute;
   text-align: left; /* center the text */
 }
 

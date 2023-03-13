@@ -3,12 +3,12 @@
 
 #buttonToSevaerdigheder {
   border: none;
-  background-color: none;
+  background: none;
 }
 
 #buttonToRute {
   border: none;
-  background-color: none;
+  background: none;
 }
 
 #buttonToRute img {
@@ -221,7 +221,7 @@ div#content:before {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-image: url(images/intro.jpg);
+  background-image: url(../images/intro.jpg);
   background-size: cover;
   background-position: right;
   content: '';
@@ -230,6 +230,8 @@ div#content:before {
 div#navigationbuttons {
   width: 100%;
   text-align: center;
+  bottom: 200px;
+  position: absolute;
 }
 
 #homepageImg {

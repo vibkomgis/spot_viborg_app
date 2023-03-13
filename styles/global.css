@@ -92,8 +92,6 @@
 .my-list-class {
   list-style: none;
   padding-left: 0;
-  
-  
 }
 
 .my-list-class li {
@@ -165,6 +163,7 @@ div#lang {
   position: absolute;
   padding-left: 32px;
   top: 10px;
+}
 
 div#lang button {
     border: none;

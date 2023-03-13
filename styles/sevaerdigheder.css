@@ -1,8 +1,6 @@
 body {
-    margin: 0;
-    
-    height: 100vh;
-  
+    margin: 0;   
+    height: 100vh;  
   }
 
   #sevaerdighederImg {
@@ -10,13 +8,11 @@ body {
     height: auto;
   }
 
-
   .sevaerdighederTitle {
     padding: 10px;
   }
 
   .sevaerdighederDescription {
-    font-size: 18px;
     padding: 10px;
   }
 

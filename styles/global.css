@@ -7,11 +7,12 @@
 }
 
 #buttonToRute img, #buttonToSevaerdigheder img {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
-    padding: 15px;
-    border: 2px solid #004536;
+    padding: 16px;
+    background-color: #ffffff;
+    border: 2px solid #6cbe9d;
     margin: 20px;
 }
 

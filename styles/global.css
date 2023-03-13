@@ -2,10 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 #buttonToSevaerdigheder {
-  width: 120px;
-  margin: 20px 35px 0 40px; /* added margin-top value of 20px */
   border: none;
-  background-color: white;
+  background-color: none;
 }
 
 #buttonToRute {
@@ -24,6 +22,9 @@
 #buttonToSevaerdigheder img {
   width: 85px;
   height: 85px;
+  border-radius: 50%;
+  background: #ffffff;
+  padding: 20px;
 }
 
 
@@ -220,7 +221,7 @@ div#content:before {
   z-index: -1;
   width: 100%;
   height: 100%;
-  background-image: url(https://picsum.photos/2048/1024);
+  background-image: url(images/intro.jpg);
   background-size: cover;
   background-position: right;
   content: '';

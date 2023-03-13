@@ -206,6 +206,11 @@ p {
   margin: 0;
 }
 
+div#navigationbuttons {
+  width: 100%;
+  text-align: center;
+}
+
 #homepageImg {
   box-sizing: border-box;
   margin-top: 32px;

@@ -223,7 +223,7 @@ div#content:before {
   height: 100%;
   background-image: url(../images/intro.jpg);
   background-size: cover;
-  background-position: right;
+  background-position: center;
   content: '';
 }
 

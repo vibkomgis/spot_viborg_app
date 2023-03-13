@@ -18,13 +18,14 @@
 
 
 /* Laver scrolling på container (kort) */
-.container {
+/*.container {
   position: relative;
 }
+*/
 
 #map {
   position: relative;
-  height: 793px;
+  height: 100%;
   margin-top: 32px;
 }
 

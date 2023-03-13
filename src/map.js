@@ -115,14 +115,14 @@ fetch('data/sevaerdighederData/da-short.json')
 
               // Create a new icon
               let myIcon = L.icon({
-                iconUrl: '/' + poi.icon.normal,
+                iconUrl: poi.icon.normal,
                 iconSize: [38, 38],
                 popupAnchor: [0, -15]
               });
               console.log(poi.icon.normal)
               // Create the marker with the new icon
               let marker = L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mymap)
-                          .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='/public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>" + "<br/>");
+                          .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>" + "<br/>");
 
               
 
@@ -162,7 +162,7 @@ fetch('data/sevaerdighederData/da-short.json')
                   console.log("Distance: " + summary.totalDistance + " meters");
                   marker.bindPopup("<b>" + poi.title + "</b><br />" +
                   poi.shortdescription + "<br/>" +
-                  "<a href='/public/poiPage.html?id=" + encodeURIComponent(poi.id) +
+                  "<a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +
                   "&title=" + encodeURIComponent(poi.title) +
                   "&text=" + encodeURIComponent(poi.text) +
                   "'>Hør mere her</a><br/><br/>" +

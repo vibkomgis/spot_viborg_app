@@ -68,11 +68,7 @@ fetch('/data/sevaerdighederData/da-short.json')
           });
         });
         
-        mymap.on('locationfound', (e) => {
-          console.log(e.latlng);
-          posLat = e.latlng.lat;
-          posLng = e.latlng.lng;
-        })
+
 
         const openRequest = indexedDB.open(dbName, dbVersion);
 
@@ -128,15 +124,22 @@ fetch('/data/sevaerdighederData/da-short.json')
               let marker = L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mymap)
                           .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='/public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>" + "<br/>");
 
-                          
+              
 
+              let routingControl;
+
+              mymap.on('locationfound', (e) => {
+                console.log(e.latlng);
+                posLat = e.latlng.lat;
+                posLng = e.latlng.lng;
+              });
+              
               // Add click event listener to the marker
               marker.on('click', function(e) {
                 // Remove the routing control if it already exists
                 if (routingControl) {
                   mymap.removeControl(routingControl);
                 }
-
                 
                 // Create a routing control with the GPS user's location and the clicked marker as waypoints
                 routingControl = L.Routing.control({
@@ -164,21 +167,18 @@ fetch('/data/sevaerdighederData/da-short.json')
                   "&text=" + encodeURIComponent(poi.text) +
                   "'>Hør mere her</a><br/><br/>" +
                   "<b>Afstand væk: " + (summary.totalDistance / 1000).toFixed(2) + " km</b>"
-                );
-            
-            
+                  );
                 })
                 .addTo(mymap);
-                
               });
-            });
-
-            // Add a click event listener to the map to remove the routing control when a new waypoint is clicked
-            mymap.on('click', (e) => {
-              if (routingControl) {
-                mymap.removeControl(routingControl);
-        }
-      });
+                          
+                // Add a click event listener to the map to remove the routing control when a new waypoint is clicked
+                mymap.on('click', (e) => {
+                  if (routingControl) {
+                    mymap.removeControl(routingControl);
+                  
+                  }}
+      )});
 
     };
   }});
@@ -208,5 +208,3 @@ function showList() {
 
 // Call the showMap() function by default when the page loads
 window.addEventListener('DOMContentLoaded', showMap);
-
-

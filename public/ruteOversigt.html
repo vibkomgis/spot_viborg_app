@@ -4,8 +4,8 @@
     <html lang="en">
       <head>
         <meta charset="UTF-8">
-        <link rel="stylesheet" href="/styles/global.css">
-        <link rel="stylesheet" href="/styles/rute.css">
+        <link rel="stylesheet" href="styles/global.css">
+        <link rel="stylesheet" href="styles/rute.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <base href=".">
         <title>Ruter</title>
@@ -15,17 +15,17 @@
         <button id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
         <div id="mySidebar" class="sidebar">
           <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-          <a href="/public/index.html">Start</a>
-          <a href="/public/ruteOversigt.html">Ruter</a>
-          <a href="/public/sevaerdigheder.html">Seværdigheder</a>
-          <a href="/public/about.html">Om appen</a>
+          <a href="public/index.html">Start</a>
+          <a href="public/ruteOversigt.html">Ruter</a>
+          <a href="public/sevaerdigheder.html">Seværdigheder</a>
+          <a href="public/about.html">Om appen</a>
         </div>
         <span id="steder">Ruter</span>
         <button id="goBack" onclick="goBack()">Go Back</button>
       </nav>
     <ul id="ruteOversigt">
         <li>
-                <img src="/images/kirkebanner.png" alt="Kirke oversigt">
+                <img src="images/kirkebanner.png" alt="Kirke oversigt">
                 <div class="image-text">Kirker</div>
                 <div class="description">Viborg Domkirke er kun én blandt mange kirker og kirkelige seværdigheder i Viborg. På Kirkeruten bliver du guidet til 10 seværdige steder. Bl.a. Sortebrødre Kirke, Domprovstegården og Sct. Mogens Kirke. Gåruten tager ca. 45 min.</div>
             
@@ -44,14 +44,14 @@
                   <li>Item 9</li>
                   <li>Item 10</li>
                 </ul>
-                <button onclick="window.location.href='/public/ruteKirker.html'">Start Rute</button>
+                <button onclick="window.location.href='public/ruteKirker.html'">Start Rute</button>
         
             </div>
           </li>
        
         <li>
            
-                <img src="/images/monumentbanner.png" alt="Monumenter oversigt">
+                <img src="images/monumentbanner.png" alt="Monumenter oversigt">
                 <div class="image-text">Monumenter</div>
                 <div class="description">Viborg har mange oplevelser for kunst- og kulturinteresserede. På kunstruten bliver du guidet til 10 seværdigheder, der bl.a. spænder fra Mindetavlen for Fugle-Mortensen, Bjørn Nørgaards monument for Hans Tausen og Domkirkeporten. Gåruten tager ca. 35 min.</div>
                 <div class="dropdown-content">
@@ -69,14 +69,14 @@
                     <li>Item 9</li>
                     <li>Item 10</li>
                   </ul>
-                  <button onclick="window.location.href='/public/ruteKirkerMap.html'">Start Rute</button>
+                  <button onclick="window.location.href='public/ruteKirkerMap.html'">Start Rute</button>
           
               </div>
             
         </li>
         <li>
            
-                <img src="/images/hemmeligebanner.png" alt="Hemmelige steder oversigt">
+                <img src="images/hemmeligebanner.png" alt="Hemmelige steder oversigt">
                 <div class="image-text">Hemmelige steder</div>
                 <div class="description">Har du lyst til at dykke ned i de mange hemmelige fortællinger fra Viborg, er denne rute noget for dig. Vi guider dig til 10 af de bedste hemmelige historier. Du kan bl.a. høre om Sukkenes Bro, Værtshuset Paradiset og historien om ‘Billen er dum’. Gåruten tager ca. 40 min.</div>
                 <div class="dropdown-content">
@@ -94,16 +94,16 @@
                     <li>Item 9</li>
                     <li>Item 10</li>
                   </ul>
-                  <button onclick="window.location.href='/public/ruteKirkerMap.html'">Start Rute</button>
+                  <button onclick="window.location.href='public/ruteKirkerMap.html'">Start Rute</button>
           
               </div>
             
         </li>
     </ul>
 
-    <script src="/src/navigation.js"></script>
-    <script src="/src/calculateDistance.js"></script>
-    <script src="/src/goBack.js"></script>
+    <script src="src/navigation.js"></script>
+    <script src="src/calculateDistance.js"></script>
+    <script src="src/goBack.js"></script>
     <script>
       // Get all the list items in the ruteOversigt list
       var routeItems = document.querySelectorAll('#ruteOversigt li');

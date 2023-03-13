@@ -2,8 +2,8 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="/styles/global.css">
-    <link rel="stylesheet" href="/styles/sevaerdigheder.css">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/sevaerdigheder.css">
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
     <link href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
@@ -17,17 +17,17 @@
       <button id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
       <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="/public/index.html">Start</a>
-        <a href="/public/ruteOversigt.html">Ruter</a>
-        <a href="/public/sevaerdigheder.html">Seværdigheder</a>
-        <a href="/public/about.html">Om appen</a>
+        <a href="public/index.html">Start</a>
+        <a href="public/ruteOversigt.html">Ruter</a>
+        <a href="public/sevaerdigheder.html">Seværdigheder</a>
+        <a href="public/about.html">Om appen</a>
       </div>
       <span id="steder">Seværdigheder</span>
       <button id="goBack" onclick="goBack()"></button>
     </nav>
     
-    <button id="mapButton"><img src="/icons/mapIcon.png"></button>
-    <button id="listButton"><img src="/icons/listIcon.png"></button>
+    <button id="mapButton"><img src="icons/mapIcon.png"></button>
+    <button id="listButton"><img src="icons/listIcon.png"></button>
     <div class="container">
       <div class="container">
         <div id="map">
@@ -41,9 +41,9 @@
     <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js"></script>
     <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/graphhopper-js-api-client/dist/graphhopper-client.js"></script>
-    <script src="/src/navigation.js"></script>
-    <script type="module" src="/src/map.js"></script>
-    <script src="/src/goBack.js"></script>
+    <script src="src/navigation.js"></script>
+    <script type="module" src="src/map.js"></script>
+    <script src="src/goBack.js"></script>
    
   </body>
 </html>

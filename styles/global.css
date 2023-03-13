@@ -161,6 +161,21 @@
   color: #6cbe9d;
 }
 
+div#lang {
+  position: absolute;
+  padding-left: 32px;
+  top: 10px;
+
+div#lang button {
+    border: none;
+    background-color: #6cbe9d;
+}
+
+div#lang button:hover {
+  background-color: #004536;
+  color: #ffffff;
+}
+
 /* Style the close button */
 .closebtn {
   position: absolute;

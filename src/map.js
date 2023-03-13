@@ -43,11 +43,11 @@ const dbVersion = 1; // Opdatér dbVersion for at tilføje ny data. Således ska
 let posLat, posLng;
 let routingControl;
 // Fetch the JSON data
-fetch('/data/sevaerdighederData/da-short.json')
+fetch('../data/sevaerdighederData/da-short.json')
   .then(response => response.json())
   .then(pois => {
     // Load the da-DK.json file
-    fetch('/data/sevaerdighederData/da-long.json')
+    fetch('../data/sevaerdighederData/da-long.json')
       .then(response => response.json())
       .then(translations => {
         // Replace references with the actual translations
@@ -122,7 +122,7 @@ fetch('/data/sevaerdighederData/da-short.json')
               console.log(poi.icon.normal)
               // Create the marker with the new icon
               let marker = L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mymap)
-                          .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='/public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>" + "<br/>");
+                          .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='../public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>" + "<br/>");
 
               
 
@@ -162,7 +162,7 @@ fetch('/data/sevaerdighederData/da-short.json')
                   console.log("Distance: " + summary.totalDistance + " meters");
                   marker.bindPopup("<b>" + poi.title + "</b><br />" +
                   poi.shortdescription + "<br/>" +
-                  "<a href='/public/poiPage.html?id=" + encodeURIComponent(poi.id) +
+                  "<a href='../public/poiPage.html?id=" + encodeURIComponent(poi.id) +
                   "&title=" + encodeURIComponent(poi.title) +
                   "&text=" + encodeURIComponent(poi.text) +
                   "'>Hør mere her</a><br/><br/>" +

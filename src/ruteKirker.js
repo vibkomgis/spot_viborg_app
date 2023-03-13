@@ -69,7 +69,7 @@ fetch('/data/ruteData/da-kirke-rute.json')
 
           // Create a marker on the map for each POI
           L.marker([poi.location.lat, poi.location.lng]).addTo(mymap)
-          .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='/public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>");
+          .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='../public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>");
 
 
           // Define an array to store the lat/lng coordinates of each point

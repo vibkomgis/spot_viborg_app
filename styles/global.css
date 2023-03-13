@@ -214,6 +214,7 @@ div#content {
   align-items: center;
   min-height: 100vh;
   font-size: 4em;
+  overflow: hidden;
 }
 
 div#content:before {

@@ -43,11 +43,11 @@ const dbVersion = 1; // Opdatér dbVersion for at tilføje ny data. Således ska
 let posLat, posLng;
 let routingControl;
 // Fetch the JSON data
-fetch('../data/sevaerdighederData/da-short.json')
+fetch('data/sevaerdighederData/da-short.json')
   .then(response => response.json())
   .then(pois => {
     // Load the da-DK.json file
-    fetch('../data/sevaerdighederData/da-long.json')
+    fetch('data/sevaerdighederData/da-long.json')
       .then(response => response.json())
       .then(translations => {
         // Replace references with the actual translations

@@ -90,7 +90,28 @@ fetch('data/sevaerdighederData/da-short.json')
           const request = objectStore.getAll();
           request.onsuccess = function(event) {
             const pois = event.target.result;
+
+
+          // Tilføj hver titel til en liste
+          pois.forEach(function(poi) {
+            const list = document.getElementById('myList');
+            list.classList.add('sevaerdighederList'); // Tilføj class. Samme navn i global.css
+
+            // Add the item to the list
+            const listItem = document.createElement('li');
+            const textNode = document.createTextNode(poi.title); 
+            listItem.appendChild(textNode); 
+            list.appendChild(listItem); // 
+
+            listItem.addEventListener('click', function() {
+              window.location.href = "public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text);
+            });
+            
+          })
+
+          // Tilføj markører og ruteberegning
             pois.forEach(poi => {
+            
               poi.text = poi.text.replace(/'/g, '');
               const linkToPage = poi.title.toLowerCase()
               .replace(/\.+/g, '')
@@ -138,6 +159,7 @@ fetch('data/sevaerdighederData/da-short.json')
                   showAlternatives: false,
                   show: true,
                   draggableWaypoints: false,
+                  profile: 'foot', // Gør ingen forskel mellem foot og driving
                 })
                 .on('routesfound', function(e) {
                   let routes = e.routes;

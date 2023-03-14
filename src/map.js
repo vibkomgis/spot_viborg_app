@@ -100,6 +100,7 @@ fetch('data/sevaerdighederData/da-short.json')
             // Add the item to the list
             const listItem = document.createElement('li');
             const textNode = document.createTextNode(poi.title); 
+            console.log(textNode)
             listItem.appendChild(textNode); 
             list.appendChild(listItem); // 
 
@@ -192,6 +193,8 @@ fetch('data/sevaerdighederData/da-short.json')
 
 const mapButton = document.getElementById('mapButton');
 const listButton = document.getElementById('listButton');
+mapButton.style.backgroundColor = 'green';
+listButton.style.backgroundColor = 'green';
 mapButton.addEventListener('click', showMap);
 listButton.addEventListener('click', showList);
 
@@ -200,6 +203,8 @@ function showMap() {
   list.style.display = 'none';
   const mapShow = document.getElementById('map');
   mapShow.style.display = 'block';
+  mapButton.style.backgroundColor = 'black';
+  listButton.style.backgroundColor = 'green';
 }
 
 function showList() {
@@ -207,7 +212,8 @@ function showList() {
   map.style.display = 'none';
   const list = document.getElementById('myList');
   list.style.display = 'block';
-  
+  listButton.style.backgroundColor = 'black';
+  mapButton.style.backgroundColor = 'green';
 }
 
 // Initialiser kortet som startside

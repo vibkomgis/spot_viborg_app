@@ -58,35 +58,34 @@
   font-weight: bold;
 }
 
-
+div#toggle_maplist {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  z-index: 1000;
+  text-align: center;
+  font-size: 0;
+}
 
 #mapButton {
-  
-  position: absolute;
-  top: 7.5%;
-  right: 51%;
-  transform: translateX(-50%);
-  z-index: 1900;
-  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background-color: #004536;
+  border: none;
+  vertical-align: top;
+  border-bottom-left-radius: 15px;
 }
-
-
+#mapButton img {
+  padding: 5px;
+}
 
 #listButton {
-  position: absolute;
-  top: 7.5%;
-  right: 49%;
-  transform: translateX(-50%);
-  z-index: 1900;
-  display: inline-block;
-  width: 1px;
-  height: 1px;
-}
-
-#mapButton img,
-#listButton img {
-  max-width: 30px;
-  max-height: 30px;
+  height: 50px;
+  width: 50px;
+  background-color: #004536;
+  border: none;
+  vertical-align: top;
+  border-bottom-right-radius: 15px;
 }
 
 
@@ -96,14 +95,24 @@
 }
 
 .sevaerdighederList li {
-  font-size: 14px;
+  font-size: 26px;
   align-items: left;
   margin: 30px;
+  background-color: rgb(65, 177, 141);
+  border-radius: 10px;
   position: relative;
   top: 100px;
   justify-content: center;
 } 
 
+.my-img-class {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  margin-right: 45px; 
+  position: relative;
+  top: 5px;
+}
 
 /* Style the button */
 .openbtn {
@@ -338,5 +347,4 @@ div#navigationbuttons {
   display: inline-block; /* add this line to center the arrow */
   text-align: left; /* add this line to center the arrow */
 }
-
 

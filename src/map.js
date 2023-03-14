@@ -32,25 +32,18 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 var lc = L.control.locate({locateOptions: {enableHighAccuracy: true}}).addTo(mymap);
 lc.start();
 
-
-
-
 const dbName = "myDatabase";
 const dbVersion = 1; // Opdatér dbVersion for at tilføje ny data. Således skal brugeren ikke slette deres browser cache. 
-
-
-// Declare posLat and posLng variables in a higher scope
+// Angiv variabler til ruteberegning
 let posLat, posLng;
 let routingControl;
-// Fetch the JSON data
+// Fetch JSON data
 fetch('data/sevaerdighederData/da-short.json')
   .then(response => response.json())
   .then(pois => {
-    // Load the da-DK.json file
     fetch('data/sevaerdighederData/da-long.json')
       .then(response => response.json())
       .then(translations => {
-        // Replace references with the actual translations
         pois.forEach(poi => {
           Object.keys(poi).forEach(key => {
             const longDescription = pois.find(item => item.text === poi.text);
@@ -67,18 +60,15 @@ fetch('data/sevaerdighederData/da-short.json')
             }
           });
         });
-        
-
 
         const openRequest = indexedDB.open(dbName, dbVersion);
-
         openRequest.onupgradeneeded = function(event) {
           const db = event.target.result;
 
-          // Create an object store within the database to store your data
+          // Objectstore til seværdighedsdata
           const objectStore = db.createObjectStore('Sevaerdigheder', { keyPath: 'id' });
 
-          // Define the structure of the data to be stored
+          // Datastruktur
           objectStore.createIndex('id', 'id', { unique: false });
           objectStore.createIndex('lat', 'lat', { unique: false });
           objectStore.createIndex('lng', 'lng', { unique: false });
@@ -86,7 +76,8 @@ fetch('data/sevaerdighederData/da-short.json')
           objectStore.createIndex('shortdescription', 'shortdescription', { unique: false });
           objectStore.createIndex('text', 'text', { unique: false });
           objectStore.createIndex('icon','icon', { unique: false });
-          // Add data to the object store
+
+          // Tilføj data til objectstore
           pois.forEach(obj => objectStore.add(obj));
         };
 
@@ -95,10 +86,7 @@ fetch('data/sevaerdighederData/da-short.json')
           const transaction = db.transaction('Sevaerdigheder', 'readonly');
           const objectStore = transaction.objectStore('Sevaerdigheder');
 
-
-          
-
-          // Retrieve data from the object store
+          // Hent data fra objectstore
           const request = objectStore.getAll();
           request.onsuccess = function(event) {
             const pois = event.target.result;
@@ -113,20 +101,17 @@ fetch('data/sevaerdighederData/da-short.json')
               .replace(/ø/g, 'oe')
               ;
 
-              // Create a new icon
+              // Hent ikoner til visning på kort
               let myIcon = L.icon({
                 iconUrl: poi.icon.normal,
                 iconSize: [38, 38],
                 popupAnchor: [0, -15]
               });
               console.log(poi.icon.normal)
-              // Create the marker with the new icon
+
+              // Lav basismarkør
               let marker = L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mymap)
                           .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>" + "<br/>");
-
-              
-
-              let routingControl;
 
               mymap.on('locationfound', (e) => {
                 console.log(e.latlng);
@@ -134,14 +119,12 @@ fetch('data/sevaerdighederData/da-short.json')
                 posLng = e.latlng.lng;
               });
               
-              // Add click event listener to the marker
+              // Eventlistener der fjerner rute til markør når ny markør klikkes 
               marker.on('click', function(e) {
-                // Remove the routing control if it already exists
                 if (routingControl) {
                   mymap.removeControl(routingControl);
                 }
-                
-                // Create a routing control with the GPS user's location and the clicked marker as waypoints
+                // Lav rute mellem GPS og den intereagerede markør
                 routingControl = L.Routing.control({
                   waypoints: [
                     L.latLng(posLat, posLng),
@@ -172,18 +155,17 @@ fetch('data/sevaerdighederData/da-short.json')
                 .addTo(mymap);
               });
                           
-                // Add a click event listener to the map to remove the routing control when a new waypoint is clicked
+                // Event listener der fjerner rute til markør når kort klikes. 
                 mymap.on('click', (e) => {
                   if (routingControl) {
                     mymap.removeControl(routingControl);
                   
-                  }}
-      )});
+           }}
+       )});
 
-    };
+     };
   }});
 })
-
 
 
 const mapButton = document.getElementById('mapButton');
@@ -206,5 +188,5 @@ function showList() {
   
 }
 
-// Call the showMap() function by default when the page loads
+// Initialiser kortet som startside
 window.addEventListener('DOMContentLoaded', showMap);

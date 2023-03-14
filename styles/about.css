@@ -4,3 +4,8 @@ body {
     height: 100vh;
     overflow: auto;
   }
+
+div#about {
+    height: 100%;
+    padding: 65px 15px 15px 15px;
+}

@@ -3,6 +3,7 @@ body {
     padding: 0;
     height: 100vh;
     overflow: auto;
+    line-height: 2;
   }
 
 div#about {

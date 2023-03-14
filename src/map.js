@@ -10,23 +10,37 @@ var mymap = L.map('map', {
 }).setView([56.4534, 9.4029], 13);
 
 
-
-//const dftoken = '3ebc3a63849a43b46feb8203ab25f83c';
-// const myAttributionText = '&copy; <a target="_blank" href="https://dataforsyningen.dk/Vilkaar">Styrelsen for Dataforsyning og Infrastruktur</a>';
-// const toposkaermkortwmts = L.tileLayer('https://api.dataforsyningen.dk/topo_skaermkort_wmts_DAF?service=WMTS&request=GetTile&version=1.3.0&Layer=topo_skaermkort&style=default&format=image/png&TileMatrixSet=View1&TileMatrix={zoom}&TileRow={y}&TileCol={x}&token=' + dftoken, {
-//   minZoom: 0,
-//   maxZoom: 13,
-//   attribution: myAttributionText,
-//   crossOrigin: true,
-//   zoom: function (data) {
-//     return data.z;
-//   }
-// }).addTo(mymap);
-
+const dftoken = '3ebc3a63849a43b46feb8203ab25f83c';
+const myAttributionText = '&copy; <a target="_blank" href="https://dataforsyningen.dk/Vilkaar">Styrelsen for Dataforsyning og Infrastruktur</a>';
+/*
 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
 }).addTo(mymap);
+*/
+const toposkaermkortwms = L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  maxZoom: 19,
+  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
+}).addTo(mymap);
+
+// Ortofoto [WMS:orto_foraar]
+const ortofotowms = L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallayers=TRUE', {
+  layers: 'orto_foraar',
+  token: dftoken,
+  format: 'image/png',
+  attribution: myAttributionText
+}).addTo(mymap);
+
+
+
+const baseLayers = {
+  "Ortofoto": ortofotowms,
+  "Skærmkort": toposkaermkortwms
+};
+
+
+// Add layer control to map
+L.control.layers(baseLayers).addTo(mymap);
 
 // Start GPS
 var lc = L.control.locate({locateOptions: {enableHighAccuracy: true}}).addTo(mymap);

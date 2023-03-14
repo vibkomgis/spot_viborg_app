@@ -58,37 +58,34 @@
   font-weight: bold;
 }
 
-
+div#toggle_maplist {
+  position: absolute;
+  top: 50px;
+  width: 100%;
+  z-index: 1000;
+  text-align: center;
+}
 
 #mapButton {
-  
-  position: absolute;
-  top: 7.5%;
-  right: 51%;
-  transform: translateX(-50%);
-  z-index: 1900;
-  display: inline-block;
+  height: 55px;
+  width: 55px;
+  background-color: #004536;
+  border: none;
 }
-
-
 
 #listButton {
-  position: absolute;
-  top: 7.5%;
-  right: 49%;
-  transform: translateX(-50%);
-  z-index: 1900;
-  display: inline-block;
-  width: 1px;
-  height: 1px;
+  height: 55px;
+  width: 55px;
+  background-color: #004536;
+  border: none;
 }
-
+/*
 #mapButton img,
 #listButton img {
   max-width: 30px;
   max-height: 30px;
 }
-
+*/
 
 .my-list-class {
   list-style: none;

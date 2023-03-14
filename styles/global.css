@@ -64,6 +64,7 @@ div#toggle_maplist {
   width: 100%;
   z-index: 1000;
   text-align: center;
+  font-size: 0;
 }
 
 #mapButton {
@@ -72,6 +73,7 @@ div#toggle_maplist {
   background-color: #004536;
   border: none;
   vertical-align: top;
+  border-bottom-left-radius: 15px;
 }
 #mapButton img {
   padding: 5px;
@@ -83,6 +85,7 @@ div#toggle_maplist {
   background-color: #004536;
   border: none;
   vertical-align: top;
+  border-bottom-right-radius: 15px;
 }
 
 

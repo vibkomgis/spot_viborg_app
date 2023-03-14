@@ -67,16 +67,19 @@ div#toggle_maplist {
 }
 
 #mapButton {
-  height: 55px;
-  width: 55px;
+  height: 50px;
+  width: 50px;
   background-color: #004536;
   border: none;
   vertical-align: top;
 }
+#mapButton img {
+  padding: 5px;
+}
 
 #listButton {
-  height: 55px;
-  width: 55px;
+  height: 50px;
+  width: 50px;
   background-color: #004536;
   border: none;
   vertical-align: top;

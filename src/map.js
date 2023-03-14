@@ -2,11 +2,11 @@ const southWest = L.latLng(56.4394, 9.3444);
 const northEast = L.latLng(56.4714, 9.4502);
 const bounds = L.latLngBounds(southWest, northEast);
 
-var mymap = L.map('map', {
-   maxBounds: bounds,
-   maxBoundsViscosity: 1.0,
-   minZoom: 13, // set minZoom to the same value as the initial zoom
-   maxZoom: 60 // set maxZoom to the same value as the initial zoom
+let mymap = L.map('map', {
+   //maxBounds: bounds,
+   //maxBoundsViscosity: 1.0,
+   //minZoom: 13, // set minZoom to the same value as the initial zoom
+   //maxZoom: 60 // set maxZoom to the same value as the initial zoom
 }).setView([56.4534, 9.4029], 13);
 
 

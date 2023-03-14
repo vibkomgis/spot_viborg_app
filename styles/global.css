@@ -192,7 +192,7 @@ body {
   font-size: 1em;
   line-height: 1.5;
   color: #004536;
-  overflow: auto;
+  overflow: hidden;
 }
 
 h1 {

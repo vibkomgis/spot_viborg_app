@@ -71,6 +71,7 @@ div#toggle_maplist {
   width: 55px;
   background-color: #004536;
   border: none;
+  vertical-align: top;
 }
 
 #listButton {
@@ -78,14 +79,9 @@ div#toggle_maplist {
   width: 55px;
   background-color: #004536;
   border: none;
+  vertical-align: top;
 }
-/*
-#mapButton img,
-#listButton img {
-  max-width: 30px;
-  max-height: 30px;
-}
-*/
+
 
 .my-list-class {
   list-style: none;

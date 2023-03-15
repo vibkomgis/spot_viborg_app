@@ -32,22 +32,19 @@
     </nav>
     
     <div id="toggle_maplist">
-      <button id="mapButton"><img src="icons/icon-map-white.svg"></button>
-      <button id="listButton"><img src="icons/icon-list-white.svg"></button>            
+      <button id="mapButton" alt="Vis seværdigheder på kort"><img src="icons/icon-map-white.svg" alt=""></button>
+      <button id="listButton" alt="Vis seværdigheder som liste"><img src="icons/icon-list-white.svg" alt=""></button>            
     </div>
-<!--
-    <button id="mapButton"><img src="icons/mapIcon.png"></button>
-    <button id="listButton"><img src="icons/listIcon.png"></button>
--->
+
     <div class="container">
-      <div class="container">
-        <div id="map">
-          <footer>
-            <p>&copy; <a target="_blank" href="https://dataforsyningen.dk/Vilkaar">Styrelsen for Dataforsyning og Infrastruktur</a></p>
-          </footer>
-        </div>
-        <ul id="myList"></ul>
+      <div id="map">
+        <footer>
+          <p>&copy; <a target="_blank" href="https://dataforsyningen.dk/Vilkaar">Styrelsen for Dataforsyning og Infrastruktur</a></p>
+        </footer>
       </div>
+      <ul id="myList"></ul>
+    </div>
+
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js"></script>
     <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>

@@ -1,39 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-      <base href="https://vibkomgis.github.io/spot_viborg_app/"">
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Om SPOT Viborg</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="styles/global.css">
-        <link rel="stylesheet" href="styles/about.css">
-        
-    </head>
-    <body>
-        <nav>
-            <button id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
-            <div id="mySidebar" class="sidebar">
-              <div id="lang"><button>da</button> | <button>en</button> | <button>de</button></div>
-              <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-              <a href="index.html">Start</a>
-              <a href="public/ruteOversigt.html">Ruter</a>
-              <a href="public/sevaerdigheder.html">Seværdigheder</a>
-              <a href="public/about.html">Om appen</a>
-            </div>
-            <span id="steder">Om Spot Viborg</span>
-            <button id="goBack" onclick="goBack()">Go Back</button>
-          </nav>
-          
-          <div id="about">
-            <h2>Om Spot Viborg</h2> 
-            <p>App'en Spot Viborg er udviklet som del af et projekt der skal gøre seværdigheder i Viborg mere tilgængelige.<br>
-              Oplever du problemer med app'en kan du kontakte <a href="mailto:chmat@viborg.dk?subject=Spot Viborg">chmat@viborg.dk</a>.</p>
-            <p><a href="https://www.was.digst.dk/viborg-dk" target="_blank">Tilgængelighedserklæring</a></p>
+  <head>
+    <base href="https://vibkomgis.github.io/spot_viborg_app/">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="application-name" content="Spot Viborg">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="styles/global.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <title>Om SPOT Viborg</title> 
+  </head>
+  <body>
+      <nav>
+          <button id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
+          <div id="mySidebar" class="sidebar">
+            <div id="lang"><button>da</button> | <button>en</button> | <button>de</button></div>
+            <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+            <a href="index.html">Start</a>
+            <a href="public/ruteOversigt.html">Ruter</a>
+            <a href="public/sevaerdigheder.html">Seværdigheder</a>
+            <a href="public/about.html">Om appen</a>
           </div>
+          <span id="steder">Om Spot Viborg</span>
+          <button id="goBack" onclick="goBack()">Go Back</button>
+        </nav>
+        
+        <div id="about">
+          <h2>Om Spot Viborg</h2> 
+          <p>App'en Spot Viborg er udviklet som del af et projekt der skal gøre seværdigheder i Viborg mere tilgængelige.<br>
+            Oplever du problemer med app'en kan du kontakte <a href="mailto:chmat@viborg.dk?subject=Spot Viborg">chmat@viborg.dk</a>.</p>
+          <p><a href="https://www.was.digst.dk/viborg-dk" target="_blank">Tilgængelighedserklæring</a></p>
+        </div>
 
-          <script src="src/navigation.js"></script>
-          <script src="src/goBack.js"></script>
-    </body>
+        <script src="src/navigation.js"></script>
+        <script src="src/goBack.js"></script>
+  </body>
 </html>

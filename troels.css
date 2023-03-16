@@ -1,12 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
 html, body {
     margin: 0;
     padding: 0;
-    font-size: 16px;
+    font-size: 1em;
+    font-family: 'Open Sans', sans-serif;
 }
-  
+
+div#header {
+    width: 100%;
+    height: 50px;
+    background-color: blue;
+}
+
+div#header #back {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+div#header #title {
+    line-height: 50px;
+    text-align: center;
+}
+
+div#header #navigation {
+    height: 50px;
+    width: 50px;
+    line-height: 50px;
+    padding: 0;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
 nav {
-    width: 100px;
-    float: left;
+    width: 200px;
+    height: 100%;
+    position: fixed;
+    top: 50px;
+    right: 0;
+    background-color: lightgrey;
 }
   
 input[type="radio"] {
@@ -14,16 +52,14 @@ input[type="radio"] {
 }
 
 input[type="radio"]:checked + label {
-    background-color: darkblue;
-    border-right: solid 10px lightblue;
-    font-weight: bold;
     color: lightblue;
 }
   
 label {
     display: block;
-    padding: 5px;
+    padding: 8px 8px 8px 32px;
     font-size: 1.3em;
+    color: #004536;
 }
 
 label:hover {
@@ -31,9 +67,8 @@ label:hover {
 }
   
 .main {
-    float: left;
     padding: 10px;
-    margin-left: 10px;
+    margin: 0;
 }
   
 .ruter, .kort, .liste, .om {

@@ -7,14 +7,6 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="troels.css">
     <title>Spot Viborg</title>
-    <script>
-        var curr = $(".start");
-        $("input[type='radio']").on('change', function() {
-        curr.hide();
-        curr = $("." + $("input[type='radio']:checked").val() );
-        curr.show();
-        });
-    </script>
   </head>
 
   <body>
@@ -54,7 +46,16 @@
         <div class="om">
           This is the om div.
         </div>
-      </div>
-    
+    </div>
+  
+    <script>
+      var curr = $(".start");
+      $("input[type='radio']").on('change', function() {
+      curr.hide();
+      curr = $("." + $("input[type='radio']:checked").val() );
+      curr.show();
+      });
+    </script>
+      
   </body>
 </html>

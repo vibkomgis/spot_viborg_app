@@ -20,36 +20,23 @@
         <button id="toggle_nav" onclick="toggleNav()">☰</button>
       </div>
       <nav>
-        <input id="start" type="radio" checked='check' name="start" value="start"><label for="start">Start</label>
-        <input id="ruter" type="radio" name="ruter" value="ruter"><label for="ruter">Ruter</label>
+        <input id="rad1" type="radio" checked='check' name="rad" value="first"><label for="rad1">Users</label>
+        <input id="rad2" type="radio" name="rad" value="second"><label for="rad2">Projects</label>
       </nav>
     </div>
 
     <div class="main">
-      <div class="start">
-        This is the start div.
+      <div class="first">
+        This is the first div.
       </div>
-
-      <div class="ruter">
-        This is the ruter div.
-      </div>
-
-      <div class="kort">
-        This is the kort div.
-      </div>
-
-      <div class="liste">
-        This is the liste div.
-      </div>
-
-      <div class="om">
-        This is the om div.
+      <div class="second">
+        This is the second div.
       </div>
     </div>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script>
-        var curr = $(".start");
+        var curr = $(".first");
         $("input[type='radio']").on('change', function() {
         curr.hide();
         curr = $("." + $("input[type='radio']:checked").val() );

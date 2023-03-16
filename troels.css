@@ -14,13 +14,17 @@ div#header {
 }
 
 div#header #back {
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    padding: 0;
     position: fixed;
     top: 0;
     left: 0;
+}
+button#go_back {
+    height: 50px;
+    width: 50px;
+    border: none;
+    background: none;
+    font-size: 30px;
+    padding: 0;
 }
 
 div#header #title {
@@ -30,13 +34,17 @@ div#header #title {
 }
 
 div#header #navigation {
-    height: 50px;
-    width: 50px;
-    line-height: 50px;
-    padding: 0;
     position: fixed;
     top: 0;
     right: 0;
+}
+button#toggle_nav {
+    height: 50px;
+    width: 50px;
+    border: none;
+    background: none;
+    font-size: 20px;
+    padding: 0;
 }
 
 nav {

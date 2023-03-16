@@ -10,11 +10,13 @@ document.addEventListener("click", closeNavOnClickOutside);
 // Function to open the navigation bar
 function openNav() {
   sidebar.style.width = "250px";
+  button.style.z-index = "1900";
 }
 
 // Function to close the navigation bar
 function closeNav() {
   sidebar.style.width = "0";
+  button.style.z-index = "2100";
 }
 
 // Function to handle clicks outside the navigation bar

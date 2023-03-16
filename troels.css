@@ -41,7 +41,15 @@ div#header #navigation {
 div#header div#navigation input#toggle {
     display: none;
 }
-
+label#toggleicon {
+    font-size: 25px;
+    padding-right: 10px;
+    line-height: 50px;
+}
+#toggle:checked ~ nav {
+    right: -210px;
+    transition: 0.5s;
+}
 nav {
     width: 200px;
     height: 100%;
@@ -50,12 +58,6 @@ nav {
     right: 0;
     background-color: #f1f1f1;
 }
-
-#toggle:checked ~ nav {
-    right: -210px;
-    transition: 0.5s;
-}
-
 input[type="radio"] {
     display: none;
 }

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="da">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="application-name" content="Spot Viborg">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="troels.css">
+    <title>Spot Viborg</title>
+    <script>
+        var curr = $(".start");
+        $("input[type='radio']").on('change', function() {
+        curr.hide();
+        curr = $("." + $("input[type='radio']:checked").val() );
+        curr.show();
+        });
+    </script>
+  </head>
+
+  <body>
+    <div id="header">
+        <div id="back"></div>
+        Spot Viborg
+        <div id="navigation">
+            <button id="toggle_nav" onclick="toggleNav()">☰</button>
+        </div>
+    </div>
+
+    <nav>
+        <input id="start" type="radio" name="Start" value="start" checked="check"><label for="start">Start</label>
+        <input id="ruter" type="radio" name="Ruter" value="ruter"><label for="ruter">Ruter</label>
+        <input id="kort" type="radio" name="Kort" value="kort"><label for="kort">Seværdigheder</label>
+        <input id="liste" type="radio" name="Liste" value="liste" hidden><label for="liste">Liste</label>
+        <input id="om" type="radio" name="Om" value="om"><label for="om">Om</label>
+    </nav>
+
+    <div class="main">
+        <div class="start">
+          This is the start div.
+        </div>
+
+        <div class="ruter">
+          This is the ruter div.
+        </div>
+
+        <div class="kort">
+          This is the kort div.
+        </div>
+
+        <div class="liste">
+          This is the liste div.
+        </div>
+
+        <div class="om">
+          This is the om div.
+        </div>
+      </div>
+    
+  </body>
+</html>

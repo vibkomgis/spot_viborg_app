@@ -38,15 +38,12 @@ div#header #navigation {
     top: 0;
     right: 0;
 }
-button#toggle_nav {
-    height: 50px;
-    width: 50px;
-    border: none;
-    background: none;
-    font-size: 20px;
-    padding: 0;
+div#header div#navigation input#toggle {
+    display: none;
 }
-
+#toggle:checked ~ nav {
+    width: 0px;
+}
 nav {
     width: 200px;
     height: 100%;
@@ -64,14 +61,14 @@ input[type="radio"]:checked + label {
     color: #6cbe9d;
 }
   
-label {
+nav label {
     display: block;
     padding: 8px 8px 8px 32px;
     font-size: 1.3em;
     color: #004536;
 }
 
-label:hover {
+nav label:hover {
     cursor: pointer;
 }
   

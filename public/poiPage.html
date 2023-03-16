@@ -15,18 +15,19 @@
   <body>
     <nav>
       
-      <button id="openbtn" class="openbtn" onclick="openNav()">&#9776;</button>
-      <div id="mySidebar" class="sidebar">
-        <div id="lang"><button>da</button> | <button>en</button> | <button>de</button></div>
-        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-        <a href="index.html">Start</a>
-        <a href="public/ruteOversigt.html">Ruter</a>
-        <a href="public/sevaerdigheder.html">Seværdigheder</a>
-        <a href="public/about.html">Om appen</a>
-      </div>
-      <span id="steder">Steder og faciliteter</span>
-    </nav>
-    <button id ="goBack" onclick="goBack()">Go Back</button>
+      <nav>
+        <button id="openbtn" class="openbtn" onclick="openNav()">☰</button>
+        <button id="closebtn" class="closebtn" onclick="closeNav()">×</button>
+        <div id="mySidebar" class="sidebar" style="width: 0px;">
+          <div id="lang"><button>da</button> | <button>en</button> | <button>de</button></div>  
+          <a href="index.html">Start</a>
+          <a href="public/ruteOversigt.html">Ruter</a>
+          <a href="public/sevaerdigheder.html">Seværdigheder</a>
+          <a href="public/about.html">Om appen</a>
+        </div>
+        <span id="steder">Steder og faciliteter</span>
+      </nav>
+
     <div id="sevaerdighederImg"></div>
     <div id="sevaerdighederAudio"></div>
     <div class="box">

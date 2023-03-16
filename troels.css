@@ -80,6 +80,6 @@ label:hover {
     margin: 0;
 }
   
-.ruter, .kort, .liste, .om {
+.second, .third {
     display: none;
 }

@@ -47,15 +47,15 @@ label#toggleicon {
     line-height: 50px;
 }
 #toggle:checked ~ nav {
-    right: -210px;
+    right: 0;
     transition: 0.5s;
 }
 nav {
-    width: 200px;
+    width: 250px;
     height: 100%;
     position: fixed;
     top: 50px;
-    right: 0;
+    right: -260px;
     background-color: #f1f1f1;
 }
 input[type="radio"] {

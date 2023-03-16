@@ -41,10 +41,12 @@ div#header #navigation {
 div#header div#navigation input#toggle {
     display: none;
 }
-#toggle:checked + nav {
-    width: 0px;
+
+#toggle:checked ~ nav {
+    width: 100px;
     background-color: red;
 }
+
 .control-me::after {
     content: "😃";
     font-size: 100px;

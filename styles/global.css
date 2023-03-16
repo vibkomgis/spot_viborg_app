@@ -122,11 +122,12 @@ div#toggle_maplist {
   cursor: pointer;
   background-color: #6cbe9d;
   color: #004536;
-  padding: 0 15px 0 0;
+  padding: 0;
   border: none;
   position: fixed;
   z-index: 2100;
   line-height: 50px;
+  width: 50px;
 }
 
 /* Style the navigation bar */
@@ -177,18 +178,18 @@ div#lang button:hover {
 /* Style the close button */
 .closebtn {
   top: 0;
-  margin-left: 50px;
   z-index: 2000;
   right: 0;
   left: auto;
-  font-size: 45px;
+  font-size: 40px;
   cursor: pointer;
   background-color: #6cbe9d;
   color: #004536;
   border: none;
   position: fixed;
   line-height: 50px;
-  padding: 0 15px 0 0;
+  padding: 0;
+  width: 50px;
 }
 
 body {

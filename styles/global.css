@@ -117,6 +117,7 @@ div#toggle_maplist {
 /* Style the button */
 .openbtn {
   right: 0;
+  top: 0;
   left: auto;
   font-size: 20px;
   cursor: pointer;

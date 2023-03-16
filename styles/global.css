@@ -334,6 +334,8 @@ div#navigationbuttons {
 }
 #goBack {
   background-color: #6cbe9d;
+  color: #004536;
+  transform: rotate(180deg);
   border: none;
   font-size: 35px;
   position: fixed;

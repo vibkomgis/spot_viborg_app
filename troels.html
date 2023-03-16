@@ -6,25 +6,44 @@
     <meta name="mobile-web-app-capable" content="yes" />
     <meta name="application-name" content="Spot Viborg">
     <meta charset="UTF-8">
-    <!--<link rel="stylesheet" href="troels.css">-->
+    <link rel="stylesheet" href="troels.css">
     <title>Spot Viborg</title>
-    <style>
-
-      </style>
   </head>
 
   <body>
+    <div id="header">
+      <div id="back">
+        <button id="go_back" onclick="goBack()">←</button>
+      </div>
+      <div id="title">Spot Viborg</div>
+      <div id="navigation">
+        <button id="toggle_nav" onclick="toggleNav()">☰</button>
+      </div>
+      <nav>
+        <input id="rad1" type="radio" checked='check' name="rad" value="first"><label for="rad1">Users</label>
+        <input id="rad2" type="radio" name="rad" value="second"><label for="rad2">Projects</label>
+      </nav>
+    </div>
 
-    <nav>
-      <input id="rad1" type="radio" checked='check' name="rad" value="first"><label for="rad1">Users</label>
-      <input id="rad2" type="radio" name="rad" value="second"><label for="rad2">Projects</label>
-    </nav>
     <div class="main">
       <div class="first">
-        This is the first div.
+        This is the start div.
       </div>
+
       <div class="second">
-        This is the second div.
+        This is the ruter div.
+      </div>
+
+      <div class="kort">
+        This is the kort div.
+      </div>
+
+      <div class="liste">
+        This is the liste div.
+      </div>
+
+      <div class="om">
+        This is the om div.
       </div>
     </div>
 

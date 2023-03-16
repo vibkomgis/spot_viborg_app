@@ -1,32 +1,39 @@
 html, body {
-    margin:0;
-     padding:0;
-     font-size: 16px;
-}
-nav {
-    width: 100px; 
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+  }
+  
+  nav {
+    width: 100px;
     float: left;
-}
-input[type="radio"]{
+  }
+  
+  input[type="radio"] {
     display: none;
-    &:checked+label{ 
+  }
+  input[type="radio"]:checked + label {
     background-color: darkblue;
     border-right: solid 10px lightblue;
     font-weight: bold;
     color: lightblue;
-    } 
-}
-label {
+  }
+  
+  label {
     display: block;
     padding: 5px;
     font-size: 1.3em;
-    &:hover {cursor:pointer;}
-}
-.main {
+  }
+  label:hover {
+    cursor: pointer;
+  }
+  
+  .main {
     float: left;
     padding: 10px;
-    margin-left: 10px; 
-}
-.ruter, .kort, .liste, .om {
-    display: none; 
-}
+    margin-left: 10px;
+  }
+  
+  .second {
+    display: none;
+  }

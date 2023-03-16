@@ -333,27 +333,13 @@ div#navigationbuttons {
   display: none !important;
 }
 #goBack {
-  background-color: transparent;
+  background-color: #6cbe9d;
   border: none;
-  font-size: 20px;
-  cursor: pointer;
+  font-size: 35px;
   position: absolute;
-  top: 0px;
-  text-align: left; /* center the text */
+  top: 0;
+  line-height: 50px;
+  z-index: 2100;
+  width: 50px;
+  padding: 0;
 }
-
-#goBack::before {
-  position: fixed;
-
-  content: '\279D';
-  left: 10px;
-  z-index: 2000;
-  color: white; /* Change arrow color to white */
-  font-size: 40px; /* Increase arrow font size */
-  font-weight: bold; /* Make the arrow thicker */
-  
-  transform: rotate(180deg); /* Rotate arrow 180 degrees */
-  display: inline-block; /* add this line to center the arrow */
-  text-align: left; /* add this line to center the arrow */
-}
-

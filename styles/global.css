@@ -336,7 +336,7 @@ div#navigationbuttons {
   background-color: #6cbe9d;
   border: none;
   font-size: 35px;
-  position: absolute;
+  position: fixed;
   top: 0;
   line-height: 50px;
   z-index: 2100;

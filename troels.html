@@ -1,4 +1,5 @@
 
+
 <!DOCTYPE html>
 <html lang="da">
   <head>
@@ -15,14 +16,15 @@
       <div id="back">
         <button id="go_back" onclick="goBack()">←</button>
       </div>
-      <div id="title">Spot Viborg</div>
       <div id="navigation">
-        <label for="toggle" id="toggleicon">☰</label>
-        <input type="checkbox" id="toggle">
-        <nav>
-          <input id="rad1" type="radio" checked='check' name="rad" value="first"><label for="rad1">Users</label>
-          <input id="rad2" type="radio" name="rad" value="second"><label for="rad2">Projects</label>
-          <input id="third" type="radio" name="rad" value="third"><label for="third">About</label>
+        <input id="toggle" type="checkbox" />
+        <label class="menu__btn" for="toggle" id="toggleicon">
+          <span></span>
+        </label>
+        <nav id="nav">
+          <input id="rad1" type="radio" checked='check' name="rad" value="first"><label for="rad1">Start</label>
+          <input id="rad2" type="radio" name="rad" value="second"><label for="rad2"">Seværdigheder</label>
+          <input id="third" type="radio" name="rad" value="third"><label for="third">Om Spot Viborg</label>
         </nav>
       </div>
 
@@ -30,15 +32,23 @@
 
     <div class="main">
       <div class="first">
-        This is the first div.
+	<h1 id="title">Spot Viborg</h1>
+        <div id="content">This is the first div.</div>
       </div>
 
       <div class="second">
-        This is the second div.
+	<h1 id="title">Seværdigheder</h1>
+        <div id="content">This is the second div.</div>
       </div>
 
       <div class="third">
-        This is the third div.
+	<h1 id="title">Om Spot Viborg</h1>
+        <div id="content">
+          <p>Med Spot Viborg er byens rige kulturarv gjort tilgængelig, så alle har nem adgang til byens spændende kulturarv, uanset om du er med barnevogn, kørestol eller rollator. Find de mest tilgængelige ruter, oplev den rige historie og lyt til fortællingerne om den fantastiske middelalderby. Med Spot Viborg finder du lokationer og informationer på alle kirker, monumenter og også de ‘hemmelige’ seværdigheder.</p>
+          <p>App’en er tilgængelig på dansk, engelsk og tysk og bruger GPS. Løbende brug af GPS i baggrunden kan mindske levetiden på batteriet i din telefon.</p>
+          <p>Oplever du problemer med app'en kan du kontakte <a href="mailto:chmat@viborg.dk?subject=Spot%20Viborg">chmat@viborg.dk</a>.</p>
+          <p><a href="https://www.was.digst.dk/viborg-dk" target="_blank">Tilgængelighedserklæring</a></p>
+        </div>
       </div>
     </div>
 
@@ -46,9 +56,20 @@
     <script>
         var curr = $(".first");
         $("input[type='radio']").on('change', function() {
-        curr.hide();
-        curr = $("." + $("input[type='radio']:checked").val() );
-        curr.show();
+          curr.hide();
+          curr = $("." + $("input[type='radio']:checked").val() );
+          curr.show();
+        });
+    </script>
+
+    <script>
+        // Function to close the navigation bar
+        function closeNav() {
+          nav.style.right = "-260px";
+        }
+        // Hide menu when link selected
+        $("input[type='radio']").on('change', function() {
+          $("#toggle").prop("checked", false);
         });
     </script>
 

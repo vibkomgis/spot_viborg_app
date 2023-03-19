@@ -5,18 +5,26 @@ html, body {
     padding: 0;
     font-size: 1em;
     font-family: 'Open Sans', sans-serif;
+    color: #004536;
+}
+
+p {
+    margin: 0;
+    padding-bottom: 1em;
 }
 
 div#header {
     width: 100%;
     height: 50px;
-    background-color: #6cbe9d;
+    z-index: 100;
+    position: fixed;
 }
 
 div#header #back {
     position: fixed;
     top: 0;
     left: 0;
+    display: none;
 }
 button#go_back {
     height: 50px;
@@ -42,13 +50,45 @@ div#header div#navigation input#toggle {
     display: none;
 }
 label#toggleicon {
-    font-size: 25px;
-    padding-right: 10px;
-    line-height: 50px;
+    width: 50px;
+    height: 50px;
+    display: block;
+}
+label#toggleicon > span,
+label#toggleicon > span::before,
+label#toggleicon > span::after {
+    display: block;
+    position: absolute;
+    width: 20px;
+    height: 2px;
+    background-color: #004536;
+    transition-duration: .25s;
+    position: fixed;
+    top: 25px;
+    right: 15px;
+}
+label#toggleicon > span::before {
+  content: '';
+  top: 18px;
+}
+label#toggleicon > span::after {
+  content: '';
+  top: 32px;
 }
 #toggle:checked ~ nav {
     right: 0;
     transition: 0.5s;
+}
+#toggle:checked ~ .menu__btn > span {
+  right: -100px;
+}
+#toggle:checked + .menu__btn > span::before {
+  transform: rotate(45deg);
+  top:25px;
+}
+#toggle:checked + .menu__btn > span::after {
+  transform: rotate(315deg);
+  top: 25px;
 }
 nav {
     width: 250px;
@@ -57,6 +97,8 @@ nav {
     top: 50px;
     right: -260px;
     background-color: #f1f1f1;
+    z-index:50;
+    transition: 0.5s;
 }
 input[type="radio"] {
     display: none;
@@ -78,10 +120,38 @@ nav label:hover {
 }
   
 .main {
-    padding: 10px;
     margin: 0;
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    top: 0;
 }
-  
+h1#title {
+    z-index: 90;
+    color: #004536;
+    top: 0;
+    left: 0;
+    position: fixed;
+    line-height: 50px;
+    text-align: center;
+    width: 100%;
+    font-size: 1em;
+    margin: 0;
+    background-color: #6cbe9d;
+}
+div#content {
+    line-height: 2;
+    font-size: 1em;
+}
+
+.first {
+    background-image: url(https://spotviborg.dk/images/intro.jpg);
+    background-size: cover;
+    background-position: center;
+    height: calc(100vh - 70px);
+    padding: 60px 10px 10px 10px;
+}
 .second, .third {
     display: none;
+    padding: 60px 10px 10px 10px;
 }

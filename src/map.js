@@ -195,13 +195,14 @@ fetch('data/facilities/facilities-nc.json')
       request.onsuccess = function(event) {
         const facis = event.target.result;
 
-        let faciIcon = L.icon({
-          iconUrl: faci.icon,
-          iconSize: [38, 38],
-          popupAnchor: [0, -15]
-        });
+        
 
         facis.forEach(faci => {
+          let faciIcon = L.icon({
+            iconUrl: faci.icon,
+            iconSize: [38, 38],
+            popupAnchor: [0, -15]
+          });
           // Create a marker on the map for each POI
           L.marker([faci.location.lat, faci.location.lng], {icon: faciIcon}).addTo(mymap)
             .bindPopup("<b>" + faci.title + "</b><br />" + faci.shortdescription);

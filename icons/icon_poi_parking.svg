@@ -1,0 +1,14 @@
+<svg width="30.047" height="37.133" xmlns="http://www.w3.org/2000/svg" xml:space="preserve" enable-background="new 0 0 30.047 37.133" version="1.1">
+
+ <g>
+  <title>Layer 1</title>
+  <g id="svg_1">
+   <!--fill="#2A98EF"-->
+   <path id="svg_2" d="m30,2.609c0,-1.441 -1.168,-2.609 -2.609,-2.609l-24.782,0c-1.441,0 -2.609,1.168 -2.609,2.609l0,22.565c0,1.131 0.72,2.09 1.725,2.451l13.295,8.867l13.343,-8.898c0.336,-0.135 0.639,-0.338 0.889,-0.592l0.001,-0.002l0,0c0.461,-0.47 0.747,-1.115 0.747,-1.826l0,-22.565z" fill="#004536"/>
+   <path id="svg_3" d="m29,3.609c0,-1.441 -1.168,-2.609 -2.609,-2.609l-22.782,0c-1.441,0 -2.609,1.168 -2.609,2.609l0,20.565c0,1.131 0.72,2.09 1.725,2.451l12.295,7.867l12.343,-7.898c0.336,-0.135 0.639,-0.338 0.889,-0.592l0.001,-0.002l0,0c0.461,-0.47 0.747,-1.115 0.747,-1.826l0,-20.565z" fill="#004536"/>
+  </g>
+  <path id="svg_4" d="m3,7l24,0l0,24l-24,0l0,-24z" fill="none"/>
+  <text transform="matrix(0.952235 0 0 0.952235 0.463073 1.45078)" stroke="null" xml:space="preserve" text-anchor="start" font-family="'Open Sans'" font-size="24" stroke-width="0" id="svg_6" y="22.05153" x="7.99805" fill="#ffffff">P</text>
+  <text xml:space="preserve" text-anchor="start" font-family="Noto Sans JP" font-size="24" stroke-width="0" id="svg_7" y="16.1843" x="16.33998" fill="#000000"/>
+ </g>
+</svg>

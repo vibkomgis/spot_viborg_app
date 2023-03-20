@@ -95,11 +95,12 @@
 
     <script>
       $(function(){
-        if (window.location.hash) {
-          console.log(window.location.hash);
-          $(window.location.hash).show();
-        }
-      });
+        if (location.hash) {
+          var curr = $(".first");
+          curr.hide();
+          console.log(location.hash);
+          $(location.hash).show();
+        };
     </script>
 
 <!-- kort test -->

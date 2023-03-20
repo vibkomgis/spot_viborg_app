@@ -9,6 +9,11 @@
     <meta charset="UTF-8">
     <link rel="stylesheet" href="troels.css">
     <title>Spot Viborg</title>
+<!-- kort test -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css" />
+<!-- kort test -->
   </head>
 
   <body>
@@ -38,7 +43,23 @@
 
       <div class="second">
 	<h1 id="title">Seværdigheder</h1>
-        <div id="content">This is the second div.</div>
+        <div id="content">
+<!-- kort test -->
+          <div id="toggle_maplist">
+            <button id="mapButton"><img src="icons/icon-map-white.svg" alt="Vis seværdigheder på kort"></button>
+            <button id="listButton"><img src="icons/icon-list-white.svg" alt="Vis seværdigheder som liste"></button>            
+          </div>
+      
+          <div class="container">
+            <div id="map">
+              <footer>
+                <p>&copy; <a target="_blank" href="https://dataforsyningen.dk/Vilkaar">Styrelsen for Dataforsyning og Infrastruktur</a></p>
+              </footer>
+            </div>
+            <ul id="myList"></ul>
+          </div>
+<!-- kort test -->
+        </div>
       </div>
 
       <div class="third">
@@ -72,6 +93,15 @@
           $("#toggle").prop("checked", false);
         });
     </script>
+
+<!-- kort test -->
+<script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js"></script>
+<script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/graphhopper-js-api-client/dist/graphhopper-client.js"></script>
+<script src="src/navigation.js"></script>
+<script type="module" src="src/map.js"></script>
+<!-- kort test -->
 
   </body>
 </html>

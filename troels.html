@@ -80,7 +80,6 @@
           curr.show();
         });
         // show if hash in url
-        $('div').hide().filter(location.hash).show();
     </script>
 
     <script>
@@ -92,6 +91,14 @@
         $("input[type='radio']").on('change', function() {
           $("#toggle").prop("checked", false);
         });
+    </script>
+
+    <script>
+      $(function(){
+        if (location.hash) {
+          console.log(lcation.hash);
+          $(location.hash).show();
+        };
     </script>
 
 <!-- kort test -->

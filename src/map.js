@@ -43,14 +43,18 @@ const baseLayers = {
 L.control.layers(baseLayers).addTo(mymap);
 
 // Start GPS
-var lc = L.control.locate({locateOptions: {enableHighAccuracy: true}}).addTo(mymap);
+var lc = L.control.locate({
+  locateOptions: {
+    enableHighAccuracy: true,
+    setView: false
+  }
+}).addTo(mymap);
 lc.start();
 
 const dbName = "myDatabase";
 const dbVersion = 1; // Opdatér dbVersion for at tilføje ny data. Således skal brugeren ikke slette deres browser cache. 
 // Angiv variabler til ruteberegning
-let posLat, posLng;
-let routingControl;
+
 // Fetch JSON data
 fetch('data/sevaerdighederData/da-short.json')
   .then(response => response.json())
@@ -148,58 +152,8 @@ fetch('data/sevaerdighederData/da-short.json')
               // Lav basismarkør
               let marker = L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mymap)
                           .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>" + "<br/>");
-
-              mymap.on('locationfound', (e) => {
-                console.log(e.latlng);
-                posLat = e.latlng.lat;
-                posLng = e.latlng.lng;
-              });
-              
-              // Eventlistener der fjerner rute til markør når ny markør klikkes 
-              marker.on('click', function(e) {
-                if (routingControl) {
-                  mymap.removeControl(routingControl);
-                }
-                // Lav rute mellem GPS og den intereagerede markør
-                routingControl = L.Routing.control({
-                  waypoints: [
-                    L.latLng(posLat, posLng),
-                    L.latLng(poi.location.lat, poi.location.lng),
-                  ],
-                  createMarker: function(i, waypoint, n) {
-                    return null;
-                  },
-                  routeWhileDragging: true,
-                  geocoder: false,
-                  showAlternatives: false,
-                  show: true,
-                  draggableWaypoints: false,
-                  profile: 'foot', // Gør ingen forskel mellem foot og driving
-                })
-                .on('routesfound', function(e) {
-                  let routes = e.routes;
-                  let summary = routes[0].summary;
-                  console.log("Distance: " + summary.totalDistance + " meters");
-                  marker.bindPopup("<b>" + poi.title + "</b><br />" +
-                  poi.shortdescription + "<br/>" +
-                  "<a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +
-                  "&title=" + encodeURIComponent(poi.title) +
-                  "&text=" + encodeURIComponent(poi.text) +
-                  "'>Hør mere her</a><br/><br/>" +
-                  "<b>Afstand væk: " + (summary.totalDistance / 1000).toFixed(2) + " km</b>"
-                  );
-                })
-                .addTo(mymap);
-              });
-                          
-                // Event listener der fjerner rute til markør når kort klikes. 
-                mymap.on('click', (e) => {
-                  if (routingControl) {
-                    mymap.removeControl(routingControl);
                   
-           }}
-       )});
-
+          });
      };
   }});
 })

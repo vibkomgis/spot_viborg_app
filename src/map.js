@@ -158,6 +158,50 @@ fetch('data/sevaerdighederData/da-short.json')
   }});
 })
 
+let facilitiesdbName = 'facilitiesDB'
+let facilitiesdbVersion = 1;
+
+fetch('data/facilities/facilities-nc.json')
+  .then(response => response.json())
+  .then(facis => {
+    const openRequest = indexedDB.open(facilitiesdbName, facilitiesdbVersion);
+
+    openRequest.onupgradeneeded = function(event) {
+      const db = event.target.result;
+
+      // Create an object store within the database to store your data
+      const objectStore = db.createObjectStore('facilities', { keyPath: 'id' });
+
+      // Define the structure of the data to be stored
+      objectStore.createIndex('id', 'id', { unique: false });
+      objectStore.createIndex('lat', 'lat', { unique: false });
+      objectStore.createIndex('lng', 'lng', { unique: false });
+      objectStore.createIndex('title', 'title', { unique: false });
+      objectStore.createIndex('shortdescription', 'shortdescription', { unique: false });
+      //objectStore.createIndex('text', 'text', { unique: false });
+
+      // Add data to the object store
+      facis.forEach(obj => objectStore.add(obj));
+    };
+
+    openRequest.onsuccess = function(event) {
+      const db = event.target.result;
+      const transaction = db.transaction('facilities', 'readonly');
+      const objectStore = transaction.objectStore('facilities');
+
+      // Retrieve data from the object store
+      const request = objectStore.getAll();
+      request.onsuccess = function(event) {
+        const facis = event.target.result;
+
+        facis.forEach(faci => {
+          // Create a marker on the map for each POI
+          L.marker([faci.location.lat, faci.location.lng]).addTo(mymap)
+            .bindPopup("<b>" + faci.title + "</b><br />" + faci.shortdescription);
+        });
+      };
+    }});
+
 
 const mapButton = document.getElementById('mapButton');
 const listButton = document.getElementById('listButton');

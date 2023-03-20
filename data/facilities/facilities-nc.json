@@ -1,145 +1,55 @@
 [
-    
-             
-    
+
+
+
   {
-                           
+
     "id": 101,
     "location": {
       "lat": 56.450181,
       "lng": 9.408808
     },
-    "title": "FACILITY_TOILET_1_TITEL",
-    "shortdescription": "FACILITY_TOILET_1_SHORT_DESCRIPTION",
-    "icon": "icons/icon_facility_toilet.svg",
+    "title": "Toilet på Hjultorv",
+    "shortdescription": "Her er der handicaptoilet. Toilettet er placeret mellem Hjultorv og St. Hjultorvgyde bag Café Morville. Den nemmeste adgang er fra St. Hjultorvgyde.",
+    "icon": "icons/icon_poi_toilet.svg",
     "keywords": "FACILITY_TOILET_KEYWORDS"
   },
 
-    
-          
-    
-  {
-                               
-    "id": 102,
-    "location": {
-      "lat": 56.450112,
-      "lng": 9.410428
-    },
-    "title": "FACILITY_RAMP_1_TITEL",
-    "shortdescription": "FACILITY_RAMP_1_SHORT_DESCRIPTION",
-    "icon": "icons/icon_facility_ramp.svg",
-    "keywords": "FACILITY_RAMP_KEYWORDS"
-  },
-  {
-                                    
-    "id": 103,
-    "location": {
-      "lat": 56.449290,
-      "lng": 9.409956
-    },
-    "title": "FACILITY_RAMP_2_TITEL",
-    "shortdescription": "FACILITY_RAMP_2_SHORT_DESCRIPTION",
-    "icon": "icons/icon_facility_ramp.svg",
-    "keywords": "FACILITY_RAMP_KEYWORDS"
-  },
-  {
-                                       
-    "id": 104,
-    "location": {
-      "lat": 56.450308,
-      "lng": 9.411424
-    },
-    "title": "FACILITY_RAMP_3_TITEL",
-    "shortdescription": "FACILITY_RAMP_3_SHORT_DESCRIPTION",
-    "icon": "icons/icon_facility_ramp.svg",
-    "keywords": "FACILITY_RAMP_KEYWORDS"
-  },
-  {
-                                  
-    "id": 105,
-    "location": {
-      "lat": 56.451552,
-      "lng": 9.411442
-    },
-    "title": "FACILITY_RAMP_4_TITEL",
-    "shortdescription": "FACILITY_RAMP_4_SHORT_DESCRIPTION",
-    "icon": "icons/icon_facility_ramp.svg",
-    "keywords": "FACILITY_RAMP_KEYWORDS"
-  },
-  {
-                                     
-    "id": 106,
-    "location": {
-      "lat": 56.451552,
-      "lng": 9.411442
-    },
-    "title": "FACILITY_RAMP_5_TITEL",
-    "shortdescription": "FACILITY_RAMP_5_SHORT_DESCRIPTION",
-    "icon": "icons/icon_facility_ramp.svg",
-    "keywords": "FACILITY_RAMP_KEYWORDS"
-  },
-  {
-                                    
-    "id": 107,
-    "location": {
-      "lat": 56.452034,
-      "lng": 9.411749
-    },
-    "title": "FACILITY_RAMP_6_TITEL",
-    "shortdescription": "FACILITY_RAMP_6_SHORT_DESCRIPTION",
-    "icon": "icons/icon_facility_ramp.svg",
-    "keywords": "FACILITY_RAMP_KEYWORDS"
-  },
-  {
-                            
-    "id": 108,
-    "location": {
-      "lat": 56.450670,
-      "lng": 9.412207
-    },
-    "title": "FACILITY_RAMP_7_TITEL",
-    "shortdescription": "FACILITY_RAMP_7_SHORT_DESCRIPTION",
-    "icon": "icons/icon_facility_ramp.svg",
-    "keywords": "FACILITY_RAMP_KEYWORDS"
-  },
 
-    
-             
-    
   {
-                      
+
     "id": 109,
     "location": {
       "lat": 56.450008,
       "lng": 9.406365
     },
-    "title": "FACILITY_PARKING_1_TITEL",
-    "shortdescription": "FACILITY_PARKING_1_SHORT_DESCRIPTION",
-    "icon": "icons/icon_facility_parking.svg",
+    "title": "P-pladser på Preislers Plads",
+    "shortdescription": "277 parkeringspladser fordelt på udendørs parkering eller i p-kælderen. Der er motorcykel- og handicapparkering.",
+    "icon": "icons/icon_poi_parking.svg",
     "keywords": "FACILITY_PARKING_KEYWORDS"
   },
   {
-                    
+
     "id": 110,
     "location": {
       "lat": 56.448340,
       "lng": 9.406779
     },
-    "title": "FACILITY_PARKING_2_TITEL",
-    "shortdescription": "FACILITY_PARKING_2_SHORT_DESCRIPTION",
-    "icon": "icons/icon_facility_parking.svg",
+    "title": "P-pladser på Fischers Plads",
+    "shortdescription": "479 parkeringspladser fordelt på et øvre dæk samt udvendig og indvendig parkeringskælder. Der er motorcykel- og handicapparkering.",
+    "icon": "icons/icon_poi_parking.svg",
     "keywords": "FACILITY_PARKING_KEYWORDS"
   },
   {
-                      
+
     "id": 111,
     "location": {
       "lat": 56.450680,
       "lng": 9.411631
     },
-    "title": "FACILITY_PARKING_3_TITEL",
-    "shortdescription": "FACILITY_PARKING_3_SHORT_DESCRIPTION",
-    "icon": "icons/icon_facility_parking.svg",
+    "title": "P-pladser på Domkirkepladsen",
+    "shortdescription": "59 parkeringspladser. Der er motorcykel- og handicapparkering.",
+    "icon": "icons/icon_poi_parking.svg",
     "keywords": "FACILITY_PARKING_KEYWORDS"
   }
 ]

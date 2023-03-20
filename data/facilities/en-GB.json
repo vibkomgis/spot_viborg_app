@@ -1,0 +1,28 @@
+{
+  "FACILITY_TOILET_1_TITEL":"Toilet by Hjultorv",
+  "FACILITY_TOILET_1_SHORT_DESCRIPTION":"Accessible toilet. The facility is located between Hjultorv and St. Hjultorvgyde behind Café Morville. Most easily accessed from St. Hjultorvgyde.",
+  "FACILITY_RAMP_1_TITEL":"Entrance to Latinerhaven",
+  "FACILITY_RAMP_1_SHORT_DESCRIPTION":"Level access to the gardens from the corner of Kompagnistræde and Sankt Mathias Gade.",
+  "FACILITY_RAMP_2_TITEL":"Entrance to Sortebrødre Church",
+  "FACILITY_RAMP_2_SHORT_DESCRIPTION":"Level access to the church from the corner of St. Sankt Mikkels Gade and Sortebr. Kirke Stræde.",
+  "FACILITY_RAMP_3_TITEL":"Entrance to the garden behind Skovgaard Museum",
+  "FACILITY_RAMP_3_SHORT_DESCRIPTION":"Level access to the garden from Sct. Mogens Gade behind Skovgaard Museum.",
+  "FACILITY_RAMP_4_TITEL":"Entrance to Margretheplænen",
+  "FACILITY_RAMP_4_SHORT_DESCRIPTION":"Level access to the gardens from Sct. Mogens Gade by Nytorvgyde.",
+  "FACILITY_RAMP_5_TITEL":"Entrance to Hans Tausens Minde",
+  "FACILITY_RAMP_5_SHORT_DESCRIPTION":"Level access to the gardens from Sct. Mogensgade just north of Gråbrødre Kirke Str.",
+  "FACILITY_RAMP_6_TITEL":"Entrance to the Greyfriar Friary",
+  "FACILITY_RAMP_6_SHORT_DESCRIPTION":"Level access to the priory from Sct. Mogens Gade where it meets Ll. Sankt Hans Gade.",
+  "FACILITY_RAMP_7_TITEL":"Entrance to Viborg Cathedral",
+  "FACILITY_RAMP_7_SHORT_DESCRIPTION":"Level access from the north of the church, by Stænderpladsen.",
+  "FACILITY_PARKING_1_TITEL":"Parking ground at Preislers Plads",
+  "FACILITY_PARKING_1_SHORT_DESCRIPTION":"277 parking spaces laid out as outdoor bays as well as underground parking facility. Motor-cycle parking and disabled parking available.",
+  "FACILITY_PARKING_2_TITEL":"Parking facility at Fischers Plads",
+  "FACILITY_PARKING_2_SHORT_DESCRIPTION":"479 parking spaces on an upper deck as well as underground parking – outside and inside. Motor-cycle parking and disabled parking available.",
+  "FACILITY_PARKING_3_TITEL":"P-pladser at Domkirkepladsen",
+  "FACILITY_PARKING_3_SHORT_DESCRIPTION":"59 parking spaces. Motor-cycle parking and disabled parking available.",
+
+  "FACILITY_TOILET_KEYWORDS":"toilet, wc, bathroom, restroom, lavatory",
+  "FACILITY_RAMP_KEYWORDS":"ramp, ramps, pad, pads",
+  "FACILITY_PARKING_KEYWORDS":"parking, park, parking lot"
+}

@@ -151,7 +151,15 @@ div#content {
     height: calc(100vh - 70px);
     padding: 60px 10px 10px 10px;
 }
-.second, .third {
+.second {
+    display: none;
+    padding: 60px 0 0 0;
+}
+div#map {
+    height: 100%;
+}
+
+.third {
     display: none;
     padding: 60px 10px 10px 10px;
 }

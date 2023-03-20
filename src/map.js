@@ -93,7 +93,7 @@ fetch('data/sevaerdighederData/da-short.json')
           objectStore.createIndex('title', 'title', { unique: false });
           objectStore.createIndex('shortdescription', 'shortdescription', { unique: false });
           objectStore.createIndex('text', 'text', { unique: false });
-          objectStore.createIndex('icon','icon', { unique: false });
+          
 
           // Tilføj data til objectstore
           pois.forEach(obj => objectStore.add(obj));
@@ -178,6 +178,7 @@ fetch('data/facilities/facilities-nc.json')
       objectStore.createIndex('lng', 'lng', { unique: false });
       objectStore.createIndex('title', 'title', { unique: false });
       objectStore.createIndex('shortdescription', 'shortdescription', { unique: false });
+      objectStore.createIndex('icon','icon', { unique: false });
       //objectStore.createIndex('text', 'text', { unique: false });
 
       // Add data to the object store
@@ -194,9 +195,15 @@ fetch('data/facilities/facilities-nc.json')
       request.onsuccess = function(event) {
         const facis = event.target.result;
 
+        let faciIcon = L.icon({
+          iconUrl: faci.icon,
+          iconSize: [38, 38],
+          popupAnchor: [0, -15]
+        });
+
         facis.forEach(faci => {
           // Create a marker on the map for each POI
-          L.marker([faci.location.lat, faci.location.lng]).addTo(mymap)
+          L.marker([faci.location.lat, faci.location.lng], {icon: faciIcon}).addTo(mymap)
             .bindPopup("<b>" + faci.title + "</b><br />" + faci.shortdescription);
         });
       };

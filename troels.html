@@ -36,12 +36,12 @@
     </div>
 
     <div class="main">
-      <div class="first">
+      <div class="first" id="first">
 	<h1 id="title">Spot Viborg</h1>
         <div id="content">This is the first div.</div>
       </div>
 
-      <div class="second">
+      <div class="second" id="second">
 	<h1 id="title">Seværdigheder</h1>
         <div id="content">
 <!-- kort test -->
@@ -60,7 +60,7 @@
         </div>
       </div>
 
-      <div class="third">
+      <div class="third" id="third">
 	<h1 id="title">Om Spot Viborg</h1>
         <div id="content">
           <p>Med Spot Viborg er byens rige kulturarv gjort tilgængelig, så alle har nem adgang til byens spændende kulturarv, uanset om du er med barnevogn, kørestol eller rollator. Find de mest tilgængelige ruter, oplev den rige historie og lyt til fortællingerne om den fantastiske middelalderby. Med Spot Viborg finder du lokationer og informationer på alle kirker, monumenter og også de ‘hemmelige’ seværdigheder.</p>
@@ -79,6 +79,8 @@
           curr = $("." + $("input[type='radio']:checked").val() );
           curr.show();
         });
+        // show if hash in url
+        $('div').hide().filter(location.hash).show(;
     </script>
 
     <script>

@@ -186,8 +186,11 @@ div#lang {
 }
 
 div#lang button {
-    border: none;
-    background-color: #6cbe9d;
+  border: none;
+  width: 20px;
+  height: 15px;
+  padding: 0;
+  margin-right: 5px;
 }
 
 div#lang button:hover {

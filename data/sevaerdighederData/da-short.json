@@ -1,7 +1,7 @@
 [
 
   {
-    
+
     "id": 1,
     "location": {
       "lat": 56.450554,
@@ -12,8 +12,9 @@
     "shortdescription": "POI_VIBORG_DOMKIRKE_SHORT_DESCRIPTION",
     "text": "POI_VIBORG_DOMKIRKE_LONG_DESCRIPTION",
     "next": "POI_VIBORG_DOMKIRKE_NEXT_DESCRIPTION",
+    "handicap": "Kørevenlig indgang findes på kirkens nordlige side ud for Stænderpladsen.",
     "thumb": "thumbs/01_domkirken_1_thumb.jpg",
-    "pictures": ["pois/01_domkirken_1.jpg", "pois/01_domkirken_2.jpg"],
+    "pictures": [ "pois/01_domkirken_1.jpg", "pois/01_domkirken_2.jpg" ],
     "icon": {
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
@@ -157,19 +158,20 @@
     }
   },
   {
-    
+
     "id": 6,
     "location": {
       "lat": 56.449312,
       "lng": 9.409910
     },
-    "proximity": 25, 
+    "proximity": 25,
     "title": "POI_SORTEBRODRE_KIRKE_TITEL",
     "shortdescription": "POI_SORTEBRODRE_KIRKE_SHORT_DESCRIPTION",
     "text": "POI_SORTEBRODRE_KIRKE_LONG_DESCRIPTION",
     "next": "POI_SORTEBRODRE_KIRKE_NEXT_DESCRIPTION",
+    "handicap": "Kørevenlig indgang til kirken findes på hjørnet af St. Sankt Mikkels Gade og Sortebr. Kirke Stræde.",
     "thumb": "thumbs/06_sortebrodre_kirke_1_thumb.jpg",
-    "pictures": ["pois/06_sortebrodre_kirke_1.jpg"],
+    "pictures": [ "pois/06_sortebrodre_kirke_1.jpg" ],
     "icon": {
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
@@ -281,7 +283,7 @@
     }
   },
   {
-    
+
     "id": 10,
     "location": {
       "lat": 56.451767,
@@ -292,8 +294,9 @@
     "shortdescription": "POI_GRABRODRE_KLOSTERKIRKE_SHORT_DESCRIPTION",
     "text": "POI_GRABRODRE_KLOSTERKIRKE_LONG_DESCRIPTION",
     "next": "POI_GRABRODRE_KLOSTERKIRKE_NEXT_DESCRIPTION",
+    "handicap": "Kørevenlig indgang til klosteret findes fra Sct. Mogens Gade i forlængelse af Ll. Sankt Hans Gade.",
     "thumb": "thumbs/10_grabrodre_klosterkirke_1_thumb.jpg",
-    "pictures": ["pois/10_grabrodre_klosterkirke_1.jpg"],
+    "pictures": [ "pois/10_grabrodre_klosterkirke_1.jpg" ],
     "icon": {
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
@@ -315,21 +318,22 @@
 
 
 
- 
+
   {
-    
+
     "id": 11,
     "location": {
       "lat": 56.450554,
       "lng": 9.412078
     },
-    "proximity": 25, 
+    "proximity": 25,
     "title": "POI_DOMKIRKEPORTEN_TITEL",
     "shortdescription": "POI_DOMKIRKEPORTEN_SHORT_DESCRIPTION",
     "text": "POI_DOMKIRKEPORTEN_LONG_DESCRIPTION",
     "next": "POI_DOMKIRKEPORTEN_NEXT_DESCRIPTION",
+    "handicap": "Kørevenlig indgang findes på kirkens nordlige side ud for Stænderpladsen.",
     "thumb": "thumbs/11_domkirkeporten_1_thumb.jpg",
-    "pictures": ["pois/11_domkirkeporten_1.jpg", "pois/11_domkirkeporten_2.jpg", "pois/11_domkirkeporten_3.jpg"],
+    "pictures": [ "pois/11_domkirkeporten_1.jpg", "pois/11_domkirkeporten_2.jpg", "pois/11_domkirkeporten_3.jpg" ],
     "icon": {
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
@@ -443,19 +447,20 @@
     }
   },
   {
-  
+
     "id": 16,
     "location": {
       "lat": 56.451545,
       "lng": 9.412309
     },
-    "proximity": 25, 
+    "proximity": 25,
     "title": "POI_HANS_TAUSEN_2005_TITEL",
     "shortdescription": "POI_HANS_TAUSEN_2005_SHORT_DESCRIPTION",
     "text": "POI_HANS_TAUSEN_2005_LONG_DESCRIPTION",
     "next": "POI_HANS_TAUSEN_2005_NEXT_DESCRIPTION",
+    "handicap": "Kørevenlig indgang til haven findes fra Sct. Mogensgade lige nord for Gråbrødre Kirke Str.",
     "thumb": "thumbs/16_hans_tausen_2005_1_thumb.jpg",
-    "pictures": ["pois/16_hans_tausen_2005_1.jpg"],
+    "pictures": [ "pois/16_hans_tausen_2005_1.jpg" ],
     "icon": {
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
@@ -633,19 +638,20 @@
     }
   },
   {
-    
+
     "id": 22,
     "location": {
       "lat": 56.450297,
       "lng": 9.411547
     },
-    "proximity": 25, 
+    "proximity": 25,
     "title": "POI_SKOVGARDMUSEETS_HAVE_TITEL",
     "shortdescription": "POI_SKOVGARDMUSEETS_HAVE_SHORT_DESCRIPTION",
     "text": "POI_SKOVGARDMUSEETS_HAVE_LONG_DESCRIPTION",
     "next": "POI_SKOVGARDMUSEETS_HAVE_NEXT_DESCRIPTION",
+    "handicap": "Kørevenlig indgang til haven findes fra Sct. Mogens Gade bag Skovgaard Museet.",
     "thumb": "thumbs/22_skovgardmuseets_have_1_thumb.jpg",
-    "pictures": ["pois/22_skovgardmuseets_have_1.jpg"],
+    "pictures": [ "pois/22_skovgardmuseets_have_1.jpg" ],
     "icon": {
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
@@ -664,19 +670,20 @@
     }
   },
   {
-    
+
     "id": 23,
     "location": {
       "lat": 56.450020,
       "lng": 9.410426
     },
-    "proximity": 25, 
+    "proximity": 25,
     "title": "POI_LATINERHAVEN_TITEL",
     "shortdescription": "POI_LATINERHAVEN_SHORT_DESCRIPTION",
     "text": "POI_LATINERHAVEN_LONG_DESCRIPTION",
     "next": "POI_LATINERHAVEN_NEXT_DESCRIPTION",
+    "handicap": "Kørevenlig indgang til haven findes på hjørnet af Kompagnistræde og Sankt Mathias Gade.",
     "thumb": "thumbs/23_latinerhaven_1_thumb.jpg",
-    "pictures": ["pois/23_latinerhaven_1.jpg"],
+    "pictures": [ "pois/23_latinerhaven_1.jpg" ],
     "icon": {
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
@@ -695,19 +702,20 @@
     }
   },
   {
-    
+
     "id": 24,
     "location": {
       "lat": 56.451082,
       "lng": 9.409177
     },
-    "proximity": 25, 
+    "proximity": 25,
     "title": "POI_MARGRETHEKAELDEREN_TITEL",
     "shortdescription": "POI_MARGRETHEKAELDEREN_SHORT_DESCRIPTION",
     "text": "POI_MARGRETHEKAELDEREN_LONG_DESCRIPTION",
     "next": "POI_MARGRETHEKAELDEREN_NEXT_DESCRIPTION",
+    "handicap": "Kørevenlig indgang til haven findes fra Sct. Mogens Gade ud for Nytorvgyde.",
     "thumb": "thumbs/24_margrethekaelderen_1_thumb.jpg",
-    "pictures": ["pois/24_margrethekaelderen_1.jpg"],
+    "pictures": [ "pois/24_margrethekaelderen_1.jpg" ],
     "icon": {
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"

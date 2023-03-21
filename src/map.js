@@ -93,6 +93,7 @@ fetch('data/sevaerdighederData/da-short.json')
           objectStore.createIndex('title', 'title', { unique: false });
           objectStore.createIndex('shortdescription', 'shortdescription', { unique: false });
           objectStore.createIndex('text', 'text', { unique: false });
+          objectStore.createIndex('handicap', 'handicap', { unique: false });
           
 
           // Tilføj data til objectstore
@@ -147,11 +148,15 @@ fetch('data/sevaerdighederData/da-short.json')
                 iconSize: [38, 38],
                 popupAnchor: [0, -15]
               });
-              console.log(poi.icon.normal)
+              
+
+             
 
               // Lav basismarkør
               let marker = L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mymap)
-                          .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>" + "<br/>");
+              .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/> <a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>" + (poi.handicap ? "<br/><br>" + poi.handicap + "<br/><br/>" : ""));
+
+
                   
           });
      };

@@ -90,7 +90,8 @@ label#toggleicon > span::after {
   transform: rotate(315deg);
   top: 25px;
 }
-nav {
+//ny nav
+#nav {
     width: 250px;
     height: 100%;
     position: fixed;
@@ -100,6 +101,29 @@ nav {
     z-index:50;
     transition: 0.5s;
 }
+
+#nav:not(:target) {
+    display: none;
+    transition: 0.5s;
+}
+
+#nav:target {
+    display:block;
+    transition: 0.5s;
+}
+//ny nav
+//sections
+section:not(:target) {
+    right: -100%;
+    transition: right 1.5s;
+}
+
+#nav:target {
+    right: 0;
+    transition: right 1s;
+}
+//sections
+
 input[type="radio"] {
     display: none;
 }
@@ -108,15 +132,11 @@ input[type="radio"]:checked + label {
     color: #6cbe9d;
 }
   
-nav label {
+nav ul li {
     display: block;
     padding: 8px 8px 8px 32px;
     font-size: 1.3em;
     color: #004536;
-}
-
-nav label:hover {
-    cursor: pointer;
 }
   
 .main {

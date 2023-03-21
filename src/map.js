@@ -100,6 +100,12 @@ fetch('data/sevaerdighederData/da-short.json')
             // Add the item to the list
             const listItem = document.createElement('li');
             const textNode = document.createTextNode(poi.title); 
+            
+            const thumbImg = document.createElement('img');
+            thumbImg.src = poi.thumb;
+            thumbImg.alt = poi.title;
+            listItem.appendChild(thumbImg);
+            
             console.log(textNode)
             listItem.appendChild(textNode); 
             list.appendChild(listItem); // 

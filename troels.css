@@ -116,14 +116,12 @@ label#toggleicon > span::after {
 }
 //ny nav
 //sections
-section:not(:target) {
-    right: -100%;
-    transition: right 1.5s;
+#sevaerdigheder:not(:target), #ruter:not(:target), #about:not(:target) {
+    display:none;
 }
 
 #nav:target {
-    right: 0;
-    transition: right 1s;
+    display: block;
 }
 //sections
 

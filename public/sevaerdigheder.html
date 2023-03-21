@@ -52,6 +52,17 @@
     <script src="src/navigation.js"></script>
     <script type="module" src="src/map.js"></script>
     <script src="src/goBack.js"></script>
+
+    <script>
+      function sortList(ul) {
+      var ul = document.getElementById("ul");
+
+      Array.from(ul.getElementsByTagName("LI"))
+        .sort((a, b) => a.textContent.localeCompare(b.textContent))
+        .forEach(li => ul.appendChild(li));
+      }
+      sortList("myList");
+    </script>
    
   </body>
 </html>

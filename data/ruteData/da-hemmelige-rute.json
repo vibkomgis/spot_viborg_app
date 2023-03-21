@@ -1,0 +1,317 @@
+[
+
+
+  {
+
+    "id": 21,
+    "location": {
+      "lat": 56.45066,
+      "lng": 9.41223
+    },
+    "proximity": 25,
+    "title": "Stormklokken på Domkirkens tårn",
+    "shortdescription": "I tilfælde af brand skyndte de nærmeste folk sig hen til stormklokken og ringede for at sammenkalde byens indbyggere til hjælp med at slukke ildebranden. Stormklokken er udstillet i Domkirkens kælder.",
+    "text": "Du er nu i byens hjerte ved Domkirken. På Domkirkens nordtårn sidder helt umotiveret et gammel rustent jernhåndtag. Det er med til at fortælle historien om de frygtede bybrande. I tilfælde af brand skyndte man sig hen til håndtaget, som var forbundet med stormklokken. Man ringede for at sammenkalde byens indbyggere til hjælp med at slukke ildebranden. Stormklokken hang i Sct. Hans Kirkes tårn på Nytorv frem til 1584, hvorefter den flyttede til Sct. Ibs Kirkes tårn, der lå i Viborgs nordlige del. Klokken hang her til 1613, hvor den fik plads i Domkirkens nordtårn. Siden 1984 har stormklokken været udstillet i Domkirkens lille museum i kælderen under det sydlige tårn.",
+    "next": "POI_STORMKLOKKEN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/21_stormklokken_1_thumb.jpg",
+    "pictures": [ "pois/21_stormklokken_1.jpg", "pois/21_stormklokken_2.jpg", "pois/21_stormklokken_3.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0101stormklokken_paa_domkirkens_taarn.mp3",
+        "en-GB": "secret_spots_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_1.mp3"
+      },
+      "next": {
+        "da-DK": "0101stormklokken_paa_domkirkens_taarn_1.mp3",
+        "en-GB": "secret_spots_1_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_1_1.mp3"
+      }
+    }
+  },
+  {
+
+    "id": 22,
+    "location": {
+      "lat": 56.450297,
+      "lng": 9.411547
+    },
+    "proximity": 25,
+    "title": "Skovgaard Museets have",
+    "shortdescription": "En lille fredfyldt og frodig oase blev anlagt i 1970’erne bag museet. Ud over det grønne findes i haven også Edith Ludvigsens fuglespringvand og Mogens Bøgilds relief af mordet på Erik Klipping.",
+    "text": "Du står nu i haven bag Skovgaard Museet, som er Viborgs gamle rådhus fra 1728. Det gamle Viborg Rådhus ligger på sydsiden af Domkirkepladsen og dannede rammen om Viborg bys administration frem til 1874. I kælderen lå byens arrest, og her stod også byens brandsprøjte. I 1889 flyttede Viborg Museum ind i den smukke barokbygning, og siden 1980 har Skovgaard Museet haft til huse her. I løbet af 1970’erne blev den lille fine grønne museumshave anlagt med klippede hække, stynede småbladede lindetræer og brolægning bag museet. Centralt i haven kan du se Edith Ludvigsens fuglespringvand fra 1984, som er skabt over frugten fra sumpplanten hornnød. I det sydvestlige hjørne finder du et relief af Mogens Bøgild, der viser mordet på kong Erik Klipping i Finderup Lade i 1286. Du kan høre mere om relieffet, hvis du vælger ruten Mindesten og Monumenter. Fuglespringvandets sagte rislen og det fine lys gennem træerne gør haven til en fredfyldt og frodig oase midt i Viborg.",
+    "next": "POI_SKOVGARDMUSEETS_HAVE_NEXT_DESCRIPTION",
+    "handicap": "Kørevenlig indgang til haven findes fra Sct. Mogens Gade bag Skovgaard Museet.",
+    "thumb": "thumbs/22_skovgardmuseets_have_1_thumb.jpg",
+    "pictures": [ "pois/22_skovgardmuseets_have_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0102haven_bag_skovgaard_museet.mp3",
+        "en-GB": "secret_spots_2.mp3",
+        "de-DE": "sturmglocke_im_domturm_2.mp3"
+      },
+      "next": {
+        "da-DK": "0102haven_bag_skovgaard_museet_1.mp3",
+        "en-GB": "secret_spots_2_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_2_1.mp3"
+      }
+    }
+  },
+  {
+
+    "id": 23,
+    "location": {
+      "lat": 56.450020,
+      "lng": 9.410426
+    },
+    "proximity": 25,
+    "title": "Latinerhaven",
+    "shortdescription": "Den opdelte grønne byhave tilhørte tidligere latinskolens rektor. Find både det gamle ’Rektors Lysthus’, Mindetavlen for Fugle-Mortensen og monumentet for hedens digter St. St. Blicher.",
+    "text": "Nu er du ved Latinerhaven, som er Viborgs centrale byhave. Latinerhaven er den sidste store ubebyggede brandtomt efter den voldsomme bybrand i 1726, hvor halvdelen af Viborg blev lagt øde - også de fire adelsgårde, der lå, hvor haven ligger i dag. Latinerhaven har fået sit navn, fordi latinskolens rektor senere havde sin private have her. På hjørnet mellem Sct. Mogens Gade og Sct. Mathias Gade findes stadig det ca. 200 år gamle 'Rektors Lysthus'. Den grønne byhave er opdelt i forskellige afsnit, blandt andet med stauder, forårs- og sommerblomster, og der findes også et lille haveafsnit med kryddersnapseurter. I haven kan du finde monumentet for hedens digter St. St. Blicher og en mindetavle for ornitologen H. Chr. C. Mortensen, også kaldet ”Fugle-Mortensen”. Du kan høre mere om de to, hvis du vælger ruten Mindesten og Monumenter. Ved siden af Latinskolens gamle gymnastiksal findes Løvebrønden. Den er tegnet af den lokale arkitekt Frederik Jensen i anledningen af Viborg Bys og Omegns Sparekasses 100 års jubilæum i 1928. I 1935 skulle Sparekassen udvides, og brønden stod i vejen og blev skænket til byens forskønnelse og opstillet i Latinerhaven.",
+    "next": "POI_LATINERHAVEN_NEXT_DESCRIPTION",
+    "handicap": "Kørevenlig indgang til haven findes på hjørnet af Kompagnistræde og Sankt Mathias Gade.",
+    "thumb": "thumbs/23_latinerhaven_1_thumb.jpg",
+    "pictures": [ "pois/23_latinerhaven_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0103latinerhaven.mp3",
+        "en-GB": "secret_spots_3.mp3",
+        "de-DE": "sturmglocke_im_domturm_3.mp3"
+      },
+      "next": {
+        "da-DK": "0103latinerhaven_1.mp3",
+        "en-GB": "secret_spots_3_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_3_1.mp3"
+      }
+    }
+  },
+  {
+
+    "id": 24,
+    "location": {
+      "lat": 56.451082,
+      "lng": 9.409177
+    },
+    "proximity": 25,
+    "title": "Margrethekælderen",
+    "shortdescription": "I 1400-tallet tilhørte huset og kælderen Dronning Margrethe I. Skiltet over døren fortæller, at her lå et apotek, som blev grundlagt i 1573 som Nørrejyllands første apotek.",
+    "text": "Du er ved det gamle Svaneapotek, hvor du finder resterne af Viborgs ældste bevarede hus, som engang var ejet af Dronning Margrethe I. Margrethekælderen ligger i en stor laksefarvet bygning. Denne farve kendetegnede engang en række af Viborgs huse. Skiltet over døren fortæller, at her var der et apotek - Svaneapoteket - som blev grundlagt i 1573 som Nørrejyllands første apotek. I kælderen finder vi resterne af Viborgs ældste bevarede hus. Kælderen og huset tilhørte i 1406 Dronning Margrethe I, og vi kan følge huset yderligere godt 50 år tilbage i tiden til ca. 1350, så kælderen er altså mere end 650 år gammel. Svaneapoteket flyttede til nyere lokaler i 1993.",
+    "next": "POI_MARGRETHEKAELDEREN_NEXT_DESCRIPTION",
+    "handicap": "Kørevenlig indgang til haven findes fra Sct. Mogens Gade ud for Nytorvgyde.",
+    "thumb": "thumbs/24_margrethekaelderen_1_thumb.jpg",
+    "pictures": [ "pois/24_margrethekaelderen_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0104margrethekaelderen.mp3",
+        "en-GB": "secret_spots_4.mp3",
+        "de-DE": "sturmglocke_im_domturm_4.mp3"
+      },
+      "next": {
+        "da-DK": "0104margrethekaelderen_1.mp3",
+        "en-GB": "secret_spots_4_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_4_1.mp3"
+      }
+    }
+  },
+  {
+
+    "id": 25,
+    "location": {
+      "lat": 56.451093,
+      "lng": 9.409374
+    },
+    "proximity": 25,
+    "title": "Amtmands-gården",
+    "shortdescription": "En stiftamtmand stod i spidsen for den verdslige administration i et stift. Fra 1824 – 2004 var det flotte barokhus bolig for de skiftende stiftamtmænd i Viborg Stift.",
+    "text": "Du er på nordsiden af Nytorv ved den imponerende Stiftamtmandsgård med de mange fine murede detaljer. I næsten 200 år, fra 1824 og til 2004, var det flotte barokhus bolig for de skiftende stiftamtmænd i Viborg stift. En stiftamtmand stod i spidsen for den verdslige forvaltning i et stift. Men huset er noget ældre og stod færdigbygget som privatbolig i 1758. Det blev opført 32 år efter, at den tidligere bygning blev flammernes bytte under den store bybrand. Sandstenstavlen midt på huset fortæller, at ægteparret Janus Friedenreich og Anne Margrethe Lind var bygherre. Sidefløjen ud til St. Sct. Hans Gade rummer rester af en middelalderlig boderække – som er en række små sammenbyggede udlejningsboliger, der ofte indeholdt et værksted til håndværkere, daglejere og fattige. Byggematerialet har været de store røde munkesten, som du stadig kan ane i portens malede murværk ned mod torvet. Inde i gården er der på venstre hånd en ca. 150 år gammel halvrund havestue, der oprindelig blev opført som en vognremise til Stiftamtmandens vogn og heste. Den store have er enestående i Viborg, omgivet som den er af bygninger, baghusmure og havemur.",
+    "next": "POI_AMTMANDS_GARDEN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/25_amtmands_garden_1_thumb.jpg",
+    "pictures": [ "pois/25_amtmands_garden_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0105stiftamtmandsgaarden.mp3",
+        "en-GB": "secret_spots_5.mp3",
+        "de-DE": "sturmglocke_im_domturm_5.mp3"
+      },
+      "next": {
+        "da-DK": "0105stiftamtmandsgaarden_1.mp3",
+        "en-GB": "secret_spots_5_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_5_1.mp3"
+      }
+    }
+  },
+  {
+
+    "id": 26,
+    "location": {
+      "lat": 56.451040,
+      "lng": 9.409846
+    },
+    "proximity": 25,
+    "title": "De gamle købmandsgårde",
+    "shortdescription": "Tidligere boede byens førende købmænd rundt omkring Nytorv. Ud mod gaden og torvet lå butikken, men gik man ind gennem porten, var der lagerrum, pakhuse og stalde.",
+    "text": "Du står nu ved porten til De gamle købmandsgårde. Tæt på Nytorv lå de store købmandsgårde. Nytorvgyde 3 blev således opført som købmandsgård; de nuværende bygninger er fra 1837- 47. Ud mod gaden og torvet lå butikken, men gik man ind gennem porten, var der lagerrum, pakhuse og stalde. I takt med gårdsaneringer op gennem tiden er de mange baghuse forsvundet, men de små intime gårdrum indrammet af såvel gammel som ny bebyggelse fornemmes fortsat, især bag husene langs Nytorvgyde og bag Nytorv 5. Hvis du går ind ad porten, finder du en lille bindingsværkbygning fra 1730. Går du hen til gavlen, finder du tre jernringe. De sidder i dag meget højt, fordi terrænet i nyere tid er faldet. For 100 år siden blev de benyttet af omegnens bønder til at binde deres heste ved, når de kom til byen for at købe de varer, de ikke selv kunne fremstille.",
+    "next": "POI_DE_GAMLE_KOBMANDSGARDE_NEXT_DESCRIPTION",
+    "thumb": "thumbs/26_de_gamle_kobmandsgarde_1_thumb.jpg",
+    "pictures": [ "pois/26_de_gamle_kobmandsgarde_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0106de_gamle_koebmandsgaarde.mp3",
+        "en-GB": "secret_spots_6.mp3",
+        "de-DE": "sturmglocke_im_domturm_6.mp3"
+      },
+      "next": {
+        "da-DK": "0106de_gamle_koebmandsgaarde_1.mp3",
+        "en-GB": "secret_spots_6_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_6_1.mp3"
+      }
+    }
+  },
+  {
+
+    "id": 27,
+    "location": {
+      "lat": 56.450917,
+      "lng": 9.411255
+    },
+    "proximity": 25,
+    "title": "Værtshuset Paradiset",
+    "shortdescription": "Stemningen var høj i 1674 i kælderbeværtningen Paradiset. Fire adelsmænd lod øllet glide ned og kom til så voldsom diskussion, at brushanerne endte i en dødelig duel i Nytorvgyde.",
+    "text": "Du er nu ved nordsiden af Nytorvgyde. Her lå værtshuset Paradiset, hvor et værtshusbesøg i 1600-tallet fik en dødelig udgang. Stemningen var høj den 18. marts 1674 i Salomon Gerbers kælderbeværtning Paradiset, der lå nederst i Nytorvgyde.  Fire adelsmænd, Johan Rantzau, Caspar Brockenhuus, Otto Bille og Christoffer Gersdorf havde først på aftenen varmet op i Svaneapotekets snapsestue på Nytorv. Senere fortrak de til Paradiset. Drikkeriet fortsatte, men som det gamle ordsprog siger: Når øllet går ind, så går forstanden ud. Det skete også her. Det kom til voldsom diskussion, det ene ord tog det andet, og de fire brushaner tumlede ude i Nytorvgyde sammen med to tjenere, der bar håndlygter. I det flakkende skær fra lygterne krydsedes kårdeklingerne, og en, skulle det vise sig, dødelig duel udkæmpedes. De to par fægtede det bedste, de havde lært, og til sidst måtte adelsmændene Bille og Gersdorf strække våben. Hårdt sårede gled de ned på brostenene. Tililende bar dem op på Svaneapoteket, hvor Bille udåndede. Gersdorf døde også senere af sine sår hjemme hos sig selv.",
+    "next": "POI_VAERTSHUSET_PARADISET_NEXT_DESCRIPTION",
+    "thumb": "thumbs/27_vaertshuset_paradiset_1_thumb.jpg",
+    "pictures": [ "pois/27_vaertshuset_paradiset_1.jpg", "pois/27_vaertshuset_paradiset_2.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0107vaertshuset_paradiset.mp3",
+        "en-GB": "secret_spots_7.mp3",
+        "de-DE": "sturmglocke_im_domturm_7.mp3"
+      },
+      "next": {
+        "da-DK": "0107vaertshuset_paradiset_1.mp3",
+        "en-GB": "secret_spots_7_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_7_1.mp3"
+      }
+    }
+  },
+  {
+
+    "id": 28,
+    "location": {
+      "lat": 56.453058,
+      "lng": 9.411919
+    },
+    "proximity": 25,
+    "title": "Karnapgården",
+    "shortdescription": "Karnapgården fra 1500-tallet er nok Sct. Mogens Gades mest markante hus. Byggematerialet er blandt andet brogede kvadersten fra de tolv sognekirker, der blev nedrevet i 1529.",
+    "text": "Du befinder dig i den nordlige ende af Sct. Mogens Gade foran en bygning opført af røde teglsten og tilhuggede granitsten, som er Karnapgården. Karnapgården er nok Sct. Mogens Gades mest markante hus. Ældst er kælderen fra ca. 1530, men som det kan læses på murankrene, stammer de stående mure fra henholdsvis 1643 og 1649. Byggematerialet er røde mursten og massevis af brogede kvadersten fra nogle af de tolv sognekirker, der blev nedrevet i 1529. Den fremspringende karnap har et dobbelt formål. Den giver bedre lys til rummet bagved og bedre udsyn til gaden. Hvis du går ind gennem porten, kan du se endnu et eksempel på genanvendte kirkesten på sidefløjen. Her er indmuret to halvrunde såkaldte tympanoner, der normalt sidder over dørene i vestenden af kirken. Den ene stump viser ansigtet af en engel. Af den anden tympanon er halvdelen bevaret. Billedet viser Kristus med højre hånd løftet til velsignelse, og til venstre ses det græske bogstav A for Alpha og solen. På den forsvundne halvdel har der været et O for Omega og en måne. Symbolerne henviser til Kristi ord: ”Jeg er begyndelsen og enden”.",
+    "next": "POI_KARNAPGARDEN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/28_karnapgarden_1_thumb.jpg",
+    "pictures": [ "pois/28_karnapgarden_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0108karnapgaarden.mp3",
+        "en-GB": "secret_spots_8.mp3",
+        "de-DE": "sturmglocke_im_domturm_8.mp3"
+      },
+      "next": {
+        "da-DK": "0108karnapgaarden_1.mp3",
+        "en-GB": "secret_spots_8_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_8_1.mp3"
+      }
+    }
+  },
+  {
+
+    "id": 29,
+    "location": {
+      "lat": 56.451454,
+      "lng": 9.411374
+    },
+    "proximity": 25,
+    "title": "Billen er dum",
+    "shortdescription": "For mange år siden sneg to drenge fra Østre Skole sig ind i Hans Tausens Minde og ridsede ”Billen er dum” i et af bøgetræerne. Billen var efternavnet på frk. Billetoft, som underviste i sprog på Viborg Katedralskole.",
+    "text": "Går du tæt på det store bøgetræ på højre hånd efter rosenhaven, ser du indskriften ”Billen er dum”. Der er mange måder at blive husket på, nogle gange frivilligt og andre gange helt ufrivilligt, som med Billens træ. Billen var frk. Ellen Billetofts øgenavn. Hun underviste i sprog på Viborg Katedralskole fra 1938 til 1969 og boede i det gule hus tæt på rosenhaven ved Hans Tausens Minde. I 1970’erne sneg to drenge, Jens Christian og Gerd, der gik på den nærliggende Østre Skole, sig ind i anlægget. De var kommet på kant med ”Billen” og ridsede nu med en skruetrækker: ”Billen er dum” i et af bøgetræerne. Man siger, at tiden sletter alle spor, og i dette tilfælde er det korrekt. Den gamle næsvished bliver for hvert år mere og mere utydelig, i takt med at bøgetræet vokser. En dag er de tre ord helt borte, og sådan vil det nok også gå med erindringen om frk. Billetoft.",
+    "next": "POI_BILLEN_ER_DUM_NEXT_DESCRIPTION",
+    "thumb": "thumbs/29_billen_er_dum_1_thumb.jpg",
+    "pictures": [ "pois/29_billen_er_dum_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0109billen_er_dum.mp3",
+        "en-GB": "secret_spots_9.mp3",
+        "de-DE": "sturmglocke_im_domturm_9.mp3"
+      },
+      "next": {
+        "da-DK": "0109billen_er_dum_1.mp3",
+        "en-GB": "secret_spots_9_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_9_1.mp3"
+      }
+    }
+  },
+  {
+
+    "id": 30,
+    "location": {
+      "lat": 56.451238,
+      "lng": 9.412415
+    },
+    "proximity": 25,
+    "title": "Vestre Landsret og Sukkenes bro",
+    "shortdescription": "Sukkenes Bro forbinder den tidligere Vestre Landsret og Arresthuset. Sukkenes Bro har fået navnet, da det er her, den dømte får det sidste glimt af friheden inden afsoning, hvilket skulle udløse dybe suk.",
+    "text": "For enden af strædet ser du Sukkenes Bro, som forbinder den tidligere landsret med arresten. Nok er Viborg ikke Venedig, men begge byer har en Sukkenes Bro. I Viborg forbinder broen den tidligere Vestre Landsrets retsbygning og Arresthuset. I Venedig blev navnet Sukkenes Bro lanceret af den engelske digter Lord Byron for ca. 200 år siden. Han forestillede sig, hvordan fangerne ville sukke højlydt over deres sidste glimt af det skønne Venedig gennem broens vinduer, inden de blev ført til afsoning. I Viborg er det glimtet af friheden, før den dømte får sin dom i Landsretten, der skulle udløse det dybe suk. En legende i Venedig siger, at elskende kan se frem til evig forelskelse, hvis de kysser hinanden, mens de i solnedgangen passerer under Sukkenes Bro. Måske virker det også i Viborg?",
+    "next": "POI_VESTRE_LANDSRET_OG_SUKKENES_BRO_NEXT_DESCRIPTION",
+    "thumb": "thumbs/30_vestre_landsret_og_sukkenes_bro_1_thumb.jpg",
+    "pictures": [ "pois/30_vestre_landsret_og_sukkenes_bro_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0110vestre_landsret_og_sukkenes_bro.mp3",
+        "en-GB": "secret_spots_10.mp3",
+        "de-DE": "sturmglocke_im_domturm_10.mp3"
+      },
+      "next": {
+        "da-DK": "0110vestre_landsret_og_sukkenes_bro_1.mp3",
+        "en-GB": "secret_spots_10_1.mp3",
+        "de-DE": "sturmglocke_im_domturm_10_1.mp3"
+      }
+    }
+  }
+]

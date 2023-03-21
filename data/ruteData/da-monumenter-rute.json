@@ -1,0 +1,289 @@
+[
+
+  {
+
+    "id": 11,
+    "location": {
+      "lat": 56.45058,
+      "lng": 9.41199
+    },
+    "proximity": 25,
+    "title": "Domkirkeporten",
+    "shortdescription": "Porten, som består af to døre – den yderste i støbt bronze og den inderste af glas – blev skabt af kirkekunstneren Maja Lisa Engelhardt og indviet i 2012.",
+    "text": "Du står ved en bronzedør, der giver adgang til Domkirken. Adgangen til Domkirkens vest-ende sker gennem to døre. Den yderste er af støbt bronze, og den anden er af glas. Dørenes udsmykning symboliserer et forhæng og er inspireret af Det Gamle Testamentes fortælling om forhænget, der skjulte det jødiske tempels allerhelligste rum. Her kom ypperstepræsten én gang årligt og bragte et dyreoffer. Ved Kristi død Langfredag flængedes forhænget, og det allerhelligste åbnede sig for give plads til den nye Pagt – Kristus. Nutidens kirkegængere går ind i Domkirken gennem den mørke port – gennem forhænget – og har nu i kraft af Kristi død uhindret adgang til Gud. Når menigheden forlader kirken, bevæger de sig ud i lyset; først gennem den lyse glasdør og herefter den forsølvede bagside af bronzedøren. Døren er skabt af kirkekunstneren Maja Lisa Engelhardt og blev afsløret af Dronning Margrethe II i 2012. Det år blev det markeret, at det var 200 år siden, at Domkirken fik status som sognekirke, efter man i 1812 sluttede med at holde gudstjeneste i Nørresogns kirke - den tidligere Gråbrødre Klosterkirke.",
+    "next": "POI_DOMKIRKEPORTEN_NEXT_DESCRIPTION",
+    "handicap": "Kørevenlig indgang findes på kirkens nordlige side ud for Stænderpladsen.",
+    "thumb": "thumbs/11_domkirkeporten_1_thumb.jpg",
+    "pictures": [ "pois/11_domkirkeporten_1.jpg", "pois/11_domkirkeporten_2.jpg", "pois/11_domkirkeporten_3.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0301domkirkeporten.mp3",
+        "en-GB": "monuments_1.mp3",
+        "de-DE": "denkmaler_1.mp3"
+      },
+      "next": {
+        "da-DK": "0301domkirkeporten_1.mp3",
+        "en-GB": "monuments_1_1.mp3",
+        "de-DE": "denkmaler_1_1.mp3"
+      }
+    }
+  },
+  {
+
+    "id": 12,
+    "location": {
+      "lat": 56.450297,
+      "lng": 9.411547
+    },
+    "proximity": 25,
+    "title": "Relief af Mordet i Finnerup Lade",
+    "shortdescription": "Relieffet i haven bag Skovgaard Museet er skabt af billedhuggeren Mogens Bøggild i 1986 og skildrer det sidste kongemord i Danmark, som fandt sted i 1286, da kong Erik Klipping blev dræbt i Finderup Lade.",
+    "text": "Du står i haven bag Skovgaard Museet, og på gavlen til nabohuset ser du Mogens Bøggilds relief af Mordet i Finderup Lade. Sct. Cecilie Nat den 22. november 1286 fandt det sidste kongemord sted i Danmark. Kong Erik Klipping blev dræbt med 56 stik i Finderup Lade, der befinder sig syv kilometer sydvest for Viborg. Drabet skete efter en længere strid med en gruppe stormænd om deres jordbesiddelser og øvrige rettigheder. Kongens lig blev bragt til Viborg Domkirke, hvor han blev begravet i koret. Uden at deres skyld kunne bevises, blev ni stormænd i 1287 kendt skyldige i kongemordet og dømt til fredløshed, heriblandt Marsk Stig Andersen. Bronzerelieffet viser den dramatiske situation, hvor de sammensvorne prøver at sprænge døren ind til kongen. En af dem har endda sat skulderen mod porten, mens en anden ligger halvt ud af sin seng. Da flere af figurerne er modelleret næsten frit, giver det relieffet en sjælden dramatik, ja en næsten livagtig skildring af optakten til kongedrabet. Relieffet er skabt af billedhuggeren Mogens Bøggild i 1986 og afsløret i 700-året for kongemordet.",
+    "next": "POI_FINNERUP_LADE_NEXT_DESCRIPTION",
+    "thumb": "thumbs/12_finnerup_lade_1_thumb.jpg",
+    "pictures": [ "pois/12_finnerup_lade_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0302relief_af_mordet_i_finderup_lade.mp3",
+        "en-GB": "monuments_2.mp3",
+        "de-DE": "denkmaler_2.mp3"
+      },
+      "next": {
+        "da-DK": "0302relief_af_mordet_i_finderup_lade_1.mp3",
+        "en-GB": "monuments_2_1.mp3",
+        "de-DE": "denkmaler_2_1.mp3"
+      }
+    }
+  },
+
+  {
+
+    "id": 13,
+    "location": {
+      "lat": 56.450579,
+      "lng": 9.410951
+    },
+    "proximity": 25,
+    "title": "Mindetavle for Fugle-Mortensen",
+    "shortdescription": "H. Chr. C. Mortensen var naturhistorielærer ved Katedralskole og fik tilnavnet Fugle-Mortensen. Det skyldtes hans interesse for ornitologi. Fugle-Mortensen satte ringmærkningen af fugle i Danmark i system.",
+    "text": "På Latinskolens væg i Latinerhaven hænger en mindetavle for ornitolog H. Chr. C. Mortensen. H. Chr. C. Mortensen var naturhistorielærer ved Viborg Katedralskole og levede i Viborg fra 1888 frem til sin død i 1921. Hans tilnavn var Fugle-Mortensen, hvilket skal opfattes meget anerkendende og henviser til hans livslange interesse for ornitologi og frem for alt for ringmærkning af fugle. Metoden var kendt, men han forfinede og udviklede den ved bl.a. at introducere lette aluminiumsringe. Formålet med at ringmærke fuglene, især stære og storke, var bl.a. at kortlægge levealder, trækruter, overvintringsområder og andre aspekter af fuglenes liv. Hans yndlingsfugl var stæren, som han personligt ringmærkede mange af, og herudover 6.000 andre fugle. Et resultat af hans arbejde med ringmærkningen af storke viste, at de ikke fløj til Ægypten, som det beskrives af digtere som H. C. Andersen og B. S. Ingemann, men til Sydafrika. Relieffet, som viser tre svævende storke, er udført af maleren Johannes Larsen, mens teksten er skrevet af en af Fugle-Mortensens elever fra Latinskolen, forfatteren Johannes V. Jensen. Mindepladen blev afsløret i 1952.",
+    "next": "POI_FUGLE_MORTENSEN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/13_fugle_mortensen_1_thumb.jpg",
+    "pictures": [ "pois/13_fugle_mortensen_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0303mindetavle_for_fugle-mortensen.mp3",
+        "en-GB": "monuments_3.mp3",
+        "de-DE": "denkmaler_3.mp3"
+      },
+      "next": {
+        "da-DK": "0303mindetavle_for_fugle-mortensen_1.mp3",
+        "en-GB": "monuments_3_1.mp3",
+        "de-DE": "denkmaler_3_1.mp3"
+      }
+    }
+  },
+
+  {
+
+    "id": 14,
+    "location": {
+      "lat": 56.450486,
+      "lng": 9.410738
+    },
+    "proximity": 25,
+    "title": "Mindestøtte for Steen Steensen Blicher",
+    "shortdescription": "Mindestøtten af St. St. Blicher, som blev skabt af billedhuggeren Theobald Thielemann i 1800-tallet, har tidligere været placeret tre andre steder i byen men har siden 1960 stået i Latinerhaven.",
+    "text": "Du er i Latinerhaven ved gavlen af Latinskolens gamle gymnastiksal og ser en buste af St. St. Blicher. Bronzebusten af præsten og digteren St. St. Blicher, der levede fra 1782 til 1848, blev i 1960 anbragt i Latinerhaven for enden af Latinskolens gamle gymnastiksal. Tidligere havde busten været placeret tre andre steder i byen. St. St. Blicher regnes for en af Danmarks mest betydningsfulde digtere og er da også med i litteraturkanonen med novellen Præsten i Vejlby udgivet i 1829. Han hentede sin inspiration på sine mange ture med hund og jagtgevær på den midtjyske Alhede. Her traf han et broget galleri af hedens beboere: bønder, hosebindere, rakkere og tatere, personer der ofte optræder i hans noveller. Billedhuggeren Theobald Thielemann skabte fra ca. 1840 en lang række statuer og mindetavler over sin samtids markante danske personligheder, bl.a. busten af St. St. Blicher fra 1866, der blev rejst efter en national idé om at give Jyllands store digter et varigt minde i Jyllands hovedby Viborg.",
+    "next": "POI_STEEN_STEENSEN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/14_steen_steensen_1_thumb.jpg",
+    "pictures": [ "pois/14_steen_steensen_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0304mindestoette_af_st_st_blicher.mp3",
+        "en-GB": "monuments_4.mp3",
+        "de-DE": "denkmaler_4.mp3"
+      },
+      "next": {
+        "da-DK": "0304mindestoette_af_st_st_blicher_1.mp3",
+        "en-GB": "monuments_4_1.mp3",
+        "de-DE": "denkmaler_4_1.mp3"
+      }
+    }
+  },
+  {
+
+    "id": 16,
+    "location": {
+      "lat": 56.451545,
+      "lng": 9.412309
+    },
+    "proximity": 25,
+    "title": "Statue af Hans Tausen 2005",
+    "shortdescription": "Ved siden af mindestøtten fra 1836 står et nyt Hans Tausen monument. Det blev skabt i 2005 af kunstneren Bjørn Nørgaard.",
+    "text": "Du står foran Bjørn Nørgaards moderne statue af Hans Tausen i haveanlægget Hans Tausens Minde. Viborg fejrede Reformationen i 2005, hvor det var 475 år siden, at de to protestantiske Nørre- og Søndresogns sognekirker blev indviet. Kirkerne fik til huse i de to tiggemunkeklosterkirker for henholdsvis Grå- og Sortebrødrene. Jubilæet blev også markeret med afsløringen af et nyt Hans Tausen monument. Opgaven blev lagt i hænderne på kunstneren Bjørn Nørgaard. Monumentet hviler på en hvælvet granitsten, der symboliserer jordkloden, mens de tre svungne stålben symboliserer treenigheden: Gud Faderen, Sønnen og Helligånden. Keramikfiguren af Hans Tausen står på en glasplade, som dækker over en stor hvid gravsten. Den hvide sten er i følge traditionen den sten, som Hans Tausen benyttede, da han prædikede på Gråbrødre Klosterkirkegård, før hans menighed fik adgang til selve klosterkirken. På figuren ses en række bronzetunger med citater fra Hans Tausens reformationsskrifter.",
+    "next": "POI_HANS_TAUSEN_2005_NEXT_DESCRIPTION",
+    "handicap": "Kørevenlig indgang til haven findes fra Sct. Mogensgade lige nord for Gråbrødre Kirke Str.",
+    "thumb": "thumbs/16_hans_tausen_2005_1_thumb.jpg",
+    "pictures": [ "pois/16_hans_tausen_2005_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0306hans_tausen_monument_2005.mp3",
+        "en-GB": "monuments_6.mp3",
+        "de-DE": "denkmaler_6.mp3"
+      },
+      "next": {
+        "da-DK": "0306hans_tausen_monument_2005_1.mp3",
+        "en-GB": "monuments_6_1.mp3",
+        "de-DE": "denkmaler_6_1.mp3"
+      }
+    }
+  },
+  {
+
+    "id": 17,
+    "location": {
+      "lat": 56.451434,
+      "lng": 9.412443
+    },
+    "proximity": 25,
+    "title": "Statue af Hans Tausen 1836",
+    "shortdescription": "Mindestøtten af Hans Tausen er udført af billedhuggeren H.E. Freund. Stenen blev rejst i haveanlægget ’Hans Tausens Minde’ i 1836, i 300-året for Reformationen.",
+    "text": "Du står i anlægget Hans Tausens Minde ved mindestøtten af Hans Tausen i et kirkerum, som er markeret af klippede bøgehække. Danmarks reformator Hans Tausen kom som johannitermunk til Viborg i 1525. Da hans prædikener i johanniternes klosterkirke blev for kritiske for den katolske kirke, blev han udstødt af ordenen i 1526. Han fortsatte dog sine protestantiske prædikener. Først i Sct. Hans Kirke på det nuværende Nytorv og fra 1527 i gråbrødrenes store klosterkirke. Viborgs 12 katolske sognekirker blev nedrevet i 1529, og Grå- og Sortebrødrenes klosterkirker blev herefter indrettet som de protestantiske Nørre- og Søndresogns sognekirker. Reformationen blev gennemført i hele Danmark i 1536.</p><p>Mindestøtten er udført af billedhuggeren H.E. Freund. Den blev rejst i 300-året for reformationen i 1836 i det nyanlagte haveanlæg - Hans Tausens Minde.  Forsiden viser Hans Tausen over en indskrift: 2.TIMOTH.2.9. som er en henvisning til Bibelen: 'Guds ord er ikke bundet'. På siderne ses evangelistsymbolerne: løve for Markus, engel for Mattæus, tyr for Lukas og ørn for Johannes. Monumentet er desuden dekoreret med en række småfigurer og symboler: Delfiner, der symboliserer frelse. En kerub, som er billedet på en beskyttende vogter. En svane, et kors og en række rosetter.",
+    "next": "POI_HANS_TAUSEN_1836_NEXT_DESCRIPTION",
+    "thumb": "thumbs/17_hans_tausen_1836_1_thumb.jpg",
+    "pictures": [ "pois/17_hans_tausen_1836_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0305mindestoette_for_hans_tausen_1836.mp3",
+        "en-GB": "monuments_5.mp3",
+        "de-DE": "denkmaler_5.mp3"
+      },
+      "next": {
+        "da-DK": "0305mindestoette_for_hans_tausen_1836_1.mp3",
+        "en-GB": "monuments_5_1.mp3",
+        "de-DE": "denkmaler_5_1.mp3"
+      }
+    }
+  },
+  {
+
+    "id": 18,
+    "location": {
+      "lat": 56.451218,
+      "lng": 9.412015
+    },
+    "proximity": 25,
+    "title": "Kongehyldningsmonumentet",
+    "shortdescription": "Statuen af Dronning Margrethe I og hendes 14-årige grandnevø og fostersøn, den senere kong Erik af Pommern, blev afsløret i 1965. Monumentet markerer Viborgs 600-årige historie som kongehyldningsby.",
+    "text": "Du står nu på Margretheplænen, hvor du mødes af Dronning Margrethe I og Erik af Pommern på Kongehyldningsmonumentet. Viborg var kongehyldningssted siden den ældste middelalder, men den nærmere placering i middelalderen er ukendt. Den første konge, vi finder omtalt som hyldet i Viborg, er Kong Hardeknud i 1027, men arkæologiske fund ved Søndersø tyder på, at hans forgænger Knud den Store også blev hyldet i Viborg i 1019. Når kongerne i middelalderen skulle vælges til konge, skulle de alle først til Viborg for at blive hyldet på landstinget. Den sidste hyldning fandt sted i 1657, hvor den ni-årige kronprins, den senere Kong Christian V, hyldedes til konge. I Danmark overgik man til arvekongedømme i forbindelse med, at enevælden blev indført i 1660, og kongehyldningerne ophører. Billedhuggeren Axel Poulsens statue af Dronning Margrethe I og hendes 14-årige grandnevø og fostersøn, den senere kong Erik af Pommern blev afsløret i 1965 for at mindes Viborgs mere end 600-årige historie som kongehyldningsby. Stedet for statuen er ikke det gamle ting- og kongehyldningssted. I middelalderen var her beboelseshuse og baggårde.",
+    "next": "POI_KONGEHYLDNINGSMONUMENTET_NEXT_DESCRIPTION",
+    "thumb": "thumbs/18_kongehyldingsmonumentet_1_thumb.jpg",
+    "pictures": [ "pois/18_kongehyldingsmonumentet_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0307kongehyldningsmonumentet.mp3",
+        "en-GB": "monuments_7.mp3",
+        "de-DE": "denkmaler_7.mp3"
+      },
+      "next": {
+        "da-DK": "0307kongehyldningsmonumentet_1.mp3",
+        "en-GB": "monuments_7_1.mp3",
+        "de-DE": "denkmaler_7_1.mp3"
+      }
+    }
+  },
+  {
+
+    "id": 19,
+    "location": {
+      "lat": 56.450857,
+      "lng": 9.411698
+    },
+    "proximity": 25,
+    "title": "Mindesten for Danmarks befrielse",
+    "shortdescription": "Mindestenene blev afsløret i 1970 – 25-året for befrielsen. Teksten er skrevet af forfatteren og museumsmanden Peter Seeberg.",
+    "text": "Du står ved fire sten i diget til Margretheplænen, der mindes afslutningen på Danmarks besættelse 5. maj 1945. Forfatteren og museumsmanden Peter Seebergs smukke og rammende tekst til monument for befrielsen kan næsten ikke være kortere og mere beskrivende: På de fire mindesten står: 5. maj 1945 - Freden - Glæden - Sorgen. Monumentet blev afsløret i 25-året for befrielsen i 1970.",
+    "next": "POI_DANMARKS_BEFRIELSE_NEXT_DESCRIPTION",
+    "thumb": "thumbs/19_danmarks_befrielse_1_thumb.jpg",
+    "pictures": [ "pois/19_danmarks_befrielse_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0308mindesten_for_danmarks_befrielse.mp3",
+        "en-GB": "monuments_8.mp3",
+        "de-DE": "denkmaler_8.mp3"
+      },
+      "next": {
+        "da-DK": "0308mindesten_for_danmarks_befrielse_1.mp3",
+        "en-GB": "monuments_8_1.mp3",
+        "de-DE": "denkmaler_8_1.mp3"
+      }
+    }
+  },
+  {
+
+    "id": 20,
+    "location": {
+      "lat": 56.450906,
+      "lng": 9.412360
+    },
+    "proximity": 25,
+    "title": "Stænderpladsen",
+    "shortdescription": "Viborg fejrede i 1950 fem jubilæer. Borgerne samlede ind til statuen, som symboliserer Viborg som retsby. Billedhuggeren Anker Hoffmann løste opgaven med en statue af retfærdighedsgudinden Justitia.",
+    "text": "Du står på hjørnet til Stænderpladsen med Viborg-pigen, som er en statue af en nøgen kvinde.</p><p>På Stænderpladsen er der forbløffende nok en direkte sammenhæng mellem et byjubilæum og en statue af en nøgen kvinde. I 1950 fejrede Viborg ikke færre end fem jubilæer, bl.a. byens gamle status som retsstad. En pengeindsamling blev igangsat, så viborgenserne kunne skænke byen et kunstværk, og der blev taget kontakt til billedhuggeren Anker Hoffmann. Han foreslog en kvindefigur, der skulle fremstille retfærdighedens gudinde Justitia med bind for øjnene og med griffel og pergamentrulle i hænderne for at symbolisere Viborgs gamle status som rets- og tingsted. Da statuen blev afsløret i 1954, var bindet for øjnene blevet fjernet. Anker Hoffmann fortalte om sin kvindeskulptur, at hun syntes at være formet ud af det dejlige, bakkede landskab omkring Viborg, og at han som inspiration havde benyttet tre modeller, som hver havde deres fortrin. Skulpturen affødte mange hede diskussioner. Viborg-pigen står med ansigtet mod det gamle Rådhus og ryggen mod byen.",
+    "next": "POI_STAENDERPLADSEN_NEXT_DESCRIPTION",
+    "thumb": "thumbs/20_staenderpladsen_1_thumb.jpg",
+    "pictures": [ "pois/20_staenderpladsen_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": {
+      "story": {
+        "da-DK": "0309staenderpladsen.mp3",
+        "en-GB": "monuments_9.mp3",
+        "de-DE": "denkmaler_9.mp3"
+      },
+      "next": {
+        "da-DK": "0309staenderpladsen_1.mp3",
+        "en-GB": "monuments_9_1.mp3",
+        "de-DE": "denkmaler_9_1.mp3"
+      }
+    }
+  }
+
+
+
+]

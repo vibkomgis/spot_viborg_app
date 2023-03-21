@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
 html, body {
@@ -108,11 +109,20 @@ input[type="radio"]:checked + label {
     color: #6cbe9d;
 }
   
-nav label {
-    display: block;
-    padding: 8px 8px 8px 32px;
+nav ul li {
+    padding: 8px 8px 8px 0px;
     font-size: 1.3em;
+    list-style-type: none;
+}
+
+nav ul li a {
+    text-decoration: none;
     color: #004536;
+}
+
+nav ul li a:target {
+    text-decoration: none;
+    color: blue;
 }
 
 nav label:hover {
@@ -121,10 +131,10 @@ nav label:hover {
   
 .main {
     margin: 0;
-    height: 100vh;
     width: 100vw;
     position: absolute;
     top: 0;
+    height: 100vh;
 }
 h1#title {
     z-index: 90;
@@ -139,29 +149,24 @@ h1#title {
     margin: 0;
     background-color: #6cbe9d;
 }
-div#content {
+
+section#sevaerdigheder:not(:target), section#ruter:not(:target), section#about:not(:target) {
+    display:none;
+}
+section > div#content {
+    padding: 60px 10px 10px 10px;
+    position: absolute;
+    background-color: #ffffff;
     line-height: 2;
     font-size: 1em;
     height: 100%;
 }
-
-.first {
+section#sevaerdigheder:target ~ nav ul li a {
+   color: blue;
+}
+section#start > div#content {
     background-image: url(https://spotviborg.dk/images/intro.jpg);
     background-size: cover;
     background-position: center;
     height: calc(100vh - 70px);
-    padding: 60px 10px 10px 10px;
-}
-.second {
-    display: none;
-    padding: 60px 0 0 0;
-    height: 100%;
-}
-div#map {
-    height: 100%;
-}
-
-.third {
-    display: none;
-    padding: 60px 10px 10px 10px;
 }

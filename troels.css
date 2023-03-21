@@ -116,7 +116,7 @@ label#toggleicon > span::after {
 }
 //ny nav
 //sections
-#sevaerdigheder:not(:target), #ruter:not(:target), #about:not(:target) {
+section#sevaerdigheder:not(:target), section#ruter:not(:target), section#about:not(:target) {
     display:none;
 }
 
@@ -166,15 +166,14 @@ div#content {
     height: 100%;
 }
 
-.first {
+.start {
     background-image: url(https://spotviborg.dk/images/intro.jpg);
     background-size: cover;
     background-position: center;
     height: calc(100vh - 70px);
     padding: 60px 10px 10px 10px;
 }
-.second {
-    display: none;
+.sevaerdigheder {
     padding: 60px 0 0 0;
     height: 100%;
 }
@@ -182,7 +181,6 @@ div#map {
     height: 100%;
 }
 
-.third {
-    display: none;
+.about {
     padding: 60px 10px 10px 10px;
 }

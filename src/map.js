@@ -96,19 +96,19 @@ fetch('data/sevaerdighederData/da-short.json')
           pois.forEach(function(poi) {
             const list = document.getElementById('myList');
             list.classList.add('sevaerdighederList'); // Tilføj class. Samme navn i global.css
-
+        
             // Add the item to the list
             const listItem = document.createElement('li');
-            const textNode = document.createTextNode(poi.title); 
-            
             const thumbImg = document.createElement('img');
             thumbImg.src = poi.thumb;
             thumbImg.alt = poi.title;
+        
             listItem.appendChild(thumbImg);
-            
-            console.log(textNode)
-            listItem.appendChild(textNode); 
-            list.appendChild(listItem); // 
+        
+            const textNode = document.createTextNode(poi.title);
+            listItem.appendChild(textNode);
+        
+            list.appendChild(listItem);
 
             listItem.addEventListener('click', function() {
               window.location.href = "public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text);

@@ -95,21 +95,21 @@ div#toggle_maplist {
 }
 
 .sevaerdighederList li {
-    margin: 10px;
-    padding-left: 50px;
-    line-height: 40px;
-    background-color: rgb(65, 177, 141);
-    border-radius: 2em 0.3em 0.3em 2em;
-    position: relative;
-    top: 100px;
-    cursor: pointer;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+  margin: 10px;
+  padding-left: 50px;
+  line-height: 40px;
+  background-color: rgb(65, 177, 141);
+  border-radius: 2em 0.3em 0.3em 2em;
+  position: relative;
+  top: 100px;
+  cursor: pointer;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .sevaerdighederList li:before {
-  content: 'k';
+  content: '';
   width: 40px;
   line-height: 40px;
   position: absolute;
@@ -122,6 +122,14 @@ div#toggle_maplist {
   -moz-border-radius: 2em;
   -webkit-border-radius: 2em;
   border-radius: 2em;
+}
+
+.sevaerdighederList li img {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 0;
+  top: 0;
 }
 
 .my-img-class {

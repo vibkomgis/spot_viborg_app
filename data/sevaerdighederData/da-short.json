@@ -4,8 +4,8 @@
 
     "id": 1,
     "location": {
-      "lat": 56.450554,
-      "lng": 9.412078
+      "lat": 56.45054,
+      "lng": 9.41223
     },
     "proximity": 25,
     "title": "POI_VIBORG_DOMKIRKE_TITEL",
@@ -323,8 +323,8 @@
 
     "id": 11,
     "location": {
-      "lat": 56.450554,
-      "lng": 9.412078
+      "lat": 56.45058,
+      "lng": 9.41199
     },
     "proximity": 25,
     "title": "POI_DOMKIRKEPORTEN_TITEL",
@@ -610,8 +610,8 @@
     
     "id": 21,
     "location": {
-      "lat": 56.45053,
-      "lng": 9.41249
+      "lat": 56.45066,
+      "lng": 9.41223
     },
     "proximity": 25, 
     "title": "POI_STORMKLOKKEN_TITEL",

@@ -16,9 +16,6 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 
-
-
-
 const dbName = "kirkeRute";
 const dbVersion = 1;
 
@@ -42,6 +39,7 @@ fetch('/data/ruteData/da-kirke-rute.json')
       objectStore.createIndex('title', 'title', { unique: false });
       objectStore.createIndex('shortdescription', 'shortdescription', { unique: false });
       objectStore.createIndex('text', 'text', { unique: false });
+      objectStore.createIndex('icon', 'icon', { unique: false });
 
       // Add data to the object store
       pois.forEach(obj => objectStore.add(obj));
@@ -67,30 +65,18 @@ fetch('/data/ruteData/da-kirke-rute.json')
           .replace(/æ/g, 'ae')
           .replace(/ø/g, 'oe');
 
+
+             // Hent ikoner til visning på kort
+             let myIcon = L.icon({
+              iconUrl: poi.icon.normal,
+              iconSize: [38, 38],
+              popupAnchor: [0, -15]
+            });
+
           // Create a marker on the map for each POI
-          L.marker([poi.location.lat, poi.location.lng]).addTo(mymap)
+          L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mymap)
           .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='../public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>");
 
-
-          // Define an array to store the lat/lng coordinates of each point
-          let coordsArray = [];
-
-          // Loop through each POI and add its lat/lng coordinates to the array
-          pois.forEach(poi => {
-            const coords = L.latLng(poi.location.lat, poi.location.lng);
-            coordsArray.push(coords);
-          });
-
-          // Create the routing control with the array of coordinates as the waypoints
-          L.Routing.control({
-            waypoints: coordsArray,
-            routeWhileDragging: true,
-            geocoder: false,
-            showAlternatives: false,
-            show: false,
-            draggableWaypoints: false,
-          }).addTo(mymap);
-          console.log(poi.text)
         });
       };
     };
@@ -99,14 +85,3 @@ fetch('/data/ruteData/da-kirke-rute.json')
     console.error(error);
   });
 
-
-  new L.GPX('/data/ruteData/gpx/domkirkens_bagside.gpx', {
-    async: true,
-  }).on('loaded', function(e) {
-    mymap.fitBounds(e.target.getBounds());
-  }).addTo(mymap);
-
-/*
-const testDist = calculateDistance(56.45053, 9.4125, 56.45589, 9.40207)
-console.log(testDist)
-*/

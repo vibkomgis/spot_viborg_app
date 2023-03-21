@@ -1,0 +1,511 @@
+[
+  {
+    "id": 1,
+    "name": "NAME_ROUTE_CHURCH",
+    "title": "TITLE_ROUTE_CHURCH",
+    "excerpt": "EXCERPT_CHURCH",
+    "distance": 1500,
+    "time": 45,
+    "touricon": "icons/icon_kirkeruten.svg",
+    "points": [
+
+      {
+
+        "visible": true,
+        "location": {
+          "lat": 56.450470,
+          "lng": 9.411991
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450276,
+          "lng": 9.412506
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450196,
+          "lng": 9.412811
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450098,
+          "lng": 9.413272
+        }
+      },
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450058,
+          "lng": 9.413284
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.449749,
+          "lng": 9.413113
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.449768,
+          "lng": 9.413033
+        }
+      },
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.449397,
+          "lng": 9.412782
+        }
+      },
+
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.449415,
+          "lng": 9.412727
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.449776,
+          "lng": 9.412995
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.449948,
+          "lng": 9.411974
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.449955,
+          "lng": 9.411933
+        }
+      },
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450047,
+          "lng": 9.411282
+        }
+      },
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450056,
+          "lng": 9.411011
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450037,
+          "lng": 9.410654
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450015,
+          "lng": 9.410369
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.449868,
+          "lng": 9.409635
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.449362,
+          "lng": 9.409867
+        }
+      },
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.449330,
+          "lng": 9.409848
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.449353,
+          "lng": 9.409823
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.449859,
+          "lng": 9.409590
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.449738,
+          "lng": 9.408953
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.449583,
+          "lng": 9.408326
+        }
+      },
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.449976,
+          "lng": 9.408053
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450081,
+          "lng": 9.408652
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450172,
+          "lng": 9.408700
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450254,
+          "lng": 9.408841
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450332,
+          "lng": 9.409415
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450656,
+          "lng": 9.409303
+        }
+      },
+
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450980,
+          "lng": 9.410048
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450941,
+          "lng": 9.410763
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450917,
+          "lng": 9.411255
+        }
+      },
+
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.451207,
+          "lng": 9.411232
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.451083,
+          "lng": 9.411240
+        }
+      },
+
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.451207,
+          "lng": 9.411232
+        }
+      },
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.451331,
+          "lng": 9.411246
+        }
+      },
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.451396,
+          "lng": 9.411263
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.451574,
+          "lng": 9.411360
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.451954,
+          "lng": 9.411603
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.452205,
+          "lng": 9.411735
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.452331,
+          "lng": 9.411781
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.452673,
+          "lng": 9.411841
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.452692,
+          "lng": 9.411845
+        }
+      },
+
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.452552,
+          "lng": 9.411894
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.452328,
+          "lng": 9.411847
+        }
+      },
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.452197,
+          "lng": 9.411801
+        }
+      },
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.452151,
+          "lng": 9.411773
+        }
+      },
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.451941,
+          "lng": 9.411667
+        }
+      },
+
+
+
+
+
+
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.451741,
+          "lng": 9.412384
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.451899,
+          "lng": 9.411649
+        }
+      },
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.451454,
+          "lng": 9.411374
+        }
+      },
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.451416,
+          "lng": 9.411344
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.451383,
+          "lng": 9.411329
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.451324,
+          "lng": 9.411312
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.451200,
+          "lng": 9.411298
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450865,
+          "lng": 9.411324
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450838,
+          "lng": 9.412152
+        }
+      },
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.450554,
+          "lng": 9.412078
+        }
+      }
+
+
+
+    ]
+  }
+]

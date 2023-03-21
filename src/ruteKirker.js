@@ -85,3 +85,49 @@ fetch('/data/ruteData/da-kirke-rute.json')
     console.error(error);
   });
 
+
+  const dbNameRoute = "kirkeRutePath"
+
+  
+  fetch('/data/ruteData/tours-kirke.json')
+  .then(response => response.json())
+  .then(route => {
+
+    const openRequest = indexedDB.open(dbNameRoute, dbVersion);
+
+    openRequest.onupgradeneeded = function(event) {
+      const db = event.target.result;
+
+
+      const objectStore = db.createObjectStore('kirkeRutePath', { keyPath: 'id' });
+
+
+      objectStore.createIndex('id', 'id', { unique: false });
+      objectStore.createIndex('points', 'points', { unique: false });
+      objectStore.createIndex('location', 'location', { unique: false });
+      objectStore.createIndex('lat', 'lat', { unique: false });
+      objectStore.createIndex('lng', 'lng', { unique: false });
+
+      route.forEach(obj => objectStore.add(obj));
+    };
+
+    openRequest.onsuccess = function(event) {
+      const db = event.target.result;
+      const transaction = db.transaction('kirkeRutePath', 'readonly');
+      const objectStore = transaction.objectStore('kirkeRutePath');
+
+      const request = objectStore.getAll();
+request.onsuccess = function(event) {
+  const route = event.target.result;
+
+  route.forEach(rute => {
+    const points = rute.points.map(point => L.latLng(point.location.lat, point.location.lng));
+    L.polyline(points, {color: 'red'}).addTo(mymap);
+  });
+};
+    };
+  })
+  .catch(error => {
+    console.error(error);
+  });
+

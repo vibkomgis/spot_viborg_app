@@ -75,6 +75,7 @@ label#toggleicon > span::after {
   content: '';
   top: 32px;
 }
+/*
 #toggle:checked ~ nav {
     right: 0;
     transition: 0.5s;
@@ -82,6 +83,7 @@ label#toggleicon > span::after {
 #toggle:checked ~ .menu__btn > span {
   right: -100px;
 }
+*/
 #toggle:checked + .menu__btn > span::before {
   transform: rotate(45deg);
   top:25px;
@@ -90,6 +92,7 @@ label#toggleicon > span::after {
   transform: rotate(315deg);
   top: 25px;
 }
+
 //ny nav
 #nav {
     width: 250px;

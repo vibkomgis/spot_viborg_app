@@ -75,6 +75,7 @@ label#toggleicon > span::after {
   content: '';
   top: 32px;
 }
+/*
 #toggle:checked ~ nav {
     right: 0;
     transition: 0.5s;
@@ -82,6 +83,7 @@ label#toggleicon > span::after {
 #toggle:checked ~ .menu__btn > span {
   right: -100px;
 }
+*/
 #toggle:checked + .menu__btn > span::before {
   transform: rotate(45deg);
   top:25px;
@@ -90,7 +92,9 @@ label#toggleicon > span::after {
   transform: rotate(315deg);
   top: 25px;
 }
-nav {
+
+//ny nav
+#nav {
     width: 250px;
     height: 100%;
     position: fixed;
@@ -100,6 +104,27 @@ nav {
     z-index:50;
     transition: 0.5s;
 }
+
+#nav:not(:target) {
+    display: none;
+    transition: 0.5s;
+}
+
+#nav:target {
+    display:block;
+    transition: 0.5s;
+}
+//ny nav
+//sections
+section#sevaerdigheder:not(:target), section#ruter:not(:target), section#about:not(:target) {
+    display:none;
+}
+
+#nav:target {
+    display: block;
+}
+//sections
+
 input[type="radio"] {
     display: none;
 }
@@ -108,15 +133,11 @@ input[type="radio"]:checked + label {
     color: #6cbe9d;
 }
   
-nav label {
+nav ul li {
     display: block;
     padding: 8px 8px 8px 32px;
     font-size: 1.3em;
     color: #004536;
-}
-
-nav label:hover {
-    cursor: pointer;
 }
   
 .main {
@@ -145,15 +166,14 @@ div#content {
     height: 100%;
 }
 
-.first {
+.start {
     background-image: url(https://spotviborg.dk/images/intro.jpg);
     background-size: cover;
     background-position: center;
     height: calc(100vh - 70px);
     padding: 60px 10px 10px 10px;
 }
-.second {
-    display: none;
+.sevaerdigheder {
     padding: 60px 0 0 0;
     height: 100%;
 }
@@ -161,7 +181,6 @@ div#map {
     height: 100%;
 }
 
-.third {
-    display: none;
+.about {
     padding: 60px 10px 10px 10px;
 }

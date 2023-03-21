@@ -59,26 +59,7 @@ const dbVersion = 1; // Opdatér dbVersion for at tilføje ny data. Således ska
 fetch('data/sevaerdighederData/da-short.json')
   .then(response => response.json())
   .then(pois => {
-    fetch('data/sevaerdighederData/da-long.json')
-      .then(response => response.json())
-      .then(translations => {
-        pois.forEach(poi => {
-          Object.keys(poi).forEach(key => {
-            const longDescription = pois.find(item => item.text === poi.text);
-            const value = poi[key];
-            if (typeof value === 'string' && value.startsWith('POI_')) {
-              poi[key] = translations[value];
-            } else if (typeof value === 'object') {
-              Object.keys(value).forEach(subkey => {
-                const subvalue = value[subkey];
-                if (typeof subvalue === 'string' && subvalue.startsWith('POI_')) {
-                  value[subkey] = translations[subvalue];
-                }
-              });
-            }
-          });
-        });
-
+    
         const openRequest = indexedDB.open(dbName, dbVersion);
         openRequest.onupgradeneeded = function(event) {
           const db = event.target.result;
@@ -150,18 +131,16 @@ fetch('data/sevaerdighederData/da-short.json')
               });
               
 
-             
-
+        
               // Lav basismarkør
               let marker = L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mymap)
               .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/> <a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>" + (poi.handicap ? "<br/><br>" + poi.handicap + "<br/><br/>" : ""));
-
 
                   
           });
      };
   }});
-})
+
 
 let facilitiesdbName = 'facilitiesDB'
 let facilitiesdbVersion = 1;

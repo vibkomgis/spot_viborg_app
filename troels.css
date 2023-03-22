@@ -164,9 +164,16 @@ section > div#content {
 section#sevaerdigheder:target ~ nav ul li a {
    color: blue;
 }
-section#start > div#content {
-    background-image: url(https://spotviborg.dk/images/intro.jpg);
+section#start > div#content:before {
+    height: 100vh;
+    width: 100vw;
+    position: absolute;
+    z-index: -1;
+    background-image: url(../images/intro.jpg);
     background-size: cover;
     background-position: center;
-    height: calc(100vh - 70px);
+    content: '';
+}
+section#start > div#content {
+    background: none;
 }

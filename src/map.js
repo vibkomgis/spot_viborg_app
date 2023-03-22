@@ -52,7 +52,7 @@ var lc = L.control.locate({
 lc.start();
 
 const dbName = "myDatabase";
-const dbVersion = 1; // Opdatér dbVersion for at tilføje ny data. Således skal brugeren ikke slette deres browser cache. 
+const dbVersion = 1.1; // Opdatér dbVersion for at tilføje ny data. Således skal brugeren ikke slette deres browser cache. 
 // Angiv variabler til ruteberegning
 
 // Fetch JSON data
@@ -149,7 +149,7 @@ fetch('data/sevaerdighederData/da-short.json')
 
 
 let facilitiesdbName = 'facilitiesDB'
-let facilitiesdbVersion = 1;
+let facilitiesdbVersion = 1.1;
 
 fetch('data/facilities/facilities-nc.json')
   .then(response => response.json())

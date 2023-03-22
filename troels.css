@@ -159,13 +159,13 @@ section > div#content {
     background-color: #ffffff;
     line-height: 2;
     font-size: 1em;
-    height: calc(100% - 50px);
+    height: calc(100% - 70px);
 }
 section#sevaerdigheder:target ~ nav ul li a {
    color: blue;
 }
 section#start > div#content:before {
-    height: calc(100% - 20px);
+    height: 100%;
     width: 100vw;
     position: absolute;
     top: 0;

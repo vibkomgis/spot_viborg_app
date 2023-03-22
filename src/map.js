@@ -45,9 +45,9 @@ L.control.layers(baseLayers).addTo(mymap);
 // Start GPS
 var lc = L.control.locate({
   locateOptions: {
-    enableHighAccuracy: true,
-    setView: false
-  }
+    enableHighAccuracy: true
+  },
+  setView: false
 }).addTo(mymap);
 lc.start();
 

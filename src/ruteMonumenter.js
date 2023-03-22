@@ -5,7 +5,12 @@ var mymap = L.map('map').setView([56.4534, 9.4029], 13);
 
 
 // Start GPS
-var lc = L.control.locate({locateOptions: {enableHighAccuracy: true}}).addTo(mymap);
+var lc = L.control.locate({
+  locateOptions: {
+    enableHighAccuracy: true
+  },
+  setView: false
+}).addTo(mymap);
 lc.start();
 
 

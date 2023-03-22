@@ -159,15 +159,17 @@ section > div#content {
     background-color: #ffffff;
     line-height: 2;
     font-size: 1em;
-    height: 100%;
+    height: calc(100% - 50px);
 }
 section#sevaerdigheder:target ~ nav ul li a {
    color: blue;
 }
 section#start > div#content:before {
-    height: 100vh;
+    height: calc(100% - 20px);
     width: 100vw;
     position: absolute;
+    top: 0;
+    left: 0;
     z-index: -1;
     background-image: url(../images/intro.jpg);
     background-size: cover;

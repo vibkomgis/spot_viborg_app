@@ -59,10 +59,10 @@ setTimeout(function () {
 function locationHashChanged() {
     if (window.location.hash === "#maps") {
         mymap.invalidateSize(true);
-        listButton.style.backgroundColor = 'black';
+        $("#listButton").css("background-color","#343434");
     }
     else if (window.location.hash === "#maps") {
-        mapButton.style.backgroundColor = 'black';    
+        $("#mapButton").css("background-color","#343434");  
     }
   }
 window.onhashchange = locationHashChanged;

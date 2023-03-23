@@ -262,3 +262,6 @@ div#map {
 .leaflet-container.leaflet-touch.leaflet-retina.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom {
     height: 100vh;
 }
+button {
+    cursor: pointer;
+}

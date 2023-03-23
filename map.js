@@ -52,12 +52,13 @@ var lc = L.control.locate({
 lc.start();
 
 // troels fixer kortet
+mymap.invalidateSize(true);
 function locationHashChanged() {
     if (window.location.hash === "#maps") {
         mymap.invalidateSize(true);
     }
   }
-  window.onhashchange = locationHashChanged;
+window.onhashchange = locationHashChanged;
 
 
 const dbName = "myDatabase";

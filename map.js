@@ -52,7 +52,10 @@ var lc = L.control.locate({
 lc.start();
 
 // troels fixer kortet
-mymap.invalidateSize(true);
+// https://stackoverflow.com/questions/53879753/leaflet-map-does-not-appear-correctly-until-resize
+setTimeout(function () {
+  mymap.invalidateSize(true);
+}, 100);
 function locationHashChanged() {
     if (window.location.hash === "#maps") {
         mymap.invalidateSize(true);
@@ -213,27 +216,15 @@ fetch('data/facilities/facilities-nc.json')
 
 const mapButton = document.getElementById('mapButton');
 const listButton = document.getElementById('listButton');
-mapButton.style.backgroundColor = 'green';
-listButton.style.backgroundColor = 'green';
 mapButton.addEventListener('click', showMap);
 listButton.addEventListener('click', showList);
 
 function showMap() {
-  const list = document.getElementById('myList');
-  list.style.display = 'none';
-  const mapShow = document.getElementById('map');
-  mapShow.style.display = 'block';
-  mapButton.style.backgroundColor = 'black';
-  listButton.style.backgroundColor = 'green';
+  listButton.style.backgroundColor = 'black';
 }
 
 function showList() {
-  const map = document.getElementById('map');
-  map.style.display = 'none';
-  const list = document.getElementById('myList');
-  list.style.display = 'block';
-  listButton.style.backgroundColor = 'black';
-  mapButton.style.backgroundColor = 'green';
+  mapButton.style.backgroundColor = 'black';
 }
 
 // Initialiser kortet som startside

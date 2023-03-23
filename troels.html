@@ -131,9 +131,6 @@
     window.onhashchange = locationHashChanged;
 
     // https://stackoverflow.com/questions/53879753/leaflet-map-does-not-appear-correctly-until-resize
-    // https://gis.stackexchange.com/questions/302180/leaflet-invalidate-size-is-not-a-function-undefined
-    var map = L.map('map'); // map is the ID of your DOM map container
-    map.invalidateSize();
     console.log(1);
     setTimeout(function () {
       map.invalidateSize(true);

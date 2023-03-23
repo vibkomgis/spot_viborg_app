@@ -3,8 +3,8 @@
 
 html, body {
     margin: 0;
-    padding: 0;
     font-size: 1em;
+    line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
     color: #004536;
 }
@@ -130,12 +130,8 @@ nav label:hover {
 }
   
 .main {
-    margin: 0;
-    width: 100vw;
-    position: absolute;
-    top: 0;
-    height: 100vh;
 }
+
 h1#title {
     z-index: 90;
     color: #004536;
@@ -157,17 +153,12 @@ section > div#content {
     padding: 60px 10px 10px 10px;
     position: absolute;
     background-color: #ffffff;
-    line-height: 2;
-    font-size: 1em;
     height: calc(100% - 70px);
     width: calc(100% - 20px);
 }
-section#sevaerdigheder:target ~ nav ul li a {
-   color: blue;
-}
 section#start > div#content:before {
     height: 100%;
-    width: 100vw;
+    width: 100%;
     position: absolute;
     top: 0;
     left: 0;

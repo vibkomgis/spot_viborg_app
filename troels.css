@@ -258,11 +258,7 @@ section#maps > div.content {
 div#map {
     height: 100%;
 }
-div#toggle_maplist {
-    position: absolute;
-    top: 50px;
-    width: 100%;
-    z-index: 1000;
-    text-align: center;
-    font-size: 0;
+/* test */
+.leaflet-container.leaflet-touch.leaflet-retina.leaflet-fade-anim.leaflet-grab.leaflet-touch-drag.leaflet-touch-zoom {
+    height: 100vh;
 }

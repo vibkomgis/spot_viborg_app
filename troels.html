@@ -107,9 +107,13 @@
       $("#toggle").prop("checked", false);
     });
     // Skjul tilbage-knap når start-siden vises
-    const $back = $('#back');
     function locationHashChanged() {
-      window.location.hash === "#start" ? $back.hide() : $back.show();
+      if (!window.location.hash || window.location.hash === "#start") {
+        $('#back').hide();
+      }
+      else {
+        $('#back').show();
+      }
     }
     window.onhashchange = locationHashChanged;
     </script>

@@ -173,7 +173,7 @@ div#lang button {
     width: 52px;
     height: 39px;
     padding: 0;
-    margin-right: 15px;
+    margin: 20px 10px;
 }
 div#startbuttons {
     bottom: 20px;

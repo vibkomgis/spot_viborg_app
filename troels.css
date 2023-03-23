@@ -197,7 +197,13 @@ div#startbuttons ul li {
     width: 220px;
 }
 div#startbuttons ul li a {
-    margin: 0px; display: block; width: 100%; height: 100%;
+    margin: 0px;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-decoration: none;
+    font-size: 3em;
+    color: #004536;
 }
 div#startbuttons ul li svg {
     width: 100px;

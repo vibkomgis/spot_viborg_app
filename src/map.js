@@ -53,7 +53,7 @@ lc.start();
 // test
 console.log(1);
 setTimeout(function () {
-  map.invalidateSize(true);
+  mymap.invalidateSize(true);
 }, 5000);
 console.log('2');
 

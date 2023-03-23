@@ -213,19 +213,15 @@ fetch('data/facilities/facilities-nc.json')
       };
     }});
 
-
-const mapButton = document.getElementById('mapButton');
-const listButton = document.getElementById('listButton');
-mapButton.addEventListener('click', showMap);
-listButton.addEventListener('click', showList);
-
-function showMap() {
-  listButton.style.backgroundColor = 'black';
-}
-
-function showList() {
-  mapButton.style.backgroundColor = 'black';
-}
-
-// Initialiser kortet som startside
-window.addEventListener('DOMContentLoaded', showMap);
+    // toggle - sort baggrund når modsat side vises
+    function locationHashChanged() {
+      if (window.location.hash === "#maps") {
+        listButton.style.backgroundColor = 'black';
+      }
+    }
+    function locationHashChanged() {
+      if (window.location.hash === "#list") {
+        mapButton.style.backgroundColor = 'black';
+      }
+    }
+    

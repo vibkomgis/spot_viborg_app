@@ -258,6 +258,8 @@ section#maps > div.content {
 div#map {
     height: 100%;
     width: 100vw;
+    min-width: 500px;
+    transition: 0.2s;
 }
 button {
     cursor: pointer;

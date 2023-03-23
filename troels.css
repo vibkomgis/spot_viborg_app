@@ -217,6 +217,7 @@ section#list ul {
     list-style: none;
     padding-left: 0;
     background-color: #ffffff;
+    margin: 0;
 }
 section#list ul li {
     margin: 10px;

@@ -132,7 +132,10 @@
 
     // https://stackoverflow.com/questions/53879753/leaflet-map-does-not-appear-correctly-until-resize
     setTimeout(function () {
-      mapid.invalidateSize(true);
+      map.invalidateSize(true);
+    }, 100);
+    setTimeout(function () {
+      mymap.invalidateSize(true);
     }, 100);
     </script>
 

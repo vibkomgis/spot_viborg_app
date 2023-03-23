@@ -53,10 +53,6 @@ lc.start();
 
 // troels fixer kortet 
 mymap.invalidateSize(true);
-setTimeout(function () {
-  mymap.invalidateSize(true);
-  console.log('anden gang');
-}, 100);
 
 
 const dbName = "myDatabase";

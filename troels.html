@@ -14,7 +14,7 @@
   <body>
     <div id="header">
       <div id="back">
-        <button id="go_back" onclick="goBack()">←</button>
+        <button id="go_back" onclick="history.back()">←</button>
       </div>
       <div id="navigation">
         <input id="toggle" type="checkbox" />
@@ -98,32 +98,20 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script>
-        var curr = $(".first");
-        $("input[type='radio']").on('change', function() {
-        curr.hide();
-        curr = $("." + $("input[type='radio']:checked").val() );
-        curr.show();
-        });
-    </script>
-
-    <script>
-/*
-	// Function to close the navigation bar
-	function closeNav() {
-	  nav.style.right = "-260px";
-	}
-
-	// Hide menu when link selected
-        $("input[type='radio']").on('change', function() {
-	$("#toggle").prop("checked", false);
-        });
-*/
-	$('nav ul li a').click(function(){
-	$("#toggle").prop("checked", false);
-	});
-	$('div.main').click(function(){
-	$("#toggle").prop("checked", false);
-	});
+    // Skul menu når der klikkes på link i menuen
+    $('nav ul li a').click(function(){
+    $("#toggle").prop("checked", false);
+    });
+    // Skjul menu når der klikkes i main div
+    $('div.main').click(function(){
+    $("#toggle").prop("checked", false);
+    });
+    // Skjul tilbage-knap når start-siden vises
+    if (!window.location.hash || window.location.hash === '#start') {
+      $('#back').hide();
+    } else {
+      $('#back').show();
+    }
     </script>
 
   </body>

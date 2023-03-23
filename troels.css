@@ -25,7 +25,6 @@ div#header #back {
     position: fixed;
     top: 0;
     left: 0;
-    display: none;
 }
 button#go_back {
     height: 50px;
@@ -34,6 +33,11 @@ button#go_back {
     background: none;
     font-size: 30px;
     padding: 0;
+}
+button#go_back svg {
+    height: 20px;
+    width: 50px;
+    display: block;
 }
 
 div#header #navigation {

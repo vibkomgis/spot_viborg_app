@@ -213,15 +213,17 @@ fetch('data/facilities/facilities-nc.json')
       };
     }});
 
-    // toggle - sort baggrund når modsat side vises
-    function locationHashChanged() {
-      if (window.location.hash === "#maps") {
-        listButton.style.backgroundColor = 'black';
-      }
-    }
-    function locationHashChanged() {
-      if (window.location.hash === "#list") {
-        mapButton.style.backgroundColor = 'black';
-      }
-    }
+// toggle - sort baggrund når modsat side vises
+function locationHashChanged() {
+  if (window.location.hash === "#maps") {
+    listButton.style.backgroundColor = 'black';
+  }
+}
+function locationHashChanged() {
+  if (window.location.hash === "#list") {
+    mapButton.style.backgroundColor = 'black';
+  }
+}
     
+// Initialiser kortet som startside
+window.addEventListener('DOMContentLoaded', showMap);

@@ -59,6 +59,10 @@ setTimeout(function () {
 function locationHashChanged() {
     if (window.location.hash === "#maps") {
         mymap.invalidateSize(true);
+        listButton.style.backgroundColor = 'black';
+    }
+    else if (window.location.hash === "#maps") {
+        mapButton.style.backgroundColor = 'black';    
     }
   }
 window.onhashchange = locationHashChanged;
@@ -212,18 +216,3 @@ fetch('data/facilities/facilities-nc.json')
         });
       };
     }});
-
-// toggle - sort baggrund når modsat side vises
-function locationHashChanged() {
-  if (window.location.hash === "#maps") {
-    listButton.style.backgroundColor = 'black';
-  }
-}
-function locationHashChanged() {
-  if (window.location.hash === "#list") {
-    mapButton.style.backgroundColor = 'black';
-  }
-}
-    
-// Initialiser kortet som startside
-window.addEventListener('DOMContentLoaded', showMap);

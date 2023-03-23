@@ -60,9 +60,11 @@ function locationHashChanged() {
     if (window.location.hash === "#maps") {
         mymap.invalidateSize(true);
         $("#listButton").css("background-color","#343434");
+        $("#mapButton").css("background-color","#004536");
     }
-    else if (window.location.hash === "#list") {
-        $("#mapButton").css("background-color","#343434");  
+    else {
+        $("#listButton").css("background-color","#004536");
+        $("#mapButton").css("background-color","#343434");
     }
   }
 window.onhashchange = locationHashChanged;

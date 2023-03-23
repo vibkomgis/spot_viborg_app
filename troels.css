@@ -36,12 +36,6 @@ button#go_back {
     padding: 0;
 }
 
-div#header #title {
-    line-height: 50px;
-    text-align: center;
-    color: #004536;
-}
-
 div#header #navigation {
     position: fixed;
     top: 0;
@@ -132,7 +126,7 @@ nav label:hover {
 .main {
 }
 
-h1#title {
+h1.title {
     z-index: 90;
     color: #004536;
     top: 0;
@@ -146,17 +140,17 @@ h1#title {
     background-color: #6cbe9d;
 }
 
-section#sevaerdigheder:not(:target), section#ruter:not(:target), section#about:not(:target) {
+section#map:not(:target), section#list:not(:target), section#routes:not(:target), section#about:not(:target) {
     display:none;
 }
-section > div#content {
+section > div.content {
     padding: 60px 10px 10px 10px;
     position: absolute;
     background-color: #ffffff;
     height: calc(100% - 70px);
     width: calc(100% - 20px);
 }
-section#start > div#content:before {
+section#start > div.content:before {
     height: 100%;
     width: 100%;
     position: absolute;
@@ -168,6 +162,17 @@ section#start > div#content:before {
     background-position: center;
     content: '';
 }
-section#start > div#content {
+section#start > div.content {
     background: none;
 }
+div#lang {
+    text-align: center;
+}
+div#lang button {
+    border: none;
+    width: 40px;
+    height: 30px;
+    padding: 0;
+    margin-right: 10px;
+}
+

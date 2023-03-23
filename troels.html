@@ -111,16 +111,19 @@
     $("#toggle").prop("checked", false);
     });
     // Skjul tilbage-knap når start-siden vises
-    if (!window.location.hash) {
-    //if (!window.location.hash || window.location.hash === '#start') {
-      console.log('1');
+    function locationHashChanged() {
+      if (!window.location.hash || window.location.hash === "#start") {
+        console.log("start eller tom");
+        console.log(window.location.hash);
+        $('#back').hide();
+      }
+      else {
+      console.log('andet');
       console.log(window.location.hash);
       $('#back').show();
-    } else {
-      console.log('2');
-      console.log(window.location.hash);
-      $('#back').hide();
+      }
     }
+    window.onhashchange = locationHashChanged;
     </script>
 
   </body>

@@ -50,12 +50,12 @@ var lc = L.control.locate({
   setView: false
 }).addTo(mymap);
 lc.start();
-// test
-console.log(1);
+
+// troels fixer kortet 
 setTimeout(function () {
   mymap.invalidateSize(true);
-}, 5000);
-console.log('2');
+}, 100);
+
 
 const dbName = "myDatabase";
 const dbVersion = 1; // Opdatér dbVersion for at tilføje ny data. Således skal brugeren ikke slette deres browser cache. 

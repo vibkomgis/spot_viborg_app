@@ -272,19 +272,19 @@ div#toggle_maplist {
     font-size: 0;
 }
 #mapButton {
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     background-color: #004536;
     border: none;
     vertical-align: top;
     border-bottom-left-radius: 15px;
 }
 #mapButton img {
-    padding: 5px;
+    padding: 3px;
 }
 #listButton {
-    height: 50px;
-    width: 50px;
+    height: 35px;
+    width: 35px;
     background-color: #004536;
     border: none;
     vertical-align: top;

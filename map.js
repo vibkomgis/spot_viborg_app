@@ -53,7 +53,7 @@ lc.start();
 
 // troels fixer kortet
 function locationHashChanged() {
-    if (!window.location.hash || window.location.hash === "#maps") {
+    if (window.location.hash === "#maps") {
         mymap.invalidateSize(true);
     }
   }

@@ -9,13 +9,6 @@ let mymap = L.map('map', {
    //maxZoom: 60 // set maxZoom to the same value as the initial zoom
 }).setView([56.4534, 9.4029], 13);
 
-/* troels test */
-console.log(1);
-setTimeout(function () {
-  map.invalidateSize(true);
-}, 5000);
-console.log('2');
-
 
 const dftoken = '3ebc3a63849a43b46feb8203ab25f83c';
 const myAttributionText = '&copy; <a target="_blank" href="https://dataforsyningen.dk/Vilkaar">Styrelsen for Dataforsyning og Infrastruktur</a>';
@@ -235,3 +228,10 @@ function showList() {
 
 // Initialiser kortet som startside
 window.addEventListener('DOMContentLoaded', showMap);
+
+// test
+console.log(1);
+setTimeout(function () {
+  map.invalidateSize(true);
+}, 5000);
+console.log('2');

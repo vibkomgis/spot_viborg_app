@@ -188,9 +188,9 @@ div#startbuttons ul {
     text-align: left;
 }
 div#startbuttons ul li {
-    padding: 0px 0px 0px 130px;
+    padding: 0px 0px 0px 100px;
     margin: 30px;
-    line-height: 100px;
+    line-height: 75px;
     background-color: #6cbe9d;
     border-radius: 5em;
     position: relative;
@@ -202,12 +202,12 @@ div#startbuttons ul li a {
     width: 100%;
     height: 100%;
     text-decoration: none;
-    font-size: 3em;
+    font-size: 2.5em;
     color: #004536;
 }
 div#startbuttons ul li svg {
-    width: 100px;
-    height: 100px;
+    width: 75px;
+    height: 75px;
     position: absolute;
     left: 0px;
     border: 4px solid #6cbe9d80;

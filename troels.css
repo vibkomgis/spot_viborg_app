@@ -252,9 +252,8 @@ section#maps > div.content {
     padding: 50px 0 0 0;
     position: absolute;
     background-color: #ffffff;
-    height: 100%;
+    height: calc(100% - 50px);
     width: 100%;
-    margin: 50px 0 0 0;
 }
 div#map {
     height: 100%;

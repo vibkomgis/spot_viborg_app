@@ -54,7 +54,7 @@ lc.start();
 // troels fixer kortet
 // https://stackoverflow.com/questions/53879753/leaflet-map-does-not-appear-correctly-until-resize
 setTimeout(function () {
-  map.invalidateSize(true);
+  mymap.invalidateSize(true);
 }, 100);
 function locationHashChanged() {
     if (window.location.hash === "#maps") {

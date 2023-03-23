@@ -102,26 +102,13 @@
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <script>
-    // Skul menu når der klikkes på link i menuen
-    $('nav ul li a').click(function(){
-    $("#toggle").prop("checked", false);
-    });
-    // Skjul menu når der klikkes i main div
-    $('div.main').click(function(){
-    $("#toggle").prop("checked", false);
+    // Skul menu når der klikkes på link i menuen eller i main div
+    $('nav ul li a, div.main').click(function(){
+      $("#toggle").prop("checked", false);
     });
     // Skjul tilbage-knap når start-siden vises
     function locationHashChanged() {
-      if (!window.location.hash || window.location.hash === "#start") {
-        console.log("start eller tom");
-        console.log(window.location.hash);
-        $('#back').hide();
-      }
-      else {
-      console.log('andet');
-      console.log(window.location.hash);
-      $('#back').show();
-      }
+      window.location.hash === "#start" ? $back.hide() : $back.show();
     }
     window.onhashchange = locationHashChanged;
     </script>

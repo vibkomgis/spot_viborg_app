@@ -51,8 +51,13 @@ var lc = L.control.locate({
 }).addTo(mymap);
 lc.start();
 
-// troels fixer kortet 
-mymap.invalidateSize(true);
+// troels fixer kortet
+function locationHashChanged() {
+    if (!window.location.hash || window.location.hash === "#maps") {
+        mymap.invalidateSize(true);
+    }
+  }
+  window.onhashchange = locationHashChanged;
 
 
 const dbName = "myDatabase";

@@ -61,7 +61,7 @@ function locationHashChanged() {
         mymap.invalidateSize(true);
         $("#listButton").css("background-color","#343434");
     }
-    else if (window.location.hash === "#maps") {
+    else if (window.location.hash === "#list") {
         $("#mapButton").css("background-color","#343434");  
     }
   }

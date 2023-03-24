@@ -154,7 +154,8 @@ section#start > div.content:before {
     top: 0;
     left: 0;
     z-index: -1;
-    background-image: url(../images/domkirken.jpg);
+    background-image: url(../images/intro.png);
+    filter: sepia(40%);
     background-size: cover;
     background-position: center;
     content: '';

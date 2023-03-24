@@ -271,7 +271,7 @@ div#toggle_maplist {
     text-align: center;
     font-size: 0;
 }
-#mapButton {
+.mapButton {
     height: 35px;
     width: 35px;
     background-color: #004536;
@@ -279,10 +279,10 @@ div#toggle_maplist {
     vertical-align: top;
     border-bottom-left-radius: 15px;
 }
-#mapButton img {
+.mapButton img {
     padding: 3px;
 }
-#listButton {
+.listButton {
     height: 35px;
     width: 35px;
     background-color: #004536;

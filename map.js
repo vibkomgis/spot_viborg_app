@@ -7,7 +7,7 @@ let mymap = L.map('map', {
    //maxBoundsViscosity: 1.0,
    //minZoom: 13, // set minZoom to the same value as the initial zoom
    //maxZoom: 60 // set maxZoom to the same value as the initial zoom
-}).setView([56.4503, 9.4108], 18); //13
+}).setView([56.4503, 9.4108], 16); //13
 
 const dftoken = '3ebc3a63849a43b46feb8203ab25f83c';
 const myAttributionText = '&copy; <a target="_blank" href="https://dataforsyningen.dk/Vilkaar">Styrelsen for Dataforsyning og Infrastruktur</a>';
@@ -58,12 +58,12 @@ setTimeout(function () {
 function locationHashChanged() {
     if (window.location.hash === "#maps") {
         mymap.invalidateSize(true);
-        $("#listButton").css("background-color","#343434");
-        $("#mapButton").css("background-color","#004536");
+        $(".listButton").css("background-color","#343434");
+        $(".mapButton").css("background-color","#004536");
     }
     else {
-        $("#listButton").css("background-color","#004536");
-        $("#mapButton").css("background-color","#343434");
+        $(".listButton").css("background-color","#004536");
+        $(".mapButton").css("background-color","#343434");
     }
   }
 window.onhashchange = locationHashChanged;

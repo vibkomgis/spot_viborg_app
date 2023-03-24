@@ -124,11 +124,21 @@
 
       // test hashChange
       window.addEventListener('hashchange', function (event) {
+        console.log(window.location.hash);
         console.log(event);
-        alert('Hash change detected: ' + event.newURL);
+        if (!window.location.hash || window.location.hash === "#start") {
+          console.log('Skjul knap');
+          $("#back").css("display","none");
+          $('#back').hide();
+        }
+        else {
+          console.log('Vis knap');
+          $('#back').show();
+        }
       });
 
       // Skjul tilbage-knap når start-siden vises
+      /*
       function displayBackButton() {
         console.log('hmmmm');
         if (!window.location.hash || window.location.hash === "#start") {
@@ -142,6 +152,7 @@
         }
       }
       window.onhashchange = displayBackButton;
+      */
     </script>
 
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>

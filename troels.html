@@ -125,6 +125,7 @@
       // skjul tilbage-knap hvis startsiden vises
       window.addEventListener('hashchange', function (event) {
         if (!window.location.hash || window.location.hash === "#start") {
+          $("#back").css("display","none");
           $('#back').hide();
         }
         else {

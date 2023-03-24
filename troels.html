@@ -130,10 +130,11 @@
       $("#toggle").prop("checked", false);
     });
     // Skjul tilbage-knap når start-siden vises
-    /*
     function displayBackButton() {
+      console.log('hmmmm');
       if (!window.location.hash || window.location.hash === "#start") {
         console.log('Skjul knap');
+        $("#back").css("display","none");
         $('#back').hide();
       }
       else {
@@ -142,7 +143,6 @@
       }
     }
     window.onhashchange = displayBackButton;
-    */
     </script>
 
   </body>

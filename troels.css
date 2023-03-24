@@ -44,7 +44,6 @@ div#header #navigation {
     position: fixed;
     top: 0;
     right: 0;
-    z-index: 110;
 }
 div#header div#navigation input#toggle {
     display: none;
@@ -135,10 +134,6 @@ h1.title {
     font-size: 1em;
     margin: 0;
     background-color: #6CBE9D;
-}
-
-section#start > h1.title {
-    z-index: 100;
 }
 
 section#maps:not(:target), section#list:not(:target), section#routes:not(:target), section#about:not(:target) {

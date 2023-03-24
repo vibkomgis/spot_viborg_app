@@ -124,15 +124,15 @@
 
       // test hashChange
       window.addEventListener('hashchange', function (event) {
-        console.log(window.location.hash);
-        console.log(event);
+        //console.log(window.location.hash);
+        //console.log(event);
         if (!window.location.hash || window.location.hash === "#start") {
-          console.log('Skjul knap');
-          $("#back").css("display","none");
+          //console.log('Skjul knap');
+          //$("#back").css("display","none");
           $('#back').hide();
         }
         else {
-          console.log('Vis knap');
+          //console.log('Vis knap');
           $('#back').show();
         }
       });

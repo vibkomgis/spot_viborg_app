@@ -122,6 +122,12 @@
         $("#toggle").prop("checked", false);
       });
 
+      // test hashChange
+      window.addEventListener('hashchange', function (event) {
+        console.log(event);
+        alert('Hash change detected: ' + event.newURL);
+      });
+
       // Skjul tilbage-knap når start-siden vises
       function displayBackButton() {
         console.log('hmmmm');

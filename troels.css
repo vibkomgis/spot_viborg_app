@@ -111,9 +111,8 @@ nav ul li a {
     color: #004536;
 }
 
-nav ul li a:target {
-    text-decoration: none;
-    color: blue;
+nav ul li a:hover {
+    color: #6cbe9d;
 }
 
 nav label:hover {
@@ -223,7 +222,7 @@ section#list ul li {
     margin: 10px;
     padding-left: 60px;
     line-height: 50px;
-    background-color: rgb(65, 177, 141);
+    background-color: #6cbe9d;
     border-radius: 2em 0.3em 0.3em 2em;
     position: relative;
     cursor: pointer;

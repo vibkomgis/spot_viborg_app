@@ -7,7 +7,7 @@ let mymap = L.map('map', {
    //maxBoundsViscosity: 1.0,
    //minZoom: 13, // set minZoom to the same value as the initial zoom
    //maxZoom: 60 // set maxZoom to the same value as the initial zoom
-}).setView([56.4503, 9.4108], 16); //13
+}).setView([56.4507, 9.4109], 17); //13
 
 const dftoken = '3ebc3a63849a43b46feb8203ab25f83c';
 const myAttributionText = '&copy; <a target="_blank" href="https://dataforsyningen.dk/Vilkaar">Styrelsen for Dataforsyning og Infrastruktur</a>';

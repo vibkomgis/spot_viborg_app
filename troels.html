@@ -115,6 +115,28 @@
       </section>
     </div>
 
+    <script>
+      // Skul menu når der klikkes på link i menuen eller i main div
+      $('nav ul li a, div.main').click(function(){
+        $("#toggle").prop("checked", false);
+      });
+
+      // Skjul tilbage-knap når start-siden vises
+      function displayBackButton() {
+        console.log('hmmmm');
+        if (!window.location.hash || window.location.hash === "#start") {
+          console.log('Skjul knap');
+          $("#back").css("display","none");
+          $('#back').hide();
+        }
+        else {
+          console.log('Vis knap');
+          $('#back').show();
+        }
+      }
+      window.onhashchange = displayBackButton;
+    </script>
+
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js"></script>
     <!--
@@ -124,26 +146,6 @@
     <script type="module" src="map.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
-    <script>
-    // Skul menu når der klikkes på link i menuen eller i main div
-    $('nav ul li a, div.main').click(function(){
-      $("#toggle").prop("checked", false);
-    });
-    // Skjul tilbage-knap når start-siden vises
-    function displayBackButton() {
-      console.log('hmmmm');
-      if (!window.location.hash || window.location.hash === "#start") {
-        console.log('Skjul knap');
-        $("#back").css("display","none");
-        $('#back').hide();
-      }
-      else {
-        console.log('Vis knap');
-        $('#back').show();
-      }
-    }
-    window.onhashchange = displayBackButton;
-    </script>
 
   </body>
 </html>

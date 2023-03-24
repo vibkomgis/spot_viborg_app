@@ -6,7 +6,7 @@ html, body {
     font-size: 1em;
     line-height: 1.5;
     font-family: 'Open Sans', sans-serif;
-    color: #004536;
+    color: #004036;
 }
 
 p {
@@ -61,7 +61,7 @@ label#toggleicon > span::after {
     position: absolute;
     width: 20px;
     height: 2px;
-    background-color: #004536;
+    background-color: #004036;
     transition-duration: .25s;
     position: fixed;
     top: 25px;
@@ -108,11 +108,11 @@ nav ul li {
 
 nav ul li a {
     text-decoration: none;
-    color: #004536;
+    color: #004036;
 }
 
 nav ul li a:hover {
-    color: #6cbe9d;
+    color: #6CBE9D;
 }
 
 nav label:hover {
@@ -124,7 +124,7 @@ nav label:hover {
 
 h1.title {
     z-index: 90;
-    color: #004536;
+    color: #004036;
     top: 0;
     left: 0;
     position: fixed;
@@ -133,7 +133,7 @@ h1.title {
     width: 100%;
     font-size: 1em;
     margin: 0;
-    background-color: #6cbe9d;
+    background-color: #6CBE9D;
 }
 
 section#maps:not(:target), section#list:not(:target), section#routes:not(:target), section#about:not(:target) {
@@ -142,7 +142,7 @@ section#maps:not(:target), section#list:not(:target), section#routes:not(:target
 section > div.content {
     padding: 60px 10px 10px 10px;
     position: absolute;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     height: calc(100% - 70px);
     width: calc(100% - 20px);
 }
@@ -187,7 +187,7 @@ div#startbuttons ul li {
     padding: 0px 0px 0px 100px;
     margin: 30px;
     line-height: 75px;
-    background-color: #6cbe9d;
+    background-color: #6CBE9D;
     border-radius: 5em;
     position: relative;
     width: 220px;
@@ -199,7 +199,7 @@ div#startbuttons ul li a {
     height: 100%;
     text-decoration: none;
     font-size: 2.5em;
-    color: #004536;
+    color: #004036;
 }
 div#startbuttons ul li svg {
     width: 75px;
@@ -208,7 +208,7 @@ div#startbuttons ul li svg {
     left: 0px;
     border: 4px solid #6cbe9d80;
     border-radius: 5em;
-    background: #004536;
+    background: #004036;
     box-sizing: border-box;
     padding: 15px;
 }
@@ -222,7 +222,7 @@ section#list ul li {
     margin: 10px;
     padding-left: 60px;
     line-height: 50px;
-    background-color: #6cbe9d;
+    background-color: #6CBE9D;
     border-radius: 2em 0.3em 0.3em 2em;
     position: relative;
     cursor: pointer;
@@ -249,7 +249,7 @@ section#maps {
 section#maps > div.content {
     padding: 50px 0 0 0;
     position: absolute;
-    background-color: #ffffff;
+    background-color: #FFFFFF;
     height: calc(100% - 50px);
     width: 100%;
     z-index: 10;
@@ -276,7 +276,7 @@ div#toggle_maplist {
 .mapButton {
     height: 35px;
     width: 35px;
-    background-color: #004536;
+    background-color: #004036;
     border: none;
     vertical-align: top;
     border-bottom-left-radius: 15px;
@@ -287,7 +287,7 @@ div#toggle_maplist {
 .listButton {
     height: 35px;
     width: 35px;
-    background-color: #004536;
+    background-color: #004036;
     border: none;
     vertical-align: top;
     border-bottom-right-radius: 15px;

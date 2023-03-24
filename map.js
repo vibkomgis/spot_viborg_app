@@ -19,7 +19,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 */
 const toposkaermkortwms = L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a>'
+  attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
 }).addTo(mymap);
 
 // Ortofoto [WMS:orto_foraar]
@@ -59,10 +59,10 @@ function locationHashChanged() {
     if (window.location.hash === "#maps") {
         mymap.invalidateSize(true);
         $(".listButton").css("background-color","#343434");
-        $(".mapButton").css("background-color","#004536");
+        $(".mapButton").css("background-color","#004036");
     }
     else {
-        $(".listButton").css("background-color","#004536");
+        $(".listButton").css("background-color","#004036");
         $(".mapButton").css("background-color","#343434");
     }
   }

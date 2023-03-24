@@ -117,8 +117,10 @@
 
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js"></script>
+    <!--
     <script src="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/graphhopper-js-api-client/dist/graphhopper-client.js"></script>
+    -->
     <script type="module" src="map.js"></script>
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
@@ -130,11 +132,11 @@
     // Skjul tilbage-knap når start-siden vises
     function displayBackButton() {
       if (!window.location.hash || window.location.hash === "#start") {
-        consoloe.log('Skjul knap');
+        console.log('Skjul knap');
         $('#back').hide();
       }
       else {
-        consoloe.log('Vis knap');
+        console.log('Vis knap');
         $('#back').show();
       }
     }

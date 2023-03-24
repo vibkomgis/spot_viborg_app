@@ -226,7 +226,6 @@ section#list ul li {
     background-color: rgb(65, 177, 141);
     border-radius: 2em 0.3em 0.3em 2em;
     position: relative;
-    top: 100px;
     cursor: pointer;
     white-space: nowrap;
     overflow: hidden;
@@ -256,6 +255,9 @@ section#maps > div.content {
     width: 100%;
     z-index: 10;
 }
+section#list > div.content {
+    z-index: 10;
+}
 div#map {
     height: 100%;
     width: 100%;
@@ -264,8 +266,9 @@ button {
     cursor: pointer;
 }
 div#toggle_maplist {
-    position: absolute;
+    position: fixed;
     top: 50px;
+    left: 0;
     width: 100%;
     z-index: 1000;
     text-align: center;

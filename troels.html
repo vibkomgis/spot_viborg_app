@@ -128,15 +128,17 @@
       $("#toggle").prop("checked", false);
     });
     // Skjul tilbage-knap når start-siden vises
-    function locationHashChanged() {
+    function displayBackButton() {
       if (!window.location.hash || window.location.hash === "#start") {
+        consoloe.log('Skjul knap');
         $('#back').hide();
       }
       else {
+        consoloe.log('Vis knap');
         $('#back').show();
       }
     }
-    window.onhashchange = locationHashChanged;
+    window.onhashchange = displayBackButton;
     </script>
 
   </body>

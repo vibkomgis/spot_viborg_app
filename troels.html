@@ -43,7 +43,7 @@
       <section id="start">
       	<h1 class="title">Spot Viborg</h1>
         <div class="content">
-          <div id="lang"><button id="daLang"><img src="icons/dk.svg" alt="dansk"></button><button id="enLang"><img src="icons/gb.svg" alt="english"></button><button id="deLang"><img src="icons/de.svg" alt="deutch"></button></div>
+          <div id="lang"><button id="dkLang"><img src="icons/dk.svg" alt="dansk"></button><button id="enLang"><img src="icons/gb.svg" alt="english"></button><button id="deLang"><img src="icons/de.svg" alt="deutch"></button></div>
           <div id="startbuttons">
             <ul>
               <li>
@@ -54,7 +54,7 @@
                       <path fill="#ffffff" d="M75.226,53.8c7.984,0,14.373-6.393,14.373-14.338c0-7.975-6.389-14.367-14.373-14.367   c-7.946,0-14.333,6.392-14.333,14.367C60.892,47.407,67.279,53.8,75.226,53.8L75.226,53.8z M76.043,103.265h39.065V88.887H86.404   L70.473,62.602c-2.414-4.017-7.205-7.205-11.995-7.205c-1.592,0-2.381,0-3.978,0.818L11.428,69.764v41.486h14.367V81.73   l16.753-5.575L11.428,199h14.367l23.146-64.615l18.339,24.731V199h14.335v-51.062l-19.943-35.91l5.608-23.141L76.043,103.265z    M76.043,103.265"></path>
                     </g>
                    </svg>
-                   <span lang="da">Ruter</span>
+                   <span lang="dk">Ruter</span>
                    <span lang="en">Routes</span>
                    <span lang="de">Strecken</span>
                 </a></li>
@@ -66,7 +66,7 @@
                       <path fill="#ffffff" d="M70.5,52.211c-27.783,0-50.252,22.469-50.252,50.252c0,37.689,50.252,93.324,50.252,93.324   s50.252-55.635,50.252-93.324C120.752,74.68,98.284,52.211,70.5,52.211z M70.5,120.409c-9.906,0-17.948-8.039-17.948-17.947   c0-9.907,8.042-17.945,17.948-17.945c9.907,0,17.948,8.041,17.948,17.947C88.448,112.37,80.407,120.409,70.5,120.409z"></path>
                     </g>
                   </svg>
-                  <span lang="da">Steder</span>
+                  <span lang="dk">Steder</span>
                   <span lang="en">Places</span>
                   <span lang="de">Plätze</span>
                 </a>
@@ -146,21 +146,21 @@
       $('[lang="de"]').hide();
       $('[lang="en"]').hide();
 
-      $( "#daLang" ).click(function() {
-        console.log('da lang');
-        $('[lang="da"]').show();
+      $( "#dkLang" ).click(function() {
+        console.log('dk lang');
+        $('[lang="dk"]').show();
         $('[lang="de"]').hide();
         $('[lang="en"]').hide();
       });
       $( "#enLang" ).click(function() {
         console.log('en lang');
-        $('[lang="da"]').hide();
+        $('[lang="dk"]').hide();
         $('[lang="de"]').hide();
         $('[lang="en"]').show();
       });
       $( "#deLang" ).click(function() {
         console.log('de lang');
-        $('[lang="da"]').hide();
+        $('[lang="dk"]').hide();
         $('[lang="de"]').show();
         $('[lang="en"]').hide();
       });

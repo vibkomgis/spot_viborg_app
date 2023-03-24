@@ -122,39 +122,16 @@
         $("#toggle").prop("checked", false);
       });
 
-      // test hashChange
+      // skjul tilbage-knap hvis startsiden vises
       window.addEventListener('hashchange', function (event) {
-        console.log(window.location.hash);
-        console.log(event);
         if (!window.location.hash || window.location.hash === "#start") {
-          console.log('Skjul knap');
-          $("#back").css("display","none");
           $('#back').hide();
         }
         else {
-          console.log('Vis knap');
           $('#back').show();
         }
       });
-
-      // Skjul tilbage-knap når start-siden vises
-      /*
-      function displayBackButton() {
-        console.log('hmmmm');
-        if (!window.location.hash || window.location.hash === "#start") {
-          console.log('Skjul knap');
-          $("#back").css("display","none");
-          $('#back').hide();
-        }
-        else {
-          console.log('Vis knap');
-          $('#back').show();
-        }
-      }
-      window.onhashchange = displayBackButton;
-      */
     </script>
-
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js"></script>
     <script type="module" src="map.js"></script>

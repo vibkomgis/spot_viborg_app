@@ -80,6 +80,10 @@ console.log("Dette er din nuværende fetchData: " + fetchData)
 
 
 function fetchAndStoreData() {
+const list = document.getElementById('myList');
+  while (list.firstChild) {
+  list.removeChild(list.firstChild);
+}
 indexedDB.deleteDatabase(dbName);
 fetch(fetchData)
   .then(response => response.json())

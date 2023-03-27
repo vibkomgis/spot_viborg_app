@@ -165,21 +165,21 @@
 
       $( "#daLang" ).click(function() {
         console.log('dk lang');
-        $('[lang="da"]').show();
-        $('[lang="de"]').hide();
-        $('[lang="en"]').hide();
+        $('[lang="da"]').not('html').show();
+        $('[lang="de"]').not('html').hide();
+        $('[lang="en"]').not('html').hide();
       });
       $( "#enLang" ).click(function() {
         console.log('en lang');
         $('[lang="da"]').not('html').hide();
-        $('[lang="de"]').hide();
-        $('[lang="en"]').show();
+        $('[lang="de"]').not('html').hide();
+        $('[lang="en"]').not('html').show();
       });
       $( "#deLang" ).click(function() {
         console.log('de lang');
-        $('[lang="da"], not:html').hide();
-        $('[lang="de"]').show();
-        $('[lang="en"]').hide();
+        $('[lang="da"]').not('html').hide();
+        $('[lang="de"]').not('html').show();
+        $('[lang="en"]').not('html').hide();
 
       });
     </script>

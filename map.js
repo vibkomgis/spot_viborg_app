@@ -72,16 +72,20 @@ window.onhashchange = locationHashChanged;
 const dbName = "myDatabase";
 const dbVersion = 1; // Opdatér dbVersion for at tilføje ny data. Således skal brugeren ikke slette deres browser cache. 
 // Angiv variabler til ruteberegning
-
+console.log("Dette er din nuværende fetchData: " + fetchData)
 // Fetch JSON data
-fetch('data/sevaerdighederData/da-short.json')
+
+
+function fetchAndStoreData() {
+indexedDB.deleteDatabase(dbName);
+fetch(fetchData)
   .then(response => response.json())
   .then(pois => {
-    
+    console.log("Dette er din opdateret fetchData: " + fetchData)
+    console.log(pois)
         const openRequest = indexedDB.open(dbName, dbVersion);
         openRequest.onupgradeneeded = function(event) {
           const db = event.target.result;
-
           // Objectstore til seværdighedsdata
           const objectStore = db.createObjectStore('Sevaerdigheder', { keyPath: 'id' });
 
@@ -164,7 +168,11 @@ fetch('data/sevaerdighederData/da-short.json')
           });
      };
   }});
+}
 
+
+window.addEventListener('load', fetchAndStoreData);
+window.addEventListener('fetchDataUpdated', fetchAndStoreData)
 
 let facilitiesdbName = 'facilitiesDB'
 let facilitiesdbVersion = 1;

@@ -266,7 +266,7 @@ div#map {
 button {
     cursor: pointer;
 }
-div#toggle_maplist {
+div.toggle_maplist {
     position: fixed;
     top: 50px;
     left: 0;

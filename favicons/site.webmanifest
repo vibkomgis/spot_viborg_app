@@ -16,5 +16,6 @@
     "theme_color": "#6cbe9d",
     "background_color": "#6cbe9d",
     "start_url": "https://spotviborg.dk",
-    "display": "standalone"
+    "display": "standalone",
+    "orientation": "portrait"
 }

@@ -1,16 +1,14 @@
+
+
 <!DOCTYPE html>
 <html lang="da">
   <head>
-    <base href="https://spotviborg.dk/">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
-    <meta name="application-name" content="Spot Viborg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=1">
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="styles/global.css">
-    <title>Spot Viborg</title>
-
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css">
+    <link href="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet-routing-machine@latest/dist/leaflet-routing-machine.css">
     <link rel="apple-touch-icon" sizes="180x180" href="/favicons/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="/favicons/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16" href="/favicons/favicon-16x16.png">
@@ -22,30 +20,187 @@
     <meta name="msapplication-TileColor" content="#004536">
     <meta name="msapplication-config" content="/favicons/browserconfig.xml">
     <meta name="theme-color" content="#6cbe9d">
+    <title>Spot Viborg</title>
   </head>
 
   <body>
-    
-    <nav>
-      <button id="openbtn" class="openbtn" onclick="openNav()">☰</button>
-      <button id="closebtn" class="closebtn" onclick="closeNav()">×</button>
-      <div id="mySidebar" class="sidebar" style="width: 0px;">
-        <div id="lang"><button><img src="icons/dk.svg" alt="dansk"></button><button><img src="icons/gb.svg" alt="english"></button><button><img src="icons/de.svg" alt="deutch"></button></div> 
-        <a href="index.html">Start</a>
-        <a href="public/sevaerdigheder.html">Seværdigheder</a>
-        <a href="public/ruteOversigt.html">Ruter</a>
-        <a href="public/about.html">Om appen</a>
+    <div id="header">
+      <div id="back">
+        <button id="go_back" onclick="history.back()">
+          <span class="hidden" lang="da">Gå tilbage</span><span class="hidden" lang="en">Return</span><span class="hidden" lang="de">Zurück</span>
+          <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="#000000" height="800px" width="800px" version="1.1" id="Capa_1" viewBox="0 0 25.451 25.451" xml:space="preserve">
+            <path xmlns="http://www.w3.org/2000/svg" fill="#004536" d="M20.982,0.521v2.006L8.57,12.315c-0.121,0.101-0.195,0.251-0.195,0.41s0.074,0.311,0.195,0.41l12.412,9.79v2.005    c0,0.199-0.115,0.383-0.297,0.469c-0.178,0.086-0.395,0.064-0.549-0.061L4.664,13.136c-0.122-0.1-0.194-0.251-0.194-0.41    s0.072-0.31,0.194-0.41L20.136,0.113c0.154-0.126,0.371-0.148,0.549-0.061C20.866,0.139,20.982,0.322,20.982,0.521z"/>
+            </svg>
+          </button>
       </div>
-      <span id="steder">Spot Viborg</span>
-    </nav>
-
-    <div id="content">
-      <div id="navigationbuttons">
-        <button id="buttonToRute" onclick="window.location.href='public/ruteOversigt.html'"><img src="icons/rute.svg" alt="Ruter"></button>
-        <button id="buttonToSevaerdigheder" onclick="window.location.href='public/sevaerdigheder.html'"><img src="icons/steder.svg" alt="Steder"></button>
+      <div id="navigation">
+        <input id="toggle" type="checkbox">
+        <label class="menu__btn" for="toggle" id="toggleicon" aria-label="Menu">
+          <span></span>
+        </label>
+        <nav id="nav">
+            <ul>
+                <li><a href="#start">Start</a></li>
+                <li><a href="#maps" lang="da">Steder</a><a href="#maps" lang="en">Places</a><a href="#maps" lang="de">Plätze</a></li>
+                <li><a href="#routes" lang="da">Ruter</a><a href="#routes" lang="en">Routes</a><a href="#routes" lang="de">Strecken</a></li>
+                <li><a href="#about" lang="da">Om Spot Viborg</a><a href="#about" lang="en">About Spot Viborg</a><a href="#about" lang="de">Über Spot Viborg</a></li>
+            </ul>  
+        </nav>
       </div>
-      <script src="src/navigation.js"></script>
     </div>
-    
+
+    <div class="main">
+      <section id="start">
+      	<h1 class="title">Spot Viborg</h1>
+        <div class="content">
+          <div id="lang">
+            <button id="daLang"><img src="icons/dk.svg" alt="dansk" onclick="setFetchData('da')"></button>
+            <button id="enLang"><img src="icons/gb.svg" alt="english" onclick="setFetchData('en')"></button>
+            <button id="deLang"><img src="icons/de.svg" alt="deutsch" onclick="setFetchData('de')"></button></div>
+            
+          <div id="startbuttons">
+            <ul>
+              <li>
+                <a href="#routes">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_walking" x="0px" y="0px" width="124px" height="200px" viewBox="0 0 124 200" enable-background="new 0 0 124 200" xml:space="preserve">
+                    <g>
+                    <!-- fill="#2b96ee" -->
+                      <path fill="#ffffff" d="M75.226,53.8c7.984,0,14.373-6.393,14.373-14.338c0-7.975-6.389-14.367-14.373-14.367   c-7.946,0-14.333,6.392-14.333,14.367C60.892,47.407,67.279,53.8,75.226,53.8L75.226,53.8z M76.043,103.265h39.065V88.887H86.404   L70.473,62.602c-2.414-4.017-7.205-7.205-11.995-7.205c-1.592,0-2.381,0-3.978,0.818L11.428,69.764v41.486h14.367V81.73   l16.753-5.575L11.428,199h14.367l23.146-64.615l18.339,24.731V199h14.335v-51.062l-19.943-35.91l5.608-23.141L76.043,103.265z    M76.043,103.265"></path>
+                    </g>
+                   </svg>
+                   <span lang="da">Ruter</span>
+                   <span lang="en">Routes</span>
+                   <span lang="de">Strecken</span>
+                </a></li>
+                <li>
+                  <a href="#maps">
+                  <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_pointer" x="0px" y="0px" width="141px" height="200px" viewBox="0 0 141 200" enable-background="new 0 0 141 200" xml:space="preserve">
+                    <g>
+                    <!--fill="#FF5252"-->
+                      <path fill="#ffffff" d="M70.5,52.211c-27.783,0-50.252,22.469-50.252,50.252c0,37.689,50.252,93.324,50.252,93.324   s50.252-55.635,50.252-93.324C120.752,74.68,98.284,52.211,70.5,52.211z M70.5,120.409c-9.906,0-17.948-8.039-17.948-17.947   c0-9.907,8.042-17.945,17.948-17.945c9.907,0,17.948,8.041,17.948,17.947C88.448,112.37,80.407,120.409,70.5,120.409z"></path>
+                    </g>
+                  </svg>
+                  <span lang="da">Steder</span>
+                  <span lang="en">Places</span>
+                  <span lang="de">Plätze</span>
+                </a>
+            </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="maps">
+      	<h1 class="title">Steder</h1>
+        <div class="content">
+          <div class="toggle_maplist">
+            <button class="mapButton" onclick="location.href='#maps'"><img src="icons/icon-map-white.svg" alt="Vis seværdigheder på kort"></button>
+            <button class="listButton" onclick="location.href='#list'"><img src="icons/icon-list-white.svg" alt="Vis seværdigheder som liste"></button>            
+          </div>
+          <div id="map">
+            <footer>
+              <p>&copy; <a target="_blank" href="https://dataforsyningen.dk/Vilkaar">Styrelsen for Dataforsyning og Infrastruktur</a></p>
+            </footer>
+          </div>
+        </div>
+      </section>
+
+      <section id="list">
+        <h1 class="title">Steder</h1>
+        <div class="content">
+          <div class="toggle_maplist">
+            <button class="mapButton" onclick="location.href='#maps'"><img src="icons/icon-map-white.svg" alt="Vis seværdigheder på kort"></button>
+            <button class="listButton" onclick="location.href='#list'"><img src="icons/icon-list-white.svg" alt="Vis seværdigheder som liste"></button>            
+          </div>
+          <ul id="myList"></ul>
+        </div>
+      </section>
+
+      <section id="routes">
+	      <h1 class="title">Ruter</h1>
+        <div class="content">
+          Ruter
+        </div>
+      </section>
+
+      <section id="about">
+	      <!--<h1 class="title" lang="da">Om Spot Viborg</h1><h1 class="title" lang="en">About Spot Viborg</h1><h1 class="title" lang="de">Über Spot Viborg</h1>-->
+        <div class="content">
+          <div lang="da">
+            <h1 class="title">Om Spot Viborg</h1>
+            <p>Med Spot Viborg er byens rige kulturarv gjort tilgængelig, så alle har nem adgang til byens spændende kulturarv, uanset om du er med barnevogn, kørestol eller rollator. Find de mest tilgængelige ruter, oplev den rige historie og lyt til fortællingerne om den fantastiske middelalderby. Med Spot Viborg finder du lokationer og informationer på alle kirker, monumenter og også de ‘hemmelige’ seværdigheder.</p>
+            <p>App’en er tilgængelig på dansk, engelsk og tysk og bruger GPS. Løbende brug af GPS i baggrunden kan mindske levetiden på batteriet i din telefon.</p>
+            <p>Oplever du problemer med app'en kan du kontakte <a href="mailto:chmat@viborg.dk?subject=Spot%20Viborg">chmat@viborg.dk</a>.</p>
+            <p><a href="https://www.was.digst.dk/viborg-dk" target="_blank">Tilgængelighedserklæring</a></p>
+          </div>
+          <div lang="en">
+            <h1 class="title">About Spot Viborg</h1>
+            <p>With Spot Viborg, the city's rich cultural heritage is made accessible, so that everyone has easy access to the city's exciting cultural heritage, regardless of whether you are with a pram, wheelchair or walker. Find the most accessible routes, experience the rich history and listen to the tales of the fantastic medieval city. With Spot Viborg you will find locations and information on all churches, monuments and also the 'secret' sights.</p>
+            <p>The app is available in Danish, English and German and uses GPS. Continuous use of GPS in the background can reduce the life of your phone's battery.</p>
+            <p>If you experience problems with the app, you can contact <a href="mailto:chmat@viborg.dk?subject=Spot%20Viborg">chmat@viborg.dk</a>.</p>
+            <p><a href="https://www.was.digst.dk/viborg-dk" target="_blank">Availability statement (danish)</a></p>
+          </div>
+          <div lang="de">
+            <h1 class="title">Über Spot Viborg</h1>
+            <p>Mit Spot Viborg wird das reiche kulturelle Erbe der Stadt zugänglich gemacht, sodass jeder einen einfachen Zugang zum divnenden kulturellen Erbe der Stadt hat, unabhängig davon, ob Sie mit einem Kinderwagen, Rollstuhl oder Rollator unterwegs sind. Finden Sie die am besten zugänglichen Routen, erleben Sie die reiche Geschichte und lauschen Sie den Geschichten der fantastischen mittelalterlichen Stadt. Mit Spot Viborg finden Sie Standorte und Informationen zu allen Kirchen, Denkmälern und auch den "geheimen" Sehenswürdigkeiten.</p>
+            <p>Die App ist auf Dänisch, Englisch und Deutsch verfügbar und verwendet GPS. Die kontinuierliche Verwendung von GPS im Hintergrund kann die Lebensdauer des Akkus Ihres Telefons verringern.</p>
+            <p>Wenn Sie Probleme mit der App haben, können Sie sich an <a href="mailto:chmat@viborg.dk?subject=Spot%20Viborg">chmat@viborg.dk</a> wenden.</p>
+            <p><a href="https://www.was.digst.dk/viborg-dk" target="_blank">Verfügbarkeitserklärung (dänisch)</a></p>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script>
+      // Skul menu når der klikkes på link i menuen eller i main div
+      $('nav ul li a, div.main').click(function(){
+        $("#toggle").prop("checked", false);
+      });
+
+      // test hashChange
+      window.addEventListener('hashchange', function (event) {
+        //console.log(window.location.hash);
+        //console.log(event);
+        if (!window.location.hash || window.location.hash === "#start") {
+          //console.log('Skjul knap');
+          //$("#back").css("display","none");
+          $('#back').hide();
+        }
+        else {
+          //console.log('Vis knap');
+          $('#back').show();
+        }
+      });
+
+      // skift sprog
+      $('[lang="de"]').hide();
+      $('[lang="en"]').hide();
+
+      $( "#daLang" ).click(function() {
+        console.log('dk lang');
+        $('[lang="da"]').not('html').show();
+        $('[lang="de"]').not('html').hide();
+        $('[lang="en"]').not('html').hide();
+      });
+      $( "#enLang" ).click(function() {
+        console.log('en lang');
+        $('[lang="da"]').not('html').hide();
+        $('[lang="de"]').not('html').hide();
+        $('[lang="en"]').not('html').show();
+      });
+      $( "#deLang" ).click(function() {
+        console.log('de lang');
+        $('[lang="da"]').not('html').hide();
+        $('[lang="de"]').not('html').show();
+        $('[lang="en"]').not('html').hide();
+
+      });
+    </script>
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.locatecontrol@0.79.0/dist/L.Control.Locate.min.js"></script>
+    <script src="fetchJson.js"></script>
+    <script type="module" src="map.js"></script>
+
   </body>
 </html>

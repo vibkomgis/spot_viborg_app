@@ -168,21 +168,19 @@
         $('[lang="da"]').show();
         $('[lang="de"]').hide();
         $('[lang="en"]').hide();
-        $('html').display();
       });
       $( "#enLang" ).click(function() {
         console.log('en lang');
-        $('[lang="da"]').hide();
+        $('[lang="da"]').not('html').hide();
         $('[lang="de"]').hide();
         $('[lang="en"]').show();
-        $('html').display();
       });
       $( "#deLang" ).click(function() {
         console.log('de lang');
-        $('[lang="da"]').hide();
+        $('[lang="da"], not:html').hide();
         $('[lang="de"]').show();
         $('[lang="en"]').hide();
-        $('html').display();
+
       });
     </script>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>

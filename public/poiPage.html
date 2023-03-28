@@ -29,21 +29,12 @@
         <span id="steder">Steder og faciliteter</span>
       </nav>
 
-    <div id="sevaerdighederImg"></div>
-
-    <div class="box">
-      <h1 class="sevaerdighederTitle">${title}</h1>
-    </div>
-
-      <div class="sevaerdighederAudio">
-        <audio controls>
-         `<source src=${audio} type="audio/mpeg">`
-          Your browser does not support the audio element.
-        </audio>
-    </div>
-    <div><
-      <p class="sevaerdighederDescription">${text}</p>
-    </div>
+      <div id="sevaerdighederImg"></div>
+      <div id="sevaerdighederAudio"></div>
+      <div class="box">
+        <h1 class="sevaerdighederTitle">${title}</h1>
+        <p class="sevaerdighederDescription">${text}</p>
+      </div>
     
     <script>
       const params = new URLSearchParams(window.location.search);
@@ -66,7 +57,8 @@
       const textElement = document.querySelector('.sevaerdighederDescription');
       textElement.textContent = text;
       document.getElementById('sevaerdighederImg').innerHTML = '<img src="images/pois/' + id + '.jpg" id="sevaerdighederImg"/>';
-      
+      document.getElementById('sevaerdighederAudio').innerHTML = '<audio controls><source src="' + audio + '" id="sevaerdighederAudio"/></audio>';
+
 
       
     </script>

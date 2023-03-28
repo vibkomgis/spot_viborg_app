@@ -1,0 +1,55 @@
+[
+
+
+
+  {
+
+    "id": 101,
+    "location": {
+      "lat": 56.450181,
+      "lng": 9.408808
+    },
+    "title": "Toilet by Hjultorv",
+    "shortdescription": "Accessible toilet. The facility is located between Hjultorv and St. Hjultorvgyde behind Café Morville. Most easily accessed from St. Hjultorvgyde.",
+    "icon": "icons/icon_poi_toilet.svg",
+    "keywords": "FACILITY_TOILET_KEYWORDS"
+  },
+
+
+  {
+
+    "id": 109,
+    "location": {
+      "lat": 56.450008,
+      "lng": 9.406365
+    },
+    "title": "Parking ground at Preislers Plads",
+    "shortdescription": "277 parking spaces laid out as outdoor bays as well as underground parking facility. Motor-cycle parking and disabled parking available.",
+    "icon": "icons/icon_poi_parking.svg",
+    "keywords": "FACILITY_PARKING_KEYWORDS"
+  },
+  {
+
+    "id": 110,
+    "location": {
+      "lat": 56.448340,
+      "lng": 9.406779
+    },
+    "title": "Parking facility at Fischers Plads",
+    "shortdescription": "479 parking spaces on an upper deck as well as underground parking – outside and inside. Motor-cycle parking and disabled parking available.",
+    "icon": "icons/icon_poi_parking.svg",
+    "keywords": "FACILITY_PARKING_KEYWORDS"
+  },
+  {
+
+    "id": 111,
+    "location": {
+      "lat": 56.450680,
+      "lng": 9.411631
+    },
+    "title": "P-pladser at Domkirkepladsen",
+    "shortdescription": "59 parking spaces. Motor-cycle parking and disabled parking available.",
+    "icon": "icons/icon_poi_parking.svg",
+    "keywords": "FACILITY_PARKING_KEYWORDS"
+  }
+]

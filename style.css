@@ -370,7 +370,7 @@ ul#ruteOversigt li img {
     border: 10px solid #6cbe9d;
     border-radius: 0 0 10px 10px;
 }
-/*
+
 li#kirkerute:focus ~ .dropdown-content {
     display: block
 }
@@ -382,4 +382,3 @@ li#monumentrute:focus > .dropdown-content {
 li#hemmeligruten:focus + .dropdown-content {
     display: block
 }
-*/

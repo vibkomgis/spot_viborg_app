@@ -1,11 +1,16 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+@font-face {
+    font-family: 'TheSans';
+    src: url('fonts/TheSans-Regular.woff2') format('woff2');
+  }
+
 html,
 body {
     margin: 0;
     font-size: 1em;
     line-height: 1.5;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'TheSans', 'Open Sans', sans-serif;
     color: #004036;
 }
 

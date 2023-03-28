@@ -347,7 +347,7 @@ ul#ruteOversigt li img {
 
 .image-text {
     position: relative;
-    top: -6px;
+    top: -7px;
     background-color: #004036;
     color: white;
     border: 10px solid #004036;
@@ -355,28 +355,27 @@ ul#ruteOversigt li img {
 
 .dropdown-content {
     background-color: #f1f1f1;
-    top: -16px;
+    top: -17px;
     position: relative;
     border: 10px solid #f1f1f1;
     border-radius: 0 0 10px 10px;
-    margin-bottom: 20px;
+    display: none;
 }
 
 .description {
     background-color: #6cbe9d;
     position: relative;
-    top: -6px;
+    top: -7px;
     z-index: 1;
     border: 10px solid #6cbe9d;
     border-radius: 0 0 10px 10px;
-    display: none;
 }
 
-li#kirkerute:focus + .dropdown-content {
+li#kirkerute:focus ~ .dropdown-content {
     display: block
 }
 
-li#monumentrute:focus + .dropdown-content {
+li#monumentrute:focus > .dropdown-content {
     display: block
 }
 

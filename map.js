@@ -148,8 +148,11 @@ fetch(fetchData)
 
           // Tilføj markører og ruteberegning
             pois.forEach(poi => {
-            
-              poi.text = poi.text.replace(/'/g, '');
+              // Erstat single quotes i json. \\ virker ikke
+              poi.text = poi.text.replace(/(?<!\\)'/g, '`');
+              poi.title = poi.title.replace(/(?<!\\)'/g, '`');
+              poi.shortdescription = poi.shortdescription.replace(/(?<!\\)'/g, '`');
+
               const linkToPage = poi.title.toLowerCase()
               .replace(/\.+/g, '')
               .replace(/\s+/g, '')

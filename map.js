@@ -23,7 +23,7 @@ const toposkaermkortwms = L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z
 }).addTo(mymap);
 
 
-/*
+
 // Ortofoto [WMS:orto_foraar]
 const ortofotowms = L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallayers=TRUE', {
   layers: 'orto_foraar',
@@ -31,11 +31,11 @@ const ortofotowms = L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_
   format: 'image/png',
   attribution: myAttributionText
 }).addTo(mymap);
-*/
+
 
 
 const baseLayers = {
-  //"Ortofoto": ortofotowms,
+  "Ortofoto": ortofotowms,
   "Skærmkort": toposkaermkortwms
 };
 

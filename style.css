@@ -354,7 +354,7 @@ ul#ruteOversigt li img {
 
 .image-text {
     position: relative;
-    top: -7px;
+    top: 10px;
     background-color: #004036;
     color: white;
     border: 10px solid #004036;
@@ -362,7 +362,7 @@ ul#ruteOversigt li img {
 
 .dropdown-content {
     background-color: #f1f1f1;
-    top: -17px;
+    top: -20px;
     position: relative;
     border: 10px solid #f1f1f1;
     border-radius: 0 0 10px 10px;
@@ -372,7 +372,7 @@ ul#ruteOversigt li img {
 .description {
     background-color: #6cbe9d;
     position: relative;
-    top: -7px;
+    top: -10px;
     z-index: 1;
     border: 10px solid #6cbe9d;
     border-radius: 0 0 10px 10px;

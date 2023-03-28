@@ -2,7 +2,9 @@
 
 @font-face {
     font-family: 'TheSans';
-    src: url('fonts/TheSans-Regular.woff2') format('woff2');
+    src: url('fonts/TheSans-Regular.woff2') format('woff2'),
+    url('fonts/TheSans-Regular.woff') format('woff'),
+    url('fonts/TheSans-Regular.ttf') format('truetype');
   }
 
 html,
@@ -214,13 +216,12 @@ div#startbuttons ul {
 }
 
 div#startbuttons ul li {
-    padding: 0px 0px 0px 100px;
+    padding: 0px 40px 0px 100px;
     margin: 30px;
     line-height: 75px;
     background-color: #6CBE9D;
     border-radius: 5em;
     position: relative;
-    width: 220px;
 }
 
 div#startbuttons ul li a {

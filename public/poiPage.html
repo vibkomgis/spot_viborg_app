@@ -30,9 +30,15 @@
       </nav>
 
     <div id="sevaerdighederImg"></div>
-    <div id="sevaerdighederAudio"></div>
+
     <div class="box">
       <h1 class="sevaerdighederTitle">${title}</h1>
+      <div id="sevaerdighederAudio">
+        <audio controls>
+          <source src="${audio}" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+    </div>
       <p class="sevaerdighederDescription">${text}</p>
     </div>
     
@@ -44,19 +50,22 @@
       if (text && typeof text === 'string') {
         text = text.replace(/<\/?p>/gi, ' ');
       }
+      let audio = params.get('audio')
 
       console.log(id);
       console.log(title);
       console.log(text)
-
+      console.log(audio)
 
       // Update the title element with the title parameter value
       const titleElement = document.querySelector('.sevaerdighederTitle');
       titleElement.textContent = title;
       const textElement = document.querySelector('.sevaerdighederDescription');
       textElement.textContent = text;
+      const audioElement = document.querySelector('.sevaerdighederAudio')
+      audioElement.textContent = audio;
       document.getElementById('sevaerdighederImg').innerHTML = '<img src="images/pois/' + id + '.jpg" id="sevaerdighederImg"/>';
-      document.getElementById('sevaerdighederAudio').innerHTML = '<audio controls><source src="data/sevaerdighederData/audio/da-DK/' + id + '.mp3" id="sevaerdighederAudio"/></audio>';
+      
 
       
     </script>

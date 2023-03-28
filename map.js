@@ -104,7 +104,7 @@ fetch(fetchData)
           objectStore.createIndex('shortdescription', 'shortdescription', { unique: false });
           objectStore.createIndex('text', 'text', { unique: false });
           objectStore.createIndex('handicap', 'handicap', { unique: false });
-          
+          objectStore.createIndex('audio', 'audio', { unique: false });
 
           // Tilføj data til objectstore
           pois.forEach(obj => objectStore.add(obj));
@@ -141,7 +141,7 @@ fetch(fetchData)
             list.appendChild(listItem);
 
             listItem.addEventListener('click', function() {
-              window.location.href = "public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text);
+              window.location.href = "public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text) + "&audio=" + encodeURIComponent(poi.audio);
             });
             
           })
@@ -152,7 +152,7 @@ fetch(fetchData)
               poi.text = poi.text.replace(/(?<!\\)'/g, '`');
               poi.title = poi.title.replace(/(?<!\\)'/g, '`');
               poi.shortdescription = poi.shortdescription.replace(/(?<!\\)'/g, '`');
-
+              console.log(poi.audio)
               const linkToPage = poi.title.toLowerCase()
               .replace(/\.+/g, '')
               .replace(/\s+/g, '')
@@ -161,7 +161,7 @@ fetch(fetchData)
               .replace(/æ/g, 'ae')
               .replace(/ø/g, 'oe')
               ;
-
+              
               // Hent ikoner til visning på kort
               let myIcon = L.icon({
                 iconUrl: poi.icon.normal,
@@ -173,7 +173,7 @@ fetch(fetchData)
         
               // Lav basismarkør
               let marker = L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mymap)
-              .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/> <a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>" + (poi.handicap ? "<br/><br>" + poi.handicap + "<br/><br/>" : ""));
+              .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/> <a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&audio=" + encodeURIComponent(poi.audio) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>" + (poi.handicap ? "<br/><br>" + poi.handicap + "<br/><br/>" : "" ));
 
                   
           });

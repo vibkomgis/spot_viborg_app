@@ -331,7 +331,7 @@ div.toggle_maplist {
     vertical-align: top;
     border-bottom-right-radius: 15px;
 }
-
+/*
 ul#ruteOversigt {
     padding: 0;
     margin: 0;
@@ -382,3 +382,4 @@ li#monumentrute:focus > .dropdown-content {
 li#hemmeligruten:focus + .dropdown-content {
     display: block
 }
+*/

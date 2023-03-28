@@ -23,7 +23,6 @@ const toposkaermkortwms = L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z
 }).addTo(mymap);
 
 
-
 /*
 // Ortofoto [WMS:orto_foraar]
 const ortofotowms = L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallayers=TRUE', {
@@ -32,8 +31,8 @@ const ortofotowms = L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_
   format: 'image/png',
   attribution: myAttributionText
 }).addTo(mymap);
-
 */
+
 
 const baseLayers = {
   //"Ortofoto": ortofotowms,
@@ -41,7 +40,6 @@ const baseLayers = {
 };
 
 
-// Add layer control to map
 L.control.layers(baseLayers).addTo(mymap);
 
 // Start GPS
@@ -73,15 +71,17 @@ window.onhashchange = locationHashChanged;
 
 
 const dbName = "myDatabase";
-const dbVersion = 1; // Opdatér dbVersion for at tilføje ny data. Således skal brugeren ikke slette deres browser cache. 
-// Angiv variabler til ruteberegning
+const dbVersion = 1; 
+
+let facilitiesdbName = 'facilitiesDB'
+let facilitiesdbVersion = 1;
+
+
+// Her hentes seværdighedsdata baseret på stien defineret i fetchJson.js
 console.log("Dette er din nuværende fetchData: " + fetchData)
-// Fetch JSON data
-
-
 function fetchAndStoreData() {
 const list = document.getElementById('myList');
-  while (list.firstChild) {
+while (list.firstChild) {
   list.removeChild(list.firstChild);
 }
 indexedDB.deleteDatabase(dbName);
@@ -120,13 +120,14 @@ fetch(fetchData)
           request.onsuccess = function(event) {
             const pois = event.target.result;
 
-
           // Tilføj hver titel til en liste
           pois.forEach(function(poi) {
             const list = document.getElementById('myList');
+
+            
             list.classList.add('sevaerdighederList'); // Tilføj class. Samme navn i global.css
         
-            // Add the item to the list
+            // Tilføj elementer til liste
             const listItem = document.createElement('li');
             const thumbImg = document.createElement('img');
             thumbImg.src = poi.thumb;
@@ -178,15 +179,13 @@ fetch(fetchData)
 }
 
 
-window.addEventListener('load', fetchAndStoreData);
-window.addEventListener('fetchDataUpdated', fetchAndStoreData)
-
-let facilitiesdbName = 'facilitiesDB'
-let facilitiesdbVersion = 1;
-
-fetch('data/facilities/facilities-nc.json')
+// Her hentes facilitetsdata baseret på stien defineret i fetchJson.js
+function fetchAndStoreFacilities() {
+indexedDB.deleteDatabase(facilitiesdbName);
+fetch(fetchFacilities)
   .then(response => response.json())
   .then(facis => {
+    console.log(facis)
     const openRequest = indexedDB.open(facilitiesdbName, facilitiesdbVersion);
 
     openRequest.onupgradeneeded = function(event) {
@@ -232,3 +231,18 @@ fetch('data/facilities/facilities-nc.json')
         });
       };
     }});
+  }
+
+
+
+window.addEventListener('load',() => {    
+    fetchAndStoreData();
+    fetchAndStoreFacilities() ;
+});
+
+
+window.addEventListener('fetchDataUpdated',() => {    
+  fetchAndStoreData();
+  fetchAndStoreFacilities() ;
+});
+

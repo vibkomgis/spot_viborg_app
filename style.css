@@ -159,7 +159,8 @@ h1.title {
 section#maps:not(:target),
 section#list:not(:target),
 section#routes:not(:target),
-section#about:not(:target) {
+section#about:not(:target),
+section#empty:not(:target) {
     display: none;
 }
 

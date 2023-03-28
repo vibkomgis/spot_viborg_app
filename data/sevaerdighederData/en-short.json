@@ -19,7 +19,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/en-GB/kirker_1.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/kirker_1.mp3"
   },
   {
 
@@ -39,7 +39,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/en-GB/kirker_2.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/kirker_2.mp3"
   },
 
   {
@@ -60,7 +60,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/en-GB/kirker_3.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/kirker_3.mp3"
   },
   {
 
@@ -80,7 +80,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/en-GB/kirker_4.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/kirker_4.mp3"
   },
   {
 
@@ -100,7 +100,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/en-GB/kirker_5.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/kirker_5.mp3"
   },
   {
 
@@ -120,7 +120,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/en-GB/kirker_6.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/kirker_6.mp3"
   },
   {
 
@@ -140,7 +140,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/en-GB/kirker_7.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/kirker_7.mp3"
   },
   {
 
@@ -160,7 +160,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/en-GB/kirker_8.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/kirker_8.mp3"
   },
   {
 
@@ -180,7 +180,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/en-GB/kirker_9.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/kirker_9.mp3"
   },
   {
 
@@ -200,7 +200,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/en-GB/kirker_10.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/kirker_10.mp3"
   },
 
 
@@ -225,7 +225,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/en-GB/monuments_1.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/monuments_1.mp3"
   },
   {
 
@@ -245,7 +245,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/en-GB/monuments_2.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/monuments_2.mp3"
   },
 
   {
@@ -266,7 +266,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/en-GB/monuments_3.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/monuments_3.mp3"
   },
 
   {
@@ -287,7 +287,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/en-GB/monuments_4.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/monuments_4.mp3"
   },
   {
 
@@ -308,7 +308,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/en-GB/monuments_5.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/monuments_5.mp3"
   },
   {
 
@@ -328,7 +328,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/en-GB/monuments_6.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/monuments_6.mp3"
   },
   {
 
@@ -348,7 +348,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/en-GB/monuments_7.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/monuments_7.mp3"
   },
   {
 
@@ -368,7 +368,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/en-GB/monuments_8.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/monuments_8.mp3"
   },
   {
 
@@ -388,7 +388,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/en-GB/monuments_9.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/monuments_9.mp3"
   },
 
 
@@ -413,7 +413,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/en-GB/secret_spots_1.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/secret_spots_1.mp3"
   },
   {
 
@@ -434,7 +434,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/en-GB/secret_spots_2.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/secret_spots_2.mp3"
   },
   {
 
@@ -455,7 +455,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/en-GB/secret_spots_3.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/secret_spots_3.mp3"
   },
   {
 
@@ -476,7 +476,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/en-GB/secret_spots_4.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/secret_spots_4.mp3"
   },
   {
 
@@ -496,7 +496,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/en-GB/secret_spots_5.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/secret_spots_5.mp3"
   },
   {
 
@@ -516,7 +516,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/en-GB/secret_spots_6.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/secret_spots_6.mp3"
   },
   {
 
@@ -536,7 +536,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/en-GB/secret_spots_7.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/secret_spots_7.mp3"
   },
   {
 
@@ -556,7 +556,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/en-GB/secret_spots_8.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/secret_spots_8.mp3"
   },
   {
 
@@ -576,7 +576,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/en-GB/secret_spots_9.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/secret_spots_9.mp3"
   },
   {
 
@@ -596,6 +596,6 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/en-GB/secret_spots_10.mp3"
+    "audio": "data/sevaerdighederData/audio/en-GB/secret_spots_10.mp3"
   }
 ]

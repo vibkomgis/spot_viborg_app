@@ -19,7 +19,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/da-DK/0201domkirken.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0201domkirken.mp3"
   },
 
   {
@@ -40,7 +40,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/da-DK/0202bispegaarden.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0202bispegaarden.mp3"
   },
 
   {
@@ -61,7 +61,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/da-DK/0203sct_kjelds_kirke.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0203sct_kjelds_kirke.mp3"
   },
   {
 
@@ -81,7 +81,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/da-DK/0204statue_af_den_hellige_apollonia.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0204statue_af_den_hellige_apollonia.mp3"
   },
   {
 
@@ -101,7 +101,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/da-DK/0205domprovstegaarden.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0205domprovstegaarden.mp3"
   },
   {
 
@@ -121,7 +121,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/da-DK/0206sortebroedre_kirke.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0206sortebroedre_kirke.mp3"
   },
   {
 
@@ -141,7 +141,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/da-DK/0207sct_mathias_kirke.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0207sct_mathias_kirke.mp3"
   },
   {
 
@@ -161,7 +161,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/da-DK/0208sct_hans_kirke.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0208sct_hans_kirke.mp3"
   },
   {
 
@@ -181,7 +181,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/da-DK/0209sct_mogens_kirke.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0209sct_mogens_kirke.mp3"
   },
   {
 
@@ -201,7 +201,7 @@
       "normal": "icons/icon_poi_church.svg",
       "visited": "icons/icon_poi_visited_church.svg"
     },
-    "audio": "audio/da-DK/0210graabroedre_klosterkirke.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0210graabroedre_klosterkirke.mp3"
   },
 
 
@@ -226,7 +226,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/da-DK/0301domkirkeporten.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0301domkirkeporten.mp3"
   },
   {
 
@@ -246,7 +246,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/da-DK/0302relief_af_mordet_i_finderup_lade.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0302relief_af_mordet_i_finderup_lade.mp3"
   },
 
   {
@@ -267,7 +267,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/da-DK/0303mindetavle_for_fugle-mortensen.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0303mindetavle_for_fugle-mortensen.mp3"
   },
 
   {
@@ -288,7 +288,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/da-DK/0304mindestoette_af_st_st_blicher.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0304mindestoette_af_st_st_blicher.mp3"
   },
   {
 
@@ -309,7 +309,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/da-DK/0306hans_tausen_monument_2005.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0306hans_tausen_monument_2005.mp3"
   },
   {
 
@@ -329,7 +329,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/da-DK/0305mindestoette_for_hans_tausen_1836.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0305mindestoette_for_hans_tausen_1836.mp3"
   },
   {
 
@@ -349,7 +349,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/da-DK/0307kongehyldningsmonumentet.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0307kongehyldningsmonumentet.mp3"
   },
   {
 
@@ -369,7 +369,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/da-DK/0308mindesten_for_danmarks_befrielse.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0308mindesten_for_danmarks_befrielse.mp3"
   },
   {
 
@@ -389,7 +389,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "audio/da-DK/0309staenderpladsen.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0309staenderpladsen.mp3"
   },
 
 
@@ -415,7 +415,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/da-DK/0101stormklokken_paa_domkirkens_taarn.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0101stormklokken_paa_domkirkens_taarn.mp3"
   },
   {
 
@@ -436,7 +436,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/da-DK/0102haven_bag_skovgaard_museet.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0102haven_bag_skovgaard_museet.mp3"
   },
   {
 
@@ -457,7 +457,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/da-DK/0103latinerhaven.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0103latinerhaven.mp3"
   },
   {
 
@@ -478,7 +478,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/da-DK/0104margrethekaelderen.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0104margrethekaelderen.mp3"
   },
   {
 
@@ -498,7 +498,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/da-DK/0105stiftamtmandsgaarden.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0105stiftamtmandsgaarden.mp3"
   },
   {
 
@@ -518,7 +518,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/da-DK/0106de_gamle_koebmandsgaarde.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0106de_gamle_koebmandsgaarde.mp3"
   },
   {
 
@@ -538,7 +538,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/da-DK/0107vaertshuset_paradiset.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0107vaertshuset_paradiset.mp3"
   },
   {
 
@@ -558,7 +558,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/da-DK/0108karnapgaarden.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0108karnapgaarden.mp3"
   },
   {
 
@@ -578,7 +578,7 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/da-DK/0109billen_er_dum.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0109billen_er_dum.mp3"
   },
   {
 
@@ -598,6 +598,6 @@
       "normal": "icons/icon_poi_hidden_places.svg",
       "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
-    "audio": "audio/da-DK/0110vestre_landsret_og_sukkenes_bro.mp3"
+    "audio": "data/sevaerdighederData/audio/da-DK/0110vestre_landsret_og_sukkenes_bro.mp3"
   }
 ]

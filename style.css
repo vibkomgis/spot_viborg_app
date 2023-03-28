@@ -3,9 +3,9 @@
 @font-face {
     font-family: 'TheSans';
     src: url('fonts/TheSans-Regular.woff2') format('woff2'),
-    url('fonts/TheSans-Regular.woff') format('woff'),
-    url('fonts/TheSans-Regular.ttf') format('truetype');
-  }
+        url('fonts/TheSans-Regular.woff') format('woff'),
+        url('fonts/TheSans-Regular.ttf') format('truetype');
+}
 
 html,
 body {
@@ -346,8 +346,9 @@ ul#ruteOversigt {
 
 ul#ruteOversigt li img {
     width: 100%;
-    height: 250px;
+    max-height: 250px;
     object-fit: cover;
+    object-position: top;
     border-radius: 10px 10px 0 0;
 }
 
@@ -375,4 +376,16 @@ ul#ruteOversigt li img {
     z-index: 1;
     border: 10px solid #6cbe9d;
     border-radius: 0 0 10px 10px;
+}
+
+div.dropdown-content button {
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    width: 100%;
+    background-color: #6cbe9d;
+    font-size: 1.5em;
+    font-family: 'TheSans';
+    color: #004036;
+    margin-top: 10px;
 }

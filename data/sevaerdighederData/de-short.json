@@ -1,0 +1,601 @@
+[
+
+
+  {
+
+    "id": 1,
+    "location": {
+      "lat": 56.450554,
+      "lng": 9.412078
+    },
+    "proximity": 25,
+    "title": "Dom zu Viborg",
+    "shortdescription": "Der Dom zu Viborg steht seit über 900 Jahren am gleichen Ort, doch 1876 gab es in Viborg ein großes Fest. Die Kirche sollte nach einem beinahe vollständigen Umbau, der sich über 13 Jahre erstreckte, wieder geweiht werden.",
+    "text": "Du stehst vor dem Dom zu Viborg, der sich seit über 950 Jahren an diesem Ort befindet. 1876 war ganz Viborg in festlicher Stimmung. Die Kirche sollte nach einem beinahe vollständigen Umbau, der sich über 13 Jahre erstreckte, wieder geweiht werden. Der einzige Gebäudeteil, der von der alten mittelalterlichen Kirche übriggeblieben war, ist die halbrunde Apsis und die Krypta im Ostteil der Kirche. In der Apsis der Kirche sind zwei prächtige romanische Löwen aus Granit zu sehen. Und darüber blicken ein Männer- und ein Frauenkopf hinauf auf den Nørresø. Am Nordturm befindet sich ein weiteres romanisches Granitbild, das einen kleinen Drachen und ein Kaninchen darstellt.</p><p>Rund um die Kirche markieren Bordsteine im Gras die Lage der mittelalterlichen Kapellen, darunter die Kapelle für den heiligen Kjeld, den Schutzheiligen von Viborg. Er wurde 1189 von Erzbischof Absalon heiliggesprochen. Die Kirche wurde im Inneren in den Jahren 1901 bis 1906 mit einer großen Bildbibel unter der Leitung von Joakim Skovgaard ausgemalt. Im Chor markiert ein dunkler Grabstein das Grab des dänischen Königs Erik Klipping. Er wurde 1286 in Finderup Lade ermordet. Mehr über die Geschichte des Königsmords in Finderup Lade kannst du hören, wenn du die Route Gedenksteine und Denkmäler wählst.",
+    "next": "POI_VIBORG_DOMKIRKE_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/01_domkirken_1_thumb.jpg",
+    "pictures": [ "pois/01_domkirken_1.jpg", "pois/01_domkirken_2.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": "audio/de-DE/kirchen_1.mp3"
+  },
+  {
+
+    "id": 2,
+    "location": {
+      "lat": 56.450078,
+      "lng": 9.413457
+    },
+    "proximity": 25,
+    "title": "Bischofshof",
+    "shortdescription": "Im Mittelalter war der Bischofshof der Wohnsitz des Kantors, der die Gottesdienste im Dom leitete. Erst 1558 wurde der Bischofshof als Wohnsitz des Bischofs von Viborg eingerichtet.",
+    "text": "Du befindest dich jetzt am Bischofshof, der in der Verlängerung des Doms liegt. Im Mittelalter dienten viele der Gebäude, die wir heute als Bischofshof kennen, nicht als Wohnsitz für den Bischof, sondern für den Kantor, der die Gottesdienste im Dom leitete. Bis heute erhalten sind die Reste von drei mittelalterlichen Steinhäusern. Am beeindruckendsten sind die drei zusammengebauten Keller, die sich im heutigen Nordflügel befinden. 1558 zog der Viborger Bischof in das Gebäude. Während des großen Stadtbrands von 1726 wurde der Bischofshof stark beschädigt. Zwei Jahre später wurde er aber unter Leitung des Architekten Claus Stallknecht wieder aufgebaut. Im gleichen Jahr wurden die beiden Linden angepflanzt, die auf jeder Seite des Haupttors gegenüber dem Dom stehen.",
+    "next": "POI_BISPEGARDEN_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/02_bispegarden_1_thumb.jpg",
+    "pictures": [ "pois/02_bispegaarden_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": "audio/de-DE/kirchen_2.mp3"
+  },
+
+  {
+
+    "id": 3,
+    "location": {
+      "lat": 56.449094,
+      "lng": 9.412451
+    },
+    "proximity": 25,
+    "title": "Sankt-Kjeld-Kirche",
+    "shortdescription": "Das alte Gebäude, das aus dem Mittelalter stammt, wurde 1966 als Kirche für die römisch-katholische Gemeinde geweiht. Die neue Kirche, die sich hier heute befindet, wurde 2008 in Benutzung genommen.",
+    "text": "Du stehst vor einem weißen Haus mit einem Kreuz in der Mitte der Sct. Leoni Stræde. Es beherbergt die katholische Kirche, die dem Schutzheiligen von Viborg, dem heiligen Kjeld, geweiht wurde. Die katholische Gemeinde in Viborg weihte ihre erste Kapelle im Morvilles Gård in der Sct. Mogens Gade 8. Das heutige alte Haus zur Sct. Leoni Stræde, vor dem du stehst, stammt noch aus dem Mittelalter. 1946 kaufte die Gemeinde das Haus und richtete darin eine Kapelle ein. 20 Jahre später wurde es als Kirche geweiht. Im Tor kann man ein Mauerstück mit großen roten Backsteinen sehen und der Keller ist ein gut erhaltener Raum aus dem mittelalterlichen Haus. In einem Seitengebäude zum alten Mittelalterhaus wurde 2008 die neue Kirche geweiht. Im Altartisch werden Reliquien des heiligen Gregor des Großen, des heiligen Thomas von Canterbury und der heiligen Maria Goretti aufbewahrt. Vorne im Garten zur Sct. Mikkels Gade lag auch eine der zwölf mittelalterlichen Kirchen der Stadt, die 1529 abgerissen wurden. Die Kirche war etwa 20 Meter lang und aus Granitsteinen und roten Backsteinen gebaut. Sie wurde abwechselnd Trinitatiskirche oder Drottenkirche genannt. Trinitatis bedeutet Dreifaltigkeit und Drotten bedeutet auf Altdänisch Gott oder der Herr.",
+    "next": "POI_SCT_KJELDS_KIRKE_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/03_sct_kjelds_kirke_1_thumb.jpg",
+    "pictures": [ "pois/03_sct_kjelds_kirke_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": "audio/de-DE/kirchen_3.mp3"
+  },
+  {
+
+    "id": 4,
+    "location": {
+      "lat": 56.449102,
+      "lng": 9.412376
+    },
+    "proximity": 25,
+    "title": "Statue der heiligen Apollonia",
+    "shortdescription": "Die heilige Apollonia war eine fromme, alte Frau, die 249 während der Christenverfolgung in Ägypten den Märtyrertod erlitt. Apollonia ist die Schutzheilige der Zahnärzte. Die Bronzeskulptur wurde 1994 aufgestellt.",
+    "text": "Du stehst an der Treppe hinauf zur Dominikaner-Klosterkirche. Links der Stufen siehst du die Statue der heiligen Apollonia. Die Straße hieß früher Lonne Stræde und wurde wahrscheinlich nach der Lone-Quelle benannt, die sich nahe der Straßenecke von Sortebrødre Kirkestræde und Sct. Leoni Gade befand. Die Namen Lone und Leoni sind dänische Versionen des Namens Apollonia. Die heilige Apollonia war eine fromme, alte Frau, die während der Christenverfolgung in Alexandria in Ägypten im Jahr 249 den Märtyrertod erlitt. Die Legende erzählt, dass ihr während der Folter die Zähne ausgeschlagen wurden. Sie wollte aber nicht vom ihrem christlichen Glauben ablassen und sprang stattdessen ins Feuer, wo sie in den Flammen starb. Ihr wird nachgesagt, dass sie Menschen bei Zahnschmerzen hilft, und sie ist die Schutzheilige der Zahnärzte. Auf Veranlassung des Schriftstellers und Museumsdirektors Peter Seeberg und mit Unterstützung des dänischen Zahnärzteverbands schuf die Künstlerin Hanne Warming die Bronzeskulptur der Apollonia, die 1994 aufgestellt wurde.",
+    "next": "POI_APPOLONIA_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/04_appolonia_1_thumb.jpg",
+    "pictures": [ "pois/04_appolonia_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": "audio/de-DE/kirchen_4.mp3"
+  },
+  {
+
+    "id": 5,
+    "location": {
+      "lat": 56.449134,
+      "lng": 9.412419
+    },
+    "proximity": 25,
+    "title": "Dompropsthof",
+    "shortdescription": "Erst 1872, als der Dompropst des Viborger Doms in das Gebäude zog, begannen die Viborger, das Gebäude Dompropsthof zu nennen. Zuvor bewohnten verschiedene Adelsfamilien das Gebäude.",
+    "text": "Du stehst jetzt auf der mit Kopfsteinen gepflasterten, steilen Sortebrødre Kirkestræde neben dem Dompropsthof.</p><p>Das Adelsgeschlecht Gyldenstierne errichtete 1480 das Gebäude zur Straße als ihren Stadtpalast in Viborg. Viele Adelsgeschlechter hatten damals Häuser in Viborg, in denen sie wohnten, wenn sie sich zum Landsting oder zu Taufen, Hochzeiten und Beerdigungen in der Stadt aufhielten. Als 1838 der Platz im großen Zuchthaus am Søndersø ausging, wurde der alte Adelshof bis 1856 als Frauengefängnis genutzt. Im Vorderhaus wohnten der Wachtmeister und der Spinnmeister. Erst 1872, als der Dompropst des Viborger Doms in das Gebäude zog, begannen die Viborger, das Gebäude Dompropsthof zu nennen. Der Giebel hinauf zur Dominikanerkirche und die Fassade zur Straße wurden 1912 renoviert und tragen jetzt einen charakteristischen mittelalterlichen Zug.",
+    "next": "POI_DOMPROVSTEGARDEN_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/05_domprovstegaarden_1_thumb.jpg",
+    "pictures": [ "pois/05_domprovstegaarden_1.jpg", "pois/05_domprovstegaarden_2.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": "audio/de-DE/kirchen_5.mp3"
+  },
+  {
+
+    "id": 6,
+    "location": {
+      "lat": 56.449312,
+      "lng": 9.409910
+    },
+    "proximity": 25,
+    "title": "Dominikanerkirche",
+    "shortdescription": "Die Dominikaner, die man auch die Schwarzen Brüder nannte, kamen vor rund 800 Jahren nach Viborg und begann mit dem Bau einer Kirche. Die große rote Backsteinkirche ist eine so genannte Langhauskirche, bei der Schiff und Chor ineinander übergehen.",
+    "text": "Du stehst jetzt vor der Dominikanerkirche, auf Dänisch: Sortebrødre Kirke. Dies ist die einzige erhaltene mittelalterliche Kirche in Viborg. Die Dominikaner, die man auch die Schwarzen Brüder nannte, kamen vor rund 800 Jahren nach Viborg und begannen um das Jahr 1240 mit dem Bau einer Kirche. Die letzten Bauarbeiten an der Kirche wurden gegen 1300 abgeschlossen. Die große rote Backsteinkirche ist eine so genannte Langhauskirche, bei der Schiff und Chor ineinander übergehen. Die Kirche hat jetzt zwei Seitenschiffe. Nach Norden wurden zwei mittelalterliche Kapellen dafür verwendet, nach Süden ein Teil des Kreuzgangs des Klosters.  Vom Kloster selbst, in dem die Mönche lebten, ist nur das genannte Stück des Kreuzgangs erhalten. Das war ein überwölbter Gang, der auf der Innenseite der vier Flügel lag, die den abgeschlossenen Klosterhof umgaben. Der Chor enthält das Prachtstück der Kirche, einen vergoldeten Flügelalter, der in den 1520er Jahren in Antwerpen geschnitzt und gemalt wurde. Er befand sich nicht in der Kirche, als die Mönche im Kloster lebten, sondern kam als ein Geschenk des dänischen Königs Frederik VII. in die Stadt, nachdem die Kirche beim großen Stadtbrand 1726 schwer beschädigt worden war. Ursprünglich stand der Altar im Kopenhagener Schloss. An der Südwand des Schiffs hängt ein mittelalterlicher Kruzifix, der 1813 von der Franziskanerkirche gekauft wurde.",
+    "next": "POI_SORTEBRODRE_KIRKE_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/06_sortebrodre_kirke_1_thumb.jpg",
+    "pictures": [ "pois/06_sortebrodre_kirke_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": "audio/de-DE/kirchen_6.mp3"
+  },
+  {
+
+    "id": 7,
+    "location": {
+      "lat": 56.449664,
+      "lng": 9.408269
+    },
+    "proximity": 25,
+    "title": "Sankt-Matthias-Kirche",
+    "shortdescription": "Am Hjultorvet zeigen die grauen Felder auf dem Platz den Ort an, an dem bis 1529 die Sankt-Matthias-Kirche stand. Damals wurde die Kirche im Zuge der Reformation zusammen mit den anderen elf Kirchen der Stadt abgerissen.",
+    "text": "Jetzt stehst du auf dem Hjultorvet. Die grauen Felder auf dem Platz zeigen den Ort an, an dem sich die Sankt-Matthias-Kirche und der dazugehörige Friedhof befanden. Bis 1529 stand hier die Sankt-Matthias-Kirche, dann wurde sie zusammen mit den anderen elf Kirchen der Stadt abgerissen. Sie bestand aus Kirchenschiff, Chor und einer halbrunden Apsis und glich in keiner Weise der so genannten Kirchenskulptur mitten auf dem Platz. Eine archäologische Grabung wies 1999 Spuren einer alten Holzkirche nach. Außerdem wurden etwa 250 Skelette ausgegraben. Ein einzelnes Grab hob sich dadurch ab, dass der Tote ein Stück Blei mit einer Runeninschrift als Grabbeilage bekam. Die Inschrift wurde als eine Zauberformel und ein Gebet zur Jungfrau Maria gedeutet. Die Kirche wurde nach dem Apostel Matthias oder auf Dänisch Mads benannt. Er wurde geköpft und wird deshalb entweder mit einem Beil oder einer Hellebarde dargestellt.",
+    "next": "POI_SCT_MATHIAS_KIRKE_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/07_sct_mathias_kirke_1_thumb.jpg",
+    "pictures": [ "pois/07_sct_mathias_kirke_1.jpg", "pois/07_sct_mathias_kirke_2.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": "audio/de-DE/kirchen_7.mp3"
+  },
+  {
+
+    "id": 8,
+    "location": {
+      "lat": 56.450939,
+      "lng": 9.409632
+    },
+    "proximity": 25,
+    "title": "Sankt-Hans-Kirche",
+    "shortdescription": "Die Sankt-Hans-Kirche war Schauplatz der frühesten protestantischen Predigten von Hans Tausen im 16. Jahrhundert. Die Kirche wurde 1529 abgerissen, doch der Turm mit der Sturmglocke blieb bis 1584 stehen.",
+    "text": "Jetzt stehst du auf dem Nytorv und auch über der ehemaligen Sankt-Hans-Kirche und dem dazugehörigen Friedhof. Auf dem Nytorv grub das Viborg Museum 2015 die Fundamente der Sankt-Hans-Kirche aus, die aus Schiff, Chor und einem Turm bestand. Die Archäologen untersuchten auch etwa 650 Grabstellen. Die Sankt-Hans-Kirche war Schauplatz der frühesten protestantischen Predigten von Hans Tausen im Jahr 1526. Als die Viborger 1529 die Erlaubnis des Königs zum Abriss der zwölf Pfarrkirchen der Stadt erhielten, beseitigten sie auch die Sankt-Hans-Kirche – bis auf den Turm. Hier hang bis 1584 die Sturmglocke der Stadt, die die Menschen bei einem Brand zum Löschen zusammenrief. 1584 wurde auch der Turm abgerissen und der gesamte Friedhof abgeräumt und gepflastert. Damals sollte der Nytorv zur Huldigung von Prinz Christian genutzt werden, dem späteren König Christian IV. Der Name Hans ist die dänische Form von Johannes. Die Kirche war daher entweder nach dem Evangelisten Johannes oder, was wahrscheinlicher ist, nach Johannes dem Täufer benannt worden. Dessen Namenstag ist der 24. Juni, der in Dänemark als Sankt-Hans-Tag gefeiert wird.",
+    "next": "POI_SCT_HANS_KIRKE_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/08_sct_hans_kirke_1_thumb.jpg",
+    "pictures": [ "pois/08_sct_hans_kirke_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": "audio/de-DE/kirchen_8.mp3"
+  },
+  {
+
+    "id": 9,
+    "location": {
+      "lat": 56.452688,
+      "lng": 9.411911
+    },
+    "proximity": 25,
+    "title": "Sankt-Mogens-Kirche",
+    "shortdescription": "In den vergangenen 200 bis 300 Jahren hat man in diesem Eckgrundstück große viereckige Granitsteine und zahlreiche Skelette ausgegraben. Dies sind Spuren der verschwundenen mittelalterlichen Sankt-Mogens-Kirche und des dazugehörigen Friedhofs.",
+    "text": "Du stehst jetzt an der Ecke von Rosenstræde und Sankt Mogens Gade, an der früher die Sankt-Mogens-Kirche stand. In den vergangenen 200 bis 300 Jahren hat man in diesem Eckgrundstück große viereckige zugehauene Granitsteine und zahlreiche Skelette ausgegraben. Dies sind Spuren der verschwundenen mittelalterlichen Sankt-Mogens-Kirche und des dazugehörigen Friedhofs. Sie wurde 1529 abgerissen. Mogens ist die dänische Form des lateinischen Namen Magnus, der 'groß' bedeutet. Mehrere Heilige trugen diesen Namen. Möglicherweise wurde die Kirche in Viborg nach dem heiligen Magnus aus Italien benannt. Doch vielleicht verweist der Name auch auf Magnus von den Orkneyinseln, der norwegischer Abstammung war. Er wurde 1116 auf der kleinen Insel Egilsay hingerichtet und im Dom in Kirkwall beerdigt. Diese Kirche ist heute die Magnus-Kathedrale.",
+    "next": "POI_SCT_MOGENS_KIRKE_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/09_sct_mogens_kirke_1_thumb.jpg",
+    "pictures": [ "pois/09_sct_mogens_kirke_1.jpg", "pois/09_sct_mogens_kirke_2.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": "audio/de-DE/kirchen_9.mp3"
+  },
+  {
+
+    "id": 10,
+    "location": {
+      "lat": 56.451767,
+      "lng": 9.412397
+    },
+    "proximity": 50,
+    "title": "Franziskanerkirche",
+    "shortdescription": "Die Reformation vollzog sich in der Franziskanerkirche, in der Hans Tausen ab 1527 seine protestantische Botschaft seinen Zuhörern predigte.",
+    "text": "Du stehst jetzt vor dem Franziskanerkloster. Du kannst ganz nah an das Kloster gehen, doch der Weg ist etwas steil. Achte besonders auf die Leitlinie im Hinterhof, die aus wiederverwendeten alten Sockelsteinen von modernen Grabsteinen gemacht ist. 1235 gründeten die Franziskaner ihr Kloster in Viborg. Die Kirche wurde bis 1812 für Gottesdienste genutzt. Dann wurde sie geschlossen, weil ihr baulicher Zustand sehr schlecht war. Die Kirche wurde 1830 abgerissen, doch wir können die Umrisse der Mauern in den Hecken des kleinen Parks Hans Tausens Minde sehen. Das Kloster wurde im Verlauf des Mittelalters zu einem recht großen Komplex ausgebaut, der unter anderem zwei geschlossene Klosterhöfe, eine Schmiede und eine heilige Quelle umfasste – den Maria-Gesundheitsbrunnen. Einige der Gebäude im nördlichen Hof sind bis heute erhalten.</p><p>Die Reformation vollzog sich in der Franziskanerkirche, in der Hans Tausen ab 1527 seinen Zuhörern seine protestantische Botschaft predigte. Das Kloster wurde in der Zeit der Reformation zur Verwendung durch den König Christian III. umgebaut. In den 1970er Jahren rekonstruierte man den Raum im Erdgeschoss, die der König nutzte, als er sich in Viborg aufhielt. Der Raum heißt heute die 'Königskammer'. 1541 befahl der König, dass das alte Franziskanerkloster in ein Hospital umgewandelt werden sollte, also in ein Heim für Kranke, Alte und Arme. Heute befinden sich im Kloster sieben kleine Wohnungen für ältere Menschen.",
+    "next": "POI_GRABRODRE_KLOSTERKIRKE_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/10_grabrodre_klosterkirke_1_thumb.jpg",
+    "pictures": [ "pois/10_grabrodre_klosterkirke_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_church.svg",
+      "visited": "icons/icon_poi_visited_church.svg"
+    },
+    "audio": "audio/de-DE/kirchen_10.mp3"
+  },
+
+
+
+
+  {
+
+    "id": 11,
+    "location": {
+      "lat": 56.45058,
+      "lng": 9.41199
+    },
+    "proximity": 25,
+    "title": "Domtor",
+    "shortdescription": "Das Domtor, das aus zwei Türen besteht – die äußere aus Gussbronze, die innere aus Glas – wurde von der Kirchenkünstlerin Maja Lisa Engelhardt geschaffen und 2012 eingeweiht.",
+    "text": "Du stehst jetzt vor einer Bronzetür, die Zutritt in den Dom gewährt. Der Zugang zum Westende des Doms erfolgt durch zwei Tore. Das äußere ist aus gegossener Bronze, das innere aus Glas. Die Verzierung der Tore symbolisiert einen Vorhang und ist von der Geschichte aus dem Alten Testament über den Vorhang inspiriert, der im jüdischen Tempel das Allerheiligste verbarg. Hierhin kamen die obersten Priester einmal im Jahr, um ein Tieropfer zu bringen. Bei Christi Tod am Karfreitag zerriss der Vorhang und das Allerheiligste öffnete sich, um Platz für den neuen Bund zu machen – Christus. Die heutigen Kirchgänger gehen durch das dunkle Tor – durch den Vorhang – in den Dom und haben jetzt durch Jesu Tod ungehinderten Zugang zu Gott. Wenn die Gemeinde die Kirche verlässt, bewegt sie sich hinaus ins Licht – zuerst durch die helle Glastür und danach vorbei an der versilberten Rückseite der Bronzetür. Das Tor wurde von der Kirchenkünstlerin Maja Lisa Engelhardt geschaffen und 2012 von der dänischen Königin Margrethe II. eingeweiht. Damit wurde des 200. Jahrestags gedacht, seit der Dom den Status einer Pfarrkirche erhalten hatte, nachdem man 1812 die Gottesdienste in der Kirche der Nordgemeinde, der ehemaligen Franziskaner-Klosterkirche, eingestellt hatte.",
+    "next": "POI_DOMKIRKEPORTEN_NEXT_DESCRIPTION",
+    "handicap": "Der barrierefreie Eingang zum Dom befindet sich auf der Nordseite der Kirche vom Ständeplatz aus.",
+    "thumb": "images/thumbs/11_domkirkeporten_1_thumb.jpg",
+    "pictures": [ "pois/11_domkirkeporten_1.jpg", "pois/11_domkirkeporten_2.jpg", "pois/11_domkirkeporten_3.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": "audio/de-DE/denkmaler_1.mp3"
+  },
+  {
+
+    "id": 12,
+    "location": {
+      "lat": 56.450297,
+      "lng": 9.411547
+    },
+    "proximity": 25,
+    "title": "Relief über den Mord in Finderup Lade",
+    "shortdescription": "Das Relief im Garten hinter dem Skovgaard Museum wurde 1986 von dem Bildhauer Mogens Bøggild geschaffen und schildert den letzten Königsmord in Dänemark. Dieser fand 1286 statt, als König Erik Klipping in Finderup Lade erstochen wurde.",
+    "text": "Du stehst im Garten hinter dem Skovgaard Museum. An der Giebelwand zum Nachbarhaus siehst du das Relief über den Mord in Finderup Lade von Mogens Bøggild. In der St. Cäciliennacht, dem 22. November 1286, fand der letzte Königsmord in Dänemark statt. König Erik Klipping wurde mit 56 Stichen in Finderup Lade erdolcht. Der Ort befindet sich sieben Kilometer südwestlich von Viborg. Der Mord geschah nach einem längeren Streit mit einer Gruppe Großgrundbesitzer über deren Landbesitz und die übrigen Rechte. Die Leiche des Königs wurde in den Viborger Dom gebracht, wo er im Chor begraben liegt. Ohne dass ihre Schuld bewiesen werden konnte, wurden neun Großgrundbesitzer 1287 des Königsmordes schuldig gesprochen und verloren ihre Rechte, darunter Marschall Stig Andersen. Das Bronzerelief zeigt die dramatische Situation, bei der die Verschworenen die Tür zum König aufstoßen. Einer von ihnen hat die Schulter gegen die Tür gelehnt, während ein anderer gerade von seinem Pferd steigt. Da viele der Figuren beinahe frei modelliert sind, erzeugt das Relief eine ungewöhnliche Dramatik und gibt eine beinahe lebensgetreue Schilderung der Situation unmittelbar vor dem Königsmord. Das Relief wurde 1986 von dem Bildhauer Mogens Bøggild geschaffen und zum 700. Jahrestag des Ereignisses aufgestellt.",
+    "next": "POI_FINNERUP_LADE_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/12_finnerup_lade_1_thumb.jpg",
+    "pictures": [ "pois/12_finnerup_lade_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": "audio/de-DE/kirchen_2.mp3"
+  },
+
+  {
+
+    "id": 13,
+    "location": {
+      "lat": 56.450579,
+      "lng": 9.410951
+    },
+    "proximity": 25,
+    "title": "Gedenktafel für den Ornithologen Mortensen",
+    "shortdescription": "Hans Christian Cornelius Mogensen war Naturgeschichtslehrer an der Kathedralschule und erhielt den Spitznamen Vogel-Mortensen. Dies hat er seinem Interesse an der Vogelkunde zu verdanken. Vogel-Mortensen führte in Dänemark die Beringung von Vögeln ein.",
+    "text": "An der Wand der Lateinschule im Latinerhaven hängt eine Gedenktafel für den Ornithologen Hans Christian  Cornelius Mortensen. Mortensen war Naturgeschichtslehrer an der Kathedralschule Viborg und lebte von 1888 an bis zu seinem Tod 1921 in Viborg. Sein Spitzname war Vogel-Mortensen, was als Anerkennung zu verstehen ist. Der Name verweist auf sein lebenslanges Interesse für die Vogelkunde und vor allem für die Beringung der Vögel. Die Methode war bekannt, doch er verfeinerte sie, indem er unter anderem leichtere Aluminiumringe einführte. Der Zweck der Vogelberingung insbesondere bei Staren und Störchen war es, Informationen über das Lebensalter, die Zugrouten, Überwinterungsgebiete und anderen Aspekte des Lebens der Vögel zu erhalten. Mortensens Lieblingsvogel war der Star. Er selbst beringte viele Stare und darüber hinaus 6.000 andere Vögel. Ein Resultat seiner Beringung von Störchen war, dass er zeigen konnte, dass sie nicht nach Ägypten flogen, wie es Dichter wie Hans Christian Andersen und Bernhard Severin Ingemann beschrieben haben, sondern nach Südafrika. Das Relief, das drei schwebende Störche zeigt, wurde von dem Maler Johannes Larsen ausgeführt, während der Text von einem Schüler von Vogel-Mortensen an der Lateinschule verfasst wurde, dem Schriftsteller Johannes V. Jensen. Die Gedenkplatte wurde 1952 enthüllt.",
+    "next": "POI_FUGLE_MORTENSEN_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/13_fugle_mortensen_1_thumb.jpg",
+    "pictures": [ "pois/13_fugle_mortensen_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": "audio/de-DE/kirchen_3.mp3"
+  },
+
+  {
+
+    "id": 14,
+    "location": {
+      "lat": 56.450486,
+      "lng": 9.410738
+    },
+    "proximity": 25,
+    "title": "Blicher-Gedenksäule",
+    "shortdescription": "Die Gedenksäule für Steen Steensen Blicher, die im 19. Jahrhundert vom Bildhauer Theobald Thielemann geschaffen wurde, hatte zuvor bereits drei andere Standorte in der Stadt, bevor es 1960 in den Latinerhaven kam.",
+    "text": "Du befindest dich im Latinerhaven vor dem Giebel des alten Turnsaals der Lateinschule und siehst eine Büste von Steen Steensen Blicher.</p><p>Die Bronzebüste für den Priester und Dichter Blicher, der von 1782 bis 1848 lebte, wurde 1960 im Latinerhaven vor dem alten Turnsaal der Lateinschule angebracht. Zuvor war die Büste bereits an drei anderen Orten in der Stadt aufgestellt. Steen Steensen Blicher gehört zu den wichtigsten Dichtern Dänemarks. Seine Novelle Der Pfarrer von Veilby, die 1829 herausgegeben wurde, zählt zum dänischen Literaturkanon. Seine Inspiration holte er sich bei seinen vielen Ausflügen mit Hund und Jagdgewehr durch die Heidegebiete in Mitteljütland. Hier traf eine buntscheckige Galerie an Bewohnern der Heide: Bauern, Hosenstricker, Bettler und fahrendes Volk, alles Personen, die oft in seinen Novellen auftreten. Der Bildhauer Theobald Thielemann schuf von etwa 1840 an eine Reihe von Statuen und Gedenktafeln über die wichtigsten dänischen Persönlichkeiten seiner Zeit. So schuf er 1866 die Büste von Blicher, die mit der Idee errichtet wurde, eine Erinnerung an den großen Dichter Jütlands in der jütländischen Hauptstadt Viborg zu schaffen.",
+    "next": "POI_STEEN_STEENSEN_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/14_steen_steensen_1_thumb.jpg",
+    "pictures": [ "pois/14_steen_steensen_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": "audio/de-DE/kirchen_4.mp3"
+  },
+  {
+
+    "id": 16,
+    "location": {
+      "lat": 56.451545,
+      "lng": 9.412309
+    },
+    "proximity": 25,
+    "title": "Hans Tausen Denkmal 2005",
+    "shortdescription": "Neben dem Gedenkstein von 1836 steht ein neues Hans Tausen Denkmal. Es wurde 2005 von dem Künstler Bjørn Nørgaard geschaffen.",
+    "text": "Du stehst vor der modernen Statue für Hans Tausen von Bjørn Nørgaard in der Parkanlage Hans Tausens Minde. Viborg feierte 2005 die Reformation, die damals 475 Jahre zurück lag. Damals wurden die beiden protestantischen Pfarrkirchen der Nord- und Südgemeinde eingeweiht. Die Kirchen wurden in den beiden Klosterkirchen der Dominikaner und Franziskaner eingerichtet. Das Jubiläum wurde auch durch die Enthüllung eines neuen Hans Tausen Denkmals gewürdigt. Die Aufgabe lag in den Händen des Künstlers Bjørn Nørgaard. Das Denkmal ruht auf einem gewölbten Granitstein, der den Erdball symbolisiert, während die drei geschwungenen Stahlbeine die Dreifaltigkeit symbolisieren: Gottvater, Sohn und Heiliger Geist. Die Keramikfigur von Hans Tausen steht auf einer Glasplatte, die einen großen weißen Grabstein überdeckt. Der weiße Stein ist nach der Überlieferung der Stein, den Hans Tausen benutzte, als er auf dem Klosterfriedhof der Franziskaner predigte, bevor die Gemeinde den Zugang zur Klosterkirche erhielt. An der Figur sind einige Bronzezungen mit Zitaten aus den Reformationsschriften von Hans Tausen zu sehen.",
+    "next": "POI_HANS_TAUSEN_2005_NEXT_DESCRIPTION",
+    "handicap": "Der barrierefreie Eingang zum Garten befindet sich von der Sct. Mogensgade etwas nördlich der Gråbrødre Kirke Str.",
+    "thumb": "images/thumbs/16_hans_tausen_2005_1_thumb.jpg",
+    "pictures": [ "pois/16_hans_tausen_2005_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": "audio/de-DE/kirchen_5.mp3"
+  },
+  {
+
+    "id": 17,
+    "location": {
+      "lat": 56.451434,
+      "lng": 9.412443
+    },
+    "proximity": 25,
+    "title": "Hans-Tausen-Gedenkstein 1836",
+    "shortdescription": "Der Gedenkstein für Hans Tausen wurde von dem Bildhauer H.E. Freund geschaffen. Der Stein wurde 1836 in der Gartenanlage Hans Tausens Minde aus Anlass des 300. Jahrestags der Reformation errichtet.",
+    "text": "Du stehst in der Parkanlage Hans Tausens Minde am Gedenkstein für Hans Tausen in einem früheren Kirchenraum, der durch die Buchenhecken markiert wird.</p><p>Der dänische Reformator Hans Tausen kam als Johannitermöch 1525 nach Viborg. Als seine Predigten in der Klosterkirche der Johanniter für die katholische Kirche zu kritisch wurden, wurde er 1526 aus dem Orden verstoßen. Er setzte seine protestantischen Predigten jedoch fort. Erst in der Sankt-Hans-Kirche auf dem heutigen Nytorv und ab 1527 in der großen Klosterkirche der Franziskaner. Die zwölf katholischen Pfarrkirchen von Viborg wurden 1529 abgerissen und die Klosterkirchen der Franziskaner und Dominikaner wurden danach als die protestantischen Pfarrkirchen der Nord- und Südgemeinde eingerichtet. 1536 wurde die Reformation in ganz Dänemark eingeführt. Der Gedenkstein wurde von dem Bildhauer H. E. Freund geschaffen. Sie wurde zum 300. Jahrestag der Reformation 1836 in der damals neuangelegten Parkanlage Hans Tausens Minde errichtet. Die Vorderseite zeigt Hans Tausen über einer Inschrift: 2.TIMOTH.2.9. Das ist ein Verweis auf die Bibel: 'Gottes Wort ist nicht gebunden'. An den Seiten sind die Symbole der Evangelisten zu sehen: der Löwe für Markus, der Engel für Matthäus, der Stier für Lukas und der Adler für Johannes. Das Denkmal ist außerdem mit einer Reihe von kleinen Figuren und Symbolen verziert: Delphine, die Erlösung symbolisieren. Ein Kerubim, ein Bild für einen Schutzwächter. Ein Schwan, ein Kreuz und eine Reihe von Rosetten.",
+    "next": "POI_HANS_TAUSEN_1836_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/17_hans_tausen_1836_1_thumb.jpg",
+    "pictures": [ "pois/17_hans_tausen_1836_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": "audio/de-DE/kirchen_6.mp3"
+  },
+  {
+
+    "id": 18,
+    "location": {
+      "lat": 56.451218,
+      "lng": 9.412015
+    },
+    "proximity": 25,
+    "title": "Königshuldigungsdenkmal",
+    "shortdescription": "Die Statue von Königin Margrethe I. und ihrem 14-jährigen Großneffen und Stiefsohn, dem späteren König Erik von Pommern, wurde 1965 errichtet. Das Denkmal würdigt die 600 Jahre lange Geschichte Viborgs als Stadt der Königshuldigungen.",
+    "text": "Du stehst jetzt auf dem Margretheplænen, und siehst die dänische Königin Margrethe I und Erik von Pommern auf dem Königshuldigungsdenkmal. Viborg war seit dem Mittelalter die Stadt der Königshuldigungen, doch der genaue  Ort, wo dies im Mittelalter geschah, ist nicht bekannt.  Der erste König, von dem berichtet wird, dass ihm in Viborg gehuldigt wurde, war König Hardiknut im Jahr 1027. Doch archäologische Funde am Søndersø lassen vermuten, dass auch schon seinem Vorgänger Knut dem Großen 1019 in Viborg gehuldigt wurde. Alle Könige, die im Mittelalter gewählt wurden, mussten zuerst nach Viborg reisen, um die Huldigung durch das Landsting entgegenzunehmen. Die letzte Huldigung fand 1657 statt, als dem neunjährigen Kronprinz, dem späteren König Christian V., als König gehuldigt wurde. In Zusammenhang mit der Einführung des Absolutismus wurde 1660 in Dänemark die Erbmonarchie eingeführt und die Königshuldigungen hörten auf. Die Statue des Bildhauers Axel Poulsen zeigt Königin Margrethe I. und ihren 14-jährigen Großneffen und Stiefsohn, den späteren König Erik von Pommern. Das Werk wurde 1965 enthüllt, um an die fast 600 Jahre lange Geschichte Viborgs als Stadt der Königshuldigungen zu erinnern. Der Standort der Statue ist nicht der alte Ting- und Königshuldigungsort. Im Mittelalter gab es hier Häuser und Hinterhöfe.",
+    "next": "POI_KONGEHYLDNINGSMONUMENTET_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/18_kongehyldingsmonumentet_1_thumb.jpg",
+    "pictures": [ "pois/18_kongehyldingsmonumentet_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": "audio/de-DE/kirchen_7.mp3"
+  },
+  {
+
+    "id": 19,
+    "location": {
+      "lat": 56.450857,
+      "lng": 9.411698
+    },
+    "proximity": 25,
+    "title": "Gedenksteine für die Befreiung Dänemarks",
+    "shortdescription": "Die Gedenksteine wurden 1970 aufgestellt – 25 Jahre nach der Befreiung des Landes von der deutschen Besatzung. Der Text wurde von dem Schriftsteller und Museumsdirektor Peter Seeberg geschrieben.",
+    "text": "Du stehst vor vier Steinen im Wall zum Margretheplænen, die an das Ende der Besatzung Dänemarks am 5. Mai 1945 erinnern. Der schöne Text des Schriftstellers und Museumsdirektoren Peter Seeberg für das Befreiungsdenkmal könnte kaum kürzer und markanter sein. Auf den vier Gedenksteinen steht, in deutscher Übersetzung: 5. Mai 1945 - Frieden - Freude - Trauer. Das Denkmal wurde zum 25. Jahrestag der Befreiung 1970 errichtet.",
+    "next": "POI_DANMARKS_BEFRIELSE_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/19_danmarks_befrielse_1_thumb.jpg",
+    "pictures": [ "pois/19_danmarks_befrielse_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": "audio/de-DE/kirchen_8.mp3"
+  },
+  {
+
+    "id": 20,
+    "location": {
+      "lat": 56.450906,
+      "lng": 9.412360
+    },
+    "proximity": 25,
+    "title": "Ständeplatz",
+    "shortdescription": "1950 feierte Viborg gleich fünf Jubiläen. Die Bürger sammelten Geld für die Statue, die Viborg als Gerichtsort symbolisieren sollte. Der Bildhauer Anker Hoffmann löste die Aufgabe mit einer Statue von Justitia, der Göttin der Gerechtigkeit.",
+    "text": "Du stehst an der Ecke zum Ständeplatz mit dem Viborg-Mädchen, einer Statue von einer nackten Frau. Auf dem Ständeplatz gibt es verblüffenderweise eine direkte Verbindung zwischen einem Stadtjubiläum und einer Statue einer nackten Frau. 1950 feierte Viborg nicht weniger als fünf Jubiläen, unter anderem den alten Status der Stadt als Gerichtsort. Eine Spendensammlung wurde gestartet, damit die Viborger der Stadt ein Kunstwerk schenken können. Und es wurde Kontakt zu dem Bildhauer Anker Hoffmann aufgenommen. Er schlug eine Frauenfigur vor, die Justitia, die Göttin der Gerechtigkeit, mit einer Binde vor den Augen und mit Griffel und Pergamentrolle in den Händen darstellen sollte. Sie sollte den alten Status Viborgs als Gerichts- und Tingort symbolisieren. Als die Statue 1954 enthüllt wurde, war die Binde vor den Augen entfernt worden. Anker Hoffmann berichtete über seine Frauenskulptur, dass sie die schöne, hügelige Landschaft in der Umgebung von Viborg verkörpere und er als Inspiration drei Modelle verwendet hätte, die alle ihre Vorzüge gehabt hätten. Die Skulptur entfachte viele heiße Diskussionen. Das Viborg-Mädchen steht mit dem Blick zum alten Rathaus und dem Rücken zur Stadt.",
+    "next": "POI_STAENDERPLADSEN_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/20_staenderpladsen_1_thumb.jpg",
+    "pictures": [ "pois/20_staenderpladsen_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_art.svg",
+      "visited": "icons/icon_poi_visited_art.svg"
+    },
+    "audio": "audio/de-DE/kirchen_9.mp3"
+  },
+
+
+
+
+
+  {
+
+    "id": 21,
+    "location": {
+      "lat": 56.45066,
+      "lng": 9.41223
+    },
+    "proximity": 25,
+    "title": "Sturmglocke im Domturm",
+    "shortdescription": "Wenn ein Feuer ausgebrochen war, liefen die Anwohner des Doms zur Sturmglocke und läuteten sie, um die Einwohner der Stadt zusammenzurufen, damit sie beim Löschen helfen. Die Sturmglocke ist im Keller des Doms ausgestellt.",
+    "text": "Du stehst jetzt im Herzen der Stadt vor dem Dom. Am Nordturm des Doms sitzt vollkommen unmotiviert ein alter verrosteter Eisengriff. Er ist ein Zeuge der gefürchteten Stadtbrände, die es früher gab. Wenn ein Feuer ausbrach, liefen die Menschen hierher zum Griff, der mit der Sturmglocke verbunden war. Man läutete die Glocke, um die Einwohner der Stadt zusammenzurufen, damit sie beim Löschen mithelfen. Bis 1584 hing die Sturmglocke im Turm der Sankt-Hans-Kirche am Nytorv, danach wurde sie in den Turm der Sankt-Ibs-Kirche verlegt, die im Norden von Viborg stand. Die Glocke hing dort bis 1613. Dann bekam sie ihren Platz im Nordturm des Doms. Seit 1984 wird die Sturmglocke im kleinen Dommuseum im Keller unter dem Südturm ausgestellt.",
+    "next": "POI_STORMKLOKKEN_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/21_stormklokken_1_thumb.jpg",
+    "pictures": [ "pois/21_stormklokken_1.jpg", "pois/21_stormklokken_2.jpg", "pois/21_stormklokken_3.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "audio/de-DE/sturmglocke_im_domturm_1.mp3"
+  },
+  {
+
+    "id": 22,
+    "location": {
+      "lat": 56.450297,
+      "lng": 9.411547
+    },
+    "proximity": 25,
+    "title": "Garten hinter dem Skovgaard Museum",
+    "shortdescription": "Eine kleine, friedliche und üppige Oase wurde in den 1970er Jahren hinter dem Museum angelegt. Neben den vielen Pflanzen ist im Garten auch Edith Ludvigsens Vogelspringbrunnen und das Relief über den Mord an Erik Klipping von Mogens Bøgild zu finden.",
+    "text": "Jetzt befindest du dich im Garten hinter dem Skovgaard Museum. Es befindet sich im alten Viborger Rathaus von 1728. Das alte Viborger Rathaus liegt auf der Südseite des Domkirkeplads und beherbergte bis 1874 die Stadtverwaltung von Viborg. Im Keller befand sich das Gefängnis der Stadt und hier stand auch die städtische Feuerspritze. 1889 zog das Viborg Museum in das schöne Barockgebäude und seit 1980 ist hier das Skovgaard Museum untergebracht. In den 1970er Jahren wurde der kleine, aber feine Museumsgarten mit seinen Hecken, gekappten Lindenbäumen und Pflasterungen angelegt. In der Mitte des Gartens siehst du den Vogelspringbrunnen der Bildhauerin Edith Ludvigsen von 1984. Er wurde aus den Früchten der Wassernuss, einer Sumpfpflanze, gefertigt. In der südwestlichen Ecke findest du ein Relief von Mogens Bøgild, das die Ermordung des dänischen Königs Erik Klipping in Finderup Lade 1286 zeigt. Mehr über das Relief kannst du erfahren, wenn du die Route Gedenksteine und Denkmäler wählst. Das leise Rieseln des Vogelspringbrunnens und das milde Licht durch die Bäume lässt den Garten wie eine friedliche und üppige Oase mitten in der Stadt erscheinen.",
+    "next": "POI_SKOVGARDMUSEETS_HAVE_NEXT_DESCRIPTION",
+    "handicap": "Der barrierefreie Eingang zum Garten befindet sich von der Sct. Mogens Gade aus hinter dem Skovgaard Museum.",
+    "thumb": "images/thumbs/22_skovgardmuseets_have_1_thumb.jpg",
+    "pictures": [ "pois/22_skovgardmuseets_have_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "audio/de-DE/sturmglocke_im_domturm_2.mp3"
+  },
+  {
+
+    "id": 23,
+    "location": {
+      "lat": 56.450020,
+      "lng": 9.410426
+    },
+    "proximity": 25,
+    "title": "Latinerhaven",
+    "shortdescription": "Der unterteilte grüne Stadtgarten gehörte früher dem Rektor der Lateinschule. Hier findest du die alte Laube des Rektors, die Gedenktafel für den Ornithologen Vogel-Mortensen und die Gedenksäule für den Dichter Steen Steensen Blicher.",
+    "text": "Jetzt befindest du dich im Latinerhaven, dem zentralen Stadtgarten von Viborg. Der Latinerhaven ist das letzte große unbebaute Grundstück, das noch auf den verheerenden Stadtbrand von 1726 verweist. Damals wurde die halbe Stadt vernichtet – auch die vier Adelshöfe, die sich früher an dieser Stelle befanden. Der Latinerhaven hat seinen Namen erhalten, weil sich hier früher der private Garten des Rektors der Lateinschule befand. An der Ecke zwischen Sct. Mogens Gade und Sct. Mathias Gade steht immer noch die etwa 200 Jahre alte „Laube des Rektors“. Der grüne Stadtgarten ist in verschiedene Abschnitte unterteilt. So gibt es Abschnitte mit Stauden, mit Frühlings- und Sommerblumen und sogar einen kleinen Abschnitt mit Kräutern für Kräuterschnaps. Im Garten kannst du auch das Denkmal zur Ehre des Dichters Steen Steensen Blicher und eine Gedenktafel für den Ornithologen Mortensen finden, der auch „Vogel-Mortensen“ genannt wird. Mehr über die beiden kannst du erfahren, wenn du die Route Gedenksteine und Denkmäler wählst. An der Wand des alten Turnsaals der Lateinschule befindet sich der Löwenbrunnen. Er wurde 1928 aus Anlass des 100. Jubiläums der Viborger Sparkasse von dem Viborger Architekten Frederik Jensen entworfen. 1935 sollte die Sparkasse erweitert werden und der Brunnen stand im Weg. Deshalb wurde er zur Verschönerung der Stadt geschenkt und im Latinerhaven aufgestellt.",
+    "next": "POI_LATINERHAVEN_NEXT_DESCRIPTION",
+    "handicap": "Der barrierefreie Eingang zum Park befindet sich an der Ecke von Kompagnistræde und Sankt Mathias Gade.",
+    "thumb": "images/thumbs/23_latinerhaven_1_thumb.jpg",
+    "pictures": [ "pois/23_latinerhaven_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "audio/de-DE/sturmglocke_im_domturm_3.mp3"
+  },
+  {
+
+    "id": 24,
+    "location": {
+      "lat": 56.451082,
+      "lng": 9.409177
+    },
+    "proximity": 25,
+    "title": "Margrethekeller",
+    "shortdescription": "Im 15. Jahrhundert gehörte das Haus mit dem Keller der dänischen Königin Margrethe I. Das Schild über der Tür erzählt, dass sich hier eine Apotheke befand, die 1573 als erste Apotheke in Nordjütland gegründet wurde.",
+    "text": "Du stehst vor der alten Schwanenapotheke. In dem Gebäude findest du Überreste des ältesten erhaltenen Gebäudes von Viborg, das einmal der dänischen Königin Margrethe I. gehörte. Das Gebäude, in dem der Margrethekeller liegt, ist lachsfarbig. Diese Farbe kennzeichnete einmal zahlreiche Viborger Häuser. Das Schild über der Tür berichtet, dass sich hier eine Apotheke – die Schwanenapotheke – befand, die 1573 als erste Apotheke in Nordjütland gegründet wurde. Im Keller finden wir die Überreste des ältesten erhaltenen Gebäudes von Viborg. Im Jahr 1406 gehörten der Keller und das Haus der dänischen Königin Margrethe I. Und wir können die Spuren des Gebäudes noch 50 Jahre weiter zurück in die Geschichte verfolgen, so dass der Keller also über 650 Jahre alt ist. 1993 zog die Schwanenapotheke in ein neues Gebäude.",
+    "next": "POI_MARGRETHEKAELDEREN_NEXT_DESCRIPTION",
+    "handicap": "Der barrierefreie Eingang zum Garten befindet sich von der Sct. Mogens Gade aus vor der Nytorvgyde.",
+    "thumb": "images/thumbs/24_margrethekaelderen_1_thumb.jpg",
+    "pictures": [ "pois/24_margrethekaelderen_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "audio/de-DE/sturmglocke_im_domturm_4.mp3"
+  },
+  {
+
+    "id": 25,
+    "location": {
+      "lat": 56.451093,
+      "lng": 9.409374
+    },
+    "proximity": 25,
+    "title": "Stiftsamtmannshof",
+    "shortdescription": "Von 1824 bis 2004 war das schöne Barockhaus der Wohnsitz der wechselnden Stiftsamtmänner im Stift Viborg.",
+    "text": "Du befindest dich auf der nördlichen Seite des Nytorv vor dem beeindruckenden Stiftsamtmannshof mit den vielen schönen Details im Mauerwerk. Fast 200 Jahre lang, von 1824 bis 2004, war das schöne Barockhaus der Wohnsitz der wechselnden Stiftsamtmänner im Stift Viborg. Ein Stiftsamtmann stand an der Spitze der weltlichen Verwaltung in einem Stift. Das Gebäude ist allerdings noch älter und wurde 1758 als Privathaus errichtet, 32 Jahre, nachdem das Gebäude, das früher an dieser Stelle stand, beim großen Stadtbrand ein Raub der Flammen wurde. Die Sandsteintafel mitten auf dem Haus berichtet, dass das Ehepaar Janus Friedenreich und Anne Margrethe Lind die Bauherren waren. Der Seitenflügel zur St. Sct. Hans Gade zeigt Überreste von mittelalterlichen Reihenhäusern – bescheidenen, kleinen Mietshäusern, in denen sich die Werkstätten von Handwerkern oder die Wohnräume der Tagelöhner und Armen befanden. Das Baumaterial war der große rote Backstein, den du noch immer im überstrichenen Mauerwerk zum Markt hin erkennen kannst. Im Hof befindet sich auf der linken Seite ein etwa 150 Jahre altes halbrundes Gartenhaus, das ursprünglich als Remise für die Wagen und Pferde des Stiftsamtmanns diente. Der große Garten ist in Viborg eine Besonderheit. Er ist umgeben von Gebäuden, Rückwänden und der Gartenmauer.",
+    "next": "POI_AMTMANDS_GARDEN_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/25_amtmands_garden_1_thumb.jpg",
+    "pictures": [ "pois/25_amtmands_garden_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "audio/de-DE/sturmglocke_im_domturm_5.mp3"
+  },
+  {
+
+    "id": 26,
+    "location": {
+      "lat": 56.451040,
+      "lng": 9.409846
+    },
+    "proximity": 25,
+    "title": "Die alten Kaufmannshöfe",
+    "shortdescription": "Früher wohnten die führenden Kaufleute der Stadt in der Umgebung des Nytorv. Zur Straße und zum Marktplatz hin lagen Geschäfte, doch ging man durch das Tor, befanden sich dort Lagerräume, Packhäuser und Stallungen.",
+    "text": "Du stehst jetzt am Tor zu den alten Kaufmannshöfen. Die großen Kaufmannshöfe lagen in unmittelbarer Nähe zum Nytorv. Das Gebäude Nytorvgyde 3 wurde als ein Kaufmannshof errichtet. Die heutigen Gebäude wurden von 1837-47 errichtet. Zur Straße und zum Marktplatz hin lagen Geschäfte, doch ging man durch das Tor, befanden sich dort Lagerräume, Packhäuser und Stallungen. Mit der Sanierung der Höfe sind mit der Zeit die vielen Hinterhofgebäude verschwunden, doch die kleinen, intimen Höfe, die von alten und neuen Häusern umrahmt sind, lassen sich immer noch entdecken, besonders hinter den Häusern entlang der Nytorvgyde und hinter Nytorv 5. Wenn du durch das Tor gehst, findest du ein kleines Fachwerkhaus von 1730. Wenn du zum Giebel schaust, findest du drei Eisenringe. Sie sitzen heute sehr hoch, weil der Boden in neuerer Zeit abgesenkt wurde. Vor 100 Jahren wurden die Ringe von den Bauern der Umgebung benutzt, um ihre Pferde daran festzubinden, wenn sie in die Stadt kamen, um Waren zu kaufen, die sie nicht selbst erzeugen konnten.",
+    "next": "POI_DE_GAMLE_KOBMANDSGARDE_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/26_de_gamle_kobmandsgarde_1_thumb.jpg",
+    "pictures": [ "pois/26_de_gamle_kobmandsgarde_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "audio/de-DE/sturmglocke_im_domturm_6.mp3"
+  },
+  {
+
+    "id": 27,
+    "location": {
+      "lat": 56.450917,
+      "lng": 9.411255
+    },
+    "proximity": 25,
+    "title": "Wirtshaus Paradiset",
+    "shortdescription": "Hoch ging es 1674 her im Kellerwirtshaus Paradiset, zu Deutsch: das Paradies. Vier Adelsmänner kippten viele Biere, bevor ein großer Streit unter ihnen ausbrach, der in einem tödlichen Duell in der Nytorvgyde endete.",
+    "text": "Du befindest dich jetzt auf der Nordseite der Nytorvgyde. Hier lag das Wirtshaus Paradiset – das Paradies. Im 17. Jahrhundert nahm hier ein Wirtshausbesuch ein tödliches Ende. Am 18. März 1674 ging es in Salomon Gerbers Kellerwirtshaus Paradieset an der Nytorvgyde hoch her. Vier Adelsmänner, Johan Rantzau, Caspar Brockenhuus, Otto Bille und Christoffer Gersdorf, hatten den Abend in der Schnapsstube der Schwanenapotheke am Nytorv begonnen. Später zogen sie weiter ins Paradiset. Das Besäufnis ging weiter, doch wie das alte dänische Sprichwort besagt: Wenn das Bier kommt, verschwindet der Verstand. Und so war es auch hier. Ein gewaltiger Streit brach aus. Ein Wort gab das nächste, und die vier Streithähne torkelten hinaus auf die Nytorvgyde, begleitet von zwei Dienern, die Laternen trugen. Im flackernden Schein der Leuchten wurden die Klingen gekreuzt. Ein – wie sich zeigen sollte – tödliches Duell wurde ausgekämpft. Die beiden Paare fochten nach bestem Vermögen, und schließlich mussten die Adelsmänner Bille und Gersdorf die Waffen strecken. Schwer verletzt sanken sie auf die Pflastersteine nieder. Hinzueilende Bürger trugen sie zur Schwanenapotheke, wo Bille seinen letzten Atemzug tat. Später starb auch Gersdorf an den Folgen seiner Verletzungen.",
+    "next": "POI_VAERTSHUSET_PARADISET_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/27_vaertshuset_paradiset_1_thumb.jpg",
+    "pictures": [ "pois/27_vaertshuset_paradiset_1.jpg", "pois/27_vaertshuset_paradiset_2.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "audio/de-DE/sturmglocke_im_domturm_7.mp3"
+  },
+  {
+
+    "id": 28,
+    "location": {
+      "lat": 56.453058,
+      "lng": 9.411919
+    },
+    "proximity": 25,
+    "title": "Karnapgården",
+    "shortdescription": "Der Karnapgården aus dem 16. Jahrhundert ist wohl das markanteste Haus in der Sct. Mogens Gade. Das Baumaterial ist unter anderem gebrochene Quadersteine von den zwölf Pfarrkirchen der Stadt, die 1529 abgerissen wurden.",
+    "text": "Du befindest dich am nördlichen Ende der Sct. Mogens Gade vor einem Gebäude, das aus rotem Backstein und Hausteinen aus Granit errichtet wurde. Das ist der Karnapgården. Der Karnapgården ist das markanteste Gebäude auf der Sct. Mogens Gade. Am ältesten ist der Keller, der etwa aus dem Jahr 1530 stammt. Doch wie aus den Mauerankern abzulesen ist, stammen die gemauerten Teile von 1643 und 1649. Das Baumaterial ist roter Backstein und jede Menge abgebrochene Quadersteine von den zwölf Pfarrkirchen der Stadt, die 1529 abgerissen wurden. Der hervorspringende Erker – auf den das dänische Wort Karnap für Erker verweist – hatte einen doppelten Zweck. Er gibt ein besseres Licht für den Raum dahinter und einen besseren Blick auf die Straße. Wenn du durch das Tor gehst, kannst du am Seitenflügel noch ein Beispiel für die wiederverwendeten Steine der Kirchen sehen. Hier sind zwei halbrunde so genannte Tympanons eingemauert worden, die sich normalerweise über den Türen am westlichen Ende der Kirchen befinden. Der eine Stumpf zeigt das Gesicht eines Engels. Vom zweiten Tympanon ist nur noch die Hälfte erhalten. Das Bild zeigt Christus, der die rechte Hand zur Segnung gehoben hat, und links ist der griechische Buchstabe A für Alpha und die Sonne zu sehen. Auf der verschwundenen Hälfte hat sich das O für Omega und den Mond befunden. Die Symbole verweisen auf das Wort von Jesus: 'Ich bin der Anfang und das Ende.'",
+    "next": "POI_KARNAPGARDEN_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/28_karnapgarden_1_thumb.jpg",
+    "pictures": [ "pois/28_karnapgarden_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "audio/de-DE/sturmglocke_im_domturm_8.mp3"
+  },
+  {
+
+    "id": 29,
+    "location": {
+      "lat": 56.451454,
+      "lng": 9.411374
+    },
+    "proximity": 25,
+    "title": "Billen er dum (Billen ist dumm)",
+    "shortdescription": "Vor vielen Jahren schlichen sich zwei Jungs aus der Östlichen Schule in den Hans Tausen Gedenkpark und schnitzten „Billen er dum“ – „Billen ist dumm“ – in eine der Buchen. Billen ist der Spitzname von  Fräulein Billetoft, die an der Kathedralschule Viborg Sprachen unterrichtete.",
+    "text": "Wenn du nah an die große Buche rechts hinter dem Rosengarten gehst, siehst du die Inschrift 'Billen er dum', zu Deutsch: 'Billen ist dumm'. Es gibt viele Arten, wie die Menschen sich nach dem Tod an jemanden erinnern. Manche sind freiwillig, manche unfreiwillig, wie beim Baum von Billen. Billen, das war der Spitzname von Fräulein Ellen Billetoft. Sie unterrichtete von 1938 bis 1969 an der Kathedralschule Viborg und wohnte im gelben Haus am Rosengarten bei Hans Tausens Minde. In den 1970er Jahren schlichen sich zwei Jungs in den Park. Das waren Jens Christian und Gerd, die auf die nahegelegene Östliche Schule gingen. Sie waren mit 'Billen' zusammengestoßen und ritzten jetzt mit einem Schraubenzieher den Spruch 'Billen er dum' in eine der Buchen. Man sagt, dass die Zeit alle Spuren verwischt. Das stimmt auch in diesem Fall. Der alte freche Spruch wird von Jahr zu Jahr undeutlicher, während die Buche weiter wächst. Irgendwann werden die drei Wörter ganz verschwunden sein, genauso wie die Erinnerung an Fräulein Billetoft.",
+    "next": "POI_BILLEN_ER_DUM_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/29_billen_er_dum_1_thumb.jpg",
+    "pictures": [ "pois/29_billen_er_dum_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "audio/de-DE/sturmglocke_im_domturm_9.mp3"
+  },
+  {
+
+    "id": 30,
+    "location": {
+      "lat": 56.451238,
+      "lng": 9.412415
+    },
+    "proximity": 25,
+    "title": "Landesgericht und Seufzerbrücke",
+    "shortdescription": "Die Seufzerbrücke verbindet das ehemalige Landesgericht und das Gefängnisgebäude. Die Seufzerbrücke hat ihren Namen bekommen, weil hier die Verurteilten den letzten Blick auf die Freiheit werfen konnten, bevor sie hinter Gitter mussten.",
+    "text": "In der Gasse siehst du die Seufzerbrücke, die das frühere Landesgericht mit dem Gefängnis verbindet. Viborg ist zwar nicht Venedig, doch eine Seufzerbrücke gibt es in beiden Städten. In Viborg verbindet die Brücke das Gerichtsgebäude des ehemaligen Landesgerichts mit dem Gefängnisgebäude. In Venedig wurde der Name Seufzerbrücke vor etwa 200 Jahren von dem englischen Dichter Lord Byron geprägt. Er stellte sich vor, wie die künftigen Gefangene beim letzten Blick durch die Fenster der Brücke auf das schöne Venedig laut aufseufzten, bevor sie ihre Haft antraten. In Viborg war es der letzte Blick auf die Freiheit, bevor die Verurteilten ihre Strafe vor dem Landesgericht erhielten, der den tiefen Seufzer auslöste. In Venedig besagt eine Legende, dass Liebende sich auf ewig lieben werden, wenn sie einander küssen, während sie im Sonnenuntergang die Seufzerbrücke unterqueren. Vielleicht funktioniert das auch in Viborg?",
+    "next": "POI_VESTRE_LANDSRET_OG_SUKKENES_BRO_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/30_vestre_landsret_og_sukkenes_bro_1_thumb.jpg",
+    "pictures": [ "pois/30_vestre_landsret_og_sukkenes_bro_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "audio/de-DE/sturmglocke_im_domturm_10.mp3"
+  }
+]

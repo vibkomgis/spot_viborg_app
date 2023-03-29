@@ -39,15 +39,14 @@ const baseLayers = {
   "Skærmkort": toposkaermkortwms
 };
 
-map.addControl(L.control.basemaps({
+L.control.layers(baseLayers).addTo(mymap);
+
+map.addControl(L.control.baseLayers({
   basemaps: baseLayers,
   tileX: 0,
   tileY: 0,
   tileZ: 1
 }));
-
-
-L.control.layers(baseLayers).addTo(mymap);
 
 // Start GPS
 var lc = L.control.locate({

@@ -249,3 +249,13 @@ window.addEventListener('fetchDataUpdated',() => {
   fetchAndStoreFacilities() ;
 });
 
+    // skift baggrundskort
+    $('#mapChange').click(function () {
+      if (!toggle) {
+        map.removeLayer(ortofotowms);
+      } else {
+        map.addLayer(ortofotowms);
+        map.addLayer(orto_foraar);
+      }
+      toggle = !toggle;
+    });

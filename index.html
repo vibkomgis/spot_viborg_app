@@ -325,9 +325,13 @@
     });
 
     // skift baggrundskort
-    $('.leaflet-right').hide();
     $('#mapChange').click(function () {
-      $('.leaflet-control-layers-selector').not(':checked').prop("checked", true);
+      if (!toggle) {
+        map.removeLayer(ortofotowms);
+      } else {
+        map.addLayer(ortofotowms);
+      }
+      toggle = !toggle;
     });
 
   </script>

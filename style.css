@@ -391,20 +391,3 @@ div.dropdown-content button {
     color: #004036;
     margin-top: 10px;
 }
-
-button#mapChange {
-    position: fixed;
-    bottom: 10px;
-    left: 10px;
-    z-index: 1000;
-    height: 45px;
-    width: 45px;
-    background-image: url(https://unpkg.com/leaflet@1.7.1/dist/images/layers.png);
-    background-repeat: no-repeat;
-    /* padding: 5px; */
-    /* border: 1px solid #004036; */
-    border-radius: 5px;
-    border: 2px solid rgba(0, 0, 0, 0.2);
-    background-clip: padding-box;
-    background-position: center;
-}

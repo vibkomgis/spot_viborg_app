@@ -104,7 +104,9 @@
     </section>
 
     <section id="maps">
-      <h1 class="title" lang="da">Steder</h1><h1 class="title" lang="en">Places</h1><h1 class="title" lang="de">Plätze</h1>
+      <h1 class="title" lang="da">Steder</h1>
+      <h1 class="title" lang="en">Places</h1>
+      <h1 class="title" lang="de">Plätze</h1>
       <div class="content">
         <div class="toggle_maplist">
           <button class="mapButton" onclick="location.href='#maps'"><img src="icons/icon-map-white.svg"
@@ -118,11 +120,14 @@
                 Infrastruktur</a></p>
           </footer>
         </div>
+        <button id="mapChange"></button>
       </div>
     </section>
 
     <section id="list">
-      <h1 class="title" lang="da">Steder</h1><h1 class="title" lang="en">Places</h1><h1 class="title" lang="de">Plätze</h1>
+      <h1 class="title" lang="da">Steder</h1>
+      <h1 class="title" lang="en">Places</h1>
+      <h1 class="title" lang="de">Plätze</h1>
       <div class="content">
         <div class="toggle_maplist">
           <button class="mapButton" onclick="location.href='#maps'"><img src="icons/icon-map-white.svg"
@@ -135,7 +140,9 @@
     </section>
 
     <section id="routes">
-      <h1 class="title" lang="da">Ruter</h1><h1 class="title" lang="en">Routes</h1><h1 class="title" lang="de">Strecken</h1>
+      <h1 class="title" lang="da">Ruter</h1>
+      <h1 class="title" lang="en">Routes</h1>
+      <h1 class="title" lang="de">Strecken</h1>
       <div class="content">
         <ul id="ruteOversigt">
           <li id="kirkerute">
@@ -163,7 +170,7 @@
             </div>
           </li>
           <li id="monumentrute"">
-            <img src="images/monumentbanner.png" alt="Monumenter oversigt">
+            <img src=" images/monumentbanner.png" alt="Monumenter oversigt">
             <div class="image-text">Monumenter</div>
             <div class="description">Viborg har mange oplevelser for kunst- og kulturinteresserede. På kunstruten bliver
               du guidet til 9 seværdigheder, der bl.a. spænder fra Mindetavlen for Fugle-Mortensen, Bjørn Nørgaards
@@ -315,6 +322,12 @@
     });
     $('li#hemmeligruten').click(function () {
       $('li#hemmeligruten .dropdown-content').toggle();
+    });
+
+    // skift baggrundskort
+    $('.leaflet-right').hide();
+    $('#mapChange').click(function () {
+      $('.leaflet-control-layers-selector').not(':checked').prop("checked", true);
     });
 
   </script>

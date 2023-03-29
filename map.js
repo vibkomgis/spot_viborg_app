@@ -48,6 +48,13 @@ map.addControl(L.control.baseLayers({
   tileZ: 1
 }));
 
+map.addControl(L.control.basemaps({
+  basemaps: baseLayers,
+  tileX: 0,
+  tileY: 0,
+  tileZ: 1
+}));
+
 // Start GPS
 var lc = L.control.locate({
   locateOptions: {

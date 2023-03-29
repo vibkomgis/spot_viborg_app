@@ -39,6 +39,13 @@ const baseLayers = {
   "Skærmkort": toposkaermkortwms
 };
 
+map.addControl(L.control.basemaps({
+  basemaps: baseLayers,
+  tileX: 0,
+  tileY: 0,
+  tileZ: 1
+}));
+
 
 L.control.layers(baseLayers).addTo(mymap);
 

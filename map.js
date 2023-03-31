@@ -17,6 +17,9 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
 }).addTo(mymap);
 */
+
+
+/*
 const toposkaermkortwms = L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
   attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
@@ -40,6 +43,40 @@ const baseLayers = {
 };
 
 L.control.layers(baseLayers).addTo(mymap);
+*/
+
+
+
+
+var basemaps = [
+  L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+  attribution: myAttributionText,
+  subdomains: 'abcd',
+  maxZoom: 19,
+  minZoom: 0,
+  label: 'Toner Lite'  // optional label used for tooltip
+}),
+L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallayers=TRUE', {
+  attribution: myAttributionText,
+  subdomains: 'abcd',
+  token: dftoken,
+  maxZoom: 19,
+  minZoom: 0,
+  label: 'Toner'
+})
+];
+
+map.addControl(L.control.basemaps({
+basemaps: basemaps,
+tileX: 0,  // tile X coordinate
+tileY: 0,  // tile Y coordinate
+tileZ: 1   // tile zoom level
+}));
+
+
+
+
+
 
 // Start GPS
 var lc = L.control.locate({

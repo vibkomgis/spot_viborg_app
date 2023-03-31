@@ -13,16 +13,16 @@
             "type": "image/png"
         },
         {
-            "src": "/favicons/square.svg",
-            "sizes": "48x48 72x72 96x96 128x128 256x256 512x512 1024x1024",
-            "type": "image/svg+xml",
-            "purpose": "any"
-        },
-        {
             "src": "/favicons/square.png",
             "sizes": "800x800",
             "type": "image/png",
             "purpose": "maskable"
+        },
+        {
+            "src": "/favicons/square.svg",
+            "sizes": "48x48 72x72 96x96 128x128 256x256 512x512 1024x1024",
+            "type": "image/svg+xml",
+            "purpose": "any"
         }
     ],
     "theme_color": "#6cbe9d",

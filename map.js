@@ -19,7 +19,7 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 */
 
 
-/*
+
 const toposkaermkortwms = L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
   attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
@@ -43,11 +43,11 @@ const baseLayers = {
 };
 
 L.control.layers(baseLayers).addTo(mymap);
-*/
 
 
 
 
+/*
 var basemaps = [
   L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: myAttributionText,
@@ -74,7 +74,7 @@ tileZ: 1   // tile zoom level
 }));
 
 
-
+*/
 
 
 

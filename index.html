@@ -20,6 +20,11 @@
   <meta name="msapplication-config" content="/favicons/browserconfig.xml">
   <meta name="theme-color" content="#6cbe9d">
   <title>Spot Viborg</title>
+  <script>
+    if ('serviceWorker' in navigator) {
+      navigator.serviceWorker.register('serviceworker.js');
+    };
+  </script>
 </head>
 
 <body>
@@ -146,7 +151,7 @@
       <div class="content">
         <ul id="ruteOversigt">
           <li id="kirkerute">
-            <img src="images/kirkebanner.png" alt="Kirke oversigt">
+            <img src="images/pois/6.jpg" alt="Kirke oversigt">
             <div class="image-text">Kirker</div>
             <div class="description">Viborg Domkirke er kun én blandt mange kirker og kirkelige seværdigheder i Viborg.
               På Kirkeruten bliver du guidet til 10 seværdige steder. Bl.a. Sortebrødre Kirke, Domprovstegården og Sct.

@@ -11,6 +11,18 @@
             "src": "/favicons/android-chrome-512x512.png",
             "sizes": "512x512",
             "type": "image/png"
+        },
+        {
+            "src": "/favicons/square.svg",
+            "sizes": "800x800",
+            "type": "image/svg+xml",
+            "purpose": "maskable"
+        },
+        {
+            "src": "/favicons/square.png",
+            "sizes": "800x800",
+            "type": "image/png",
+            "purpose": "maskable"
         }
     ],
     "theme_color": "#6cbe9d",

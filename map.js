@@ -209,7 +209,7 @@ fetch(fetchData)
         
               // Lav basismarkør
               let marker = L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mymap)
-              .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/> <a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&audio=" + encodeURIComponent(poi.audio) + "&text=" + encodeURIComponent(poi.text)+"'>" + info + "</a>" + (poi.handicap ? "<br/><br>" + poi.handicap + "<br/><br/>" : "" ));
+              .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/> <a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&audio=" + encodeURIComponent(poi.audio) + "&text=" + encodeURIComponent(poi.text)+"'>"+ info + "</a>" + (poi.handicap ? "<br/><br>" + poi.handicap + "<br/><br/>" : "" ));
 
                   
           });
@@ -230,10 +230,10 @@ fetch(fetchFacilities)
     openRequest.onupgradeneeded = function(event) {
       const db = event.target.result;
 
-      // Create an object store within the database to store your data
+      // Objectstore
       const objectStore = db.createObjectStore('facilities', { keyPath: 'id' });
 
-      // Define the structure of the data to be stored
+      // Datastruktur
       objectStore.createIndex('id', 'id', { unique: false });
       objectStore.createIndex('lat', 'lat', { unique: false });
       objectStore.createIndex('lng', 'lng', { unique: false });
@@ -242,7 +242,7 @@ fetch(fetchFacilities)
       objectStore.createIndex('icon','icon', { unique: false });
       //objectStore.createIndex('text', 'text', { unique: false });
 
-      // Add data to the object store
+      // Tilføj data til objectstore
       facis.forEach(obj => objectStore.add(obj));
     };
 
@@ -251,7 +251,7 @@ fetch(fetchFacilities)
       const transaction = db.transaction('facilities', 'readonly');
       const objectStore = transaction.objectStore('facilities');
 
-      // Retrieve data from the object store
+      // Hent data fra objectstore
       const request = objectStore.getAll();
       request.onsuccess = function(event) {
         const facis = event.target.result;
@@ -264,7 +264,7 @@ fetch(fetchFacilities)
             iconSize: [38, 38],
             popupAnchor: [0, -15]
           });
-          // Create a marker on the map for each POI
+          // Markører
           L.marker([faci.location.lat, faci.location.lng], {icon: faciIcon}).addTo(mymap)
             .bindPopup("<b>" + faci.title + "</b><br />" + faci.shortdescription);
         });
@@ -273,13 +273,13 @@ fetch(fetchFacilities)
   }
 
 
-
+// Load event listener
 window.addEventListener('load',() => {    
     fetchAndStoreData();
     fetchAndStoreFacilities() ;
 });
 
-
+// Fetch data event listener
 window.addEventListener('fetchDataUpdated',() => {    
   fetchAndStoreData();
   fetchAndStoreFacilities() ;

@@ -62,13 +62,7 @@ fetch('/data/ruteData/da-hemmelige-rute.json')
 
         pois.forEach(poi => {
           poi.text = poi.text.replace(/'/g, '');
-          const linkToPage = poi.title.toLowerCase()
-          .replace(/\.+/g, '')
-          .replace(/\s+/g, '')
-          .replace(/\-/g, '')
-          .replace(/å/g, 'aa')
-          .replace(/æ/g, 'ae')
-          .replace(/ø/g, 'oe');
+
 
 
              // Hent ikoner til visning på kort

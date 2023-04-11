@@ -189,14 +189,6 @@ fetch(fetchData)
               poi.title = poi.title.replace(/(?<!\\)'/g, '`');
               poi.shortdescription = poi.shortdescription.replace(/(?<!\\)'/g, '`');
               console.log(poi.audio)
-              const linkToPage = poi.title.toLowerCase()
-              .replace(/\.+/g, '')
-              .replace(/\s+/g, '')
-              .replace(/\-/g, '')
-              .replace(/å/g, 'aa')
-              .replace(/æ/g, 'ae')
-              .replace(/ø/g, 'oe')
-              ;
               
               // Hent ikoner til visning på kort
               let myIcon = L.icon({

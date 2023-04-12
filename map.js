@@ -11,17 +11,10 @@ let mymap = L.map('map', {
 
 const dftoken = '3ebc3a63849a43b46feb8203ab25f83c';
 const myAttributionText = '&copy; <a target="_blank" href="https://dataforsyningen.dk/Vilkaar">SDFI</a>';
-/*
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19,
-  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
-}).addTo(mymap);
-*/
 
 
-
-
-
+// Her tilføjes topo og ortofoto til kortet. 
+// https://github.com/consbio/Leaflet.Basemaps
 var basemaps = [
  L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
@@ -29,7 +22,6 @@ var basemaps = [
   attribution: myAttributionText,
 
 }),
-
 L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallayers=TRUE', {
   attribution: myAttributionText,
   token: dftoken,
@@ -40,46 +32,12 @@ L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallay
 
 })
 ]
-
-
 mymap.addControl(L.control.basemaps({
   basemaps: basemaps,
   tileX: 0,  // tile X coordinate
   tileY: 0,  // tile Y coordinate
   tileZ: 1   // tile zoom level
 }));
-
-
-/*
-var basemaps = [
-  L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-      attribution: myAttributionText ,
-      subdomains: 'abcd',
-      maxZoom: 19,
-      minZoom: 0,
-      
-  }),
-  L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallayers=TRUE', {
-      attribution: myAttributionText,
-      token: dftoken,
-      subdomains: 'abcd',
-      maxZoom: 19,
-      minZoom: 0,
-
-  })
-
-];
-
-
-
-mymap.addControl(L.control.basemaps({
-  basemaps: basemaps,
-  tileX: 0,  // tile X coordinate
-  tileY: 0,  // tile Y coordinate
-  tileZ: 1   // tile zoom level
-}));
-
-*/
 
 
 

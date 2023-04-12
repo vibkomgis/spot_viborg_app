@@ -20,60 +20,66 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 
 
 
-const toposkaermkortwms = L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+
+
+var basemaps = [
+ L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
-  attribution: '&copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
-}).addTo(mymap);
+  minZoom: 0,
+  attribution: myAttributionText,
 
+}),
 
-
-// Ortofoto [WMS:orto_foraar]
-const ortofotowms = L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallayers=TRUE', {
-  layers: 'orto_foraar',
+L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallayers=TRUE', {
+  attribution: myAttributionText,
   token: dftoken,
+  layers: 'orto_foraar',
   format: 'image/png',
-  attribution: myAttributionText
-}).addTo(mymap);
+  maxZoom: 20,
+  minZoom: 0,
+
+})
+]
 
 
-
-const baseLayers = {
-  "Ortofoto": ortofotowms,
-  "Skærmkort": toposkaermkortwms
-};
-
-L.control.layers(baseLayers).addTo(mymap);
-
-
+mymap.addControl(L.control.basemaps({
+  basemaps: basemaps,
+  tileX: 0,  // tile X coordinate
+  tileY: 0,  // tile Y coordinate
+  tileZ: 1   // tile zoom level
+}));
 
 
 /*
 var basemaps = [
   L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  attribution: myAttributionText,
-  subdomains: 'abcd',
-  maxZoom: 19,
-  minZoom: 0,
-  label: 'Toner Lite'  // optional label used for tooltip
-}),
-L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallayers=TRUE', {
-  attribution: myAttributionText,
-  subdomains: 'abcd',
-  token: dftoken,
-  maxZoom: 19,
-  minZoom: 0,
-  label: 'Toner'
-})
+      attribution: myAttributionText ,
+      subdomains: 'abcd',
+      maxZoom: 19,
+      minZoom: 0,
+      
+  }),
+  L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallayers=TRUE', {
+      attribution: myAttributionText,
+      token: dftoken,
+      subdomains: 'abcd',
+      maxZoom: 19,
+      minZoom: 0,
+
+  })
+
 ];
 
-map.addControl(L.control.basemaps({
-basemaps: basemaps,
-tileX: 0,  // tile X coordinate
-tileY: 0,  // tile Y coordinate
-tileZ: 1   // tile zoom level
-}));
-*/
 
+
+mymap.addControl(L.control.basemaps({
+  basemaps: basemaps,
+  tileX: 0,  // tile X coordinate
+  tileY: 0,  // tile Y coordinate
+  tileZ: 1   // tile zoom level
+}));
+
+*/
 
 
 

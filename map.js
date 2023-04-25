@@ -12,7 +12,7 @@ let mymap = L.map('map', {
 const dftoken = '3ebc3a63849a43b46feb8203ab25f83c';
 const myAttributionText = '&copy; <a target="_blank" href="https://dataforsyningen.dk/Vilkaar">SDFI</a>';
 
-/*
+
 // Her tilføjes topo og ortofoto til kortet. 
 // https://github.com/consbio/Leaflet.Basemaps
 var basemaps = [
@@ -38,12 +38,7 @@ mymap.addControl(L.control.basemaps({
   tileY: 0,  // tile Y coordinate
   tileZ: 1   // tile zoom level
 }));
-*/
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19,
-  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
-}).addTo(mymap);
 
 
 

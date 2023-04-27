@@ -1,8 +1,5 @@
 // Start map
-var mymap = L.map('map').setView([56.4507, 9.4109], 17);
-
-
-
+var mapMonumenter = L.map('mapMonumenter').setView([56.4507, 9.4109], 17);
 
 // Start GPS
 var lc = L.control.locate({
@@ -10,26 +7,69 @@ var lc = L.control.locate({
     enableHighAccuracy: true
   },
   setView: false
-}).addTo(mymap);
+}).addTo(mapMonumenter);
 lc.start();
 
+//let dftoken = '3ebc3a63849a43b46feb8203ab25f83c';
+//let myAttributionText = '&copy; <a target="_blank" href="https://dataforsyningen.dk/Vilkaar">SDFI</a>';
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+
+// Her tilføjes topo og ortofoto til kortet. 
+// https://github.com/consbio/Leaflet.Basemaps
+var basemaps = [
+ L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
-  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
-}).addTo(mymap);
+  minZoom: 0,
+  attribution: myAttributionText,
+
+}),
+L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallayers=TRUE', {
+  attribution: myAttributionText,
+  token: dftoken,
+  layers: 'orto_foraar',
+  format: 'image/png',
+  maxZoom: 20,
+  minZoom: 0,
+
+})
+]
+mapMonumenter.addControl(L.control.basemaps({
+  basemaps: basemaps,
+  tileX: 0,  // tile X coordinate
+  tileY: 0,  // tile Y coordinate
+  tileZ: 1   // tile zoom level
+}));
 
 
+// troels fixer kortet
+// https://stackoverflow.com/questions/53879753/leaflet-map-does-not-appear-correctly-until-resize
+setTimeout(function () {
+  mapMonumenter.invalidateSize(true);
+}, 5000 );
 
-const dbName = "monumentRute";
-const dbVersion = 1;
+function locationHashChanged() {
+    if (window.location.hash === "#routeMonumenter") {
+      mapMonumenter.invalidateSize(true);
+        $(".listButton").css("background-color","#343434");
+        $(".mapButton").css("background-color","#004036");
+    }
+    else {
+        $(".listButton").css("background-color","#004036");
+        $(".mapButton").css("background-color","#343434");
+    }
+  }
+window.onhashchange = locationHashChanged;
+
+
+const dbNameMonumenter = "monumentRute";
+const dbVersionMonumenter = 1;
 
 
 fetch('/data/ruteData/da-monumenter-rute.json')
   .then(response => response.json())
   .then(pois => {
     // Open a connection to your IndexedDB database
-    const openRequest = indexedDB.open(dbName, dbVersion);
+    const openRequest = indexedDB.open(dbNameMonumenter, dbVersionMonumenter);
 
     openRequest.onupgradeneeded = function(event) {
       const db = event.target.result;
@@ -73,7 +113,7 @@ fetch('/data/ruteData/da-monumenter-rute.json')
             });
 
           // Create a marker on the map for each POI
-          L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mymap)
+          L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mapMonumenter)
           .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='../public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>");
 
         });
@@ -85,14 +125,14 @@ fetch('/data/ruteData/da-monumenter-rute.json')
   });
 
 
-  const dbNameRoute = "monumentRutePath"
+  const dbNameRouteMonumenter = "monumentRutePath"
 
   
   fetch('/data/ruteData/tours-monumenter.json')
   .then(response => response.json())
   .then(route => {
 
-    const openRequest = indexedDB.open(dbNameRoute, dbVersion);
+    const openRequest = indexedDB.open(dbNameRouteMonumenter, dbVersionMonumenter);
 
     openRequest.onupgradeneeded = function(event) {
       const db = event.target.result;
@@ -121,7 +161,7 @@ request.onsuccess = function(event) {
 
   route.forEach(rute => {
     const points = rute.points.map(point => L.latLng(point.location.lat, point.location.lng));
-    L.polyline(points, {color: 'red'}).addTo(mymap);
+    L.polyline(points, {color: 'red'}).addTo(mapMonumenter);
   });
 };
     };

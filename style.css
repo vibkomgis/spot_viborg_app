@@ -158,6 +158,8 @@ h1.title {
 
 section#maps:not(:target),
 section#routeKirke:not(:target),
+section#routeHemmelige:not(:target),
+section#routeMonumenter:not(:target),
 section#list:not(:target),
 section#routes:not(:target),
 section#about:not(:target),
@@ -312,6 +314,40 @@ section#routeKirke>div.content {
     z-index: 10;
 }
 
+section#routeHemmelige {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+section#routeHemmelige>div.content {
+    padding: 50px 0 0 0;
+    position: absolute;
+    background-color: #FFFFFF;
+    height: calc(100% - 50px);
+    width: 100%;
+    z-index: 10;
+}
+
+section#routeMonumenter {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+section#routeMonumenter>div.content {
+    padding: 50px 0 0 0;
+    position: absolute;
+    background-color: #FFFFFF;
+    height: calc(100% - 50px);
+    width: 100%;
+    z-index: 10;
+}
+
 section#list>div.content {
     z-index: 10;
 }
@@ -322,6 +358,16 @@ div#map {
 }
 
 div#mapKirke {
+    height: 100%;
+    width: 100%;
+}
+
+div#mapHemmelige {
+    height: 100%;
+    width: 100%;
+}
+
+div#mapMonumenter {
     height: 100%;
     width: 100%;
 }

@@ -1,3 +1,5 @@
+//Map til kirkeruten
+
 const southWest = L.latLng(56.4394, 9.3444);
 const northEast = L.latLng(56.4714, 9.4502);
 const bounds = L.latLngBounds(southWest, northEast);

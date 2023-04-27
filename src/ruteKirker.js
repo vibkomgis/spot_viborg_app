@@ -1,5 +1,5 @@
 // Start map
-var mymap = L.map('map').setView([56.4507, 9.4109], 17);
+var mymap = L.map('mapKirke').setView([56.4507, 9.4109], 17);
 
 
 
@@ -19,7 +19,23 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
 }).addTo(mymap);
 
-
+// troels fixer kortet
+// https://stackoverflow.com/questions/53879753/leaflet-map-does-not-appear-correctly-until-resize
+setTimeout(function () {
+  mymap.invalidateSize(true);
+}, 100);
+function locationHashChanged() {
+    if (window.location.hash === "#routeKirke") {
+        mymap.invalidateSize(true);
+        $(".listButton").css("background-color","#343434");
+        $(".mapButton").css("background-color","#004036");
+    }
+    else {
+        $(".listButton").css("background-color","#004036");
+        $(".mapButton").css("background-color","#343434");
+    }
+  }
+window.onhashchange = locationHashChanged;
 
 const dbName = "kirkeRute";
 const dbVersion = 1;

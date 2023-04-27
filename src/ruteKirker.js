@@ -1,6 +1,13 @@
-// Start map
-var mymap = L.map('map').setView([56.4507, 9.4109], 17);
+const southWest = L.latLng(56.4394, 9.3444);
+const northEast = L.latLng(56.4714, 9.4502);
+const bounds = L.latLngBounds(southWest, northEast);
 
+let mapKirke = L.map('mapKirke', {
+   //maxBounds: bounds,
+   //maxBoundsViscosity: 1.0,
+   //minZoom: 13, // set minZoom to the same value as the initial zoom
+   //maxZoom: 60 // set maxZoom to the same value as the initial zoom
+}).setView([56.4507, 9.4109], 17); //13
 
 
 
@@ -10,23 +17,50 @@ var lc = L.control.locate({
     enableHighAccuracy: true
   },
   setView: false
-}).addTo(mymap);
+}).addTo(mapKirke);
 lc.start();
 
 
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+const dftoken = '3ebc3a63849a43b46feb8203ab25f83c';
+const myAttributionText = '&copy; <a target="_blank" href="https://dataforsyningen.dk/Vilkaar">SDFI</a>';
+
+
+// Her tilføjes topo og ortofoto til kortet. 
+// https://github.com/consbio/Leaflet.Basemaps
+var basemaps = [
+ L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
   maxZoom: 19,
-  attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors'
-}).addTo(mymap);
+  minZoom: 0,
+  attribution: myAttributionText,
+
+}),
+L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallayers=TRUE', {
+  attribution: myAttributionText,
+  token: dftoken,
+  layers: 'orto_foraar',
+  format: 'image/png',
+  maxZoom: 20,
+  minZoom: 0,
+
+})
+]
+mapKirke.addControl(L.control.basemaps({
+  basemaps: basemaps,
+  tileX: 0,  // tile X coordinate
+  tileY: 0,  // tile Y coordinate
+  tileZ: 1   // tile zoom level
+}));
+
 
 // troels fixer kortet
 // https://stackoverflow.com/questions/53879753/leaflet-map-does-not-appear-correctly-until-resize
 setTimeout(function () {
-  mymap.invalidateSize(true);
-}, 100);
+  mapKirke.invalidateSize(true);
+}, 5000 );
+
 function locationHashChanged() {
     if (window.location.hash === "#routeKirke") {
-        mymap.invalidateSize(true);
+      mapKirke.invalidateSize(true);
         $(".listButton").css("background-color","#343434");
         $(".mapButton").css("background-color","#004036");
     }
@@ -89,7 +123,7 @@ fetch('/data/ruteData/da-kirke-rute.json')
             });
 
           // Create a marker on the map for each POI
-          L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mymap)
+          L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mapKirke)
           .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='../public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>");
 
         });
@@ -137,7 +171,7 @@ request.onsuccess = function(event) {
 
   route.forEach(rute => {
     const points = rute.points.map(point => L.latLng(point.location.lat, point.location.lng));
-    L.polyline(points, {color: 'red'}).addTo(mymap);
+    L.polyline(points, {color: 'red'}).addTo(mapKirke);
   });
 };
     };

@@ -45,7 +45,7 @@ mapHemmelige.addControl(L.control.basemaps({
 // https://stackoverflow.com/questions/53879753/leaflet-map-does-not-appear-correctly-until-resize
 setTimeout(function () {
   mapHemmelige.invalidateSize(true);
-}, 800 );
+}, 5000 );
 
 function locationHashChanged() {
     if (window.location.hash === "#routeHemmelige") {

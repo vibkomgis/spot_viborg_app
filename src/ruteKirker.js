@@ -1,5 +1,5 @@
 // Start map
-var mymap = L.map('mapKirke').setView([56.4507, 9.4109], 17);
+var mymap = L.map('map').setView([56.4507, 9.4109], 17);
 
 
 

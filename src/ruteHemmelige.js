@@ -119,8 +119,8 @@ function fetchAndStoreHemmelige() {
             });
 
           // Create a marker on the map for each POI
-          L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mapHemmelige)
-          .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='../public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>");
+              L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mapHemmelige)
+              .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/> <a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&audio=" + encodeURIComponent(poi.audio) + "&text=" + encodeURIComponent(poi.text)+"'>"+ info + "</a>" + (poi.handicap ? "<br/><br>" + poi.handicap + "<br/><br/>" : "" ));
 
         });
       };

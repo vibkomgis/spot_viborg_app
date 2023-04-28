@@ -65,7 +65,9 @@ const dbNameMonumenter = "monumentRute";
 const dbVersionMonumenter = 1;
 
 
-fetch('/data/ruteData/da-monumenter-rute.json')
+function fetchAndStoreMonumenter() {
+  indexedDB.deleteDatabase(dbNameMonumenter);
+  fetch(monumenterData)
   .then(response => response.json())
   .then(pois => {
     // Open a connection to your IndexedDB database
@@ -84,7 +86,8 @@ fetch('/data/ruteData/da-monumenter-rute.json')
       objectStore.createIndex('title', 'title', { unique: false });
       objectStore.createIndex('shortdescription', 'shortdescription', { unique: false });
       objectStore.createIndex('text', 'text', { unique: false });
-      objectStore.createIndex('icon', 'icon', { unique: false });
+      objectStore.createIndex('handicap', 'handicap', { unique: false });
+      objectStore.createIndex('audio', 'audio', { unique: false });
 
       // Add data to the object store
       pois.forEach(obj => objectStore.add(obj));
@@ -101,7 +104,10 @@ fetch('/data/ruteData/da-monumenter-rute.json')
         const pois = event.target.result;
 
         pois.forEach(poi => {
-          poi.text = poi.text.replace(/'/g, '');
+          poi.text = poi.text.replace(/(?<!\\)'/g, '`');
+          poi.title = poi.title.replace(/(?<!\\)'/g, '`');
+          poi.shortdescription = poi.shortdescription.replace(/(?<!\\)'/g, '`');
+          console.log(poi.audio)
 
 
 
@@ -114,16 +120,12 @@ fetch('/data/ruteData/da-monumenter-rute.json')
 
           // Create a marker on the map for each POI
           L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mapMonumenter)
-          .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='../public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>");
-
+                .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/> <a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&audio=" + encodeURIComponent(poi.audio) + "&text=" + encodeURIComponent(poi.text)+"'>"+ info + "</a>" + (poi.handicap ? "<br/><br>" + poi.handicap + "<br/><br/>" : "" ));
         });
       };
     };
   })
-  .catch(error => {
-    console.error(error);
-  });
-
+}
 
   const dbNameRouteMonumenter = "monumentRutePath"
 
@@ -170,3 +172,12 @@ request.onsuccess = function(event) {
     console.error(error);
   });
 
+  // Load event listener
+  window.addEventListener('load',() => {    
+    fetchAndStoreMonumenter();
+  });
+  
+  // Fetch data event listener
+  window.addEventListener('fetchDataUpdated',() => {    
+    fetchAndStoreMonumenter();
+  });

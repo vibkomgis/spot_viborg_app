@@ -5,8 +5,8 @@ const hostname = '127.0.0.1';
 const port = 3000;
 
 const server = http.createServer((req, res) => {
-  if (req.url === '/map.js') {
-    fs.readFile('map.js', (err, data) => {
+  if (req.url === '/src/map.js') {
+    fs.readFile('src/map.js', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);
@@ -249,6 +249,72 @@ const server = http.createServer((req, res) => {
     });
   }else if (req.url === '/data/ruteData/da-kirke-rute.json') {
     fs.readFile('data/ruteData/da-kirke-rute.json', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'application/json');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/data/ruteData/en-kirke-rute.json') {
+    fs.readFile('data/ruteData/en-kirke-rute.json', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'application/json');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/data/ruteData/en-monumenter-rute.json') {
+    fs.readFile('data/ruteData/en-monumenter-rute.json', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'application/json');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/data/ruteData/en-hemmelige-rute.json') {
+    fs.readFile('data/ruteData/en-hemmelige-rute.json', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'application/json');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/data/ruteData/de-kirke-rute.json') {
+    fs.readFile('data/ruteData/de-kirke-rute.json', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'application/json');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/data/ruteData/de-monumenter-rute.json') {
+    fs.readFile('data/ruteData/de-monumenter-rute.json', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'application/json');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/data/ruteData/de-hemmelige-rute.json') {
+    fs.readFile('data/ruteData/de-hemmelige-rute.json', (err, data) => {
       if (err) {
         res.statusCode = 500;
         res.end(`Error getting the file: ${err}.`);

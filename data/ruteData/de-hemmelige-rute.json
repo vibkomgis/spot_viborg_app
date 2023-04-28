@@ -1,0 +1,206 @@
+[
+
+  {
+
+    "id": 21,
+    "location": {
+      "lat": 56.45066,
+      "lng": 9.41223
+    },
+    "proximity": 25,
+    "title": "Sturmglocke im Domturm",
+    "shortdescription": "Wenn ein Feuer ausgebrochen war, liefen die Anwohner des Doms zur Sturmglocke und läuteten sie, um die Einwohner der Stadt zusammenzurufen, damit sie beim Löschen helfen. Die Sturmglocke ist im Keller des Doms ausgestellt.",
+    "text": "Du stehst jetzt im Herzen der Stadt vor dem Dom. Am Nordturm des Doms sitzt vollkommen unmotiviert ein alter verrosteter Eisengriff. Er ist ein Zeuge der gefürchteten Stadtbrände, die es früher gab. Wenn ein Feuer ausbrach, liefen die Menschen hierher zum Griff, der mit der Sturmglocke verbunden war. Man läutete die Glocke, um die Einwohner der Stadt zusammenzurufen, damit sie beim Löschen mithelfen. Bis 1584 hing die Sturmglocke im Turm der Sankt-Hans-Kirche am Nytorv, danach wurde sie in den Turm der Sankt-Ibs-Kirche verlegt, die im Norden von Viborg stand. Die Glocke hing dort bis 1613. Dann bekam sie ihren Platz im Nordturm des Doms. Seit 1984 wird die Sturmglocke im kleinen Dommuseum im Keller unter dem Südturm ausgestellt.",
+    "next": "POI_STORMKLOKKEN_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/21_stormklokken_1_thumb.jpg",
+    "pictures": [ "pois/21_stormklokken_1.jpg", "pois/21_stormklokken_2.jpg", "pois/21_stormklokken_3.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "data/sevaerdighederData/audio/de-DE/sturmglocke_im_domturm_1.mp3"
+  },
+  {
+
+    "id": 22,
+    "location": {
+      "lat": 56.450297,
+      "lng": 9.411547
+    },
+    "proximity": 25,
+    "title": "Garten hinter dem Skovgaard Museum",
+    "shortdescription": "Eine kleine, friedliche und üppige Oase wurde in den 1970er Jahren hinter dem Museum angelegt. Neben den vielen Pflanzen ist im Garten auch Edith Ludvigsens Vogelspringbrunnen und das Relief über den Mord an Erik Klipping von Mogens Bøgild zu finden.",
+    "text": "Jetzt befindest du dich im Garten hinter dem Skovgaard Museum. Es befindet sich im alten Viborger Rathaus von 1728. Das alte Viborger Rathaus liegt auf der Südseite des Domkirkeplads und beherbergte bis 1874 die Stadtverwaltung von Viborg. Im Keller befand sich das Gefängnis der Stadt und hier stand auch die städtische Feuerspritze. 1889 zog das Viborg Museum in das schöne Barockgebäude und seit 1980 ist hier das Skovgaard Museum untergebracht. In den 1970er Jahren wurde der kleine, aber feine Museumsgarten mit seinen Hecken, gekappten Lindenbäumen und Pflasterungen angelegt. In der Mitte des Gartens siehst du den Vogelspringbrunnen der Bildhauerin Edith Ludvigsen von 1984. Er wurde aus den Früchten der Wassernuss, einer Sumpfpflanze, gefertigt. In der südwestlichen Ecke findest du ein Relief von Mogens Bøgild, das die Ermordung des dänischen Königs Erik Klipping in Finderup Lade 1286 zeigt. Mehr über das Relief kannst du erfahren, wenn du die Route Gedenksteine und Denkmäler wählst. Das leise Rieseln des Vogelspringbrunnens und das milde Licht durch die Bäume lässt den Garten wie eine friedliche und üppige Oase mitten in der Stadt erscheinen.",
+    "next": "POI_SKOVGARDMUSEETS_HAVE_NEXT_DESCRIPTION",
+    "handicap": "Der barrierefreie Eingang zum Garten befindet sich von der Sct. Mogens Gade aus hinter dem Skovgaard Museum.",
+    "thumb": "images/thumbs/22_skovgardmuseets_have_1_thumb.jpg",
+    "pictures": [ "pois/22_skovgardmuseets_have_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "data/sevaerdighederData/audio/de-DE/sturmglocke_im_domturm_2.mp3"
+  },
+  {
+
+    "id": 23,
+    "location": {
+      "lat": 56.450020,
+      "lng": 9.410426
+    },
+    "proximity": 25,
+    "title": "Latinerhaven",
+    "shortdescription": "Der unterteilte grüne Stadtgarten gehörte früher dem Rektor der Lateinschule. Hier findest du die alte Laube des Rektors, die Gedenktafel für den Ornithologen Vogel-Mortensen und die Gedenksäule für den Dichter Steen Steensen Blicher.",
+    "text": "Jetzt befindest du dich im Latinerhaven, dem zentralen Stadtgarten von Viborg. Der Latinerhaven ist das letzte große unbebaute Grundstück, das noch auf den verheerenden Stadtbrand von 1726 verweist. Damals wurde die halbe Stadt vernichtet – auch die vier Adelshöfe, die sich früher an dieser Stelle befanden. Der Latinerhaven hat seinen Namen erhalten, weil sich hier früher der private Garten des Rektors der Lateinschule befand. An der Ecke zwischen Sct. Mogens Gade und Sct. Mathias Gade steht immer noch die etwa 200 Jahre alte „Laube des Rektors“. Der grüne Stadtgarten ist in verschiedene Abschnitte unterteilt. So gibt es Abschnitte mit Stauden, mit Frühlings- und Sommerblumen und sogar einen kleinen Abschnitt mit Kräutern für Kräuterschnaps. Im Garten kannst du auch das Denkmal zur Ehre des Dichters Steen Steensen Blicher und eine Gedenktafel für den Ornithologen Mortensen finden, der auch „Vogel-Mortensen“ genannt wird. Mehr über die beiden kannst du erfahren, wenn du die Route Gedenksteine und Denkmäler wählst. An der Wand des alten Turnsaals der Lateinschule befindet sich der Löwenbrunnen. Er wurde 1928 aus Anlass des 100. Jubiläums der Viborger Sparkasse von dem Viborger Architekten Frederik Jensen entworfen. 1935 sollte die Sparkasse erweitert werden und der Brunnen stand im Weg. Deshalb wurde er zur Verschönerung der Stadt geschenkt und im Latinerhaven aufgestellt.",
+    "next": "POI_LATINERHAVEN_NEXT_DESCRIPTION",
+    "handicap": "Der barrierefreie Eingang zum Park befindet sich an der Ecke von Kompagnistræde und Sankt Mathias Gade.",
+    "thumb": "images/thumbs/23_latinerhaven_1_thumb.jpg",
+    "pictures": [ "pois/23_latinerhaven_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "data/sevaerdighederData/audio/de-DE/sturmglocke_im_domturm_3.mp3"
+  },
+  {
+
+    "id": 24,
+    "location": {
+      "lat": 56.451082,
+      "lng": 9.409177
+    },
+    "proximity": 25,
+    "title": "Margrethekeller",
+    "shortdescription": "Im 15. Jahrhundert gehörte das Haus mit dem Keller der dänischen Königin Margrethe I. Das Schild über der Tür erzählt, dass sich hier eine Apotheke befand, die 1573 als erste Apotheke in Nordjütland gegründet wurde.",
+    "text": "Du stehst vor der alten Schwanenapotheke. In dem Gebäude findest du Überreste des ältesten erhaltenen Gebäudes von Viborg, das einmal der dänischen Königin Margrethe I. gehörte. Das Gebäude, in dem der Margrethekeller liegt, ist lachsfarbig. Diese Farbe kennzeichnete einmal zahlreiche Viborger Häuser. Das Schild über der Tür berichtet, dass sich hier eine Apotheke – die Schwanenapotheke – befand, die 1573 als erste Apotheke in Nordjütland gegründet wurde. Im Keller finden wir die Überreste des ältesten erhaltenen Gebäudes von Viborg. Im Jahr 1406 gehörten der Keller und das Haus der dänischen Königin Margrethe I. Und wir können die Spuren des Gebäudes noch 50 Jahre weiter zurück in die Geschichte verfolgen, so dass der Keller also über 650 Jahre alt ist. 1993 zog die Schwanenapotheke in ein neues Gebäude.",
+    "next": "POI_MARGRETHEKAELDEREN_NEXT_DESCRIPTION",
+    "handicap": "Der barrierefreie Eingang zum Garten befindet sich von der Sct. Mogens Gade aus vor der Nytorvgyde.",
+    "thumb": "images/thumbs/24_margrethekaelderen_1_thumb.jpg",
+    "pictures": [ "pois/24_margrethekaelderen_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "data/sevaerdighederData/audio/de-DE/sturmglocke_im_domturm_4.mp3"
+  },
+  {
+
+    "id": 25,
+    "location": {
+      "lat": 56.451093,
+      "lng": 9.409374
+    },
+    "proximity": 25,
+    "title": "Stiftsamtmannshof",
+    "shortdescription": "Von 1824 bis 2004 war das schöne Barockhaus der Wohnsitz der wechselnden Stiftsamtmänner im Stift Viborg.",
+    "text": "Du befindest dich auf der nördlichen Seite des Nytorv vor dem beeindruckenden Stiftsamtmannshof mit den vielen schönen Details im Mauerwerk. Fast 200 Jahre lang, von 1824 bis 2004, war das schöne Barockhaus der Wohnsitz der wechselnden Stiftsamtmänner im Stift Viborg. Ein Stiftsamtmann stand an der Spitze der weltlichen Verwaltung in einem Stift. Das Gebäude ist allerdings noch älter und wurde 1758 als Privathaus errichtet, 32 Jahre, nachdem das Gebäude, das früher an dieser Stelle stand, beim großen Stadtbrand ein Raub der Flammen wurde. Die Sandsteintafel mitten auf dem Haus berichtet, dass das Ehepaar Janus Friedenreich und Anne Margrethe Lind die Bauherren waren. Der Seitenflügel zur St. Sct. Hans Gade zeigt Überreste von mittelalterlichen Reihenhäusern – bescheidenen, kleinen Mietshäusern, in denen sich die Werkstätten von Handwerkern oder die Wohnräume der Tagelöhner und Armen befanden. Das Baumaterial war der große rote Backstein, den du noch immer im überstrichenen Mauerwerk zum Markt hin erkennen kannst. Im Hof befindet sich auf der linken Seite ein etwa 150 Jahre altes halbrundes Gartenhaus, das ursprünglich als Remise für die Wagen und Pferde des Stiftsamtmanns diente. Der große Garten ist in Viborg eine Besonderheit. Er ist umgeben von Gebäuden, Rückwänden und der Gartenmauer.",
+    "next": "POI_AMTMANDS_GARDEN_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/25_amtmands_garden_1_thumb.jpg",
+    "pictures": [ "pois/25_amtmands_garden_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "data/sevaerdighederData/audio/de-DE/sturmglocke_im_domturm_5.mp3"
+  },
+  {
+
+    "id": 26,
+    "location": {
+      "lat": 56.451040,
+      "lng": 9.409846
+    },
+    "proximity": 25,
+    "title": "Die alten Kaufmannshöfe",
+    "shortdescription": "Früher wohnten die führenden Kaufleute der Stadt in der Umgebung des Nytorv. Zur Straße und zum Marktplatz hin lagen Geschäfte, doch ging man durch das Tor, befanden sich dort Lagerräume, Packhäuser und Stallungen.",
+    "text": "Du stehst jetzt am Tor zu den alten Kaufmannshöfen. Die großen Kaufmannshöfe lagen in unmittelbarer Nähe zum Nytorv. Das Gebäude Nytorvgyde 3 wurde als ein Kaufmannshof errichtet. Die heutigen Gebäude wurden von 1837-47 errichtet. Zur Straße und zum Marktplatz hin lagen Geschäfte, doch ging man durch das Tor, befanden sich dort Lagerräume, Packhäuser und Stallungen. Mit der Sanierung der Höfe sind mit der Zeit die vielen Hinterhofgebäude verschwunden, doch die kleinen, intimen Höfe, die von alten und neuen Häusern umrahmt sind, lassen sich immer noch entdecken, besonders hinter den Häusern entlang der Nytorvgyde und hinter Nytorv 5. Wenn du durch das Tor gehst, findest du ein kleines Fachwerkhaus von 1730. Wenn du zum Giebel schaust, findest du drei Eisenringe. Sie sitzen heute sehr hoch, weil der Boden in neuerer Zeit abgesenkt wurde. Vor 100 Jahren wurden die Ringe von den Bauern der Umgebung benutzt, um ihre Pferde daran festzubinden, wenn sie in die Stadt kamen, um Waren zu kaufen, die sie nicht selbst erzeugen konnten.",
+    "next": "POI_DE_GAMLE_KOBMANDSGARDE_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/26_de_gamle_kobmandsgarde_1_thumb.jpg",
+    "pictures": [ "pois/26_de_gamle_kobmandsgarde_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "data/sevaerdighederData/audio/de-DE/sturmglocke_im_domturm_6.mp3"
+  },
+  {
+
+    "id": 27,
+    "location": {
+      "lat": 56.450917,
+      "lng": 9.411255
+    },
+    "proximity": 25,
+    "title": "Wirtshaus Paradiset",
+    "shortdescription": "Hoch ging es 1674 her im Kellerwirtshaus Paradiset, zu Deutsch: das Paradies. Vier Adelsmänner kippten viele Biere, bevor ein großer Streit unter ihnen ausbrach, der in einem tödlichen Duell in der Nytorvgyde endete.",
+    "text": "Du befindest dich jetzt auf der Nordseite der Nytorvgyde. Hier lag das Wirtshaus Paradiset – das Paradies. Im 17. Jahrhundert nahm hier ein Wirtshausbesuch ein tödliches Ende. Am 18. März 1674 ging es in Salomon Gerbers Kellerwirtshaus Paradieset an der Nytorvgyde hoch her. Vier Adelsmänner, Johan Rantzau, Caspar Brockenhuus, Otto Bille und Christoffer Gersdorf, hatten den Abend in der Schnapsstube der Schwanenapotheke am Nytorv begonnen. Später zogen sie weiter ins Paradiset. Das Besäufnis ging weiter, doch wie das alte dänische Sprichwort besagt: Wenn das Bier kommt, verschwindet der Verstand. Und so war es auch hier. Ein gewaltiger Streit brach aus. Ein Wort gab das nächste, und die vier Streithähne torkelten hinaus auf die Nytorvgyde, begleitet von zwei Dienern, die Laternen trugen. Im flackernden Schein der Leuchten wurden die Klingen gekreuzt. Ein – wie sich zeigen sollte – tödliches Duell wurde ausgekämpft. Die beiden Paare fochten nach bestem Vermögen, und schließlich mussten die Adelsmänner Bille und Gersdorf die Waffen strecken. Schwer verletzt sanken sie auf die Pflastersteine nieder. Hinzueilende Bürger trugen sie zur Schwanenapotheke, wo Bille seinen letzten Atemzug tat. Später starb auch Gersdorf an den Folgen seiner Verletzungen.",
+    "next": "POI_VAERTSHUSET_PARADISET_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/27_vaertshuset_paradiset_1_thumb.jpg",
+    "pictures": [ "pois/27_vaertshuset_paradiset_1.jpg", "pois/27_vaertshuset_paradiset_2.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "data/sevaerdighederData/audio/de-DE/sturmglocke_im_domturm_7.mp3"
+  },
+  {
+
+    "id": 28,
+    "location": {
+      "lat": 56.453058,
+      "lng": 9.411919
+    },
+    "proximity": 25,
+    "title": "Karnapgården",
+    "shortdescription": "Der Karnapgården aus dem 16. Jahrhundert ist wohl das markanteste Haus in der Sct. Mogens Gade. Das Baumaterial ist unter anderem gebrochene Quadersteine von den zwölf Pfarrkirchen der Stadt, die 1529 abgerissen wurden.",
+    "text": "Du befindest dich am nördlichen Ende der Sct. Mogens Gade vor einem Gebäude, das aus rotem Backstein und Hausteinen aus Granit errichtet wurde. Das ist der Karnapgården. Der Karnapgården ist das markanteste Gebäude auf der Sct. Mogens Gade. Am ältesten ist der Keller, der etwa aus dem Jahr 1530 stammt. Doch wie aus den Mauerankern abzulesen ist, stammen die gemauerten Teile von 1643 und 1649. Das Baumaterial ist roter Backstein und jede Menge abgebrochene Quadersteine von den zwölf Pfarrkirchen der Stadt, die 1529 abgerissen wurden. Der hervorspringende Erker – auf den das dänische Wort Karnap für Erker verweist – hatte einen doppelten Zweck. Er gibt ein besseres Licht für den Raum dahinter und einen besseren Blick auf die Straße. Wenn du durch das Tor gehst, kannst du am Seitenflügel noch ein Beispiel für die wiederverwendeten Steine der Kirchen sehen. Hier sind zwei halbrunde so genannte Tympanons eingemauert worden, die sich normalerweise über den Türen am westlichen Ende der Kirchen befinden. Der eine Stumpf zeigt das Gesicht eines Engels. Vom zweiten Tympanon ist nur noch die Hälfte erhalten. Das Bild zeigt Christus, der die rechte Hand zur Segnung gehoben hat, und links ist der griechische Buchstabe A für Alpha und die Sonne zu sehen. Auf der verschwundenen Hälfte hat sich das O für Omega und den Mond befunden. Die Symbole verweisen auf das Wort von Jesus: 'Ich bin der Anfang und das Ende.'",
+    "next": "POI_KARNAPGARDEN_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/28_karnapgarden_1_thumb.jpg",
+    "pictures": [ "pois/28_karnapgarden_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "data/sevaerdighederData/audio/de-DE/sturmglocke_im_domturm_8.mp3"
+  },
+  {
+
+    "id": 29,
+    "location": {
+      "lat": 56.451454,
+      "lng": 9.411374
+    },
+    "proximity": 25,
+    "title": "Billen er dum (Billen ist dumm)",
+    "shortdescription": "Vor vielen Jahren schlichen sich zwei Jungs aus der Östlichen Schule in den Hans Tausen Gedenkpark und schnitzten „Billen er dum“ – „Billen ist dumm“ – in eine der Buchen. Billen ist der Spitzname von  Fräulein Billetoft, die an der Kathedralschule Viborg Sprachen unterrichtete.",
+    "text": "Wenn du nah an die große Buche rechts hinter dem Rosengarten gehst, siehst du die Inschrift 'Billen er dum', zu Deutsch: 'Billen ist dumm'. Es gibt viele Arten, wie die Menschen sich nach dem Tod an jemanden erinnern. Manche sind freiwillig, manche unfreiwillig, wie beim Baum von Billen. Billen, das war der Spitzname von Fräulein Ellen Billetoft. Sie unterrichtete von 1938 bis 1969 an der Kathedralschule Viborg und wohnte im gelben Haus am Rosengarten bei Hans Tausens Minde. In den 1970er Jahren schlichen sich zwei Jungs in den Park. Das waren Jens Christian und Gerd, die auf die nahegelegene Östliche Schule gingen. Sie waren mit 'Billen' zusammengestoßen und ritzten jetzt mit einem Schraubenzieher den Spruch 'Billen er dum' in eine der Buchen. Man sagt, dass die Zeit alle Spuren verwischt. Das stimmt auch in diesem Fall. Der alte freche Spruch wird von Jahr zu Jahr undeutlicher, während die Buche weiter wächst. Irgendwann werden die drei Wörter ganz verschwunden sein, genauso wie die Erinnerung an Fräulein Billetoft.",
+    "next": "POI_BILLEN_ER_DUM_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/29_billen_er_dum_1_thumb.jpg",
+    "pictures": [ "pois/29_billen_er_dum_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "data/sevaerdighederData/audio/de-DE/sturmglocke_im_domturm_9.mp3"
+  },
+  {
+
+    "id": 30,
+    "location": {
+      "lat": 56.451238,
+      "lng": 9.412415
+    },
+    "proximity": 25,
+    "title": "Landesgericht und Seufzerbrücke",
+    "shortdescription": "Die Seufzerbrücke verbindet das ehemalige Landesgericht und das Gefängnisgebäude. Die Seufzerbrücke hat ihren Namen bekommen, weil hier die Verurteilten den letzten Blick auf die Freiheit werfen konnten, bevor sie hinter Gitter mussten.",
+    "text": "In der Gasse siehst du die Seufzerbrücke, die das frühere Landesgericht mit dem Gefängnis verbindet. Viborg ist zwar nicht Venedig, doch eine Seufzerbrücke gibt es in beiden Städten. In Viborg verbindet die Brücke das Gerichtsgebäude des ehemaligen Landesgerichts mit dem Gefängnisgebäude. In Venedig wurde der Name Seufzerbrücke vor etwa 200 Jahren von dem englischen Dichter Lord Byron geprägt. Er stellte sich vor, wie die künftigen Gefangene beim letzten Blick durch die Fenster der Brücke auf das schöne Venedig laut aufseufzten, bevor sie ihre Haft antraten. In Viborg war es der letzte Blick auf die Freiheit, bevor die Verurteilten ihre Strafe vor dem Landesgericht erhielten, der den tiefen Seufzer auslöste. In Venedig besagt eine Legende, dass Liebende sich auf ewig lieben werden, wenn sie einander küssen, während sie im Sonnenuntergang die Seufzerbrücke unterqueren. Vielleicht funktioniert das auch in Viborg?",
+    "next": "POI_VESTRE_LANDSRET_OG_SUKKENES_BRO_NEXT_DESCRIPTION",
+    "thumb": "images/thumbs/30_vestre_landsret_og_sukkenes_bro_1_thumb.jpg",
+    "pictures": [ "pois/30_vestre_landsret_og_sukkenes_bro_1.jpg" ],
+    "icon": {
+      "normal": "icons/icon_poi_hidden_places.svg",
+      "visited": "icons/icon_poi_visited_hidden_places.svg"
+    },
+    "audio": "data/sevaerdighederData/audio/de-DE/sturmglocke_im_domturm_10.mp3"
+  }
+]

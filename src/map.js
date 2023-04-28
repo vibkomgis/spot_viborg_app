@@ -81,17 +81,17 @@ let facilitiesdbVersion = 1;
 
 
 // Her hentes seværdighedsdata baseret på stien defineret i fetchJson.js
-console.log("Dette er din nuværende fetchData: " + fetchData)
+console.log("Dette er din nuværende stederData: " + stederData)
 function fetchAndStoreData() {
 const list = document.getElementById('myList');
 while (list.firstChild) {
   list.removeChild(list.firstChild);
 }
 indexedDB.deleteDatabase(dbName);
-fetch(fetchData)
+fetch(stederData)
   .then(response => response.json())
   .then(pois => {
-    console.log("Dette er din opdateret fetchData: " + fetchData)
+    console.log("Dette er din opdateret stederData: " + stederData)
     console.log(pois)
         const openRequest = indexedDB.open(dbName, dbVersion);
         openRequest.onupgradeneeded = function(event) {

@@ -65,9 +65,12 @@ const dbNameHemmelige = "hemmeligeRute";
 const dbVersionHemmelige = 1;
 
 
-fetch('/data/ruteData/da-hemmelige-rute.json')
+function fetchAndStoreHemmelige() {
+  indexedDB.deleteDatabase(dbNameHemmelige);
+  fetch(hemmeligeData)
   .then(response => response.json())
   .then(pois => {
+    console.log("Dette er hemmeligeData: " + hemmeligeData)
     // Open a connection to your IndexedDB database
     const openRequest = indexedDB.open(dbNameHemmelige, dbVersionHemmelige);
 
@@ -84,7 +87,8 @@ fetch('/data/ruteData/da-hemmelige-rute.json')
       objectStore.createIndex('title', 'title', { unique: false });
       objectStore.createIndex('shortdescription', 'shortdescription', { unique: false });
       objectStore.createIndex('text', 'text', { unique: false });
-      objectStore.createIndex('icon', 'icon', { unique: false });
+      objectStore.createIndex('handicap', 'handicap', { unique: false });
+      objectStore.createIndex('audio', 'audio', { unique: false });
 
       // Add data to the object store
       pois.forEach(obj => objectStore.add(obj));
@@ -101,8 +105,10 @@ fetch('/data/ruteData/da-hemmelige-rute.json')
         const pois = event.target.result;
 
         pois.forEach(poi => {
-          poi.text = poi.text.replace(/'/g, '');
-
+          poi.text = poi.text.replace(/(?<!\\)'/g, '`');
+          poi.title = poi.title.replace(/(?<!\\)'/g, '`');
+          poi.shortdescription = poi.shortdescription.replace(/(?<!\\)'/g, '`');
+          console.log(poi.audio)
 
 
              // Hent ikoner til visning på kort
@@ -123,7 +129,7 @@ fetch('/data/ruteData/da-hemmelige-rute.json')
   .catch(error => {
     console.error(error);
   });
-
+}
 
   const dbNameRouteHemmelige = "hemmeligeRutePath"
 
@@ -170,3 +176,12 @@ request.onsuccess = function(event) {
     console.error(error);
   });
 
+  // Load event listener
+  window.addEventListener('load',() => {    
+    fetchAndStoreHemmelige();
+  });
+  
+  // Fetch data event listener
+  window.addEventListener('fetchDataUpdated',() => {    
+    fetchAndStoreHemmelige();
+  });

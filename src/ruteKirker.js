@@ -115,31 +115,7 @@ function fetchAndStoreKirke() {
         const request = objectStore.getAll();
         request.onsuccess = function(event) {
           const pois = event.target.result;
-                    // Tilføj hver titel til en liste
-          pois.forEach(function(poi) {
-            const list = document.getElementById('myList');
-
-            
-            list.classList.add('sevaerdighederList'); // Tilføj class. Samme navn i global.css
-        
-            // Tilføj elementer til liste
-            const listItem = document.createElement('li');
-            const thumbImg = document.createElement('img');
-            thumbImg.src = poi.thumb;
-            thumbImg.alt = poi.title;
-        
-            listItem.appendChild(thumbImg);
-        
-            const textNode = document.createTextNode(poi.title);
-            listItem.appendChild(textNode);
-        
-            list.appendChild(listItem);
-
-            listItem.addEventListener('click', function() {
-              window.location.href = "public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text) + "&audio=" + encodeURIComponent(poi.audio);
-            });
-            
-          })
+         
 
           pois.forEach(poi => {
             poi.text = poi.text.replace(/(?<!\\)'/g, '`');

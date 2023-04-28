@@ -76,66 +76,95 @@ window.onhashchange = locationHashChanged;
 const dbName = "kirkeRute";
 const dbVersion = 1;
 
+function fetchAndStoreKirke() {
+  indexedDB.deleteDatabase(dbName);
+  fetch(kirkeData)
+  
+    .then(response => response.json())
+    .then(pois => {
+      console.log("Dette er kirkeData: " + kirkeData)
+      // Open a connection to your IndexedDB database
+      const openRequest = indexedDB.open(dbName, dbVersion);
 
-fetch('/data/ruteData/da-kirke-rute.json')
-  .then(response => response.json())
-  .then(pois => {
-    // Open a connection to your IndexedDB database
-    const openRequest = indexedDB.open(dbName, dbVersion);
+      openRequest.onupgradeneeded = function(event) {
+        const db = event.target.result;
 
-    openRequest.onupgradeneeded = function(event) {
-      const db = event.target.result;
+        // Create an object store within the database to store your data
+        const objectStore = db.createObjectStore('kirkeRute', { keyPath: 'id' });
 
-      // Create an object store within the database to store your data
-      const objectStore = db.createObjectStore('kirkeRute', { keyPath: 'id' });
+        // Define the structure of the data to be stored
+        objectStore.createIndex('id', 'id', { unique: false });
+        objectStore.createIndex('lat', 'lat', { unique: false });
+        objectStore.createIndex('lng', 'lng', { unique: false });
+        objectStore.createIndex('title', 'title', { unique: false });
+        objectStore.createIndex('shortdescription', 'shortdescription', { unique: false });
+        objectStore.createIndex('text', 'text', { unique: false });
+        objectStore.createIndex('handicap', 'handicap', { unique: false });
+        objectStore.createIndex('audio', 'audio', { unique: false });
 
-      // Define the structure of the data to be stored
-      objectStore.createIndex('id', 'id', { unique: false });
-      objectStore.createIndex('lat', 'lat', { unique: false });
-      objectStore.createIndex('lng', 'lng', { unique: false });
-      objectStore.createIndex('title', 'title', { unique: false });
-      objectStore.createIndex('shortdescription', 'shortdescription', { unique: false });
-      objectStore.createIndex('text', 'text', { unique: false });
-      objectStore.createIndex('icon', 'icon', { unique: false });
-
-      // Add data to the object store
-      pois.forEach(obj => objectStore.add(obj));
-    };
-
-    openRequest.onsuccess = function(event) {
-      const db = event.target.result;
-      const transaction = db.transaction('kirkeRute', 'readonly');
-      const objectStore = transaction.objectStore('kirkeRute');
-
-      // Retrieve data from the object store
-      const request = objectStore.getAll();
-      request.onsuccess = function(event) {
-        const pois = event.target.result;
-
-        pois.forEach(poi => {
-          poi.text = poi.text.replace(/'/g, '');
-
-
-
-             // Hent ikoner til visning på kort
-             let myIcon = L.icon({
-              iconUrl: poi.icon.normal,
-              iconSize: [38, 38],
-              popupAnchor: [0, -15]
-            });
-
-          // Create a marker on the map for each POI
-          L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mapKirke)
-          .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/><a href='../public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text)+"'>Hør mere her</a>");
-
-        });
+        // Add data to the object store
+        pois.forEach(obj => objectStore.add(obj));
       };
-    };
-  })
-  .catch(error => {
-    console.error(error);
-  });
 
+      openRequest.onsuccess = function(event) {
+        const db = event.target.result;
+        const transaction = db.transaction('kirkeRute', 'readonly');
+        const objectStore = transaction.objectStore('kirkeRute');
+
+        // Retrieve data from the object store
+        const request = objectStore.getAll();
+        request.onsuccess = function(event) {
+          const pois = event.target.result;
+                    // Tilføj hver titel til en liste
+          pois.forEach(function(poi) {
+            const list = document.getElementById('myList');
+
+            
+            list.classList.add('sevaerdighederList'); // Tilføj class. Samme navn i global.css
+        
+            // Tilføj elementer til liste
+            const listItem = document.createElement('li');
+            const thumbImg = document.createElement('img');
+            thumbImg.src = poi.thumb;
+            thumbImg.alt = poi.title;
+        
+            listItem.appendChild(thumbImg);
+        
+            const textNode = document.createTextNode(poi.title);
+            listItem.appendChild(textNode);
+        
+            list.appendChild(listItem);
+
+            listItem.addEventListener('click', function() {
+              window.location.href = "public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text) + "&audio=" + encodeURIComponent(poi.audio);
+            });
+            
+          })
+
+          pois.forEach(poi => {
+            poi.text = poi.text.replace(/(?<!\\)'/g, '`');
+            poi.title = poi.title.replace(/(?<!\\)'/g, '`');
+            poi.shortdescription = poi.shortdescription.replace(/(?<!\\)'/g, '`');
+            console.log(poi.audio)
+
+
+
+              // Hent ikoner til visning på kort
+              let myIcon = L.icon({
+                iconUrl: poi.icon.normal,
+                iconSize: [38, 38],
+                popupAnchor: [0, -15]
+              });
+
+            // Create a marker on the map for each POI
+            L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mapKirke)
+                .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/> <a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&audio=" + encodeURIComponent(poi.audio) + "&text=" + encodeURIComponent(poi.text)+"'>"+ info + "</a>" + (poi.handicap ? "<br/><br>" + poi.handicap + "<br/><br/>" : "" ));
+          });
+        };
+      };
+    })
+
+}
 
   const dbNameRoute = "kirkeRutePath"
 
@@ -182,3 +211,13 @@ request.onsuccess = function(event) {
     console.error(error);
   });
 
+
+  // Load event listener
+window.addEventListener('load',() => {    
+  fetchAndStoreKirke();
+});
+
+// Fetch data event listener
+window.addEventListener('fetchDataUpdated',() => {    
+  fetchAndStoreKirke();
+});

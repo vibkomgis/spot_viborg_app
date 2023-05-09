@@ -1,207 +1,205 @@
 [
 
-
     {
-
-        "id": 1,
-        "location": {
-            "lat": 56.450554,
-            "lng": 9.412078
-        },
-        "proximity": 25,
-        "title": "Viborg Cathedral",
-        "shortdescription": "The site of Viborg Cathedral has been the same for more than 900 years. In 1876, however, a celebratory mood reigned in Viborg. The cathedral was consecrated after what was in actual fact a full-scale renovation, stretching over 13 years.",
-        "text": "You are now facing Viborg Cathedral which has been on this location for more than 950 years. In 1876, a celebratory mood reigned in Viborg. The cathedral was consecrated after what was practically a full-scale renovation, stretching over 13 years. The only structural part remaining of the old medieval church is the semi-circular apse and crypt at the east end of the church. On the apse, you see two beautifully sculpted Roman granite lions and, above them, a man's and a woman's head are turned towards the lake, Nørresø. On the cathedral's north tower there is another Roman ornamentation, depicting a small dragon and a rabbit. Kerbstones in the lawns around the church indicate the location of the medieval chapels – such as e.g. Chapel of St. Kjeld, patron saint of Viborg and canonized in 1189 by Archbishop Absalon. From 1901 to 1906 – under the leadership of Joakim Skovgaard, the interior of the cathedral was decorated with a large fresco painting in the shape of a pictorial bible. A dark tombstone in the chancel marks the grave of King Erik Klipping, assassinated in Finderup Lade in 1286. If you wish to learn more about this regicide, you should select the route Memorial stones and Monuments. The next spot on your route – Bishop's Residence (Bispegården) – can be reached by taking a right as well as a left turn round the Cathedral. If you are facing south with your back towards the church, you go to the left – following Domkirkestræde. Bishop's Residence is located straight across from the Cathedral's chancel. However, you could also take a look into the courtyard of the first building on your left hand after the Cathedral.",
-        "next": "POI_VIBORG_DOMKIRKE_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/01_domkirken_1_thumb.jpg",
-        "pictures": [ "pois/01_domkirken_1.jpg", "pois/01_domkirken_2.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/en-GB/kirker_1.mp3"
+  
+      "id": 1,
+      "location": {
+        "lat": 56.450554,
+        "lng": 9.412078
+      },
+      "proximity": 25,
+      "title": "Viborg Cathedral",
+      "shortdescription": "The site of Viborg Cathedral has been the same for more than 900 years. In 1876, however, a celebratory mood reigned in Viborg. The cathedral was consecrated after what was in actual fact a full-scale renovation, stretching over 13 years.",
+      "text": "You are now facing Viborg Cathedral which has been on this location for more than 950 years. In 1876, a celebratory mood reigned in Viborg. The cathedral was consecrated after what was practically a full-scale renovation, stretching over 13 years. The only structural part remaining of the old medieval church is the semi-circular apse and crypt at the east end of the church. On the apse, you see two beautifully sculpted Roman granite lions and, above them, a man's and a woman's head are turned towards the lake, Nørresø. On the cathedral's north tower there is another Roman ornamentation, depicting a small dragon and a rabbit. Kerbstones in the lawns around the church indicate the location of the medieval chapels – such as e.g. Chapel of St. Kjeld, patron saint of Viborg and canonized in 1189 by Archbishop Absalon. From 1901 to 1906 – under the leadership of Joakim Skovgaard, the interior of the cathedral was decorated with a large fresco painting in the shape of a pictorial bible. A dark tombstone in the chancel marks the grave of King Erik Klipping, assassinated in Finderup Lade in 1286. If you wish to learn more about this regicide, you should select the route Memorial stones and Monuments. The next spot on your route – Bishop's Residence (Bispegården) – can be reached by taking a right as well as a left turn round the Cathedral. If you are facing south with your back towards the church, you go to the left – following Domkirkestræde. Bishop's Residence is located straight across from the Cathedral's chancel. However, you could also take a look into the courtyard of the first building on your left hand after the Cathedral.",
+      "next": "POI_VIBORG_DOMKIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/01_domkirken_1_thumb.jpg",
+      "pictures": [ "pois/01_domkirken_1.jpg", "pois/01_domkirken_2.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/en-GB/kirker_1.mp3"
     },
     {
-
-        "id": 2,
-        "location": {
-            "lat": 56.450078,
-            "lng": 9.413457
-        },
-        "proximity": 25,
-        "title": "Bishop's Residence",
-        "shortdescription": "During the Middle Ages, Bishop's Residence (Bispegården) was the dwelling place of the precentor officiating at cathedral services. Not until 1558, did Bishop's Residence become the official dwelling of Viborg's bishop.",
-        "text": "You have now arrived at Bishop's Residence – located in continuation of the Cathedral. During the Middle Ages, the buildings – today known as Bishop's Residence – did not house the bishop at all. They were, in fact, the dwelling place of the precentor who officiated at cathedral services. The remains of three medieval stone buildings have been preserved to this day – the most impressive parts being the three connected cellars of the present-day north wing. In 1558, the first Viborg bishop moved into the building. The Bishop's Residence suffered considerable damage during the great fire of 1726. Two years later, however, it was restored under the leadership of the architect, Claus Stallknecht. In the year that marked the completion of the restoration, two linden trees were planted – one each side of the main entrance, directly across from the Cathedral.",
-        "next": "POI_BISPEGARDEN_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/02_bispegarden_1_thumb.jpg",
-        "pictures": [ "pois/02_bispegaarden_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/en-GB/kirker_2.mp3"
+  
+      "id": 2,
+      "location": {
+        "lat": 56.450078,
+        "lng": 9.413457
+      },
+      "proximity": 25,
+      "title": "Bishop's Residence",
+      "shortdescription": "During the Middle Ages, Bishop's Residence (Bispegården) was the dwelling place of the precentor officiating at cathedral services. Not until 1558, did Bishop's Residence become the official dwelling of Viborg's bishop.",
+      "text": "You have now arrived at Bishop's Residence – located in continuation of the Cathedral. During the Middle Ages, the buildings – today known as Bishop's Residence – did not house the bishop at all. They were, in fact, the dwelling place of the precentor who officiated at cathedral services. The remains of three medieval stone buildings have been preserved to this day – the most impressive parts being the three connected cellars of the present-day north wing. In 1558, the first Viborg bishop moved into the building. The Bishop's Residence suffered considerable damage during the great fire of 1726. Two years later, however, it was restored under the leadership of the architect, Claus Stallknecht. In the year that marked the completion of the restoration, two linden trees were planted – one each side of the main entrance, directly across from the Cathedral.",
+      "next": "POI_BISPEGARDEN_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/02_bispegarden_1_thumb.jpg",
+      "pictures": [ "pois/02_bispegaarden_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/en-GB/kirker_2.mp3"
     },
-
+  
     {
-
-        "id": 3,
-        "location": {
-            "lat": 56.449094,
-            "lng": 9.412451
-        },
-        "proximity": 25,
-        "title": "Church of St. Kjeld",
-        "shortdescription": "This building, dating back to the Middle Ages, was consecrated as a Roman Catholic church in 1966. It is now an old house, and the new church building constructed on the site was taken into use in 2008.",
-        "text": "Half-way along Sct. Leonis Stræde, you reach a white building with a cross. This is the Roman Catholic church consecrated to patron saint of Viborg, St. Kjeld. The catholic congregation in Viborg initiated their first chapter at Morvilles House at 8 Sct. Mogens Gade. The old house at Sct. Leoni Stræde, that you're now facing, dates right back to the Middle Ages. In 1946, the Church bought the house and used it as their chapel. Two decades later, the house was consecrated as a church. In the gateway, you can see a piece of wall laid with red mediaeval large bricks and the cellar in its entirety remains as one well-preserved room from the medieval house. Then current church building was established in 2008 – in a lateral addition to the old medieval house. Relics of St. Gregory the Great, St. Thomas of Cantebury and St. Maria Goretti are inlaid in the Communion table. The garden in front marks the site of one of the twelve medieval parish churches, torn down in 1529. The church was about 20 metres in length and built in granite and red medieval large bricks. This church was alternately called Trinitatis or Drottens Kirke – Trinitatis for the Holy Trinity and Drotten is old Danish for God or the Lord.",
-        "next": "POI_SCT_KJELDS_KIRKE_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/03_sct_kjelds_kirke_1_thumb.jpg",
-        "pictures": [ "pois/03_sct_kjelds_kirke_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/en-GB/kirker_3.mp3"
-    },
-    {
-
-        "id": 4,
-        "location": {
-            "lat": 56.449102,
-            "lng": 9.412376
-        },
-        "proximity": 25,
-        "title": "Statue of St. Apollonia",
-        "shortdescription": "Apollonia was a devout old woman who was martyred in 249 AD, during the persecution of the Christians in Egypt. Apollonia is the patron saint of dentists. This bronze sculpture was erected in 1994.",
-        "text": "You are now standing by the stairs leading to Sortebrødre Klosterkirke. The statue to your left is St. Apollonia. In former times, this street bore the name Lonne Stræde, probably named after a spring, named Lone's spring, near the corner of Sortebrødre Kirkestræde and Sct. Leoni Gade. Lone as well as Leoni are Danish translations of St. Apollonia. Apollonia was a devout old woman martyred during the persecution of the Christians in Alexandria in 249 AD. Legend has it that she had all her teeth knocked out when tortured for not renouncing the Christian faith. She was condemned to the stake, but instead chose to jump into the flames of her own accord. She is said to help people suffering from toothache, and she is also patron saint of dentists. At the invitation of the writer and museum custodian, Peter Seeberg, and with financial support from Dansk Tandlægeforening (Danish association of dentists), the artist Hanne Warming created the bronze sculpture of Apollonia, erected in 1994.",
-        "next": "POI_APPOLONIA_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/04_appolonia_1_thumb.jpg",
-        "pictures": [ "pois/04_appolonia_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/en-GB/kirker_4.mp3"
+  
+      "id": 3,
+      "location": {
+        "lat": 56.449094,
+        "lng": 9.412451
+      },
+      "proximity": 25,
+      "title": "Church of St. Kjeld",
+      "shortdescription": "This building, dating back to the Middle Ages, was consecrated as a Roman Catholic church in 1966. It is now an old house, and the new church building constructed on the site was taken into use in 2008.",
+      "text": "Half-way along Sct. Leonis Stræde, you reach a white building with a cross. This is the Roman Catholic church consecrated to patron saint of Viborg, St. Kjeld. The catholic congregation in Viborg initiated their first chapter at Morvilles House at 8 Sct. Mogens Gade. The old house at Sct. Leoni Stræde, that you're now facing, dates right back to the Middle Ages. In 1946, the Church bought the house and used it as their chapel. Two decades later, the house was consecrated as a church. In the gateway, you can see a piece of wall laid with red mediaeval large bricks and the cellar in its entirety remains as one well-preserved room from the medieval house. Then current church building was established in 2008 – in a lateral addition to the old medieval house. Relics of St. Gregory the Great, St. Thomas of Cantebury and St. Maria Goretti are inlaid in the Communion table. The garden in front marks the site of one of the twelve medieval parish churches, torn down in 1529. The church was about 20 metres in length and built in granite and red medieval large bricks. This church was alternately called Trinitatis or Drottens Kirke – Trinitatis for the Holy Trinity and Drotten is old Danish for God or the Lord.",
+      "next": "POI_SCT_KJELDS_KIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/03_sct_kjelds_kirke_1_thumb.jpg",
+      "pictures": [ "pois/03_sct_kjelds_kirke_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/en-GB/kirker_3.mp3"
     },
     {
-
-        "id": 5,
-        "location": {
-            "lat": 56.449134,
-            "lng": 9.412419
-        },
-        "proximity": 25,
-        "title": "The Deanery (Domprovstegården)",
-        "shortdescription": "Not until 1872, when the dean of the cathedral took up residence here, did the inhabitants of Viborg begin to refer to the building as The Deanery (Domprovstegården). This mansion was originally owned by a noble family.",
-        "text": "You have now arrived at the steep cobbled strait, Sortebrødre Kirkestræde, next to the Deanery (Domprovstegården). Built in 1480 by the noble family, Gyldenstierne, this building facing the street was erected as the family town house. At that time, it was custom for noble families to have a house in Viborg. Here, they would take up residence when in Viborg – when they were in Parliament (at landsting), or attended christenings, weddings or funerals at the Cathedral. When, in 1838, the large house of correction by Søndersø lacked space, this old nobleman's house was turned into a women's prison, a function that was continued until 1856. The chief warder and the spinning master would have occupied the front building.</p><p>It was not until 1872, when the dean of the chapter at Viborg Cathedral moved into the house, that the inhabitants of Viborg began to refer to the house as the Deanery (Domprovstegården). The end wall, against Sortebrødre Church, and the front were renovated in 1912 and now appear with distinctive medieval features.",
-        "next": "POI_DOMPROVSTEGARDEN_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/05_domprovstegaarden_1_thumb.jpg",
-        "pictures": [ "pois/05_domprovstegaarden_1.jpg", "pois/05_domprovstegaarden_2.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/en-GB/kirker_5.mp3"
+  
+      "id": 4,
+      "location": {
+        "lat": 56.449102,
+        "lng": 9.412376
+      },
+      "proximity": 25,
+      "title": "Statue of St. Apollonia",
+      "shortdescription": "Apollonia was a devout old woman who was martyred in 249 AD, during the persecution of the Christians in Egypt. Apollonia is the patron saint of dentists. This bronze sculpture was erected in 1994.",
+      "text": "You are now standing by the stairs leading to Sortebrødre Klosterkirke. The statue to your left is St. Apollonia. In former times, this street bore the name Lonne Stræde, probably named after a spring, named Lone's spring, near the corner of Sortebrødre Kirkestræde and Sct. Leoni Gade. Lone as well as Leoni are Danish translations of St. Apollonia. Apollonia was a devout old woman martyred during the persecution of the Christians in Alexandria in 249 AD. Legend has it that she had all her teeth knocked out when tortured for not renouncing the Christian faith. She was condemned to the stake, but instead chose to jump into the flames of her own accord. She is said to help people suffering from toothache, and she is also patron saint of dentists. At the invitation of the writer and museum custodian, Peter Seeberg, and with financial support from Dansk Tandlægeforening (Danish association of dentists), the artist Hanne Warming created the bronze sculpture of Apollonia, erected in 1994.",
+      "next": "POI_APPOLONIA_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/04_appolonia_1_thumb.jpg",
+      "pictures": [ "pois/04_appolonia_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/en-GB/kirker_4.mp3"
     },
     {
-
-        "id": 6,
-        "location": {
-            "lat": 56.449312,
-            "lng": 9.409910
-        },
-        "proximity": 25,
-        "title": "Sortebrødre Church",
-        "shortdescription": "Arriving in Viborg some 800 years ago, the Black Friars soon initiated the building of their church. The large red brick church was built on the longitudinal basillican plan – where nave and chancel merge.",
-        "text": "You are now facing Sortebrødre Church – the only preserved medieval church in Viborg. The Black Friars (Sortebrødrene) arrived in Viborg about 800 years ago. They began building their church around 1240. The final works on the church were completed around 1300. The large red-brick church is built on the so-called longitudinal basilican plan – where nave and chancel merge. Today, the church has two side aisles built of reused material – to the north, from two medieval chapels and to the south, from the monastery's northern cloister. This cloister part is all that has been preserved from the monastery where the Black Friars would have lived. It is a vaulted passage which would have been attached to one of the inner sides of the four wings enclosing the closed cloister garth. The church's absolute showpiece is found in the chancel – the gilded triptych altarpiece – carved and painted in Antwerp in the 1520s. This was not part of the church at the time the monks inhabited the monastery. It was a gift from King Frederik VII to the church after it had been badly damaged in the great 1726 fire. Originally, this altarpiece was installed at the palace, Københavns Slot. The medieval crucifix on the south wall of Sortebrødre Church was bought from the Greyfriar Friary Church in 1813.",
-        "next": "POI_SORTEBRODRE_KIRKE_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/06_sortebrodre_kirke_1_thumb.jpg",
-        "pictures": [ "pois/06_sortebrodre_kirke_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/en-GB/kirker_6.mp3"
+  
+      "id": 5,
+      "location": {
+        "lat": 56.449134,
+        "lng": 9.412419
+      },
+      "proximity": 25,
+      "title": "The Deanery (Domprovstegården)",
+      "shortdescription": "Not until 1872, when the dean of the cathedral took up residence here, did the inhabitants of Viborg begin to refer to the building as The Deanery (Domprovstegården). This mansion was originally owned by a noble family.",
+      "text": "You have now arrived at the steep cobbled strait, Sortebrødre Kirkestræde, next to the Deanery (Domprovstegården). Built in 1480 by the noble family, Gyldenstierne, this building facing the street was erected as the family town house. At that time, it was custom for noble families to have a house in Viborg. Here, they would take up residence when in Viborg – when they were in Parliament (at landsting), or attended christenings, weddings or funerals at the Cathedral. When, in 1838, the large house of correction by Søndersø lacked space, this old nobleman's house was turned into a women's prison, a function that was continued until 1856. The chief warder and the spinning master would have occupied the front building.</p><p>It was not until 1872, when the dean of the chapter at Viborg Cathedral moved into the house, that the inhabitants of Viborg began to refer to the house as the Deanery (Domprovstegården). The end wall, against Sortebrødre Church, and the front were renovated in 1912 and now appear with distinctive medieval features.",
+      "next": "POI_DOMPROVSTEGARDEN_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/05_domprovstegaarden_1_thumb.jpg",
+      "pictures": [ "pois/05_domprovstegaarden_1.jpg", "pois/05_domprovstegaarden_2.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/en-GB/kirker_5.mp3"
     },
     {
-
-        "id": 7,
-        "location": {
-            "lat": 56.449664,
-            "lng": 9.408269
-        },
-        "proximity": 25,
-        "title": "Church of St. Mathias",
-        "shortdescription": "The greyish areas in the square, Hjultorvet, signify the location of Church of St. Mathias. In 1529 – in the wake of the Reformation – this and 11 other parish churches were torn down.",
-        "text": "You have now arrived at Hjultorvet, where the greyish markings in the square demonstrate the location of the Church and Churchyard of St. Mathias. The parish church, Church of St. Mathias, was located at Hjultorvet up until 1529 when it was torn down together with the eleven other parish churches. Structured around nave, chancel and a semi-circular apsis, it would have born no resemblance to the so-called church sculpture in the centre of the square. Archaelogical excavations, performed in 1999, moreover revealed traces of an even older, wooden, church – together with about 250 skeletons. One grave stood out from the rest, as the dead person had been buried with a lead piece inscribed with runes. The inscription has been interpreted as a magic formula and an invocation of the Virgin Mary. The church was named after the apostle Mathew – Mathias or Mads in Danish. He was put to death by decapitation and, therefore, he is portrayed with an axe or a halberd.",
-        "next": "POI_SCT_MATHIAS_KIRKE_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/07_sct_mathias_kirke_1_thumb.jpg",
-        "pictures": [ "pois/07_sct_mathias_kirke_1.jpg", "pois/07_sct_mathias_kirke_2.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/en-GB/kirker_7.mp3"
+  
+      "id": 6,
+      "location": {
+        "lat": 56.449312,
+        "lng": 9.409910
+      },
+      "proximity": 25,
+      "title": "Sortebrødre Church",
+      "shortdescription": "Arriving in Viborg some 800 years ago, the Black Friars soon initiated the building of their church. The large red brick church was built on the longitudinal basillican plan – where nave and chancel merge.",
+      "text": "You are now facing Sortebrødre Church – the only preserved medieval church in Viborg. The Black Friars (Sortebrødrene) arrived in Viborg about 800 years ago. They began building their church around 1240. The final works on the church were completed around 1300. The large red-brick church is built on the so-called longitudinal basilican plan – where nave and chancel merge. Today, the church has two side aisles built of reused material – to the north, from two medieval chapels and to the south, from the monastery's northern cloister. This cloister part is all that has been preserved from the monastery where the Black Friars would have lived. It is a vaulted passage which would have been attached to one of the inner sides of the four wings enclosing the closed cloister garth. The church's absolute showpiece is found in the chancel – the gilded triptych altarpiece – carved and painted in Antwerp in the 1520s. This was not part of the church at the time the monks inhabited the monastery. It was a gift from King Frederik VII to the church after it had been badly damaged in the great 1726 fire. Originally, this altarpiece was installed at the palace, Københavns Slot. The medieval crucifix on the south wall of Sortebrødre Church was bought from the Greyfriar Friary Church in 1813.",
+      "next": "POI_SORTEBRODRE_KIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/06_sortebrodre_kirke_1_thumb.jpg",
+      "pictures": [ "pois/06_sortebrodre_kirke_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/en-GB/kirker_6.mp3"
     },
     {
-
-        "id": 8,
-        "location": {
-            "lat": 56.450939,
-            "lng": 9.409632
-        },
-        "proximity": 25,
-        "title": "Church of St. Hans",
-        "shortdescription": "Church of St. Hans was the setting for the earliest Protestant sermons given by Hans Tausen in the 16th century. Though the church was torn down in 1529, the bell tower remained until 1584.",
-        "text": "Standing in the square, at Nytorv, you will also be standing in, or on – as it were, what was formerly Church (and Churchyard) of St. Hans. In 2015, Viborg Museum excavated the Church of St. Hans foundations in Nytorv, revealing that the church had been structured as nave, chancel and tower. The archaeologists also examined about 650 burials. Church of St. Hans constituted the setting for the earliest protestant sermons in Denmark, given in 1526 by Hans Tausen. When, in 1529, the inhabitants of Viborg obtained the king's permission to tear down the town's twelve parish churches, this included Church of St. Hans – except for its tower as this housed the town's warning bell which was used to summon the inhabitants to assistance in case of fire. In 1584, the tower was torn down and the churchyard area cleared. The entire Nytorv area was paved, as the square would be used to pay homage to Prince Christian – later to become King Christian IV.</p><p>The name Hans or Johannes is the Danish name for John. Thus the church was either named after the evangelist John or, more likely, after John the Baptist. His feast day is on 24 June and, in Denmark, we light Midsummer Eve bonfires, the evening before.",
-        "next": "POI_SCT_HANS_KIRKE_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/08_sct_hans_kirke_1_thumb.jpg",
-        "pictures": [ "pois/08_sct_hans_kirke_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/en-GB/kirker_8.mp3"
+  
+      "id": 7,
+      "location": {
+        "lat": 56.449664,
+        "lng": 9.408269
+      },
+      "proximity": 25,
+      "title": "Church of St. Mathias",
+      "shortdescription": "The greyish areas in the square, Hjultorvet, signify the location of Church of St. Mathias. In 1529 – in the wake of the Reformation – this and 11 other parish churches were torn down.",
+      "text": "You have now arrived at Hjultorvet, where the greyish markings in the square demonstrate the location of the Church and Churchyard of St. Mathias. The parish church, Church of St. Mathias, was located at Hjultorvet up until 1529 when it was torn down together with the eleven other parish churches. Structured around nave, chancel and a semi-circular apsis, it would have born no resemblance to the so-called church sculpture in the centre of the square. Archaelogical excavations, performed in 1999, moreover revealed traces of an even older, wooden, church – together with about 250 skeletons. One grave stood out from the rest, as the dead person had been buried with a lead piece inscribed with runes. The inscription has been interpreted as a magic formula and an invocation of the Virgin Mary. The church was named after the apostle Mathew – Mathias or Mads in Danish. He was put to death by decapitation and, therefore, he is portrayed with an axe or a halberd.",
+      "next": "POI_SCT_MATHIAS_KIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/07_sct_mathias_kirke_1_thumb.jpg",
+      "pictures": [ "pois/07_sct_mathias_kirke_1.jpg", "pois/07_sct_mathias_kirke_2.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/en-GB/kirker_7.mp3"
     },
     {
-
-        "id": 9,
-        "location": {
-            "lat": 56.452688,
-            "lng": 9.411911
-        },
-        "proximity": 25,
-        "title": "Church of St. Mogens",
-        "shortdescription": "For the last 2 or 3 centuries, large granite blocks and a considerable number of skeletons have been excavated from this corner plot. They are traces of the church and churchyard that, in medieval times, was Church of St. Mogens.",
-        "text": "You are now at the corner of Sct. Mogens Gade and Rosenstræde, the location of the former Church of St. Mogens. Over the past 2-300 years, skeletons as well as large dressed granite bricks have been excavated from this corner plot. They are traces of the medieval church and churchyard, Church of St. Mogens, torn down in 1529. The Danish name, Mogens, is rooted in Latin Magnus – meaning great. Several saints bore this name. The Viborg church may have been named after the pious Magnus from Italy. It could, however, also refer to Magnus from the Orkney Islands. He was of Norwegian descent and killed in 1116 on the small island of Egilsay – which means Ejgil's Island. He is buried in the Cathedral of Kirkwall – the Magnus Cathedral.",
-        "next": "POI_SCT_MOGENS_KIRKE_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/09_sct_mogens_kirke_1_thumb.jpg",
-        "pictures": [ "pois/09_sct_mogens_kirke_1.jpg", "pois/09_sct_mogens_kirke_2.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/en-GB/kirker_9.mp3"
+  
+      "id": 8,
+      "location": {
+        "lat": 56.450939,
+        "lng": 9.409632
+      },
+      "proximity": 25,
+      "title": "Church of St. Hans",
+      "shortdescription": "Church of St. Hans was the setting for the earliest Protestant sermons given by Hans Tausen in the 16th century. Though the church was torn down in 1529, the bell tower remained until 1584.",
+      "text": "Standing in the square, at Nytorv, you will also be standing in, or on – as it were, what was formerly Church (and Churchyard) of St. Hans. In 2015, Viborg Museum excavated the Church of St. Hans foundations in Nytorv, revealing that the church had been structured as nave, chancel and tower. The archaeologists also examined about 650 burials. Church of St. Hans constituted the setting for the earliest protestant sermons in Denmark, given in 1526 by Hans Tausen. When, in 1529, the inhabitants of Viborg obtained the king's permission to tear down the town's twelve parish churches, this included Church of St. Hans – except for its tower as this housed the town's warning bell which was used to summon the inhabitants to assistance in case of fire. In 1584, the tower was torn down and the churchyard area cleared. The entire Nytorv area was paved, as the square would be used to pay homage to Prince Christian – later to become King Christian IV.</p><p>The name Hans or Johannes is the Danish name for John. Thus the church was either named after the evangelist John or, more likely, after John the Baptist. His feast day is on 24 June and, in Denmark, we light Midsummer Eve bonfires, the evening before.",
+      "next": "POI_SCT_HANS_KIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/08_sct_hans_kirke_1_thumb.jpg",
+      "pictures": [ "pois/08_sct_hans_kirke_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/en-GB/kirker_8.mp3"
     },
     {
-
-        "id": 10,
-        "location": {
-            "lat": 56.451767,
-            "lng": 9.412397
-        },
-        "proximity": 50,
-        "title": "Greyfriars Friary Church",
-        "shortdescription": "In 1527, the Greyfriar Church constituted the framework for Hans Tausen's sermons. Here, he preached the Protestant message to the congregation.",
-        "text": "You have now arrived at the Greyfriars Friary (Gråbrødre Kloster). It's possible to get quite close to the friary, though the access is a bit steep. The guidance path to the backyard is also worth noticing – it has been made of reused footstones for modern gravestones. The Greyfriars Friary in Viborg was founded in 1235. The church was in use for church services up until 1812 when it was closed because of its poor structural condition. Though torn down in 1830, we can still trace its structural plan, marked by the trimmed hedges of the memorial gardens, Hans Tausens Minde. In the course of the Middle Ages, the friary gradually developed into quite a large building complex, e.g. comprising two enclosed cloister garths, a smithy and a holy well – Maria Sundhedsbrønd. Some of the north garth buildings have been preserved to this day. From 1527, the Greyfriars Church provided the setting for Hans Tausen's protestant lectures to his parishioners. During the Age of the Reformation, the friary was converted and made available to King Christian III. In the 1970s the ground-floor room, used by the king when he visited Viborg, was recreated. Today, this room is known as ”Kongens Kammer” (the King's Chamber). In 1541, the king decided to turn the old Greyfriars Friary into a hospital – i.e. a home for the sick, the old and the poor. Today, the friary has been laid out as seven small sheltered housing units for the elderly.",
-        "next": "POI_GRABRODRE_KLOSTERKIRKE_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/10_grabrodre_klosterkirke_1_thumb.jpg",
-        "pictures": [ "pois/10_grabrodre_klosterkirke_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/en-GB/kirker_10.mp3"
+  
+      "id": 9,
+      "location": {
+        "lat": 56.452688,
+        "lng": 9.411911
+      },
+      "proximity": 25,
+      "title": "Church of St. Mogens",
+      "shortdescription": "For the last 2 or 3 centuries, large granite blocks and a considerable number of skeletons have been excavated from this corner plot. They are traces of the church and churchyard that, in medieval times, was Church of St. Mogens.",
+      "text": "You are now at the corner of Sct. Mogens Gade and Rosenstræde, the location of the former Church of St. Mogens. Over the past 2-300 years, skeletons as well as large dressed granite bricks have been excavated from this corner plot. They are traces of the medieval church and churchyard, Church of St. Mogens, torn down in 1529. The Danish name, Mogens, is rooted in Latin Magnus – meaning great. Several saints bore this name. The Viborg church may have been named after the pious Magnus from Italy. It could, however, also refer to Magnus from the Orkney Islands. He was of Norwegian descent and killed in 1116 on the small island of Egilsay – which means Ejgil's Island. He is buried in the Cathedral of Kirkwall – the Magnus Cathedral.",
+      "next": "POI_SCT_MOGENS_KIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/09_sct_mogens_kirke_1_thumb.jpg",
+      "pictures": [ "pois/09_sct_mogens_kirke_1.jpg", "pois/09_sct_mogens_kirke_2.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/en-GB/kirker_9.mp3"
+    },
+    {
+  
+      "id": 10,
+      "location": {
+        "lat": 56.451767,
+        "lng": 9.412397
+      },
+      "proximity": 50,
+      "title": "Greyfriars Friary Church",
+      "shortdescription": "In 1527, the Greyfriar Church constituted the framework for Hans Tausen's sermons. Here, he preached the Protestant message to the congregation.",
+      "text": "You have now arrived at the Greyfriars Friary (Gråbrødre Kloster). It's possible to get quite close to the friary, though the access is a bit steep. The guidance path to the backyard is also worth noticing – it has been made of reused footstones for modern gravestones. The Greyfriars Friary in Viborg was founded in 1235. The church was in use for church services up until 1812 when it was closed because of its poor structural condition. Though torn down in 1830, we can still trace its structural plan, marked by the trimmed hedges of the memorial gardens, Hans Tausens Minde. In the course of the Middle Ages, the friary gradually developed into quite a large building complex, e.g. comprising two enclosed cloister garths, a smithy and a holy well – Maria Sundhedsbrønd. Some of the north garth buildings have been preserved to this day. From 1527, the Greyfriars Church provided the setting for Hans Tausen's protestant lectures to his parishioners. During the Age of the Reformation, the friary was converted and made available to King Christian III. In the 1970s the ground-floor room, used by the king when he visited Viborg, was recreated. Today, this room is known as ”Kongens Kammer” (the King's Chamber). In 1541, the king decided to turn the old Greyfriars Friary into a hospital – i.e. a home for the sick, the old and the poor. Today, the friary has been laid out as seven small sheltered housing units for the elderly.",
+      "next": "POI_GRABRODRE_KLOSTERKIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/10_grabrodre_klosterkirke_1_thumb.jpg",
+      "pictures": [ "pois/10_grabrodre_klosterkirke_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/en-GB/kirker_10.mp3"
     }
-
-
-]
+  
+  ]

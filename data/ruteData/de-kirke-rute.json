@@ -1,207 +1,208 @@
 [
 
 
-    {
 
-        "id": 1,
-        "location": {
-            "lat": 56.450554,
-            "lng": 9.412078
-        },
-        "proximity": 25,
-        "title": "Dom zu Viborg",
-        "shortdescription": "Der Dom zu Viborg steht seit über 900 Jahren am gleichen Ort, doch 1876 gab es in Viborg ein großes Fest. Die Kirche sollte nach einem beinahe vollständigen Umbau, der sich über 13 Jahre erstreckte, wieder geweiht werden.",
-        "text": "Du stehst vor dem Dom zu Viborg, der sich seit über 950 Jahren an diesem Ort befindet. 1876 war ganz Viborg in festlicher Stimmung. Die Kirche sollte nach einem beinahe vollständigen Umbau, der sich über 13 Jahre erstreckte, wieder geweiht werden. Der einzige Gebäudeteil, der von der alten mittelalterlichen Kirche übriggeblieben war, ist die halbrunde Apsis und die Krypta im Ostteil der Kirche. In der Apsis der Kirche sind zwei prächtige romanische Löwen aus Granit zu sehen. Und darüber blicken ein Männer- und ein Frauenkopf hinauf auf den Nørresø. Am Nordturm befindet sich ein weiteres romanisches Granitbild, das einen kleinen Drachen und ein Kaninchen darstellt.</p><p>Rund um die Kirche markieren Bordsteine im Gras die Lage der mittelalterlichen Kapellen, darunter die Kapelle für den heiligen Kjeld, den Schutzheiligen von Viborg. Er wurde 1189 von Erzbischof Absalon heiliggesprochen. Die Kirche wurde im Inneren in den Jahren 1901 bis 1906 mit einer großen Bildbibel unter der Leitung von Joakim Skovgaard ausgemalt. Im Chor markiert ein dunkler Grabstein das Grab des dänischen Königs Erik Klipping. Er wurde 1286 in Finderup Lade ermordet. Mehr über die Geschichte des Königsmords in Finderup Lade kannst du hören, wenn du die Route Gedenksteine und Denkmäler wählst.",
-        "next": "POI_VIBORG_DOMKIRKE_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/01_domkirken_1_thumb.jpg",
-        "pictures": [ "pois/01_domkirken_1.jpg", "pois/01_domkirken_2.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/de-DE/kirchen_1.mp3"
+    {
+  
+      "id": 1,
+      "location": {
+        "lat": 56.450554,
+        "lng": 9.412078
+      },
+      "proximity": 25,
+      "title": "Dom zu Viborg",
+      "shortdescription": "Der Dom zu Viborg steht seit über 900 Jahren am gleichen Ort, doch 1876 gab es in Viborg ein großes Fest. Die Kirche sollte nach einem beinahe vollständigen Umbau, der sich über 13 Jahre erstreckte, wieder geweiht werden.",
+      "text": "Du stehst vor dem Dom zu Viborg, der sich seit über 950 Jahren an diesem Ort befindet. 1876 war ganz Viborg in festlicher Stimmung. Die Kirche sollte nach einem beinahe vollständigen Umbau, der sich über 13 Jahre erstreckte, wieder geweiht werden. Der einzige Gebäudeteil, der von der alten mittelalterlichen Kirche übriggeblieben war, ist die halbrunde Apsis und die Krypta im Ostteil der Kirche. In der Apsis der Kirche sind zwei prächtige romanische Löwen aus Granit zu sehen. Und darüber blicken ein Männer- und ein Frauenkopf hinauf auf den Nørresø. Am Nordturm befindet sich ein weiteres romanisches Granitbild, das einen kleinen Drachen und ein Kaninchen darstellt.</p><p>Rund um die Kirche markieren Bordsteine im Gras die Lage der mittelalterlichen Kapellen, darunter die Kapelle für den heiligen Kjeld, den Schutzheiligen von Viborg. Er wurde 1189 von Erzbischof Absalon heiliggesprochen. Die Kirche wurde im Inneren in den Jahren 1901 bis 1906 mit einer großen Bildbibel unter der Leitung von Joakim Skovgaard ausgemalt. Im Chor markiert ein dunkler Grabstein das Grab des dänischen Königs Erik Klipping. Er wurde 1286 in Finderup Lade ermordet. Mehr über die Geschichte des Königsmords in Finderup Lade kannst du hören, wenn du die Route Gedenksteine und Denkmäler wählst.",
+      "next": "POI_VIBORG_DOMKIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/01_domkirken_1_thumb.jpg",
+      "pictures": [ "pois/01_domkirken_1.jpg", "pois/01_domkirken_2.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/de-DE/kirchen_1.mp3"
     },
     {
-
-        "id": 2,
-        "location": {
-            "lat": 56.450078,
-            "lng": 9.413457
-        },
-        "proximity": 25,
-        "title": "Bischofshof",
-        "shortdescription": "Im Mittelalter war der Bischofshof der Wohnsitz des Kantors, der die Gottesdienste im Dom leitete. Erst 1558 wurde der Bischofshof als Wohnsitz des Bischofs von Viborg eingerichtet.",
-        "text": "Du befindest dich jetzt am Bischofshof, der in der Verlängerung des Doms liegt. Im Mittelalter dienten viele der Gebäude, die wir heute als Bischofshof kennen, nicht als Wohnsitz für den Bischof, sondern für den Kantor, der die Gottesdienste im Dom leitete. Bis heute erhalten sind die Reste von drei mittelalterlichen Steinhäusern. Am beeindruckendsten sind die drei zusammengebauten Keller, die sich im heutigen Nordflügel befinden. 1558 zog der Viborger Bischof in das Gebäude. Während des großen Stadtbrands von 1726 wurde der Bischofshof stark beschädigt. Zwei Jahre später wurde er aber unter Leitung des Architekten Claus Stallknecht wieder aufgebaut. Im gleichen Jahr wurden die beiden Linden angepflanzt, die auf jeder Seite des Haupttors gegenüber dem Dom stehen.",
-        "next": "POI_BISPEGARDEN_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/02_bispegarden_1_thumb.jpg",
-        "pictures": [ "pois/02_bispegaarden_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/de-DE/kirchen_2.mp3"
+  
+      "id": 2,
+      "location": {
+        "lat": 56.450078,
+        "lng": 9.413457
+      },
+      "proximity": 25,
+      "title": "Bischofshof",
+      "shortdescription": "Im Mittelalter war der Bischofshof der Wohnsitz des Kantors, der die Gottesdienste im Dom leitete. Erst 1558 wurde der Bischofshof als Wohnsitz des Bischofs von Viborg eingerichtet.",
+      "text": "Du befindest dich jetzt am Bischofshof, der in der Verlängerung des Doms liegt. Im Mittelalter dienten viele der Gebäude, die wir heute als Bischofshof kennen, nicht als Wohnsitz für den Bischof, sondern für den Kantor, der die Gottesdienste im Dom leitete. Bis heute erhalten sind die Reste von drei mittelalterlichen Steinhäusern. Am beeindruckendsten sind die drei zusammengebauten Keller, die sich im heutigen Nordflügel befinden. 1558 zog der Viborger Bischof in das Gebäude. Während des großen Stadtbrands von 1726 wurde der Bischofshof stark beschädigt. Zwei Jahre später wurde er aber unter Leitung des Architekten Claus Stallknecht wieder aufgebaut. Im gleichen Jahr wurden die beiden Linden angepflanzt, die auf jeder Seite des Haupttors gegenüber dem Dom stehen.",
+      "next": "POI_BISPEGARDEN_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/02_bispegarden_1_thumb.jpg",
+      "pictures": [ "pois/02_bispegaarden_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/de-DE/kirchen_2.mp3"
     },
-
+  
     {
-
-        "id": 3,
-        "location": {
-            "lat": 56.449094,
-            "lng": 9.412451
-        },
-        "proximity": 25,
-        "title": "Sankt-Kjeld-Kirche",
-        "shortdescription": "Das alte Gebäude, das aus dem Mittelalter stammt, wurde 1966 als Kirche für die römisch-katholische Gemeinde geweiht. Die neue Kirche, die sich hier heute befindet, wurde 2008 in Benutzung genommen.",
-        "text": "Du stehst vor einem weißen Haus mit einem Kreuz in der Mitte der Sct. Leoni Stræde. Es beherbergt die katholische Kirche, die dem Schutzheiligen von Viborg, dem heiligen Kjeld, geweiht wurde. Die katholische Gemeinde in Viborg weihte ihre erste Kapelle im Morvilles Gård in der Sct. Mogens Gade 8. Das heutige alte Haus zur Sct. Leoni Stræde, vor dem du stehst, stammt noch aus dem Mittelalter. 1946 kaufte die Gemeinde das Haus und richtete darin eine Kapelle ein. 20 Jahre später wurde es als Kirche geweiht. Im Tor kann man ein Mauerstück mit großen roten Backsteinen sehen und der Keller ist ein gut erhaltener Raum aus dem mittelalterlichen Haus. In einem Seitengebäude zum alten Mittelalterhaus wurde 2008 die neue Kirche geweiht. Im Altartisch werden Reliquien des heiligen Gregor des Großen, des heiligen Thomas von Canterbury und der heiligen Maria Goretti aufbewahrt. Vorne im Garten zur Sct. Mikkels Gade lag auch eine der zwölf mittelalterlichen Kirchen der Stadt, die 1529 abgerissen wurden. Die Kirche war etwa 20 Meter lang und aus Granitsteinen und roten Backsteinen gebaut. Sie wurde abwechselnd Trinitatiskirche oder Drottenkirche genannt. Trinitatis bedeutet Dreifaltigkeit und Drotten bedeutet auf Altdänisch Gott oder der Herr.",
-        "next": "POI_SCT_KJELDS_KIRKE_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/03_sct_kjelds_kirke_1_thumb.jpg",
-        "pictures": [ "pois/03_sct_kjelds_kirke_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/de-DE/kirchen_3.mp3"
-    },
-    {
-
-        "id": 4,
-        "location": {
-            "lat": 56.449102,
-            "lng": 9.412376
-        },
-        "proximity": 25,
-        "title": "Statue der heiligen Apollonia",
-        "shortdescription": "Die heilige Apollonia war eine fromme, alte Frau, die 249 während der Christenverfolgung in Ägypten den Märtyrertod erlitt. Apollonia ist die Schutzheilige der Zahnärzte. Die Bronzeskulptur wurde 1994 aufgestellt.",
-        "text": "Du stehst an der Treppe hinauf zur Dominikaner-Klosterkirche. Links der Stufen siehst du die Statue der heiligen Apollonia. Die Straße hieß früher Lonne Stræde und wurde wahrscheinlich nach der Lone-Quelle benannt, die sich nahe der Straßenecke von Sortebrødre Kirkestræde und Sct. Leoni Gade befand. Die Namen Lone und Leoni sind dänische Versionen des Namens Apollonia. Die heilige Apollonia war eine fromme, alte Frau, die während der Christenverfolgung in Alexandria in Ägypten im Jahr 249 den Märtyrertod erlitt. Die Legende erzählt, dass ihr während der Folter die Zähne ausgeschlagen wurden. Sie wollte aber nicht vom ihrem christlichen Glauben ablassen und sprang stattdessen ins Feuer, wo sie in den Flammen starb. Ihr wird nachgesagt, dass sie Menschen bei Zahnschmerzen hilft, und sie ist die Schutzheilige der Zahnärzte. Auf Veranlassung des Schriftstellers und Museumsdirektors Peter Seeberg und mit Unterstützung des dänischen Zahnärzteverbands schuf die Künstlerin Hanne Warming die Bronzeskulptur der Apollonia, die 1994 aufgestellt wurde.",
-        "next": "POI_APPOLONIA_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/04_appolonia_1_thumb.jpg",
-        "pictures": [ "pois/04_appolonia_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/de-DE/kirchen_4.mp3"
+  
+      "id": 3,
+      "location": {
+        "lat": 56.449094,
+        "lng": 9.412451
+      },
+      "proximity": 25,
+      "title": "Sankt-Kjeld-Kirche",
+      "shortdescription": "Das alte Gebäude, das aus dem Mittelalter stammt, wurde 1966 als Kirche für die römisch-katholische Gemeinde geweiht. Die neue Kirche, die sich hier heute befindet, wurde 2008 in Benutzung genommen.",
+      "text": "Du stehst vor einem weißen Haus mit einem Kreuz in der Mitte der Sct. Leoni Stræde. Es beherbergt die katholische Kirche, die dem Schutzheiligen von Viborg, dem heiligen Kjeld, geweiht wurde. Die katholische Gemeinde in Viborg weihte ihre erste Kapelle im Morvilles Gård in der Sct. Mogens Gade 8. Das heutige alte Haus zur Sct. Leoni Stræde, vor dem du stehst, stammt noch aus dem Mittelalter. 1946 kaufte die Gemeinde das Haus und richtete darin eine Kapelle ein. 20 Jahre später wurde es als Kirche geweiht. Im Tor kann man ein Mauerstück mit großen roten Backsteinen sehen und der Keller ist ein gut erhaltener Raum aus dem mittelalterlichen Haus. In einem Seitengebäude zum alten Mittelalterhaus wurde 2008 die neue Kirche geweiht. Im Altartisch werden Reliquien des heiligen Gregor des Großen, des heiligen Thomas von Canterbury und der heiligen Maria Goretti aufbewahrt. Vorne im Garten zur Sct. Mikkels Gade lag auch eine der zwölf mittelalterlichen Kirchen der Stadt, die 1529 abgerissen wurden. Die Kirche war etwa 20 Meter lang und aus Granitsteinen und roten Backsteinen gebaut. Sie wurde abwechselnd Trinitatiskirche oder Drottenkirche genannt. Trinitatis bedeutet Dreifaltigkeit und Drotten bedeutet auf Altdänisch Gott oder der Herr.",
+      "next": "POI_SCT_KJELDS_KIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/03_sct_kjelds_kirke_1_thumb.jpg",
+      "pictures": [ "pois/03_sct_kjelds_kirke_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/de-DE/kirchen_3.mp3"
     },
     {
-
-        "id": 5,
-        "location": {
-            "lat": 56.449134,
-            "lng": 9.412419
-        },
-        "proximity": 25,
-        "title": "Dompropsthof",
-        "shortdescription": "Erst 1872, als der Dompropst des Viborger Doms in das Gebäude zog, begannen die Viborger, das Gebäude Dompropsthof zu nennen. Zuvor bewohnten verschiedene Adelsfamilien das Gebäude.",
-        "text": "Du stehst jetzt auf der mit Kopfsteinen gepflasterten, steilen Sortebrødre Kirkestræde neben dem Dompropsthof.</p><p>Das Adelsgeschlecht Gyldenstierne errichtete 1480 das Gebäude zur Straße als ihren Stadtpalast in Viborg. Viele Adelsgeschlechter hatten damals Häuser in Viborg, in denen sie wohnten, wenn sie sich zum Landsting oder zu Taufen, Hochzeiten und Beerdigungen in der Stadt aufhielten. Als 1838 der Platz im großen Zuchthaus am Søndersø ausging, wurde der alte Adelshof bis 1856 als Frauengefängnis genutzt. Im Vorderhaus wohnten der Wachtmeister und der Spinnmeister. Erst 1872, als der Dompropst des Viborger Doms in das Gebäude zog, begannen die Viborger, das Gebäude Dompropsthof zu nennen. Der Giebel hinauf zur Dominikanerkirche und die Fassade zur Straße wurden 1912 renoviert und tragen jetzt einen charakteristischen mittelalterlichen Zug.",
-        "next": "POI_DOMPROVSTEGARDEN_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/05_domprovstegaarden_1_thumb.jpg",
-        "pictures": [ "pois/05_domprovstegaarden_1.jpg", "pois/05_domprovstegaarden_2.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/de-DE/kirchen_5.mp3"
+  
+      "id": 4,
+      "location": {
+        "lat": 56.449102,
+        "lng": 9.412376
+      },
+      "proximity": 25,
+      "title": "Statue der heiligen Apollonia",
+      "shortdescription": "Die heilige Apollonia war eine fromme, alte Frau, die 249 während der Christenverfolgung in Ägypten den Märtyrertod erlitt. Apollonia ist die Schutzheilige der Zahnärzte. Die Bronzeskulptur wurde 1994 aufgestellt.",
+      "text": "Du stehst an der Treppe hinauf zur Dominikaner-Klosterkirche. Links der Stufen siehst du die Statue der heiligen Apollonia. Die Straße hieß früher Lonne Stræde und wurde wahrscheinlich nach der Lone-Quelle benannt, die sich nahe der Straßenecke von Sortebrødre Kirkestræde und Sct. Leoni Gade befand. Die Namen Lone und Leoni sind dänische Versionen des Namens Apollonia. Die heilige Apollonia war eine fromme, alte Frau, die während der Christenverfolgung in Alexandria in Ägypten im Jahr 249 den Märtyrertod erlitt. Die Legende erzählt, dass ihr während der Folter die Zähne ausgeschlagen wurden. Sie wollte aber nicht vom ihrem christlichen Glauben ablassen und sprang stattdessen ins Feuer, wo sie in den Flammen starb. Ihr wird nachgesagt, dass sie Menschen bei Zahnschmerzen hilft, und sie ist die Schutzheilige der Zahnärzte. Auf Veranlassung des Schriftstellers und Museumsdirektors Peter Seeberg und mit Unterstützung des dänischen Zahnärzteverbands schuf die Künstlerin Hanne Warming die Bronzeskulptur der Apollonia, die 1994 aufgestellt wurde.",
+      "next": "POI_APPOLONIA_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/04_appolonia_1_thumb.jpg",
+      "pictures": [ "pois/04_appolonia_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/de-DE/kirchen_4.mp3"
     },
     {
-
-        "id": 6,
-        "location": {
-            "lat": 56.449312,
-            "lng": 9.409910
-        },
-        "proximity": 25,
-        "title": "Dominikanerkirche",
-        "shortdescription": "Die Dominikaner, die man auch die Schwarzen Brüder nannte, kamen vor rund 800 Jahren nach Viborg und begann mit dem Bau einer Kirche. Die große rote Backsteinkirche ist eine so genannte Langhauskirche, bei der Schiff und Chor ineinander übergehen.",
-        "text": "Du stehst jetzt vor der Dominikanerkirche, auf Dänisch: Sortebrødre Kirke. Dies ist die einzige erhaltene mittelalterliche Kirche in Viborg. Die Dominikaner, die man auch die Schwarzen Brüder nannte, kamen vor rund 800 Jahren nach Viborg und begannen um das Jahr 1240 mit dem Bau einer Kirche. Die letzten Bauarbeiten an der Kirche wurden gegen 1300 abgeschlossen. Die große rote Backsteinkirche ist eine so genannte Langhauskirche, bei der Schiff und Chor ineinander übergehen. Die Kirche hat jetzt zwei Seitenschiffe. Nach Norden wurden zwei mittelalterliche Kapellen dafür verwendet, nach Süden ein Teil des Kreuzgangs des Klosters.  Vom Kloster selbst, in dem die Mönche lebten, ist nur das genannte Stück des Kreuzgangs erhalten. Das war ein überwölbter Gang, der auf der Innenseite der vier Flügel lag, die den abgeschlossenen Klosterhof umgaben. Der Chor enthält das Prachtstück der Kirche, einen vergoldeten Flügelalter, der in den 1520er Jahren in Antwerpen geschnitzt und gemalt wurde. Er befand sich nicht in der Kirche, als die Mönche im Kloster lebten, sondern kam als ein Geschenk des dänischen Königs Frederik VII. in die Stadt, nachdem die Kirche beim großen Stadtbrand 1726 schwer beschädigt worden war. Ursprünglich stand der Altar im Kopenhagener Schloss. An der Südwand des Schiffs hängt ein mittelalterlicher Kruzifix, der 1813 von der Franziskanerkirche gekauft wurde.",
-        "next": "POI_SORTEBRODRE_KIRKE_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/06_sortebrodre_kirke_1_thumb.jpg",
-        "pictures": [ "pois/06_sortebrodre_kirke_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/de-DE/kirchen_6.mp3"
+  
+      "id": 5,
+      "location": {
+        "lat": 56.449134,
+        "lng": 9.412419
+      },
+      "proximity": 25,
+      "title": "Dompropsthof",
+      "shortdescription": "Erst 1872, als der Dompropst des Viborger Doms in das Gebäude zog, begannen die Viborger, das Gebäude Dompropsthof zu nennen. Zuvor bewohnten verschiedene Adelsfamilien das Gebäude.",
+      "text": "Du stehst jetzt auf der mit Kopfsteinen gepflasterten, steilen Sortebrødre Kirkestræde neben dem Dompropsthof.</p><p>Das Adelsgeschlecht Gyldenstierne errichtete 1480 das Gebäude zur Straße als ihren Stadtpalast in Viborg. Viele Adelsgeschlechter hatten damals Häuser in Viborg, in denen sie wohnten, wenn sie sich zum Landsting oder zu Taufen, Hochzeiten und Beerdigungen in der Stadt aufhielten. Als 1838 der Platz im großen Zuchthaus am Søndersø ausging, wurde der alte Adelshof bis 1856 als Frauengefängnis genutzt. Im Vorderhaus wohnten der Wachtmeister und der Spinnmeister. Erst 1872, als der Dompropst des Viborger Doms in das Gebäude zog, begannen die Viborger, das Gebäude Dompropsthof zu nennen. Der Giebel hinauf zur Dominikanerkirche und die Fassade zur Straße wurden 1912 renoviert und tragen jetzt einen charakteristischen mittelalterlichen Zug.",
+      "next": "POI_DOMPROVSTEGARDEN_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/05_domprovstegaarden_1_thumb.jpg",
+      "pictures": [ "pois/05_domprovstegaarden_1.jpg", "pois/05_domprovstegaarden_2.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/de-DE/kirchen_5.mp3"
     },
     {
-
-        "id": 7,
-        "location": {
-            "lat": 56.449664,
-            "lng": 9.408269
-        },
-        "proximity": 25,
-        "title": "Sankt-Matthias-Kirche",
-        "shortdescription": "Am Hjultorvet zeigen die grauen Felder auf dem Platz den Ort an, an dem bis 1529 die Sankt-Matthias-Kirche stand. Damals wurde die Kirche im Zuge der Reformation zusammen mit den anderen elf Kirchen der Stadt abgerissen.",
-        "text": "Jetzt stehst du auf dem Hjultorvet. Die grauen Felder auf dem Platz zeigen den Ort an, an dem sich die Sankt-Matthias-Kirche und der dazugehörige Friedhof befanden. Bis 1529 stand hier die Sankt-Matthias-Kirche, dann wurde sie zusammen mit den anderen elf Kirchen der Stadt abgerissen. Sie bestand aus Kirchenschiff, Chor und einer halbrunden Apsis und glich in keiner Weise der so genannten Kirchenskulptur mitten auf dem Platz. Eine archäologische Grabung wies 1999 Spuren einer alten Holzkirche nach. Außerdem wurden etwa 250 Skelette ausgegraben. Ein einzelnes Grab hob sich dadurch ab, dass der Tote ein Stück Blei mit einer Runeninschrift als Grabbeilage bekam. Die Inschrift wurde als eine Zauberformel und ein Gebet zur Jungfrau Maria gedeutet. Die Kirche wurde nach dem Apostel Matthias oder auf Dänisch Mads benannt. Er wurde geköpft und wird deshalb entweder mit einem Beil oder einer Hellebarde dargestellt.",
-        "next": "POI_SCT_MATHIAS_KIRKE_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/07_sct_mathias_kirke_1_thumb.jpg",
-        "pictures": [ "pois/07_sct_mathias_kirke_1.jpg", "pois/07_sct_mathias_kirke_2.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/de-DE/kirchen_7.mp3"
+  
+      "id": 6,
+      "location": {
+        "lat": 56.449312,
+        "lng": 9.409910
+      },
+      "proximity": 25,
+      "title": "Dominikanerkirche",
+      "shortdescription": "Die Dominikaner, die man auch die Schwarzen Brüder nannte, kamen vor rund 800 Jahren nach Viborg und begann mit dem Bau einer Kirche. Die große rote Backsteinkirche ist eine so genannte Langhauskirche, bei der Schiff und Chor ineinander übergehen.",
+      "text": "Du stehst jetzt vor der Dominikanerkirche, auf Dänisch: Sortebrødre Kirke. Dies ist die einzige erhaltene mittelalterliche Kirche in Viborg. Die Dominikaner, die man auch die Schwarzen Brüder nannte, kamen vor rund 800 Jahren nach Viborg und begannen um das Jahr 1240 mit dem Bau einer Kirche. Die letzten Bauarbeiten an der Kirche wurden gegen 1300 abgeschlossen. Die große rote Backsteinkirche ist eine so genannte Langhauskirche, bei der Schiff und Chor ineinander übergehen. Die Kirche hat jetzt zwei Seitenschiffe. Nach Norden wurden zwei mittelalterliche Kapellen dafür verwendet, nach Süden ein Teil des Kreuzgangs des Klosters.  Vom Kloster selbst, in dem die Mönche lebten, ist nur das genannte Stück des Kreuzgangs erhalten. Das war ein überwölbter Gang, der auf der Innenseite der vier Flügel lag, die den abgeschlossenen Klosterhof umgaben. Der Chor enthält das Prachtstück der Kirche, einen vergoldeten Flügelalter, der in den 1520er Jahren in Antwerpen geschnitzt und gemalt wurde. Er befand sich nicht in der Kirche, als die Mönche im Kloster lebten, sondern kam als ein Geschenk des dänischen Königs Frederik VII. in die Stadt, nachdem die Kirche beim großen Stadtbrand 1726 schwer beschädigt worden war. Ursprünglich stand der Altar im Kopenhagener Schloss. An der Südwand des Schiffs hängt ein mittelalterlicher Kruzifix, der 1813 von der Franziskanerkirche gekauft wurde.",
+      "next": "POI_SORTEBRODRE_KIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/06_sortebrodre_kirke_1_thumb.jpg",
+      "pictures": [ "pois/06_sortebrodre_kirke_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/de-DE/kirchen_6.mp3"
     },
     {
-
-        "id": 8,
-        "location": {
-            "lat": 56.450939,
-            "lng": 9.409632
-        },
-        "proximity": 25,
-        "title": "Sankt-Hans-Kirche",
-        "shortdescription": "Die Sankt-Hans-Kirche war Schauplatz der frühesten protestantischen Predigten von Hans Tausen im 16. Jahrhundert. Die Kirche wurde 1529 abgerissen, doch der Turm mit der Sturmglocke blieb bis 1584 stehen.",
-        "text": "Jetzt stehst du auf dem Nytorv und auch über der ehemaligen Sankt-Hans-Kirche und dem dazugehörigen Friedhof. Auf dem Nytorv grub das Viborg Museum 2015 die Fundamente der Sankt-Hans-Kirche aus, die aus Schiff, Chor und einem Turm bestand. Die Archäologen untersuchten auch etwa 650 Grabstellen. Die Sankt-Hans-Kirche war Schauplatz der frühesten protestantischen Predigten von Hans Tausen im Jahr 1526. Als die Viborger 1529 die Erlaubnis des Königs zum Abriss der zwölf Pfarrkirchen der Stadt erhielten, beseitigten sie auch die Sankt-Hans-Kirche – bis auf den Turm. Hier hang bis 1584 die Sturmglocke der Stadt, die die Menschen bei einem Brand zum Löschen zusammenrief. 1584 wurde auch der Turm abgerissen und der gesamte Friedhof abgeräumt und gepflastert. Damals sollte der Nytorv zur Huldigung von Prinz Christian genutzt werden, dem späteren König Christian IV. Der Name Hans ist die dänische Form von Johannes. Die Kirche war daher entweder nach dem Evangelisten Johannes oder, was wahrscheinlicher ist, nach Johannes dem Täufer benannt worden. Dessen Namenstag ist der 24. Juni, der in Dänemark als Sankt-Hans-Tag gefeiert wird.",
-        "next": "POI_SCT_HANS_KIRKE_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/08_sct_hans_kirke_1_thumb.jpg",
-        "pictures": [ "pois/08_sct_hans_kirke_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/de-DE/kirchen_8.mp3"
+  
+      "id": 7,
+      "location": {
+        "lat": 56.449664,
+        "lng": 9.408269
+      },
+      "proximity": 25,
+      "title": "Sankt-Matthias-Kirche",
+      "shortdescription": "Am Hjultorvet zeigen die grauen Felder auf dem Platz den Ort an, an dem bis 1529 die Sankt-Matthias-Kirche stand. Damals wurde die Kirche im Zuge der Reformation zusammen mit den anderen elf Kirchen der Stadt abgerissen.",
+      "text": "Jetzt stehst du auf dem Hjultorvet. Die grauen Felder auf dem Platz zeigen den Ort an, an dem sich die Sankt-Matthias-Kirche und der dazugehörige Friedhof befanden. Bis 1529 stand hier die Sankt-Matthias-Kirche, dann wurde sie zusammen mit den anderen elf Kirchen der Stadt abgerissen. Sie bestand aus Kirchenschiff, Chor und einer halbrunden Apsis und glich in keiner Weise der so genannten Kirchenskulptur mitten auf dem Platz. Eine archäologische Grabung wies 1999 Spuren einer alten Holzkirche nach. Außerdem wurden etwa 250 Skelette ausgegraben. Ein einzelnes Grab hob sich dadurch ab, dass der Tote ein Stück Blei mit einer Runeninschrift als Grabbeilage bekam. Die Inschrift wurde als eine Zauberformel und ein Gebet zur Jungfrau Maria gedeutet. Die Kirche wurde nach dem Apostel Matthias oder auf Dänisch Mads benannt. Er wurde geköpft und wird deshalb entweder mit einem Beil oder einer Hellebarde dargestellt.",
+      "next": "POI_SCT_MATHIAS_KIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/07_sct_mathias_kirke_1_thumb.jpg",
+      "pictures": [ "pois/07_sct_mathias_kirke_1.jpg", "pois/07_sct_mathias_kirke_2.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/de-DE/kirchen_7.mp3"
     },
     {
-
-        "id": 9,
-        "location": {
-            "lat": 56.452688,
-            "lng": 9.411911
-        },
-        "proximity": 25,
-        "title": "Sankt-Mogens-Kirche",
-        "shortdescription": "In den vergangenen 200 bis 300 Jahren hat man in diesem Eckgrundstück große viereckige Granitsteine und zahlreiche Skelette ausgegraben. Dies sind Spuren der verschwundenen mittelalterlichen Sankt-Mogens-Kirche und des dazugehörigen Friedhofs.",
-        "text": "Du stehst jetzt an der Ecke von Rosenstræde und Sankt Mogens Gade, an der früher die Sankt-Mogens-Kirche stand. In den vergangenen 200 bis 300 Jahren hat man in diesem Eckgrundstück große viereckige zugehauene Granitsteine und zahlreiche Skelette ausgegraben. Dies sind Spuren der verschwundenen mittelalterlichen Sankt-Mogens-Kirche und des dazugehörigen Friedhofs. Sie wurde 1529 abgerissen. Mogens ist die dänische Form des lateinischen Namen Magnus, der 'groß' bedeutet. Mehrere Heilige trugen diesen Namen. Möglicherweise wurde die Kirche in Viborg nach dem heiligen Magnus aus Italien benannt. Doch vielleicht verweist der Name auch auf Magnus von den Orkneyinseln, der norwegischer Abstammung war. Er wurde 1116 auf der kleinen Insel Egilsay hingerichtet und im Dom in Kirkwall beerdigt. Diese Kirche ist heute die Magnus-Kathedrale.",
-        "next": "POI_SCT_MOGENS_KIRKE_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/09_sct_mogens_kirke_1_thumb.jpg",
-        "pictures": [ "pois/09_sct_mogens_kirke_1.jpg", "pois/09_sct_mogens_kirke_2.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/de-DE/kirchen_9.mp3"
+  
+      "id": 8,
+      "location": {
+        "lat": 56.450939,
+        "lng": 9.409632
+      },
+      "proximity": 25,
+      "title": "Sankt-Hans-Kirche",
+      "shortdescription": "Die Sankt-Hans-Kirche war Schauplatz der frühesten protestantischen Predigten von Hans Tausen im 16. Jahrhundert. Die Kirche wurde 1529 abgerissen, doch der Turm mit der Sturmglocke blieb bis 1584 stehen.",
+      "text": "Jetzt stehst du auf dem Nytorv und auch über der ehemaligen Sankt-Hans-Kirche und dem dazugehörigen Friedhof. Auf dem Nytorv grub das Viborg Museum 2015 die Fundamente der Sankt-Hans-Kirche aus, die aus Schiff, Chor und einem Turm bestand. Die Archäologen untersuchten auch etwa 650 Grabstellen. Die Sankt-Hans-Kirche war Schauplatz der frühesten protestantischen Predigten von Hans Tausen im Jahr 1526. Als die Viborger 1529 die Erlaubnis des Königs zum Abriss der zwölf Pfarrkirchen der Stadt erhielten, beseitigten sie auch die Sankt-Hans-Kirche – bis auf den Turm. Hier hang bis 1584 die Sturmglocke der Stadt, die die Menschen bei einem Brand zum Löschen zusammenrief. 1584 wurde auch der Turm abgerissen und der gesamte Friedhof abgeräumt und gepflastert. Damals sollte der Nytorv zur Huldigung von Prinz Christian genutzt werden, dem späteren König Christian IV. Der Name Hans ist die dänische Form von Johannes. Die Kirche war daher entweder nach dem Evangelisten Johannes oder, was wahrscheinlicher ist, nach Johannes dem Täufer benannt worden. Dessen Namenstag ist der 24. Juni, der in Dänemark als Sankt-Hans-Tag gefeiert wird.",
+      "next": "POI_SCT_HANS_KIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/08_sct_hans_kirke_1_thumb.jpg",
+      "pictures": [ "pois/08_sct_hans_kirke_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/de-DE/kirchen_8.mp3"
     },
     {
-
-        "id": 10,
-        "location": {
-            "lat": 56.451767,
-            "lng": 9.412397
-        },
-        "proximity": 50,
-        "title": "Franziskanerkirche",
-        "shortdescription": "Die Reformation vollzog sich in der Franziskanerkirche, in der Hans Tausen ab 1527 seine protestantische Botschaft seinen Zuhörern predigte.",
-        "text": "Du stehst jetzt vor dem Franziskanerkloster. Du kannst ganz nah an das Kloster gehen, doch der Weg ist etwas steil. Achte besonders auf die Leitlinie im Hinterhof, die aus wiederverwendeten alten Sockelsteinen von modernen Grabsteinen gemacht ist. 1235 gründeten die Franziskaner ihr Kloster in Viborg. Die Kirche wurde bis 1812 für Gottesdienste genutzt. Dann wurde sie geschlossen, weil ihr baulicher Zustand sehr schlecht war. Die Kirche wurde 1830 abgerissen, doch wir können die Umrisse der Mauern in den Hecken des kleinen Parks Hans Tausens Minde sehen. Das Kloster wurde im Verlauf des Mittelalters zu einem recht großen Komplex ausgebaut, der unter anderem zwei geschlossene Klosterhöfe, eine Schmiede und eine heilige Quelle umfasste – den Maria-Gesundheitsbrunnen. Einige der Gebäude im nördlichen Hof sind bis heute erhalten.</p><p>Die Reformation vollzog sich in der Franziskanerkirche, in der Hans Tausen ab 1527 seinen Zuhörern seine protestantische Botschaft predigte. Das Kloster wurde in der Zeit der Reformation zur Verwendung durch den König Christian III. umgebaut. In den 1970er Jahren rekonstruierte man den Raum im Erdgeschoss, die der König nutzte, als er sich in Viborg aufhielt. Der Raum heißt heute die 'Königskammer'. 1541 befahl der König, dass das alte Franziskanerkloster in ein Hospital umgewandelt werden sollte, also in ein Heim für Kranke, Alte und Arme. Heute befinden sich im Kloster sieben kleine Wohnungen für ältere Menschen.",
-        "next": "POI_GRABRODRE_KLOSTERKIRKE_NEXT_DESCRIPTION",
-        "thumb": "images/thumbs/10_grabrodre_klosterkirke_1_thumb.jpg",
-        "pictures": [ "pois/10_grabrodre_klosterkirke_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": "data/sevaerdighederData/audio/de-DE/kirchen_10.mp3"
+  
+      "id": 9,
+      "location": {
+        "lat": 56.452688,
+        "lng": 9.411911
+      },
+      "proximity": 25,
+      "title": "Sankt-Mogens-Kirche",
+      "shortdescription": "In den vergangenen 200 bis 300 Jahren hat man in diesem Eckgrundstück große viereckige Granitsteine und zahlreiche Skelette ausgegraben. Dies sind Spuren der verschwundenen mittelalterlichen Sankt-Mogens-Kirche und des dazugehörigen Friedhofs.",
+      "text": "Du stehst jetzt an der Ecke von Rosenstræde und Sankt Mogens Gade, an der früher die Sankt-Mogens-Kirche stand. In den vergangenen 200 bis 300 Jahren hat man in diesem Eckgrundstück große viereckige zugehauene Granitsteine und zahlreiche Skelette ausgegraben. Dies sind Spuren der verschwundenen mittelalterlichen Sankt-Mogens-Kirche und des dazugehörigen Friedhofs. Sie wurde 1529 abgerissen. Mogens ist die dänische Form des lateinischen Namen Magnus, der 'groß' bedeutet. Mehrere Heilige trugen diesen Namen. Möglicherweise wurde die Kirche in Viborg nach dem heiligen Magnus aus Italien benannt. Doch vielleicht verweist der Name auch auf Magnus von den Orkneyinseln, der norwegischer Abstammung war. Er wurde 1116 auf der kleinen Insel Egilsay hingerichtet und im Dom in Kirkwall beerdigt. Diese Kirche ist heute die Magnus-Kathedrale.",
+      "next": "POI_SCT_MOGENS_KIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/09_sct_mogens_kirke_1_thumb.jpg",
+      "pictures": [ "pois/09_sct_mogens_kirke_1.jpg", "pois/09_sct_mogens_kirke_2.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/de-DE/kirchen_9.mp3"
+    },
+    {
+  
+      "id": 10,
+      "location": {
+        "lat": 56.451767,
+        "lng": 9.412397
+      },
+      "proximity": 50,
+      "title": "Franziskanerkirche",
+      "shortdescription": "Die Reformation vollzog sich in der Franziskanerkirche, in der Hans Tausen ab 1527 seine protestantische Botschaft seinen Zuhörern predigte.",
+      "text": "Du stehst jetzt vor dem Franziskanerkloster. Du kannst ganz nah an das Kloster gehen, doch der Weg ist etwas steil. Achte besonders auf die Leitlinie im Hinterhof, die aus wiederverwendeten alten Sockelsteinen von modernen Grabsteinen gemacht ist. 1235 gründeten die Franziskaner ihr Kloster in Viborg. Die Kirche wurde bis 1812 für Gottesdienste genutzt. Dann wurde sie geschlossen, weil ihr baulicher Zustand sehr schlecht war. Die Kirche wurde 1830 abgerissen, doch wir können die Umrisse der Mauern in den Hecken des kleinen Parks Hans Tausens Minde sehen. Das Kloster wurde im Verlauf des Mittelalters zu einem recht großen Komplex ausgebaut, der unter anderem zwei geschlossene Klosterhöfe, eine Schmiede und eine heilige Quelle umfasste – den Maria-Gesundheitsbrunnen. Einige der Gebäude im nördlichen Hof sind bis heute erhalten.</p><p>Die Reformation vollzog sich in der Franziskanerkirche, in der Hans Tausen ab 1527 seinen Zuhörern seine protestantische Botschaft predigte. Das Kloster wurde in der Zeit der Reformation zur Verwendung durch den König Christian III. umgebaut. In den 1970er Jahren rekonstruierte man den Raum im Erdgeschoss, die der König nutzte, als er sich in Viborg aufhielt. Der Raum heißt heute die 'Königskammer'. 1541 befahl der König, dass das alte Franziskanerkloster in ein Hospital umgewandelt werden sollte, also in ein Heim für Kranke, Alte und Arme. Heute befinden sich im Kloster sieben kleine Wohnungen für ältere Menschen.",
+      "next": "POI_GRABRODRE_KLOSTERKIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/10_grabrodre_klosterkirke_1_thumb.jpg",
+      "pictures": [ "pois/10_grabrodre_klosterkirke_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/de-DE/kirchen_10.mp3"
     }
-
-
-]
+  
+  
+  ]

@@ -1,314 +1,207 @@
 [
+  
 
     {
-
-        "id": 1,
-        "location": {
-            "lat": 56.450554,
-            "lng": 9.412078
-        },
-        "proximity": 25,
-        "title": "Domkirken",
-        "shortdescription": "Viborg Domkirke har ligget det samme sted i mere end 900 år, men i 1876 var der feststemning i Viborg. Kirken skulle indvies efter en næsten total ombygning, der havde strakt sig over 13 år.",
-        "text": "Du står foran Viborg Domkirke, som har ligget på dette sted i mere end 950 år. I 1876 var der feststemning i Viborg. Domkirken skulle indvies efter en næsten total ombygning, der havde strakt sig over 13 år. Den eneste bygningsdel, der blev levnet af den gamle middelalderkirke, er den halvrunde apsis og kryptrummet østligst i kirken.</p><p>På kirkens apsis ses to pragtfulde romanske løver hugget i granit, og over dem kigger et mands- og et kvindehoved ud over Nørresø. På nordtårnet er der et andet romansk granitbillede, der viser en lille drage og en kanin. Rundt langs kirken markerer kantsten i græsset de middelalderlige kapeller, blandt andet kapellet for Sct. Kjeld - Viborgs skytshelgen, der blev helgenkåret af Ærkebiskop Absalon i 1189. Indvendigt blev kirken udsmykket i årene fra 1901 til 1906 med en stor kalkmalet billedbibel under ledelse af Joakim Skovgaard. I koret markerer en mørk gravsten Kong Erik Klippings grav. Han blev slået ihjel i Finderup Lade i 1286. Historien om mordet i Finderup Lade kan du høre, hvis du vælger ruten Mindesten og Monumenter.",
-        "next": "POI_VIBORG_DOMKIRKE_NEXT_DESCRIPTION",
-        "thumb": "thumbs/01_domkirken_1_thumb.jpg",
-        "pictures": [ "pois/01_domkirken_1.jpg", "pois/01_domkirken_2.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": {
-            "story": {
-                "da-DK": "0201domkirken.mp3",
-                "en-GB": "kirker_1.mp3",
-                "de-DE": "kirchen_1.mp3"
-            },
-            "next": {
-                "da-DK": "0201domkirken_1.mp3",
-                "en-GB": "kirker_1_1.mp3",
-                "de-DE": "kirchen_1_1.mp3"
-            }
-        }
+  
+      "id": 1,
+      "location": {
+        "lat": 56.450554,
+        "lng": 9.412078
+      },
+      "proximity": 25,
+      "title": "Domkirken",
+      "shortdescription": "Viborg Domkirke har ligget det samme sted i mere end 900 år, men i 1876 var der feststemning i Viborg. Kirken skulle indvies efter en næsten total ombygning, der havde strakt sig over 13 år.",
+      "text": "Du står foran Viborg Domkirke, som har ligget på dette sted i mere end 950 år. I 1876 var der feststemning i Viborg. Domkirken skulle indvies efter en næsten total ombygning, der havde strakt sig over 13 år. Den eneste bygningsdel, der blev levnet af den gamle middelalderkirke, er den halvrunde apsis og kryptrummet østligst i kirken.</p><p>På kirkens apsis ses to pragtfulde romanske løver hugget i granit, og over dem kigger et mands- og et kvindehoved ud over Nørresø. På nordtårnet er der et andet romansk granitbillede, der viser en lille drage og en kanin. Rundt langs kirken markerer kantsten i græsset de middelalderlige kapeller, blandt andet kapellet for Sct. Kjeld - Viborgs skytshelgen, der blev helgenkåret af Ærkebiskop Absalon i 1189. Indvendigt blev kirken udsmykket i årene fra 1901 til 1906 med en stor kalkmalet billedbibel under ledelse af Joakim Skovgaard. I koret markerer en mørk gravsten Kong Erik Klippings grav. Han blev slået ihjel i Finderup Lade i 1286. Historien om mordet i Finderup Lade kan du høre, hvis du vælger ruten Mindesten og Monumenter.",
+      "next": "POI_VIBORG_DOMKIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/01_domkirken_1_thumb.jpg",
+      "pictures": [ "pois/01_domkirken_1.jpg", "pois/01_domkirken_2.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/da-DK/0201domkirken.mp3"
+    },
+  
+    {
+  
+      "id": 2,
+      "location": {
+        "lat": 56.450078,
+        "lng": 9.413457
+      },
+      "proximity": 25,
+      "title": "Bispegården",
+      "shortdescription": "I middelalderen var Bispegården bolig for kantoren, som ledede Domkirkens gudstjenester. Først i 1558 blev Bispegården indrettet som bolig for Viborgs biskop.",
+      "text": "Du er nu ved Bispegården, som ligger i forlængelse af Domkirken. I middelalderen var en række af de bygninger, vi i dag kender som Bispegården, ikke bolig for biskoppen, men for kantoren, der var leder af Domkirkens gudstjenester. Bevaret til i dag er resterne af tre middelalderlige stenhuse, hvor de mest imponerende bygningsrester er tre sammenbyggede kældre, der findes i den nuværende nordfløj. I 1558 flyttede Viborgs biskop ind i bygningen. Bispegården led stor skade under den store bybrand i 1726, men blev genopbygget to år senere under ledelse af arkitekt Claus Stallknecht. Samme år blev to lindetræer plantet, der står på hver sin side af hoveddøren lige over for Domkirken.",
+      "next": "POI_BISPEGARDEN_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/02_bispegarden_1_thumb.jpg",
+      "pictures": [ "pois/02_bispegaarden_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/da-DK/0202bispegaarden.mp3"
+    },
+  
+    {
+  
+      "id": 3,
+      "location": {
+        "lat": 56.449094,
+        "lng": 9.412451
+      },
+      "proximity": 25,
+      "title": "Sct. Kjelds Kirke",
+      "shortdescription": "Det nuværende gamle hus, som stammer helt tilbage fra middelalderen, blev indviet som kirke i 1966 af den romersk-katolske menighed. Den nye kirke, som ligger her i dag, blev taget i brug i 2008.",
+      "text": "Du står ved et hvidt hus med et kors på midt i Sct. Leoni Stræde. Det rummer den katolske kirke, indviet til Viborgs skytshelgen Sct. Kjeld. Den katolske menighed i Viborg indviede sit første kapel i Morvilles Gård i Sct. Mogens Gade 8. Det nuværende gamle hus ud til Sct. Leoni Stræde, som du står ved, stammer helt tilbage fra middelalderen. I 1946 købte menigheden huset og indrettede et kapel. 20 år senere blev det indviet som kirke. I porten kan man se et murstykke med store røde munkesten, og hele kælderen er et velbevaret rum fra middelalderhuset. I en sidebygning til det gamle middelalderhus blev den nye kirke indviet i 2008. I alterbordet blev nedlagt relikvier af Sankt Gregor den Store, Sankt Thomas af Canterbury og Sankt Maria Goretti. Foran i haven ud mod Sct. Mikkels Gade lå også en af de tolv middelalderlige sognekirker, som blev nedrevet i 1529. Kirken var ca. 20 meter lang og bygget af granitsten og røde munkesten. Den benævnes skiftevis Trinitatis eller Drottens kirke. Trinitatis betyder Treenigheden og Drotten - Gud eller Herren på gammeldansk.",
+      "next": "POI_SCT_KJELDS_KIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/03_sct_kjelds_kirke_1_thumb.jpg",
+      "pictures": [ "pois/03_sct_kjelds_kirke_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/da-DK/0203sct_kjelds_kirke.mp3"
     },
     {
-
-        "id": 2,
-        "location": {
-            "lat": 56.450078,
-            "lng": 9.413457
-        },
-        "proximity": 25,
-        "title": "Bispegården",
-        "shortdescription": "I middelalderen var Bispegården bolig for kantoren, som ledede Domkirkens gudstjenester. Først i 1558 blev Bispegården indrettet som bolig for Viborgs biskop.",
-        "text": "Du er nu ved Bispegården, som ligger i forlængelse af Domkirken. I middelalderen var en række af de bygninger, vi i dag kender som Bispegården, ikke bolig for biskoppen, men for kantoren, der var leder af Domkirkens gudstjenester. Bevaret til i dag er resterne af tre middelalderlige stenhuse, hvor de mest imponerende bygningsrester er tre sammenbyggede kældre, der findes i den nuværende nordfløj. I 1558 flyttede Viborgs biskop ind i bygningen. Bispegården led stor skade under den store bybrand i 1726, men blev genopbygget to år senere under ledelse af arkitekt Claus Stallknecht. Samme år blev to lindetræer plantet, der står på hver sin side af hoveddøren lige over for Domkirken.",
-        "next": "POI_BISPEGARDEN_NEXT_DESCRIPTION",
-        "thumb": "thumbs/02_bispegarden_1_thumb.jpg",
-        "pictures": [ "pois/02_bispegaarden_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": {
-            "story": {
-                "da-DK": "0202bispegaarden.mp3",
-                "en-GB": "kirker_2.mp3",
-                "de-DE": "kirchen_2.mp3"
-            },
-            "next": {
-                "da-DK": "0202bispegaarden_1.mp3",
-                "en-GB": "kirker_2_1.mp3",
-                "de-DE": "kirchen_2_1.mp3"
-            }
-        }
-    },
-
-    {
-
-        "id": 3,
-        "location": {
-            "lat": 56.449094,
-            "lng": 9.412451
-        },
-        "proximity": 25,
-        "title": "Sct. Kjelds Kirke",
-        "shortdescription": "Det nuværende gamle hus, som stammer helt tilbage fra middelalderen, blev indviet som kirke i 1966 af den romersk-katolske menighed. Den nye kirke, som ligger her i dag, blev taget i brug i 2008.",
-        "text": "Du står ved et hvidt hus med et kors på midt i Sct. Leoni Stræde. Det rummer den katolske kirke, indviet til Viborgs skytshelgen Sct. Kjeld. Den katolske menighed i Viborg indviede sit første kapel i Morvilles Gård i Sct. Mogens Gade 8. Det nuværende gamle hus ud til Sct. Leoni Stræde, som du står ved, stammer helt tilbage fra middelalderen. I 1946 købte menigheden huset og indrettede et kapel. 20 år senere blev det indviet som kirke. I porten kan man se et murstykke med store røde munkesten, og hele kælderen er et velbevaret rum fra middelalderhuset. I en sidebygning til det gamle middelalderhus blev den nye kirke indviet i 2008. I alterbordet blev nedlagt relikvier af Sankt Gregor den Store, Sankt Thomas af Canterbury og Sankt Maria Goretti. Foran i haven ud mod Sct. Mikkels Gade lå også en af de tolv middelalderlige sognekirker, som blev nedrevet i 1529. Kirken var ca. 20 meter lang og bygget af granitsten og røde munkesten. Den benævnes skiftevis Trinitatis eller Drottens kirke. Trinitatis betyder Treenigheden og Drotten - Gud eller Herren på gammeldansk.",
-        "next": "POI_SCT_KJELDS_KIRKE_NEXT_DESCRIPTION",
-        "thumb": "thumbs/03_sct_kjelds_kirke_1_thumb.jpg",
-        "pictures": [ "pois/03_sct_kjelds_kirke_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": {
-            "story": {
-                "da-DK": "0203sct_kjelds_kirke.mp3",
-                "en-GB": "kirker_3.mp3",
-                "de-DE": "kirchen_3.mp3"
-            },
-            "next": {
-                "da-DK": "0203sct_kjelds_kirke_1.mp3",
-                "en-GB": "kirker_3_1.mp3",
-                "de-DE": "kirchen_3_1.mp3"
-            }
-        }
+  
+      "id": 4,
+      "location": {
+        "lat": 56.449102,
+        "lng": 9.412376
+      },
+      "proximity": 25,
+      "title": "Statue af Den hellige Apollonia",
+      "shortdescription": "Den hellige Apollonia var en from, ældre kvinde, der led martyrdøden under forfølgelsen af de kristne i Ægypten 249 e.Kr. Apollonia er tandlægernes skytshelgen. Bronzeskulpturen er opstillet i 1994.",
+      "text": "Du står ved trappen op til Sortebrødre Klosterkirke. Til venstre for trappen ser du statuen af Sankt Apollonia. Gaden hed tidligere Lonne Stræde og har nok fået sit navn efter Lones kilde, der lå tæt på hjørnet af Sortebrødre Kirkestræde og Sct. Leoni Gade. Både Lone og Leoni er en fordanskning for den hellige Apollonia. Hun var en from, ældre kvinde, der led martyrdøden under forfølgelsen af de kristne i Alexandria i Ægypten år 249 efter Kristi fødsel. Legenden fortæller, at hun under torturen fik slået sine tænder ud. Hun ville ikke tage afstand fra sin kristne tro og valgte i stedet at springe ind i bålet, hvor hun døde i flammerne. Hun siges at hjælpe folk med tandpine og er tandlægernes skytshelgen. På foranledning af forfatteren og museumsmanden Peter Seeberg, og med økonomisk støtte fra Dansk Tandlægeforening, skabte kunstneren Hanne Warming bronzeskulpturen af Apollonia, der blev opstillet i 1994.",
+      "next": "POI_APPOLONIA_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/04_appolonia_1_thumb.jpg",
+      "pictures": [ "pois/04_appolonia_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/da-DK/0204statue_af_den_hellige_apollonia.mp3"
     },
     {
-
-        "id": 4,
-        "location": {
-            "lat": 56.449102,
-            "lng": 9.412376
-        },
-        "proximity": 25,
-        "title": "Statue af Den hellige Apollonia",
-        "shortdescription": "Den hellige Apollonia var en from, ældre kvinde, der led martyrdøden under forfølgelsen af de kristne i Ægypten 249 e.Kr. Apollonia er tandlægernes skytshelgen. Bronzeskulpturen er opstillet i 1994.",
-        "text": "Du står ved trappen op til Sortebrødre Klosterkirke. Til venstre for trappen ser du statuen af Sankt Apollonia. Gaden hed tidligere Lonne Stræde og har nok fået sit navn efter Lones kilde, der lå tæt på hjørnet af Sortebrødre Kirkestræde og Sct. Leoni Gade. Både Lone og Leoni er en fordanskning for den hellige Apollonia. Hun var en from, ældre kvinde, der led martyrdøden under forfølgelsen af de kristne i Alexandria i Ægypten år 249 efter Kristi fødsel. Legenden fortæller, at hun under torturen fik slået sine tænder ud. Hun ville ikke tage afstand fra sin kristne tro og valgte i stedet at springe ind i bålet, hvor hun døde i flammerne. Hun siges at hjælpe folk med tandpine og er tandlægernes skytshelgen. På foranledning af forfatteren og museumsmanden Peter Seeberg, og med økonomisk støtte fra Dansk Tandlægeforening, skabte kunstneren Hanne Warming bronzeskulpturen af Apollonia, der blev opstillet i 1994.",
-        "next": "POI_APPOLONIA_NEXT_DESCRIPTION",
-        "thumb": "thumbs/04_appolonia_1_thumb.jpg",
-        "pictures": [ "pois/04_appolonia_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": {
-            "story": {
-                "da-DK": "0204statue_af_den_hellige_apollonia.mp3",
-                "en-GB": "kirker_4.mp3",
-                "de-DE": "kirchen_4.mp3"
-            },
-            "next": {
-                "da-DK": "0204statue_af_den_hellige_apollonia_1.mp3",
-                "en-GB": "kirker_4_1.mp3",
-                "de-DE": "kirchen_4_1.mp3"
-            }
-        }
+  
+      "id": 5,
+      "location": {
+        "lat": 56.449134,
+        "lng": 9.412419
+      },
+      "proximity": 25,
+      "title": "Domprovstegården",
+      "shortdescription": "Først i 1872, da domprovsten ved Viborg Domkirke flyttede ind i huset, begyndte viborgenserne at kalde huset for Domprovstegården. Tidligere havde adelsslægter til huse i bygården.",
+      "text": "Du står nu ved det brolagte og stejle Sortebrødre Kirkestræde ved siden af Domprovstegården. Adelsslægten Gyldenstierne opførte i 1480 bygningen ud mod strædet som deres bygård i Viborg. Mange af adelsslægterne havde dengang huse i Viborg, som de boede i, når de var til landsting eller til barnedåb, bryllup og begravelse i Domkirken. Da det store tugthus ved Søndersø manglede plads i 1838, blev den gamle adelsgård benyttet til kvindefængsel frem til 1856. Vagtmesteren og spindemesteren boede i forhuset.</p><p>Det var først i 1872, da domprovsten ved Viborg Domkirke flyttede ind i huset, at viborgenserne begyndte at kalde huset for Domprovstegården. Gavlen op mod Sortebrødre Kirke og facaden ud mod strædet blev renoveret 1912 og fremstår nu med de karakteristiske middelaldertræk.",
+      "next": "POI_DOMPROVSTEGARDEN_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/05_domprovstegaarden_1_thumb.jpg",
+      "pictures": [ "pois/05_domprovstegaarden_1.jpg", "pois/05_domprovstegaarden_2.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/da-DK/0205domprovstegaarden.mp3"
     },
     {
-
-        "id": 5,
-        "location": {
-            "lat": 56.449134,
-            "lng": 9.412419
-        },
-        "proximity": 25,
-        "title": "Domprovstegården",
-        "shortdescription": "Først i 1872, da domprovsten ved Viborg Domkirke flyttede ind i huset, begyndte viborgenserne at kalde huset for Domprovstegården. Tidligere havde adelsslægter til huse i bygården.",
-        "text": "Du står nu ved det brolagte og stejle Sortebrødre Kirkestræde ved siden af Domprovstegården. Adelsslægten Gyldenstierne opførte i 1480 bygningen ud mod strædet som deres bygård i Viborg. Mange af adelsslægterne havde dengang huse i Viborg, som de boede i, når de var til landsting eller til barnedåb, bryllup og begravelse i Domkirken. Da det store tugthus ved Søndersø manglede plads i 1838, blev den gamle adelsgård benyttet til kvindefængsel frem til 1856. Vagtmesteren og spindemesteren boede i forhuset.</p><p>Det var først i 1872, da domprovsten ved Viborg Domkirke flyttede ind i huset, at viborgenserne begyndte at kalde huset for Domprovstegården. Gavlen op mod Sortebrødre Kirke og facaden ud mod strædet blev renoveret 1912 og fremstår nu med de karakteristiske middelaldertræk.",
-        "next": "POI_DOMPROVSTEGARDEN_NEXT_DESCRIPTION",
-        "thumb": "thumbs/05_domprovstegaarden_1_thumb.jpg",
-        "pictures": [ "pois/05_domprovstegaarden_1.jpg", "pois/05_domprovstegaarden_2.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": {
-            "story": {
-                "da-DK": "0205domprovstegaarden.mp3",
-                "en-GB": "kirker_5.mp3",
-                "de-DE": "kirchen_5.mp3"
-            },
-            "next": {
-                "da-DK": "0205domprovstegaarden_1.mp3",
-                "en-GB": "kirker_5_1.mp3",
-                "de-DE": "kirchen_5_1.mp3"
-            }
-        }
+  
+      "id": 6,
+      "location": {
+        "lat": 56.449312,
+        "lng": 9.409910
+      },
+      "proximity": 25,
+      "title": "Sortebrødre Kirke",
+      "shortdescription": "Sortebrødrene kom til Viborg for små 800 år siden og begyndte deres kirkebyggeri. Den store røde teglstenkirke er en såkaldt langhuskirke, hvor skib og kor går ud i ét.",
+      "text": "Du står nu foran Sortebrødre Kirke, som er Viborgs eneste bevarede middelalderkirke. Sortebrødrene kom til Viborg for små 800 år siden og påbegyndte deres kirkebyggeri omkring 1240. De sidste byggearbejder på kirken blev afsluttet omkring 1300. Den store røde teglstenskirke er en såkaldt langhuskirke, hvor skib og kor går ud i ét. Kirken har nu to sideskibe. Mod nord er der tale om genanvendelse af to middelalderlige kapeller, og mod syd af den nordlige korsgang i klosteret. Af selve klosteret, hvor munkene boede, er kun bevaret det nævnte stykke af korsgangen. Det er en overhvælvet gang, der var på indersiden af de fire fløje, der omgav den lukkede klostergård. Koret rummer kirkens absolutte pragtstykke, en forgyldt fløjaltertavle, som er skåret og malet i Antwerpen i 1520-erne. Den stod ikke i kirken, da munkene boede i klosteret, men kom til byen som en gave fra Frederik 7, da kirken blev svært skadet af den store bybrand i 1726. Oprindeligt stod den på Københavns Slot. På skibets sydvæg hænger et middelalderligt krucifiks, som er købt fra Gråbrødre Kirke i 1813.",
+      "next": "POI_SORTEBRODRE_KIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/06_sortebrodre_kirke_1_thumb.jpg",
+      "pictures": [ "pois/06_sortebrodre_kirke_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/da-DK/0206sortebroedre_kirke.mp3"
     },
     {
-
-        "id": 6,
-        "location": {
-            "lat": 56.449312,
-            "lng": 9.409910
-        },
-        "proximity": 25,
-        "title": "Sortebrødre Kirke",
-        "shortdescription": "Sortebrødrene kom til Viborg for små 800 år siden og begyndte deres kirkebyggeri. Den store røde teglstenkirke er en såkaldt langhuskirke, hvor skib og kor går ud i ét.",
-        "text": "Du står nu foran Sortebrødre Kirke, som er Viborgs eneste bevarede middelalderkirke. Sortebrødrene kom til Viborg for små 800 år siden og påbegyndte deres kirkebyggeri omkring 1240. De sidste byggearbejder på kirken blev afsluttet omkring 1300. Den store røde teglstenskirke er en såkaldt langhuskirke, hvor skib og kor går ud i ét. Kirken har nu to sideskibe. Mod nord er der tale om genanvendelse af to middelalderlige kapeller, og mod syd af den nordlige korsgang i klosteret. Af selve klosteret, hvor munkene boede, er kun bevaret det nævnte stykke af korsgangen. Det er en overhvælvet gang, der var på indersiden af de fire fløje, der omgav den lukkede klostergård. Koret rummer kirkens absolutte pragtstykke, en forgyldt fløjaltertavle, som er skåret og malet i Antwerpen i 1520-erne. Den stod ikke i kirken, da munkene boede i klosteret, men kom til byen som en gave fra Frederik 7, da kirken blev svært skadet af den store bybrand i 1726. Oprindeligt stod den på Københavns Slot. På skibets sydvæg hænger et middelalderligt krucifiks, som er købt fra Gråbrødre Kirke i 1813.",
-        "next": "POI_SORTEBRODRE_KIRKE_NEXT_DESCRIPTION",
-        "thumb": "thumbs/06_sortebrodre_kirke_1_thumb.jpg",
-        "pictures": [ "pois/06_sortebrodre_kirke_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": {
-            "story": {
-                "da-DK": "0206sortebroedre_kirke.mp3",
-                "en-GB": "kirker_6.mp3",
-                "de-DE": "kirchen_6.mp3"
-            },
-            "next": {
-                "da-DK": "0206sortebroedre_kirke_1.mp3",
-                "en-GB": "kirker_6_1.mp3",
-                "de-DE": "kirchen_6_1.mp3"
-            }
-        }
+  
+      "id": 7,
+      "location": {
+        "lat": 56.449664,
+        "lng": 9.408269
+      },
+      "proximity": 25,
+      "title": "Sct. Mathias Kirke",
+      "shortdescription": "På Hjultorvet viser de grålige felter på torvet stedet, hvor Sct. Mathias Kirke lå frem til 1529. Da blev kirken revet ned sammen med byens andre elleve sognekirker som følge af reformationen.",
+      "text": "Nu er du på Hjultorvet, og de grålige felter på torvet viser stedet, hvor Sct. Mathias Kirke og kirkegård lå. På Hjultorvet lå sognekirken Sankt Mathias kirke frem til 1529, hvor den blev revet ned sammen med byens andre elleve sognekirker. Den bestod af skib, kor og en halvrund apsis og har slet ikke lignet den såkaldte kirkeskulptur midt på torvet. En arkæologisk udgravning i 1999 viste også spor efter en ældre trækirke, og ca. 250 skeletter blev udgravet. En enkel grav skilte sig ud, idet den døde havde fået et blystykke med runeindskrift med sig i graven. Indskriften tydes som en trylleformular og en bøn til jomfru Maria. Kirken er opkaldt efter apostlen Mathias eller Mads på dansk. Han blev henrettet ved halshugning og afbildes derfor enten med en økse eller en hellebard.",
+      "next": "POI_SCT_MATHIAS_KIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/07_sct_mathias_kirke_1_thumb.jpg",
+      "pictures": [ "pois/07_sct_mathias_kirke_1.jpg", "pois/07_sct_mathias_kirke_2.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/da-DK/0207sct_mathias_kirke.mp3"
     },
     {
-
-        "id": 7,
-        "location": {
-            "lat": 56.449664,
-            "lng": 9.408269
-        },
-        "proximity": 25,
-        "title": "Sct. Mathias Kirke",
-        "shortdescription": "På Hjultorvet viser de grålige felter på torvet stedet, hvor Sct. Mathias Kirke lå frem til 1529. Da blev kirken revet ned sammen med byens andre elleve sognekirker som følge af reformationen.",
-        "text": "Nu er du på Hjultorvet, og de grålige felter på torvet viser stedet, hvor Sct. Mathias Kirke og kirkegård lå. På Hjultorvet lå sognekirken Sankt Mathias kirke frem til 1529, hvor den blev revet ned sammen med byens andre elleve sognekirker. Den bestod af skib, kor og en halvrund apsis og har slet ikke lignet den såkaldte kirkeskulptur midt på torvet. En arkæologisk udgravning i 1999 viste også spor efter en ældre trækirke, og ca. 250 skeletter blev udgravet. En enkel grav skilte sig ud, idet den døde havde fået et blystykke med runeindskrift med sig i graven. Indskriften tydes som en trylleformular og en bøn til jomfru Maria. Kirken er opkaldt efter apostlen Mathias eller Mads på dansk. Han blev henrettet ved halshugning og afbildes derfor enten med en økse eller en hellebard.",
-        "next": "POI_SCT_MATHIAS_KIRKE_NEXT_DESCRIPTION",
-        "thumb": "thumbs/07_sct_mathias_kirke_1_thumb.jpg",
-        "pictures": [ "pois/07_sct_mathias_kirke_1.jpg", "pois/07_sct_mathias_kirke_2.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": {
-            "story": {
-                "da-DK": "0207sct_mathias_kirke.mp3",
-                "en-GB": "kirker_7.mp3",
-                "de-DE": "kirchen_7.mp3"
-            },
-            "next": {
-                "da-DK": "0207sct_mathias_kirke_1.mp3",
-                "en-GB": "kirker_7_1.mp3",
-                "de-DE": "kirchen_7_1.mp3"
-            }
-        }
+  
+      "id": 8,
+      "location": {
+        "lat": 56.450939,
+        "lng": 9.409632
+      },
+      "proximity": 25,
+      "title": "Sct. Hans Kirke",
+      "shortdescription": "Sct. Hans Kirke var skueplads for de tidligste protestantiske prædikener af Hans Tausen i 1500-tallet. Kirken blev revet ned i 1529, men tårnet med stormklokken blev stående indtil 1584.",
+      "text": "Nu står du på Nytorv og også oven på den tidligere Sct. Hans Kirke og kirkegård. På Nytorv udgravede Viborg Museum i 2015 fundamenterne til Sct. Hans Kirke, der bestod af skib, kor og et tårn. Arkæologerne undersøgte også ca. 650 begravelser. Sct. Hans Kirke var skueplads for de tidligste protestantiske prædikener af Hans Tausen i 1526. Da viborgenserne fik kongens tilladelse til at nedrive byens tolv sognekirker i 1529, fjernede de også Sct. Hans Kirke på nær tårnet. Her hang frem til 1584 byens stormklokke, der kaldte til slukning af ildebrand. I 1584 blev tårnet nedrevet og hele kirkegården ryddet og brolagt, da pladsen Nytorv skulle anvendes til hyldning af prins Christian, den senere Kong Christian 4. Navnet Hans er den danske form af Johannes. Kirken må derfor enten være opkaldt efter Evangelisten Johannes eller mest sandsynligt efter Johannes Døberen. Hans helgendag er den 24. juni, hvor vi tænder Sankt Hans bål aftenen før.",
+      "next": "POI_SCT_HANS_KIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/08_sct_hans_kirke_1_thumb.jpg",
+      "pictures": [ "pois/08_sct_hans_kirke_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/da-DK/0208sct_hans_kirke.mp3"
     },
     {
-
-        "id": 8,
-        "location": {
-            "lat": 56.450939,
-            "lng": 9.409632
-        },
-        "proximity": 25,
-        "title": "Sct. Hans Kirke",
-        "shortdescription": "Sct. Hans Kirke var skueplads for de tidligste protestantiske prædikener af Hans Tausen i 1500-tallet. Kirken blev revet ned i 1529, men tårnet med stormklokken blev stående indtil 1584.",
-        "text": "Nu står du på Nytorv og også oven på den tidligere Sct. Hans Kirke og kirkegård. På Nytorv udgravede Viborg Museum i 2015 fundamenterne til Sct. Hans Kirke, der bestod af skib, kor og et tårn. Arkæologerne undersøgte også ca. 650 begravelser. Sct. Hans Kirke var skueplads for de tidligste protestantiske prædikener af Hans Tausen i 1526. Da viborgenserne fik kongens tilladelse til at nedrive byens tolv sognekirker i 1529, fjernede de også Sct. Hans Kirke på nær tårnet. Her hang frem til 1584 byens stormklokke, der kaldte til slukning af ildebrand. I 1584 blev tårnet nedrevet og hele kirkegården ryddet og brolagt, da pladsen Nytorv skulle anvendes til hyldning af prins Christian, den senere Kong Christian 4. Navnet Hans er den danske form af Johannes. Kirken må derfor enten være opkaldt efter Evangelisten Johannes eller mest sandsynligt efter Johannes Døberen. Hans helgendag er den 24. juni, hvor vi tænder Sankt Hans bål aftenen før.",
-        "next": "POI_SCT_HANS_KIRKE_NEXT_DESCRIPTION",
-        "thumb": "thumbs/08_sct_hans_kirke_1_thumb.jpg",
-        "pictures": [ "pois/08_sct_hans_kirke_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": {
-            "story": {
-                "da-DK": "0208sct_hans_kirke.mp3",
-                "en-GB": "kirker_8.mp3",
-                "de-DE": "kirchen_8.mp3"
-            },
-            "next": {
-                "da-DK": "0208sct_hans_kirke_1.mp3",
-                "en-GB": "kirker_8_1.mp3",
-                "de-DE": "kirchen_8_1.mp3"
-            }
-        }
+  
+      "id": 9,
+      "location": {
+        "lat": 56.452688,
+        "lng": 9.411911
+      },
+      "proximity": 25,
+      "title": "Sct. Mogens Kirke",
+      "shortdescription": "Gennem de sidste 200 til 300 år har man på hjørnegrunden opgravet store firkantede granitsten og mange skeletter. Begge dele er spor efter den forsvundne middelalderlige Sct. Mogens Kirke og kirkegård.",
+      "text": "Du er nu på hjørnet af Rosenstræde og Sankt Mogens Gade, hvor Sankt Mogens Kirke tidligere lå. Ved flere lejligheder gennem de sidste 2-300 år har man på hjørnegrunden opgravet store tilhuggede granitsten og skeletter. Begge dele er spor af den middelalderlige Sct. Mogens Kirke og kirkegård, der blev nedrevet i 1529. Mogens er en fordanskning af det latinske ord Magnus, som betyder stor. Flere helgener har haft dette navn. Muligvis er kirken i Viborg opkaldt efter den hellige Magnus fra Italien. Men der kan også peges på Magnus fra Orkneyøerne, der var af norsk afstamning. Han blev dræbt i 1116 på en lille ø Egilsay, der betyder Ejgil Ø, og ligger begravet i Domkirken, kaldet Magnuskatedralen, i Kirkwall.",
+      "next": "POI_SCT_MOGENS_KIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/09_sct_mogens_kirke_1_thumb.jpg",
+      "pictures": [ "pois/09_sct_mogens_kirke_1.jpg", "pois/09_sct_mogens_kirke_2.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/da-DK/0209sct_mogens_kirke.mp3"
     },
     {
-
-        "id": 9,
-        "location": {
-            "lat": 56.452688,
-            "lng": 9.411911
-        },
-        "proximity": 25,
-        "title": "Sct. Mogens Kirke",
-        "shortdescription": "Gennem de sidste 200 til 300 år har man på hjørnegrunden opgravet store firkantede granitsten og mange skeletter. Begge dele er spor efter den forsvundne middelalderlige Sct. Mogens Kirke og kirkegård.",
-        "text": "Du er nu på hjørnet af Rosenstræde og Sankt Mogens Gade, hvor Sankt Mogens Kirke tidligere lå. Ved flere lejligheder gennem de sidste 2-300 år har man på hjørnegrunden opgravet store tilhuggede granitsten og skeletter. Begge dele er spor af den middelalderlige Sct. Mogens Kirke og kirkegård, der blev nedrevet i 1529. Mogens er en fordanskning af det latinske ord Magnus, som betyder stor. Flere helgener har haft dette navn. Muligvis er kirken i Viborg opkaldt efter den hellige Magnus fra Italien. Men der kan også peges på Magnus fra Orkneyøerne, der var af norsk afstamning. Han blev dræbt i 1116 på en lille ø Egilsay, der betyder Ejgil Ø, og ligger begravet i Domkirken, kaldet Magnuskatedralen, i Kirkwall.",
-        "next": "POI_SCT_MOGENS_KIRKE_NEXT_DESCRIPTION",
-        "thumb": "thumbs/09_sct_mogens_kirke_1_thumb.jpg",
-        "pictures": [ "pois/09_sct_mogens_kirke_1.jpg", "pois/09_sct_mogens_kirke_2.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": {
-            "story": {
-                "da-DK": "0209sct_mogens_kirke.mp3",
-                "en-GB": "kirker_9.mp3",
-                "de-DE": "kirchen_9.mp3"
-            },
-            "next": {
-                "da-DK": "0209sct_mogens_kirke_1.mp3",
-                "en-GB": "kirker_9_1.mp3",
-                "de-DE": "kirchen_9_1.mp3"
-            }
-        }
-    },
-    {
-
-        "id": 10,
-        "location": {
-            "lat": 56.451767,
-            "lng": 9.412397
-        },
-        "proximity": 50,
-        "title": "Gråbrødre Klosterkirke",
-        "shortdescription": "Reformationen foregik i Gråbrødrenes kirke, hvor Hans Tausen fra 1527 prædikede det protestantiske budskab for sine tilhørere.",
-        "text": "Du er nu ved Gråbrødre Kloster. Du kan komme helt tæt på klosteret, men der er lidt stejlt. Læg i øvrigt mærke til ledelinjen til baggården, som er lavet af genbrugte gamle sokkelsten til moderne gravsten.</p><p>I 1235 grundlagde gråbrødrene deres kloster i Viborg. Kirken blev benyttet til gudstjeneste frem til 1812, men blev da lukket, da den var i meget ringe bygningsmæssig stand. Den blev nedrevet i 1830, men vi kan følge murenes forløb i de klippede hække i det lille haveanlæg Hans Tausens Minde. Klosteret blev udbygget i løbet af middelalderen til et ganske stort kompleks, der bl.a. omfattede to lukkede klostergårde, en smedje og en hellig kilde – Maria Sundhedsbrønd. Nogle af bygningerne i den nordre gård findes stadig bevaret.</p><p>Reformationen foregik i Gråbrødrenes kirke, hvor Hans Tausen fra 1527 prædikede det protestantiske budskab for sine tilhørere. Klosteret blev i reformationsårene ombygget til Kong Christian III’s brug, og i 1970-erne genskabte man det rum i stueetagen, som kongen brugte, når han opholdt sig i Viborg. Rummet går i dag under navnet ”Kongens Kammer”. I 1541 bestemte kongen, at det gamle Gråbrødre Kloster skulle omdannes til et hospital, altså et hjem for syge, gamle og fattige. I dag er syv små ældreboliger indrettet i klosteret.",
-        "next": "POI_GRABRODRE_KLOSTERKIRKE_NEXT_DESCRIPTION",
-        "thumb": "thumbs/10_grabrodre_klosterkirke_1_thumb.jpg",
-        "pictures": [ "pois/10_grabrodre_klosterkirke_1.jpg" ],
-        "icon": {
-            "normal": "icons/icon_poi_church.svg",
-            "visited": "icons/icon_poi_visited_church.svg"
-        },
-        "audio": {
-            "story": {
-                "da-DK": "0210graabroedre_klosterkirke.mp3",
-                "en-GB": "kirker_10.mp3",
-                "de-DE": "kirchen_10.mp3"
-            },
-            "next": {
-                "da-DK": "0210graabroedre_klosterkirke_1.mp3",
-                "en-GB": "kirker_10_1.mp3",
-                "de-DE": "kirchen_10_1.mp3"
-            }
-        }
+  
+      "id": 10,
+      "location": {
+        "lat": 56.451767,
+        "lng": 9.412397
+      },
+      "proximity": 50,
+      "title": "Gråbrødre Klosterkirke",
+      "shortdescription": "Reformationen foregik i Gråbrødrenes kirke, hvor Hans Tausen fra 1527 prædikede det protestantiske budskab for sine tilhørere.",
+      "text": "Du er nu ved Gråbrødre Kloster. Du kan komme helt tæt på klosteret, men der er lidt stejlt. Læg i øvrigt mærke til ledelinjen til baggården, som er lavet af genbrugte gamle sokkelsten til moderne gravsten.</p><p>I 1235 grundlagde gråbrødrene deres kloster i Viborg. Kirken blev benyttet til gudstjeneste frem til 1812, men blev da lukket, da den var i meget ringe bygningsmæssig stand. Den blev nedrevet i 1830, men vi kan følge murenes forløb i de klippede hække i det lille haveanlæg Hans Tausens Minde. Klosteret blev udbygget i løbet af middelalderen til et ganske stort kompleks, der bl.a. omfattede to lukkede klostergårde, en smedje og en hellig kilde – Maria Sundhedsbrønd. Nogle af bygningerne i den nordre gård findes stadig bevaret.</p><p>Reformationen foregik i Gråbrødrenes kirke, hvor Hans Tausen fra 1527 prædikede det protestantiske budskab for sine tilhørere. Klosteret blev i reformationsårene ombygget til Kong Christian III’s brug, og i 1970-erne genskabte man det rum i stueetagen, som kongen brugte, når han opholdt sig i Viborg. Rummet går i dag under navnet ”Kongens Kammer”. I 1541 bestemte kongen, at det gamle Gråbrødre Kloster skulle omdannes til et hospital, altså et hjem for syge, gamle og fattige. I dag er syv små ældreboliger indrettet i klosteret.",
+      "next": "POI_GRABRODRE_KLOSTERKIRKE_NEXT_DESCRIPTION",
+      "thumb": "images/thumbs/10_grabrodre_klosterkirke_1_thumb.jpg",
+      "pictures": [ "pois/10_grabrodre_klosterkirke_1.jpg" ],
+      "icon": {
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
+      },
+      "audio": "data/sevaerdighederData/audio/da-DK/0210graabroedre_klosterkirke.mp3"
     }
-]
+  
+  ]

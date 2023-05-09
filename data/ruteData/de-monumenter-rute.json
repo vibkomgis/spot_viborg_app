@@ -41,7 +41,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "data/sevaerdighederData/audio/de-DE/kirchen_2.mp3"
+    "audio": "data/sevaerdighederData/audio/de-DE/denkmaler_2.mp3"
   },
 
   {
@@ -62,7 +62,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "data/sevaerdighederData/audio/de-DE/kirchen_3.mp3"
+    "audio": "data/sevaerdighederData/audio/de-DE/denkmaler_3.mp3"
   },
 
   {
@@ -83,7 +83,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "data/sevaerdighederData/audio/de-DE/kirchen_4.mp3"
+    "audio": "data/sevaerdighederData/audio/de-DE/denkmaler_4.mp3"
   },
   {
 
@@ -104,7 +104,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "data/sevaerdighederData/audio/de-DE/kirchen_5.mp3"
+    "audio": "data/sevaerdighederData/audio/de-DE/denkmaler_5.mp3"
   },
   {
 
@@ -124,7 +124,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "data/sevaerdighederData/audio/de-DE/kirchen_6.mp3"
+    "audio": "data/sevaerdighederData/audio/de-DE/denkmaler_6.mp3"
   },
   {
 
@@ -144,7 +144,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "data/sevaerdighederData/audio/de-DE/kirchen_7.mp3"
+    "audio": "data/sevaerdighederData/audio/de-DE/denkmaler_7.mp3"
   },
   {
 
@@ -164,7 +164,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "data/sevaerdighederData/audio/de-DE/kirchen_8.mp3"
+    "audio": "data/sevaerdighederData/audio/de-DE/denkmaler_8.mp3"
   },
   {
 
@@ -184,7 +184,7 @@
       "normal": "icons/icon_poi_art.svg",
       "visited": "icons/icon_poi_visited_art.svg"
     },
-    "audio": "data/sevaerdighederData/audio/de-DE/kirchen_9.mp3"
+    "audio": "data/sevaerdighederData/audio/de-DE/denkmaler_9.mp3"
   }
 
 ]

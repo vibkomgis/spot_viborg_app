@@ -43,9 +43,9 @@ mapHemmelige.addControl(L.control.basemaps({
 
 // troels fixer kortet
 // https://stackoverflow.com/questions/53879753/leaflet-map-does-not-appear-correctly-until-resize
-setTimeout(function () {
-  mapHemmelige.invalidateSize(true);
-}, 5000 );
+setInterval(function () {
+  mapHemmelige.invalidateSize();
+}, 100);
 
 function locationHashChanged() {
     if (window.location.hash === "#routeHemmelige") {

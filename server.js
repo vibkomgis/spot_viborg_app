@@ -467,7 +467,29 @@ const server = http.createServer((req, res) => {
         res.end(data);
       }
     });
-  } else if (req.url === '/images/kirkebanner.png') {
+  } else if (req.url === '/icons/orto.png') {
+    fs.readFile('icons/orto.png', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'image/png');
+        res.end(data);
+      }
+    });
+  } else if (req.url === '/icons/topo.png') {
+    fs.readFile('icons/topo.png', (err, data) => {
+      if (err) {
+        res.statusCode = 500;
+        res.end(`Error getting the file: ${err}.`);
+      } else {
+        res.statusCode = 200;
+        res.setHeader('Content-Type', 'image/png');
+        res.end(data);
+      }
+    });
+  }else if (req.url === '/images/kirkebanner.png') {
     fs.readFile('images/kirkebanner.png', (err, data) => {
       if (err) {
         res.statusCode = 500;

@@ -17,21 +17,21 @@ lc.start();
 // Her tilføjes topo og ortofoto til kortet. 
 // https://github.com/consbio/Leaflet.Basemaps
 var basemaps = [
- L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-  maxZoom: 19,
-  minZoom: 0,
-  attribution: myAttributionText,
-
-}),
-L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallayers=TRUE', {
-  attribution: myAttributionText,
-  token: dftoken,
-  layers: 'orto_foraar',
-  format: 'image/png',
-  maxZoom: 20,
-  minZoom: 0,
-
-})
+  L.tileLayer.wms('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+   maxZoom: 19,
+   minZoom: 0,
+   attribution: myAttributionText,
+   iconURL: 'icons/topo.png'
+ }),
+ L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallayers=TRUE', {
+   attribution: myAttributionText,
+   token: dftoken,
+   layers: 'orto_foraar',
+   format: 'image/png',
+   maxZoom: 20,
+   minZoom: 0,
+   iconURL: 'icons/orto.png'
+ })
 ]
 mapHemmelige.addControl(L.control.basemaps({
   basemaps: basemaps,

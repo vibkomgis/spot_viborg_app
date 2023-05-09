@@ -21,7 +21,7 @@ var basemaps = [
   maxZoom: 19,
   minZoom: 0,
   attribution: myAttributionText,
-
+  iconURL: 'icons/topo.png'
 }),
 L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallayers=TRUE', {
   attribution: myAttributionText,
@@ -30,7 +30,7 @@ L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallay
   format: 'image/png',
   maxZoom: 20,
   minZoom: 0,
-
+  iconURL: 'icons/orto.png'
 })
 ]
 mymap.addControl(L.control.basemaps({

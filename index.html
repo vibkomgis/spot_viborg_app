@@ -472,14 +472,32 @@
 
     // skjul/vis rutebeskrivelser
     $('li#kirkerute').click(function () {
-      $('li#kirkerute .dropdown-content').toggle();
-    });
-    $('li#monumentrute').click(function () {
-      $('li#monumentrute .dropdown-content').toggle();
-    });
-    $('li#hemmeligruten').click(function () {
-      $('li#hemmeligruten .dropdown-content').toggle();
-    });
+    $('li#kirkerute .dropdown-content').toggle();
+    if ($('li#kirkerute .dropdown-content').is(':visible')) {
+      $('html, body').animate({
+        scrollTop: $('li#kirkerute .dropdown-content').offset().top
+      }, 500);
+    }
+  });
+
+  $('li#monumentrute').click(function () {
+    $('li#monumentrute .dropdown-content').toggle();
+    if ($('li#monumentrute .dropdown-content').is(':visible')) {
+      $('html, body').animate({
+        scrollTop: $('li#monumentrute .dropdown-content').offset().top
+      }, 500);
+    }
+  });
+
+  $('li#hemmeligruten').click(function () {
+    $('li#hemmeligruten .dropdown-content').toggle();
+    if ($('li#hemmeligruten .dropdown-content').is(':visible')) {
+      $('html, body').animate({
+        scrollTop: $('li#hemmeligruten .dropdown-content').offset().top
+      }, 500);
+    }
+  });
+
 
   </script>
   <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>

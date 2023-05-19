@@ -15,6 +15,8 @@ function setFetchData(aa) {
         monumenterData = 'data/ruteData/en-monumenter-rute.json';
         fetchFacilities = 'data/facilities/facilities-en.json'
         info = "Learn more"
+        document.documentElement.lang = 'en';
+
     }
     else if (aa === 'de') {
         stederData = 'data/sevaerdighederData/de-short.json';
@@ -23,6 +25,8 @@ function setFetchData(aa) {
         monumenterData = 'data/ruteData/de-monumenter-rute.json';
         fetchFacilities = 'data/facilities/facilities-de.json'
         info = "Erfahren Sie mehr"
+        document.documentElement.lang = 'de';
+        
     }
     else {
         stederData = 'data/sevaerdighederData/da-short.json';
@@ -31,6 +35,8 @@ function setFetchData(aa) {
         monumenterData = 'data/ruteData/da-monumenter-rute.json';
         fetchFacilities = 'data/facilities/facilities-da.json'
         info = "Hør mere her"
+        document.documentElement.lang = 'da';
+
     }
 
     const event = new Event('fetchDataUpdated');

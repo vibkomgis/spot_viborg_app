@@ -109,6 +109,7 @@ fetch(stederData)
           objectStore.createIndex('handicap', 'handicap', { unique: false });
           objectStore.createIndex('audio', 'audio', { unique: false });
 
+          
           // Tilføj data til objectstore
           pois.forEach(obj => objectStore.add(obj));
         };
@@ -143,8 +144,13 @@ fetch(stederData)
         
             list.appendChild(listItem);
 
+            
             listItem.addEventListener('click', function() {
-              window.location.href = "public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&text=" + encodeURIComponent(poi.text) + "&audio=" + encodeURIComponent(poi.audio);
+              window.location.href = "public/poiPage.html?" +
+              "id=" + encodeURIComponent(poi.id) +
+              "&title=" + encodeURIComponent(poi.title) +
+              "&text=" + encodeURIComponent(poi.text) +
+              "&audio=" + encodeURIComponent(poi.audio) 
             });
             
           })
@@ -165,10 +171,10 @@ fetch(stederData)
               });
               
 
-        
+              let lang = document.documentElement.lang;
               // Lav basismarkør
               let marker = L.marker([poi.location.lat, poi.location.lng], {icon: myIcon}).addTo(mymap)
-              .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/> <a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&audio=" + encodeURIComponent(poi.audio) + "&text=" + encodeURIComponent(poi.text)+"'>"+ info + "</a>" + (poi.handicap ? "<br/><br>" + poi.handicap + "<br/><br/>" : "" ));
+              .bindPopup("<b>" + poi.title + "</b><br />" + poi.shortdescription + "<br/> <a href='public/poiPage.html?id=" + encodeURIComponent(poi.id) +"&title=" + encodeURIComponent(poi.title) + "&lang=" + lang + "&audio=" + encodeURIComponent(poi.audio) + "&text=" + encodeURIComponent(poi.text)+"'>"+ info + "</a>" + (poi.handicap ? "<br/><br>" + poi.handicap + "<br/><br/>" : "" ));
 
                   
           });

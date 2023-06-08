@@ -250,32 +250,23 @@
       {
         "visible": false,
         "location": {
-          "lat": 56.451461,
-          "lng": 9.412448
-        }
-      },
-      {
-        "visible": false,
-        "location": {
-          "lat": 56.451473,
-          "lng": 9.412352
-        }
-      },
-      {
-        "visible": false,
-        "location": {
-          "lat": 56.451538,
-          "lng": 9.412373
+          "lat": 56.45154,
+          "lng": 9.41235
         }
       },
 
       {
         "visible": false,
         "location": {
-          "lat": 56.451417,
-          "lng": 9.412238
+          "lat": 56.451461,
+          "lng": 9.412448
         }
       },
+
+
+
+
+
 
       {
         "visible": false,
@@ -284,6 +275,7 @@
           "lng": 9.411410
         }
       },
+
       {
         "visible": false,
         "location": {

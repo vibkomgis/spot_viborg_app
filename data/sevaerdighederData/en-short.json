@@ -106,8 +106,8 @@
 
     "id": 6,
     "location": {
-      "lat": 56.449312,
-      "lng": 9.409910
+        "lat": 56.44932,
+        "lng": 9.41054
     },
     "proximity": 25,
     "title": "Sortebrødre Church",
@@ -126,8 +126,8 @@
 
     "id": 7,
     "location": {
-      "lat": 56.449664,
-      "lng": 9.408269
+        "lat": 56.45000,
+        "lng": 9.40836
     },
     "proximity": 25,
     "title": "Church of St. Mathias",
@@ -440,8 +440,8 @@
 
     "id": 23,
     "location": {
-      "lat": 56.450020,
-      "lng": 9.410426
+        "lat": 56.45013,
+        "lng": 9.41050
     },
     "proximity": 25,
     "title": "Latinerhaven (the Latin Garden)",
@@ -562,8 +562,8 @@
 
     "id": 29,
     "location": {
-      "lat": 56.451454,
-      "lng": 9.411374
+        "lat": 56.45146,
+        "lng": 9.41177
     },
     "proximity": 25,
     "title": "Billen er dum (unpopular schoolmarm)",
@@ -582,8 +582,8 @@
 
     "id": 30,
     "location": {
-      "lat": 56.451238,
-      "lng": 9.412415
+        "lat": 56.45146,
+        "lng": 9.41263
     },
     "proximity": 25,
     "title": "The Western High Court and Bridge of Sighs",

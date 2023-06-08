@@ -2,12 +2,12 @@
 
 
 
-    {
-  
+  {
+
       "id": 1,
       "location": {
-        "lat": 56.450554,
-        "lng": 9.412078
+          "lat": 56.450554,
+          "lng": 9.412078
       },
       "proximity": 25,
       "title": "Dom zu Viborg",
@@ -17,17 +17,17 @@
       "thumb": "images/thumbs/01_domkirken_1_thumb.jpg",
       "pictures": [ "pois/01_domkirken_1.jpg", "pois/01_domkirken_2.jpg" ],
       "icon": {
-        "normal": "icons/icon_poi_church.svg",
-        "visited": "icons/icon_poi_visited_church.svg"
+          "normal": "icons/icon_poi_church.svg",
+          "visited": "icons/icon_poi_visited_church.svg"
       },
       "audio": "data/sevaerdighederData/audio/de-DE/kirchen_1.mp3"
-    },
-    {
-  
+  },
+  {
+
       "id": 2,
       "location": {
-        "lat": 56.450078,
-        "lng": 9.413457
+          "lat": 56.450078,
+          "lng": 9.413457
       },
       "proximity": 25,
       "title": "Bischofshof",
@@ -37,18 +37,18 @@
       "thumb": "images/thumbs/02_bispegarden_1_thumb.jpg",
       "pictures": [ "pois/02_bispegaarden_1.jpg" ],
       "icon": {
-        "normal": "icons/icon_poi_church.svg",
-        "visited": "icons/icon_poi_visited_church.svg"
+          "normal": "icons/icon_poi_church.svg",
+          "visited": "icons/icon_poi_visited_church.svg"
       },
       "audio": "data/sevaerdighederData/audio/de-DE/kirchen_2.mp3"
-    },
-  
-    {
-  
+  },
+
+  {
+
       "id": 3,
       "location": {
-        "lat": 56.449094,
-        "lng": 9.412451
+          "lat": 56.449094,
+          "lng": 9.412451
       },
       "proximity": 25,
       "title": "Sankt-Kjeld-Kirche",
@@ -58,17 +58,17 @@
       "thumb": "images/thumbs/03_sct_kjelds_kirke_1_thumb.jpg",
       "pictures": [ "pois/03_sct_kjelds_kirke_1.jpg" ],
       "icon": {
-        "normal": "icons/icon_poi_church.svg",
-        "visited": "icons/icon_poi_visited_church.svg"
+          "normal": "icons/icon_poi_church.svg",
+          "visited": "icons/icon_poi_visited_church.svg"
       },
       "audio": "data/sevaerdighederData/audio/de-DE/kirchen_3.mp3"
-    },
-    {
-  
+  },
+  {
+
       "id": 4,
       "location": {
-        "lat": 56.449102,
-        "lng": 9.412376
+          "lat": 56.449102,
+          "lng": 9.412376
       },
       "proximity": 25,
       "title": "Statue der heiligen Apollonia",
@@ -78,17 +78,17 @@
       "thumb": "images/thumbs/04_appolonia_1_thumb.jpg",
       "pictures": [ "pois/04_appolonia_1.jpg" ],
       "icon": {
-        "normal": "icons/icon_poi_church.svg",
-        "visited": "icons/icon_poi_visited_church.svg"
+          "normal": "icons/icon_poi_church.svg",
+          "visited": "icons/icon_poi_visited_church.svg"
       },
       "audio": "data/sevaerdighederData/audio/de-DE/kirchen_4.mp3"
-    },
-    {
-  
+  },
+  {
+
       "id": 5,
       "location": {
-        "lat": 56.449134,
-        "lng": 9.412419
+          "lat": 56.449134,
+          "lng": 9.412419
       },
       "proximity": 25,
       "title": "Dompropsthof",
@@ -98,17 +98,17 @@
       "thumb": "images/thumbs/05_domprovstegaarden_1_thumb.jpg",
       "pictures": [ "pois/05_domprovstegaarden_1.jpg", "pois/05_domprovstegaarden_2.jpg" ],
       "icon": {
-        "normal": "icons/icon_poi_church.svg",
-        "visited": "icons/icon_poi_visited_church.svg"
+          "normal": "icons/icon_poi_church.svg",
+          "visited": "icons/icon_poi_visited_church.svg"
       },
       "audio": "data/sevaerdighederData/audio/de-DE/kirchen_5.mp3"
-    },
-    {
-  
+  },
+  {
+
       "id": 6,
       "location": {
-        "lat": 56.449312,
-        "lng": 9.409910
+          "lat": 56.44932,
+          "lng": 9.41054
       },
       "proximity": 25,
       "title": "Dominikanerkirche",
@@ -118,17 +118,17 @@
       "thumb": "images/thumbs/06_sortebrodre_kirke_1_thumb.jpg",
       "pictures": [ "pois/06_sortebrodre_kirke_1.jpg" ],
       "icon": {
-        "normal": "icons/icon_poi_church.svg",
-        "visited": "icons/icon_poi_visited_church.svg"
+          "normal": "icons/icon_poi_church.svg",
+          "visited": "icons/icon_poi_visited_church.svg"
       },
       "audio": "data/sevaerdighederData/audio/de-DE/kirchen_6.mp3"
-    },
-    {
-  
+  },
+  {
+
       "id": 7,
       "location": {
-        "lat": 56.449664,
-        "lng": 9.408269
+          "lat": 56.45000,
+          "lng": 9.40836
       },
       "proximity": 25,
       "title": "Sankt-Matthias-Kirche",
@@ -138,17 +138,17 @@
       "thumb": "images/thumbs/07_sct_mathias_kirke_1_thumb.jpg",
       "pictures": [ "pois/07_sct_mathias_kirke_1.jpg", "pois/07_sct_mathias_kirke_2.jpg" ],
       "icon": {
-        "normal": "icons/icon_poi_church.svg",
-        "visited": "icons/icon_poi_visited_church.svg"
+          "normal": "icons/icon_poi_church.svg",
+          "visited": "icons/icon_poi_visited_church.svg"
       },
       "audio": "data/sevaerdighederData/audio/de-DE/kirchen_7.mp3"
-    },
-    {
-  
+  },
+  {
+
       "id": 8,
       "location": {
-        "lat": 56.450939,
-        "lng": 9.409632
+          "lat": 56.450939,
+          "lng": 9.409632
       },
       "proximity": 25,
       "title": "Sankt-Hans-Kirche",
@@ -158,17 +158,17 @@
       "thumb": "images/thumbs/08_sct_hans_kirke_1_thumb.jpg",
       "pictures": [ "pois/08_sct_hans_kirke_1.jpg" ],
       "icon": {
-        "normal": "icons/icon_poi_church.svg",
-        "visited": "icons/icon_poi_visited_church.svg"
+          "normal": "icons/icon_poi_church.svg",
+          "visited": "icons/icon_poi_visited_church.svg"
       },
       "audio": "data/sevaerdighederData/audio/de-DE/kirchen_8.mp3"
-    },
-    {
-  
+  },
+  {
+
       "id": 9,
       "location": {
-        "lat": 56.452688,
-        "lng": 9.411911
+          "lat": 56.452688,
+          "lng": 9.411911
       },
       "proximity": 25,
       "title": "Sankt-Mogens-Kirche",
@@ -178,17 +178,17 @@
       "thumb": "images/thumbs/09_sct_mogens_kirke_1_thumb.jpg",
       "pictures": [ "pois/09_sct_mogens_kirke_1.jpg", "pois/09_sct_mogens_kirke_2.jpg" ],
       "icon": {
-        "normal": "icons/icon_poi_church.svg",
-        "visited": "icons/icon_poi_visited_church.svg"
+          "normal": "icons/icon_poi_church.svg",
+          "visited": "icons/icon_poi_visited_church.svg"
       },
       "audio": "data/sevaerdighederData/audio/de-DE/kirchen_9.mp3"
-    },
-    {
-  
+  },
+  {
+
       "id": 10,
       "location": {
-        "lat": 56.451767,
-        "lng": 9.412397
+          "lat": 56.451767,
+          "lng": 9.412397
       },
       "proximity": 50,
       "title": "Franziskanerkirche",
@@ -198,11 +198,11 @@
       "thumb": "images/thumbs/10_grabrodre_klosterkirke_1_thumb.jpg",
       "pictures": [ "pois/10_grabrodre_klosterkirke_1.jpg" ],
       "icon": {
-        "normal": "icons/icon_poi_church.svg",
-        "visited": "icons/icon_poi_visited_church.svg"
+          "normal": "icons/icon_poi_church.svg",
+          "visited": "icons/icon_poi_visited_church.svg"
       },
       "audio": "data/sevaerdighederData/audio/de-DE/kirchen_10.mp3"
-    }
-  
-  
-  ]
+  }
+
+
+]

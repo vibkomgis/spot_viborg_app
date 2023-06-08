@@ -113,10 +113,40 @@
       {
         "visible": false,
         "location": {
+          "lat": 56.45033,
+          "lng": 9.41119
+        }
+      },
+
+
+
+      {
+        "visible": false,
+        "location": {
+          "lat": 56.45055,
+          "lng": 9.41117
+        }
+      },
+
+      {
+        "visible": false,
+        "location": {
+          "lat": 56.45056,
+          "lng": 9.41096
+        }
+      },
+
+      
+
+      {
+        "visible": false,
+        "location": {
           "lat": 56.450560,
           "lng": 9.410806
         }
       },
+
+
 
 
       {
@@ -126,6 +156,9 @@
           "lng": 9.410808
         }
       },
+
+
+
       {
         "visible": false,
         "location": {
@@ -133,6 +166,9 @@
           "lng": 9.410416
         }
       },
+
+
+
       {
         "visible": false,
         "location": {
@@ -147,6 +183,8 @@
           "lng": 9.410306
         }
       },
+
+
       {
         "visible": false,
         "location": {
@@ -154,6 +192,9 @@
           "lng": 9.410273
         }
       },
+
+
+
       {
         "visible": false,
         "location": {

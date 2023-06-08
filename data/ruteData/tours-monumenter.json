@@ -357,12 +357,13 @@
         }
       },
 
+
       {
 
         "visible": false,
         "location": {
-          "lat": 56.450803,
-          "lng": 9.412309
+          "lat": 56.45088,
+          "lng": 9.41232
         }
       },
       {
@@ -373,6 +374,10 @@
           "lng": 9.412268
         }
       },
+
+
+
+
       {
 
         "visible": false,
@@ -381,14 +386,29 @@
           "lng": 9.412102
         }
       },
+
+
+
       {
 
         "visible": false,
         "location": {
-          "lat": 56.450554,
-          "lng": 9.412078
+          "lat": 56.45080,
+          "lng": 9.41198
         }
       },
+
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.45058,
+          "lng": 9.41196
+        }
+      },
+
+
       {
         "visible": false,
         "location": {

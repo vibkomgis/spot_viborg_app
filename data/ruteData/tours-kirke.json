@@ -77,14 +77,41 @@
       },
 
 
+
+
+
+
+
+
+
       {
 
         "visible": false,
         "location": {
-          "lat": 56.449415,
-          "lng": 9.412727
+          "lat": 56.44907,
+          "lng": 9.41244
         }
       },
+
+
+      {
+
+        "visible": false,
+        "location": {
+          "lat": 56.44911,
+          "lng": 9.41236
+        }
+      },
+
+
+
+
+
+
+
+
+
+
       {
 
         "visible": false,

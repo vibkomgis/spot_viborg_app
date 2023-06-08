@@ -5,8 +5,8 @@
 
     "id": 1,
     "location": {
-      "lat": 56.450554,
-      "lng": 9.412078
+        "lat": 56.450554,
+        "lng": 9.412078
     },
     "proximity": 25,
     "title": "Domkirken",
@@ -16,18 +16,18 @@
     "thumb": "images/thumbs/01_domkirken_1_thumb.jpg",
     "pictures": [ "pois/01_domkirken_1.jpg", "pois/01_domkirken_2.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_church.svg",
-      "visited": "icons/icon_poi_visited_church.svg"
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0201domkirken.mp3"
-  },
+},
 
-  {
+{
 
     "id": 2,
     "location": {
-      "lat": 56.450078,
-      "lng": 9.413457
+        "lat": 56.450078,
+        "lng": 9.413457
     },
     "proximity": 25,
     "title": "Bispegården",
@@ -37,18 +37,18 @@
     "thumb": "images/thumbs/02_bispegarden_1_thumb.jpg",
     "pictures": [ "pois/02_bispegaarden_1.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_church.svg",
-      "visited": "icons/icon_poi_visited_church.svg"
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0202bispegaarden.mp3"
-  },
+},
 
-  {
+{
 
     "id": 3,
     "location": {
-      "lat": 56.449094,
-      "lng": 9.412451
+        "lat": 56.449094,
+        "lng": 9.412451
     },
     "proximity": 25,
     "title": "Sct. Kjelds Kirke",
@@ -58,17 +58,17 @@
     "thumb": "images/thumbs/03_sct_kjelds_kirke_1_thumb.jpg",
     "pictures": [ "pois/03_sct_kjelds_kirke_1.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_church.svg",
-      "visited": "icons/icon_poi_visited_church.svg"
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0203sct_kjelds_kirke.mp3"
-  },
-  {
+},
+{
 
     "id": 4,
     "location": {
-      "lat": 56.449102,
-      "lng": 9.412376
+        "lat": 56.449102,
+        "lng": 9.412376
     },
     "proximity": 25,
     "title": "Statue af Den hellige Apollonia",
@@ -78,17 +78,17 @@
     "thumb": "images/thumbs/04_appolonia_1_thumb.jpg",
     "pictures": [ "pois/04_appolonia_1.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_church.svg",
-      "visited": "icons/icon_poi_visited_church.svg"
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0204statue_af_den_hellige_apollonia.mp3"
-  },
-  {
+},
+{
 
     "id": 5,
     "location": {
-      "lat": 56.449134,
-      "lng": 9.412419
+        "lat": 56.449134,
+        "lng": 9.412419
     },
     "proximity": 25,
     "title": "Domprovstegården",
@@ -98,17 +98,17 @@
     "thumb": "images/thumbs/05_domprovstegaarden_1_thumb.jpg",
     "pictures": [ "pois/05_domprovstegaarden_1.jpg", "pois/05_domprovstegaarden_2.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_church.svg",
-      "visited": "icons/icon_poi_visited_church.svg"
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0205domprovstegaarden.mp3"
-  },
-  {
+},
+{
 
     "id": 6,
     "location": {
-      "lat": 56.449312,
-      "lng": 9.409910
+        "lat": 56.44932,
+        "lng": 9.41054
     },
     "proximity": 25,
     "title": "Sortebrødre Kirke",
@@ -118,17 +118,17 @@
     "thumb": "images/thumbs/06_sortebrodre_kirke_1_thumb.jpg",
     "pictures": [ "pois/06_sortebrodre_kirke_1.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_church.svg",
-      "visited": "icons/icon_poi_visited_church.svg"
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0206sortebroedre_kirke.mp3"
-  },
-  {
+},
+{
 
     "id": 7,
     "location": {
-      "lat": 56.449664,
-      "lng": 9.408269
+        "lat": 56.45000,
+        "lng": 9.40836
     },
     "proximity": 25,
     "title": "Sct. Mathias Kirke",
@@ -138,17 +138,17 @@
     "thumb": "images/thumbs/07_sct_mathias_kirke_1_thumb.jpg",
     "pictures": [ "pois/07_sct_mathias_kirke_1.jpg", "pois/07_sct_mathias_kirke_2.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_church.svg",
-      "visited": "icons/icon_poi_visited_church.svg"
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0207sct_mathias_kirke.mp3"
-  },
-  {
+},
+{
 
     "id": 8,
     "location": {
-      "lat": 56.450939,
-      "lng": 9.409632
+        "lat": 56.450939,
+        "lng": 9.409632
     },
     "proximity": 25,
     "title": "Sct. Hans Kirke",
@@ -158,17 +158,17 @@
     "thumb": "images/thumbs/08_sct_hans_kirke_1_thumb.jpg",
     "pictures": [ "pois/08_sct_hans_kirke_1.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_church.svg",
-      "visited": "icons/icon_poi_visited_church.svg"
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0208sct_hans_kirke.mp3"
-  },
-  {
+},
+{
 
     "id": 9,
     "location": {
-      "lat": 56.452688,
-      "lng": 9.411911
+        "lat": 56.452688,
+        "lng": 9.411911
     },
     "proximity": 25,
     "title": "Sct. Mogens Kirke",
@@ -178,17 +178,17 @@
     "thumb": "images/thumbs/09_sct_mogens_kirke_1_thumb.jpg",
     "pictures": [ "pois/09_sct_mogens_kirke_1.jpg", "pois/09_sct_mogens_kirke_2.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_church.svg",
-      "visited": "icons/icon_poi_visited_church.svg"
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0209sct_mogens_kirke.mp3"
-  },
-  {
+},
+{
 
     "id": 10,
     "location": {
-      "lat": 56.451767,
-      "lng": 9.412397
+        "lat": 56.451767,
+        "lng": 9.412397
     },
     "proximity": 50,
     "title": "Gråbrødre Klosterkirke",
@@ -198,11 +198,11 @@
     "thumb": "images/thumbs/10_grabrodre_klosterkirke_1_thumb.jpg",
     "pictures": [ "pois/10_grabrodre_klosterkirke_1.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_church.svg",
-      "visited": "icons/icon_poi_visited_church.svg"
+        "normal": "icons/icon_poi_church.svg",
+        "visited": "icons/icon_poi_visited_church.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0210graabroedre_klosterkirke.mp3"
-  },
+},
 
 
 
@@ -401,8 +401,8 @@
 
     "id": 21,
     "location": {
-      "lat": 56.45066,
-      "lng": 9.41223
+        "lat": 56.45066,
+        "lng": 9.41223
     },
     "proximity": 25,
     "title": "Stormklokken på Domkirkens tårn",
@@ -412,17 +412,17 @@
     "thumb": "images/thumbs/21_stormklokken_1_thumb.jpg",
     "pictures": [ "pois/21_stormklokken_1.jpg", "pois/21_stormklokken_2.jpg", "pois/21_stormklokken_3.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_hidden_places.svg",
-      "visited": "icons/icon_poi_visited_hidden_places.svg"
+        "normal": "icons/icon_poi_hidden_places.svg",
+        "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0101stormklokken_paa_domkirkens_taarn.mp3"
-  },
-  {
+},
+{
 
     "id": 22,
     "location": {
-      "lat": 56.450297,
-      "lng": 9.411547
+        "lat": 56.450297,
+        "lng": 9.411547
     },
     "proximity": 25,
     "title": "Skovgaard Museets have",
@@ -433,17 +433,17 @@
     "thumb": "images/thumbs/22_skovgardmuseets_have_1_thumb.jpg",
     "pictures": [ "pois/22_skovgardmuseets_have_1.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_hidden_places.svg",
-      "visited": "icons/icon_poi_visited_hidden_places.svg"
+        "normal": "icons/icon_poi_hidden_places.svg",
+        "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0102haven_bag_skovgaard_museet.mp3"
-  },
-  {
+},
+{
 
     "id": 23,
     "location": {
-      "lat": 56.450020,
-      "lng": 9.410426
+        "lat": 56.45013,
+        "lng": 9.41050
     },
     "proximity": 25,
     "title": "Latinerhaven",
@@ -454,17 +454,17 @@
     "thumb": "images/thumbs/23_latinerhaven_1_thumb.jpg",
     "pictures": [ "pois/23_latinerhaven_1.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_hidden_places.svg",
-      "visited": "icons/icon_poi_visited_hidden_places.svg"
+        "normal": "icons/icon_poi_hidden_places.svg",
+        "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0103latinerhaven.mp3"
-  },
-  {
+},
+{
 
     "id": 24,
     "location": {
-      "lat": 56.451082,
-      "lng": 9.409177
+        "lat": 56.451082,
+        "lng": 9.409177
     },
     "proximity": 25,
     "title": "Margrethekælderen",
@@ -475,17 +475,17 @@
     "thumb": "images/thumbs/24_margrethekaelderen_1_thumb.jpg",
     "pictures": [ "pois/24_margrethekaelderen_1.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_hidden_places.svg",
-      "visited": "icons/icon_poi_visited_hidden_places.svg"
+        "normal": "icons/icon_poi_hidden_places.svg",
+        "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0104margrethekaelderen.mp3"
-  },
-  {
+},
+{
 
     "id": 25,
     "location": {
-      "lat": 56.451093,
-      "lng": 9.409374
+        "lat": 56.451093,
+        "lng": 9.409374
     },
     "proximity": 25,
     "title": "Amtmands-gården",
@@ -495,17 +495,17 @@
     "thumb": "images/thumbs/25_amtmands_garden_1_thumb.jpg",
     "pictures": [ "pois/25_amtmands_garden_1.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_hidden_places.svg",
-      "visited": "icons/icon_poi_visited_hidden_places.svg"
+        "normal": "icons/icon_poi_hidden_places.svg",
+        "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0105stiftamtmandsgaarden.mp3"
-  },
-  {
+},
+{
 
     "id": 26,
     "location": {
-      "lat": 56.451040,
-      "lng": 9.409846
+        "lat": 56.451040,
+        "lng": 9.409846
     },
     "proximity": 25,
     "title": "De gamle købmandsgårde",
@@ -515,17 +515,17 @@
     "thumb": "images/thumbs/26_de_gamle_kobmandsgarde_1_thumb.jpg",
     "pictures": [ "pois/26_de_gamle_kobmandsgarde_1.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_hidden_places.svg",
-      "visited": "icons/icon_poi_visited_hidden_places.svg"
+        "normal": "icons/icon_poi_hidden_places.svg",
+        "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0106de_gamle_koebmandsgaarde.mp3"
-  },
-  {
+},
+{
 
     "id": 27,
     "location": {
-      "lat": 56.450917,
-      "lng": 9.411255
+        "lat": 56.450917,
+        "lng": 9.411255
     },
     "proximity": 25,
     "title": "Værtshuset Paradiset",
@@ -535,17 +535,17 @@
     "thumb": "images/thumbs/27_vaertshuset_paradiset_1_thumb.jpg",
     "pictures": [ "pois/27_vaertshuset_paradiset_1.jpg", "pois/27_vaertshuset_paradiset_2.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_hidden_places.svg",
-      "visited": "icons/icon_poi_visited_hidden_places.svg"
+        "normal": "icons/icon_poi_hidden_places.svg",
+        "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0107vaertshuset_paradiset.mp3"
-  },
-  {
+},
+{
 
     "id": 28,
     "location": {
-      "lat": 56.453058,
-      "lng": 9.411919
+        "lat": 56.453058,
+        "lng": 9.411919
     },
     "proximity": 25,
     "title": "Karnapgården",
@@ -555,17 +555,17 @@
     "thumb": "images/thumbs/28_karnapgarden_1_thumb.jpg",
     "pictures": [ "pois/28_karnapgarden_1.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_hidden_places.svg",
-      "visited": "icons/icon_poi_visited_hidden_places.svg"
+        "normal": "icons/icon_poi_hidden_places.svg",
+        "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0108karnapgaarden.mp3"
-  },
-  {
+},
+{
 
     "id": 29,
     "location": {
-      "lat": 56.451454,
-      "lng": 9.411374
+        "lat": 56.45146,
+        "lng": 9.41177
     },
     "proximity": 25,
     "title": "Billen er dum",
@@ -575,17 +575,17 @@
     "thumb": "images/thumbs/29_billen_er_dum_1_thumb.jpg",
     "pictures": [ "pois/29_billen_er_dum_1.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_hidden_places.svg",
-      "visited": "icons/icon_poi_visited_hidden_places.svg"
+        "normal": "icons/icon_poi_hidden_places.svg",
+        "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0109billen_er_dum.mp3"
-  },
-  {
+},
+{
 
     "id": 30,
     "location": {
-      "lat": 56.45146,
-      "lng": 9.41263
+        "lat": 56.45146,
+        "lng": 9.41263
     },
     "proximity": 25,
     "title": "Vestre Landsret og Sukkenes bro",
@@ -595,9 +595,9 @@
     "thumb": "images/thumbs/30_vestre_landsret_og_sukkenes_bro_1_thumb.jpg",
     "pictures": [ "pois/30_vestre_landsret_og_sukkenes_bro_1.jpg" ],
     "icon": {
-      "normal": "icons/icon_poi_hidden_places.svg",
-      "visited": "icons/icon_poi_visited_hidden_places.svg"
+        "normal": "icons/icon_poi_hidden_places.svg",
+        "visited": "icons/icon_poi_visited_hidden_places.svg"
     },
     "audio": "data/sevaerdighederData/audio/da-DK/0110vestre_landsret_og_sukkenes_bro.mp3"
-  }
+}
 ]

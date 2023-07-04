@@ -3,8 +3,7 @@
   "dependencies": {
     "leaflet-basemaps": "^0.3.4",
     "leaflet-gps": "^1.7.8",
-    "ol": "7.2.2",
-    "sqlite3": "^5.1.4"
+
   },
   "devDependencies": {
     "nodemon": "^2.0.20",

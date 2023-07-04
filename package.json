@@ -1,12 +1,8 @@
 {
   "name": "simple",
   "dependencies": {
-    "express": "^4.18.2",
-    "graphhopper-js-api-client": "^5.0.2",
-    
     "leaflet-basemaps": "^0.3.4",
     "leaflet-gps": "^1.7.8",
-    "leaflet-routing-machine": "^3.2.12",
     "ol": "7.2.2",
     "sqlite3": "^5.1.4"
   },

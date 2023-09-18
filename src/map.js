@@ -23,7 +23,7 @@ var basemaps = [
   attribution: myAttributionText,
   iconURL: 'icons/topo.png'
 }),
-   /*
+   
 L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallayers=TRUE', {
   attribution: myAttributionText,
   token: dftoken,
@@ -33,18 +33,8 @@ L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_DAF?ignoreillegallay
   minZoom: 0,
   iconURL: 'icons/orto.png'
 })
-*/
 
-L.tileLayer.wms('https://api.dataforsyningen.dk/orto_foraar_wmts_DAF?service=WMTS&request=GetTile&version=1.3.0&Layer=orto_foraar_wmts&style=default&format=image/jpg&TileMatrixSet=KortforsyningTilingDK&TileMatrix={zoom}&TileRow={y}&TileCol={x}&token=' + dftoken, {
-  maxZoom: 19,
-  minZoom: 0,
-  attribution: myAttributionText,
-  crossOrigin: true,
-  zoom: function () {
-    return mymap._animateToZoom ? mymap._animateToZoom : mymap.getZoom();
-  },
-  iconURL: 'icons/orto.png'
-})
+
 ]
 mymap.addControl(L.control.basemaps({
   basemaps: basemaps,

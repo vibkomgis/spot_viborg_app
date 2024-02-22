@@ -3,4 +3,4 @@ Med Spot Viborg er byens rige kulturarv gjort tilgængelig, så alle har nem adg
 
 App’en er tilgængelig på dansk, engelsk og tysk og bruger GPS. Løbende brug af GPS i baggrunden kan mindske levetiden på batteriet i din telefon.
 
-Oplever du problemer med app'en kan du kontakte chmat@viborg.dk.
+Oplever du problemer med app'en kan du kontakte gisgruppen@viborg.dk
